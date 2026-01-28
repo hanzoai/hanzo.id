@@ -1,0 +1,34 @@
+# Hanzo ID
+
+> Identity and authentication service for the Hanzo ecosystem.
+
+## About
+Hanzo ID provides identity management, authentication, and authorization for the Hanzo AI ecosystem. It offers single sign-on (SSO), API key management, team and organization management, role-based access control (RBAC), and OAuth2/OIDC integration. Hanzo ID secures access across all Hanzo products and services.
+
+## Key Features
+- Single sign-on (SSO) across all Hanzo products
+- OAuth2 and OpenID Connect (OIDC) provider
+- API key generation and management
+- Team and organization management
+- Role-based access control (RBAC)
+- Multi-factor authentication (MFA/2FA)
+- Social login (GitHub, Google, Microsoft)
+- Web3 wallet authentication (MetaMask, WalletConnect)
+- Audit logging and compliance reporting
+- SAML integration for enterprise SSO
+- SCIM provisioning for directory sync
+
+## Links
+- [Website](https://hanzo.id)
+- [Hanzo AI](https://hanzo.ai)
+- [Documentation](https://docs.hanzo.ai/identity)
+- [OAuth2 Docs](https://docs.hanzo.ai/identity/oauth2)
+
+## API
+- Authorization Endpoint: https://hanzo.id/oauth/authorize
+- Token Endpoint: https://hanzo.id/oauth/token
+- UserInfo Endpoint: https://hanzo.id/oauth/userinfo
+
+## Contact
+- Support: support@hanzo.ai
+- Security: security@hanzo.ai
