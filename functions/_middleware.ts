@@ -10,6 +10,7 @@ interface Env {
 // Paths that should be proxied to IAM
 const IAM_PATHS = [
   '/api/',
+  '/oauth/',   // OAuth2/OIDC authorize, token, userinfo endpoints
   '/login',
   '/signup',
   '/callback',
