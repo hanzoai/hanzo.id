@@ -1,75 +1,62 @@
-# Maintenance Report
+# hanzo.id
 
-## Recent Changes (2025-06-16)
+Unified identity and SSO portal for the Hanzo ecosystem (hanzo.id). Serves as the login/signup gateway for all Hanzo products, with a marketing site for the identity product itself.
 
-### Updated Signup Button Styling
-- **Issue**: White background signup buttons were not very visible and lacked proper hover states
-- **Solution**: Updated all signup buttons across the site to have:
-  - White background with gray border by default
-  - On hover: transparent background with white text and white border
-  - Smooth transition animations
-- **Files Updated**:
-  - `/src/components/pricing/PricingPlan.tsx` - Updated pricing plan buttons
-  - `/src/components/Products.tsx` - Updated "Get Started Free" button
-  - `/src/components/navigation/AuthButtons.tsx` - Updated navigation signup button
-  - `/src/components/navigation/MobileMenu.tsx` - Updated mobile menu signup button
-  - `/src/components/landing/HeroSection.tsx` - Updated landing page hero button
-  - `/src/components/pricing/TeamPlanDetails.tsx` - Updated team plan configuration button
+## Stack
 
-## Recent Changes (2025-04-07)
+- React 18 + TypeScript (Vite 5, SWC)
+- React Router v6 (client-side routing)
+- Tailwind CSS v4 + Radix UI primitives
+- Framer Motion (animations)
+- Cloudflare Pages (deployment) + Cloudflare Pages Functions (middleware)
+- Wrangler CLI for CF Pages dev/deploy
 
-### 1. Fixed ProductsMenu Import in DesktopNav.tsx
-- **Issue**: The ProductsMenu component had both named and default exports, but was imported as a default import in DesktopNav.tsx, causing an error: "lockdown-install.js:1:135422 'http://localhost:8080/src/components/navigation/products-menu/index.tsx' doesn't provide an export named: 'ProductsMenu'"
-- **Solution**: Updated the import in DesktopNav.tsx to use a named import for consistency with other menu components.
-- **Commit**: Current commit - "Fix ProductsMenu import in DesktopNav.tsx to use named import"
+## Structure
 
+```
+src/
+  App.tsx             # Root router -- IDLanding as homepage
+  pages/
+    IDLanding.tsx     # Homepage (/) -- SSO, passwordless, social login features
+    LoginPage.tsx     # Login UI
+    SignUpPage.tsx     # Signup UI
+    ...               # Shared pages (same as other Hanzo sites)
+  components/         # Shared component library (same as hanzo.app)
+functions/
+  _middleware.ts      # CF Pages Functions -- routes /api, /oauth, /login, /signup,
+                      #   /callback, /.well-known, /cas, /scim to IAM backend
+wrangler.toml         # CF Pages config: project=hanzo-id, IAM_ORIGIN=https://iam.hanzo.ai
+```
 
-### 2. Fixed ProductsMenu Export/Import Issue
-- **Issue**: The ProductsMenu component was exported with a named export but imported as a default export in DesktopNav.tsx, causing a module resolution error: "The requested module doesn't provide an export named: 'ProductsMenu'"
-- **Solution**: Added default export to ProductsMenu and updated the import in DesktopNav.tsx to use a default import.
-- **Commit**: [fdf6f92](https://github.com/hanzoai/hanzo.ai/commit/fdf6f92) - "Fix ProductsMenu export and update Node.js compatibility"
+## Key Routes
 
-### 3. Updated Node.js Version Requirements
-- **Issue**: The project required modern JavaScript features (nullish coalescing assignment operator) not supported in Node.js v14.
-- **Solution**: Added .nvmrc file specifying Node.js v20 and updated package.json script to suppress warnings.
-- **Commit**: [fdf6f92](https://github.com/hanzoai/hanzo.ai/commit/fdf6f92) - "Fix ProductsMenu export and update Node.js compatibility"
+- `/` -- IDLanding (identity product marketing: SSO, MFA, WebAuthn, social login)
+- `/login`, `/signup` -- Auth pages (also proxied to IAM via middleware)
+- `/api/*`, `/oauth/*`, `/callback/*`, `/.well-known/*` -- Proxied to IAM backend
+- `/cas/*`, `/scim/*` -- Enterprise SSO protocol proxies
+- All other routes -- Shared marketing/product/account pages
 
+## Middleware (functions/_middleware.ts)
 
+The CF Pages middleware splits traffic:
+- Auth paths (`/api/`, `/oauth/`, `/login`, `/signup`, `/callback`, `/.well-known/`, `/cas/`, `/scim/`, `/static/`, `/img/`) proxy to `IAM_ORIGIN` (iam.hanzo.ai / Casdoor).
+- Redirect headers from IAM are rewritten from `iam.hanzo.ai` back to `hanzo.id`.
+- All other paths serve the static Vite SPA.
 
-## Issues Identified
+## Commands
 
-### 1. Component Export/Import Inconsistency (Historical)
-- **Issue**: The ProductsMenu component was using a default export while being imported as a named export in DesktopNav.
-- **Solution**: Changed ProductsMenu to use named export for consistency with other menu components.
-- **Commit**: [68f3e2c](https://github.com/hanzoai/hanzo.ai/commit/68f3e2c) - "Fix: Change ProductsMenu to use named export for consistency"
+```bash
+pnpm install
+pnpm dev              # Vite dev server
+pnpm build            # Production build to dist/
+pnpm deploy           # Build + wrangler pages deploy
+pnpm pages:dev        # Local CF Pages dev (port 8788, tests middleware)
+pnpm lint
+```
 
-### 2. Node.js Version Compatibility
-- **Status**: RESOLVED
-- **Issue**: The project required Node.js with support for modern JavaScript features.
-- **Solution**: Added .nvmrc specifying Node.js v20 and configured package.json to suppress warnings.
-- **Command to use**: 
-  ```bash
-  nvm use
-  npm run dev
-  ```
+## Notes
 
-### 3. Security Vulnerabilities
-- GitHub reports 2 moderate security vulnerabilities in the dependencies.
-- **Recommendation**: Review and address these vulnerabilities using:
-  ```bash
-  npm audit fix
-  # or for a more aggressive approach that might update to new major versions
-  npm audit fix --force
-  ```
-
-## Project Structure Analysis
-- The project is a React application using Vite as the build tool.
-- Routing is handled by react-router-dom with separate routes for marketing pages and account pages.
-- UI components are organized by feature/page in the components directory.
-- The navigation system uses dropdown menus for Products, Solutions, and Resources sections.
-
-## Next Steps
-1. Upgrade Node.js to a compatible version (v18+).
-2. Run `npm install` to ensure all dependencies are properly installed.
-3. Address security vulnerabilities with `npm audit fix`.
-4. Continue with feature development or bug fixes as needed.
+- Deployed to Cloudflare Pages as project `hanzo-id`.
+- IAM backend is Casdoor at iam.hanzo.ai (see hanzo.id-worker for OAuth bridge flows).
+- Shares the same component library and route structure as hanzo.app, hanzo.network, hanzo.one, and sensei.group. Only the landing page and CF middleware are unique.
+- The `IDLanding` page emphasizes SSO, passwordless auth, social login, and privacy.
