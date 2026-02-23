@@ -67,14 +67,14 @@ const ZenManifesto: React.FC = () => {
     <div className="relative">
       <div className="absolute -z-10 top-0 left-0 right-0 h-full">
         <JapaneseWave 
-          color="#9b87f5" 
+          color="#a3a3a3" 
           height={300} 
           opacity={0.05} 
           speed={30} 
           className="absolute top-1/4"
         />
         <JapaneseWave 
-          color="#6E59A5" 
+          color="#737373" 
           height={300} 
           delay={1} 
           opacity={0.03} 

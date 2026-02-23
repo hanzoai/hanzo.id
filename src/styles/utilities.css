@@ -85,8 +85,8 @@
 
 .feature-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px -5px rgba(124, 58, 237, 0.15);
-  border-color: rgba(124, 58, 237, 0.3);
+  box-shadow: 0 10px 25px -5px rgba(163, 163, 163, 0.15);
+  border-color: rgba(163, 163, 163, 0.3);
 }
 
 .feature-slide-container {
@@ -178,19 +178,19 @@
 }
 
 .language-typescript .keyword {
-  color: #ff79c6;
+  color: #d4d4d4;
 }
 
 .language-typescript .string {
-  color: #f1fa8c;
+  color: #a3a3a3;
 }
 
 .language-typescript .number {
-  color: #bd93f9;
+  color: #e5e5e5;
 }
 
 .language-typescript .function {
-  color: #50fa7b;
+  color: #ffffff;
 }
 
 /* Testimonial card styling */
@@ -200,7 +200,7 @@
 
 .testimonial-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px -5px rgba(124, 58, 237, 0.15);
+  box-shadow: 0 10px 25px -5px rgba(163, 163, 163, 0.15);
 }
 
 /* Ambient background animation */
@@ -217,7 +217,7 @@
 .ambient-bg-dot {
   position: absolute;
   border-radius: 50%;
-  background-color: rgba(139, 92, 246, 0.15);
+  background-color: rgba(163, 163, 163, 0.15);
   filter: blur(80px);
   animation: float 10s infinite ease-in-out;
 }

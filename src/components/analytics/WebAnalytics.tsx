@@ -154,7 +154,7 @@ const WebAnalytics = () => {
                     {/* Chart lines */}
                     <motion.path
                       d="M0,80 C10,70 20,85 30,60 C40,40 50,55 60,30 C70,40 80,20 90,10 L100,20"
-                      stroke="#8B5CF6"
+                      stroke="#a3a3a3"
                       strokeWidth="2"
                       fill="none"
                       variants={lineVariants}
@@ -163,7 +163,7 @@ const WebAnalytics = () => {
                     />
                     <motion.path
                       d="M0,90 C15,80 25,75 35,70 C45,65 55,60 65,50 C75,70 85,60 95,40 L100,50"
-                      stroke="#33C3F0"
+                      stroke="#d4d4d4"
                       strokeWidth="2"
                       fill="none"
                       variants={lineVariants}
@@ -173,12 +173,12 @@ const WebAnalytics = () => {
                     
                     {/* Data points */}
                     {[
-                      { x: 30, y: 60, color: "#8B5CF6" },
-                      { x: 60, y: 30, color: "#8B5CF6" },
-                      { x: 90, y: 10, color: "#8B5CF6" },
-                      { x: 35, y: 70, color: "#33C3F0" },
-                      { x: 65, y: 50, color: "#33C3F0" },
-                      { x: 95, y: 40, color: "#33C3F0" }
+                      { x: 30, y: 60, color: "#a3a3a3" },
+                      { x: 60, y: 30, color: "#a3a3a3" },
+                      { x: 90, y: 10, color: "#a3a3a3" },
+                      { x: 35, y: 70, color: "#d4d4d4" },
+                      { x: 65, y: 50, color: "#d4d4d4" },
+                      { x: 95, y: 40, color: "#d4d4d4" }
                     ].map((point, i) => (
                       <motion.circle
                         key={i}

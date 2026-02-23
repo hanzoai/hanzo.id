@@ -29,7 +29,7 @@ const modes = [
       { icon: Users, text: "Real-time collaboration" },
       { icon: RefreshCw, text: "Auto-save and versioning" },
     ],
-    color: "#3b82f6", // blue
+    color: "#a3a3a3",
   },
   {
     id: "desktop",
@@ -42,7 +42,7 @@ const modes = [
       { icon: Wifi, text: "Works offline" },
       { icon: HardDrive, text: "Local file access" },
     ],
-    color: "#10b981", // green
+    color: "#d4d4d4",
   },
   {
     id: "local",
@@ -55,7 +55,7 @@ const modes = [
       { icon: Cpu, text: "GPU accelerated" },
       { icon: Zap, text: "Zero latency" },
     ],
-    color: "#a3a3a3", // neutral
+    color: "#737373",
   },
   {
     id: "node",

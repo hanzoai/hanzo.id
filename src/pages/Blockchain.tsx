@@ -165,18 +165,18 @@ const ROADMAP = [
 
 // Product pages
 const PRODUCTS = [
-  { id: "nodes", name: "Hanzo Nodes", description: "Managed RPC endpoints for every chain", icon: Server, color: "#3b82f6", href: "/blockchain/nodes" },
-  { id: "indexer", name: "Hanzo Indexer", description: "Query blockchain data with GraphQL", icon: Search, color: "#10b981", href: "/blockchain/indexer" },
-  { id: "wallet", name: "Hanzo Wallet", description: "Unified wallet infrastructure", icon: Wallet, color: "#f59e0b", href: "/blockchain/wallet" },
-  { id: "safe", name: "Hanzo Safe", description: "Multi-sig & threshold custody", icon: Shield, color: "#a3a3a3", href: "/blockchain/safe" },
-  { id: "id", name: "Hanzo ID", description: "Decentralized identity & credentials", icon: Key, color: "#ec4899", href: "/blockchain/id" },
-  { id: "pay", name: "Hanzo Pay", description: "Crypto payments gateway", icon: CreditCard, color: "#22c55e", href: "/blockchain/pay" },
-  { id: "bridge", name: "Hanzo Bridge", description: "Cross-chain asset transfers", icon: ArrowLeftRight, color: "#06b6d4", href: "/blockchain/bridge" },
-  { id: "defi", name: "Hanzo DeFi", description: "Staking, lending & yield modules", icon: Code, color: "#f97316", href: "/blockchain/defi" },
+  { id: "nodes", name: "Hanzo Nodes", description: "Managed RPC endpoints for every chain", icon: Server, color: "#a3a3a3", href: "/blockchain/nodes" },
+  { id: "indexer", name: "Hanzo Indexer", description: "Query blockchain data with GraphQL", icon: Search, color: "#737373", href: "/blockchain/indexer" },
+  { id: "wallet", name: "Hanzo Wallet", description: "Unified wallet infrastructure", icon: Wallet, color: "#b3b3b3", href: "/blockchain/wallet" },
+  { id: "safe", name: "Hanzo Safe", description: "Multi-sig & threshold custody", icon: Shield, color: "#d4d4d4", href: "/blockchain/safe" },
+  { id: "id", name: "Hanzo ID", description: "Decentralized identity & credentials", icon: Key, color: "#e5e5e5", href: "/blockchain/id" },
+  { id: "pay", name: "Hanzo Pay", description: "Crypto payments gateway", icon: CreditCard, color: "#8a8a8a", href: "/blockchain/pay" },
+  { id: "bridge", name: "Hanzo Bridge", description: "Cross-chain asset transfers", icon: ArrowLeftRight, color: "#525252", href: "/blockchain/bridge" },
+  { id: "defi", name: "Hanzo DeFi", description: "Staking, lending & yield modules", icon: Code, color: "#666666", href: "/blockchain/defi" },
   { id: "oracle", name: "Hanzo Oracle", description: "Price feeds & VRF", icon: Radio, color: "#a3a3a3", href: "/blockchain/oracle" },
-  { id: "storage", name: "Hanzo Storage", description: "IPFS, Arweave & Filecoin", icon: HardDrive, color: "#14b8a6", href: "/blockchain/storage" },
-  { id: "explorer", name: "Hanzo Explorer", description: "Multi-chain block explorer", icon: Search, color: "#6366f1", href: "/blockchain/explorer" },
-  { id: "quest", name: "Hanzo Quest", description: "Gamified engagement & loyalty", icon: Blocks, color: "#eab308", href: "/blockchain/quest" },
+  { id: "storage", name: "Hanzo Storage", description: "IPFS, Arweave & Filecoin", icon: HardDrive, color: "#b3b3b3", href: "/blockchain/storage" },
+  { id: "explorer", name: "Hanzo Explorer", description: "Multi-chain block explorer", icon: Search, color: "#737373", href: "/blockchain/explorer" },
+  { id: "quest", name: "Hanzo Quest", description: "Gamified engagement & loyalty", icon: Blocks, color: "#d4d4d4", href: "/blockchain/quest" },
 ];
 
 const Blockchain = () => {
@@ -487,7 +487,7 @@ const Blockchain = () => {
               <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-950">
                 <div className="flex gap-1.5">
                   <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
-                  <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
+                  <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
                   <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
                 </div>
                 <span className="ml-2 text-xs text-neutral-500 font-mono">hanzo-agent.ts</span>

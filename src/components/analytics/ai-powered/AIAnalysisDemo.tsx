@@ -30,7 +30,7 @@ const AIAnalysisDemo = () => {
                   <motion.path
                     d="M0,80 C25,70 50,65 75,60 C100,55 125,50 150,55 C175,60 200,80 225,50 C250,20 275,35 300,30"
                     fill="none"
-                    stroke="#8B5CF6"
+                    stroke="#a3a3a3"
                     strokeWidth="2"
                     initial={{ pathLength: 0 }}
                     whileInView={{ pathLength: 1 }}
@@ -42,7 +42,7 @@ const AIAnalysisDemo = () => {
                   <motion.path
                     d="M200,80 C206,65 212,40 218,20 C224,30 230,45 236,50"
                     fill="none"
-                    stroke="#FF5733"
+                    stroke="#737373"
                     strokeWidth="3"
                     strokeDasharray="2,2"
                     initial={{ opacity: 0 }}
@@ -56,7 +56,7 @@ const AIAnalysisDemo = () => {
                     cx="218"
                     cy="20"
                     r="5"
-                    fill="#FF5733"
+                    fill="#737373"
                     initial={{ opacity: 0, scale: 0 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}

@@ -47,7 +47,7 @@ export const createArc = (
   start: THREE.Vector3, 
   end: THREE.Vector3, 
   radius: number, 
-  color: string = "#88ccff", 
+  color: string = "#a3a3a3", 
   segments: number = 50
 ): THREE.Line => {
   // Calculate the midpoint and raise it to create an arc
