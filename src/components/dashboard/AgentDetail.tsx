@@ -99,8 +99,8 @@ const AgentDetail: React.FC<AgentDetailProps> = ({ agent, onClose, onUpdate }) =
       <DialogContent className="max-w-4xl max-h-[90vh] overflow-hidden flex flex-col">
         <DialogHeader>
           <DialogTitle className="flex items-center">
-            <div className="w-8 h-8 rounded-md bg-blue-900/30 border border-blue-800/50 flex items-center justify-center mr-3">
-              <Bot className="h-4 w-4 text-blue-400" />
+            <div className="w-8 h-8 rounded-md bg-neutral-900/30 border border-neutral-800/50 flex items-center justify-center mr-3">
+              <Bot className="h-4 w-4 text-neutral-400" />
             </div>
             <Input 
               name="name"
@@ -113,19 +113,19 @@ const AgentDetail: React.FC<AgentDetailProps> = ({ agent, onClose, onUpdate }) =
 
         <div className="flex border-b border-gray-800 mt-2">
           <button 
-            className={`px-4 py-2 text-sm font-medium ${activeTab === 'overview' ? 'text-[var(--white)] border-b-2 border-blue-500' : 'text-neutral-400 hover:text-[var(--white)]'}`}
+            className={`px-4 py-2 text-sm font-medium ${activeTab === 'overview' ? 'text-[var(--white)] border-b-2 border-neutral-500' : 'text-neutral-400 hover:text-[var(--white)]'}`}
             onClick={() => setActiveTab('overview')}
           >
             Overview
           </button>
           <button 
-            className={`px-4 py-2 text-sm font-medium ${activeTab === 'rag' ? 'text-[var(--white)] border-b-2 border-blue-500' : 'text-neutral-400 hover:text-[var(--white)]'}`}
+            className={`px-4 py-2 text-sm font-medium ${activeTab === 'rag' ? 'text-[var(--white)] border-b-2 border-neutral-500' : 'text-neutral-400 hover:text-[var(--white)]'}`}
             onClick={() => setActiveTab('rag')}
           >
             RAG Sources
           </button>
           <button 
-            className={`px-4 py-2 text-sm font-medium ${activeTab === 'settings' ? 'text-[var(--white)] border-b-2 border-blue-500' : 'text-neutral-400 hover:text-[var(--white)]'}`}
+            className={`px-4 py-2 text-sm font-medium ${activeTab === 'settings' ? 'text-[var(--white)] border-b-2 border-neutral-500' : 'text-neutral-400 hover:text-[var(--white)]'}`}
             onClick={() => setActiveTab('settings')}
           >
             Settings
@@ -152,9 +152,9 @@ const AgentDetail: React.FC<AgentDetailProps> = ({ agent, onClose, onUpdate }) =
                   <div className="flex items-center justify-between p-3 bg-gray-900 border border-gray-800 rounded-md">
                     <div className="flex items-center">
                       <div className={`h-2 w-2 rounded-full mr-2 ${
-                        editedAgent.status === 'running' ? 'bg-green-500' : 
+                        editedAgent.status === 'running' ? 'bg-neutral-500' : 
                         editedAgent.status === 'paused' ? 'bg-yellow-500' : 
-                        editedAgent.status === 'error' ? 'bg-red-500' : 'bg-gray-500'
+                        editedAgent.status === 'error' ? 'bg-neutral-500' : 'bg-gray-500'
                       }`}></div>
                       <span>{
                         editedAgent.status.charAt(0).toUpperCase() + editedAgent.status.slice(1)
@@ -262,10 +262,10 @@ const AgentDetail: React.FC<AgentDetailProps> = ({ agent, onClose, onUpdate }) =
                       onClick={() => setSelectedRagSource(source)}
                     >
                       <div className="flex items-center">
-                        {source.type === 'database' && <Database className="h-4 w-4 text-blue-400 mr-2" />}
+                        {source.type === 'database' && <Database className="h-4 w-4 text-neutral-400 mr-2" />}
                         {source.type === 'vector' && <Activity className="h-4 w-4 text-purple-400 mr-2" />}
                         {source.type === 'file' && <FileText className="h-4 w-4 text-yellow-400 mr-2" />}
-                        {source.type === 'api' && <Globe className="h-4 w-4 text-green-400 mr-2" />}
+                        {source.type === 'api' && <Globe className="h-4 w-4 text-neutral-400 mr-2" />}
                         <span className="text-sm truncate">{source.name}</span>
                       </div>
                       <ChevronRight className="h-4 w-4 text-neutral-500" />
@@ -287,7 +287,7 @@ const AgentDetail: React.FC<AgentDetailProps> = ({ agent, onClose, onUpdate }) =
                       <Button 
                         size="sm" 
                         variant="ghost" 
-                        className="text-red-400 hover:text-red-300"
+                        className="text-neutral-400 hover:text-neutral-300"
                         onClick={() => handleRemoveRagSource(selectedRagSource.id)}
                       >
                         <Trash2 className="h-4 w-4 mr-1" />
@@ -316,7 +316,7 @@ const AgentDetail: React.FC<AgentDetailProps> = ({ agent, onClose, onUpdate }) =
                             key={type}
                             className={`p-2 border rounded flex flex-col items-center justify-center cursor-pointer ${
                               selectedRagSource.type === type 
-                                ? 'border-blue-500 bg-blue-900/20' 
+                                ? 'border-neutral-500 bg-neutral-900/20' 
                                 : 'border-gray-800 hover:border-gray-700'
                             }`}
                             onClick={() => {
@@ -325,10 +325,10 @@ const AgentDetail: React.FC<AgentDetailProps> = ({ agent, onClose, onUpdate }) =
                               setSelectedRagSource(updated);
                             }}
                           >
-                            {type === 'database' && <Database className="h-5 w-5 text-blue-400 mb-1" />}
+                            {type === 'database' && <Database className="h-5 w-5 text-neutral-400 mb-1" />}
                             {type === 'vector' && <Activity className="h-5 w-5 text-purple-400 mb-1" />}
                             {type === 'file' && <FileText className="h-5 w-5 text-yellow-400 mb-1" />}
-                            {type === 'api' && <Globe className="h-5 w-5 text-green-400 mb-1" />}
+                            {type === 'api' && <Globe className="h-5 w-5 text-neutral-400 mb-1" />}
                             <span className="text-xs capitalize">{type}</span>
                           </div>
                         ))}

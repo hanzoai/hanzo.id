@@ -17,7 +17,7 @@ const renderStatus = (status: string) => {
     case "full":
       return (
         <div className="flex items-center justify-center">
-          <Check className="w-5 h-5 text-green-500" />
+          <Check className="w-5 h-5 text-neutral-500" />
         </div>
       );
     case "partial":
@@ -102,7 +102,7 @@ const UseCasesSection = () => {
         {/* Legend */}
         <div className="flex justify-center gap-6 mt-6">
           <div className="flex items-center gap-2">
-            <Check className="w-4 h-4 text-green-500" />
+            <Check className="w-4 h-4 text-neutral-500" />
             <span className="text-xs text-neutral-500">Full support</span>
           </div>
           <div className="flex items-center gap-2">

@@ -17,7 +17,7 @@ const timelineEvents = [
     year: "2016",
     title: "Reimagining as Hanzo",
     description: "The company formally incorporated as Hanzo AI, Inc., focusing on AI-powered marketing and development platforms.",
-    icon: <Stars className="text-blue-400" />,
+    icon: <Stars className="text-neutral-400" />,
     highlight: "Helped launch some of the most successful crowdsales in history.",
     link: { text: "View Hanzo AI", url: "/ai" }
   },
@@ -33,7 +33,7 @@ const timelineEvents = [
     year: "2018-2020",
     title: "AI Marketing & Blockchain",
     description: "Pivoted to AI marketing platform and blockchain technology, supporting tokenized crowdfunding.",
-    icon: <Coins className="text-green-400" />,
+    icon: <Coins className="text-neutral-400" />,
     highlight: "Co-founded the first SEC-approved crowdfunding token offering.",
     link: { text: "See our analytics", url: "/analytics" }
   },

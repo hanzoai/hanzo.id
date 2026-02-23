@@ -122,7 +122,7 @@ const Blog = () => {
                 <a
                   href="#posts"
                   className="inline-flex items-center px-6 py-3 rounded-full font-medium transition-all hover:opacity-90 text-sm"
-                  style={{ backgroundColor: BRAND_COLOR, color: "#ffffff" }}
+                  style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
                 >
                   Latest Posts
                   <ArrowRight className="ml-2 h-4 w-4" />
@@ -177,7 +177,7 @@ const Blog = () => {
 
                   <button
                     className="inline-flex items-center w-fit px-6 py-3 rounded-full font-medium transition-all hover:opacity-90 text-sm"
-                    style={{ backgroundColor: BRAND_COLOR, color: "#ffffff" }}
+                    style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
                   >
                     Read Article
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -286,7 +286,7 @@ const Blog = () => {
               />
               <button
                 className="inline-flex items-center justify-center px-8 py-3 rounded-full font-medium transition-all hover:opacity-90 text-base"
-                style={{ backgroundColor: BRAND_COLOR, color: "#ffffff" }}
+                style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
               >
                 Subscribe
               </button>

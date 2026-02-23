@@ -48,7 +48,7 @@ const CodeExamplesSection = () => {
                   className="h-8 px-2 text-neutral-400"
                 >
                   {copied === "css" ? (
-                    <Check className="h-4 w-4 text-green-500" />
+                    <Check className="h-4 w-4 text-neutral-500" />
                   ) : (
                     <Copy className="h-4 w-4" />
                   )}
@@ -89,7 +89,7 @@ const CodeExamplesSection = () => {
                   className="h-8 px-2 text-neutral-400"
                 >
                   {copied === "component" ? (
-                    <Check className="h-4 w-4 text-green-500" />
+                    <Check className="h-4 w-4 text-neutral-500" />
                   ) : (
                     <Copy className="h-4 w-4" />
                   )}
@@ -130,7 +130,7 @@ const CodeExamplesSection = () => {
                   className="h-8 px-2 text-neutral-400"
                 >
                   {copied === "tailwind" ? (
-                    <Check className="h-4 w-4 text-green-500" />
+                    <Check className="h-4 w-4 text-neutral-500" />
                   ) : (
                     <Copy className="h-4 w-4" />
                   )}

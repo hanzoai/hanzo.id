@@ -14,9 +14,9 @@ const PlatformDashboard = () => {
       <div className="bg-gray-800/90 p-3 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="flex space-x-1.5">
-            <div className="w-3 h-3 rounded-full bg-red-500"></div>
+            <div className="w-3 h-3 rounded-full bg-neutral-500"></div>
             <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-            <div className="w-3 h-3 rounded-full bg-green-500"></div>
+            <div className="w-3 h-3 rounded-full bg-neutral-500"></div>
           </div>
           <div className="text-xs text-neutral-400">Hanzo AI Engineering Platform</div>
         </div>

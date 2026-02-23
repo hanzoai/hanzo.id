@@ -63,9 +63,9 @@ const DeploymentOptions = () => {
   const getColorClasses = (color: string, isHovered: boolean = false) => {
     const colorMap: Record<string, { bg: string, text: string, border: string }> = {
       blue: { 
-        bg: isHovered ? "bg-blue-900/40" : "bg-blue-900/20", 
-        text: "text-blue-400", 
-        border: isHovered ? "border-blue-500/50" : "border-blue-800/50" 
+        bg: isHovered ? "bg-neutral-900/40" : "bg-neutral-900/20", 
+        text: "text-neutral-400", 
+        border: isHovered ? "border-neutral-500/50" : "border-neutral-800/50" 
       },
       indigo: { 
         bg: isHovered ? "bg-indigo-900/40" : "bg-indigo-900/20", 

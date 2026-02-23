@@ -59,7 +59,7 @@ const SolutionCapabilities: React.FC = () => {
                   whileHover={{ y: -5 }}
                   className="relative group rounded-xl border border-gray-800 bg-[var(--black)]/50 p-6 backdrop-blur-sm overflow-hidden"
                 >
-                  <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-blue-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-neutral-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <div className="relative">
                     <div className="flex items-center justify-between mb-4">
                       <Icon className="h-6 w-6 text-purple-400" strokeWidth={1.5} />
@@ -77,10 +77,10 @@ const SolutionCapabilities: React.FC = () => {
                       <Link to={`/solutions/${item.toLowerCase().replace(/\s+/g, '-')}`} className="text-xs flex items-center text-purple-400 hover:text-purple-300">
                         <LinkIcon className="h-3 w-3 mr-1" /> Learn more
                       </Link>
-                      <a href="#" className="text-xs flex items-center text-blue-400 hover:text-blue-300">
+                      <a href="#" className="text-xs flex items-center text-neutral-400 hover:text-neutral-300">
                         <FileText className="h-3 w-3 mr-1" /> Case study
                       </a>
-                      <a href="#" className="text-xs flex items-center text-green-400 hover:text-green-300">
+                      <a href="#" className="text-xs flex items-center text-neutral-400 hover:text-neutral-300">
                         <BookOpen className="h-3 w-3 mr-1" /> White paper
                       </a>
                     </div>
@@ -132,15 +132,15 @@ const SolutionCapabilities: React.FC = () => {
           
           <div className="space-y-4 mb-6">
             <div className="flex items-start gap-2">
-              <CheckCircle className="h-5 w-5 text-green-400 flex-shrink-0 mt-0.5" />
+              <CheckCircle className="h-5 w-5 text-neutral-400 flex-shrink-0 mt-0.5" />
               <p className="text-neutral-400">Reduced development time by 40% through AI-powered automation</p>
             </div>
             <div className="flex items-start gap-2">
-              <CheckCircle className="h-5 w-5 text-green-400 flex-shrink-0 mt-0.5" />
+              <CheckCircle className="h-5 w-5 text-neutral-400 flex-shrink-0 mt-0.5" />
               <p className="text-neutral-400">Improved customer satisfaction scores by 35% with new digital experiences</p>
             </div>
             <div className="flex items-start gap-2">
-              <CheckCircle className="h-5 w-5 text-green-400 flex-shrink-0 mt-0.5" />
+              <CheckCircle className="h-5 w-5 text-neutral-400 flex-shrink-0 mt-0.5" />
               <p className="text-neutral-400">Achieved 99.99% uptime with Hanzo's enterprise-grade infrastructure</p>
             </div>
           </div>
@@ -149,7 +149,7 @@ const SolutionCapabilities: React.FC = () => {
             Read Full Case Study <ArrowRight size={16} />
           </Button>
         </div>
-        <div className="col-span-2 bg-gradient-to-br from-purple-900/40 to-blue-900/40 flex items-center justify-center p-8">
+        <div className="col-span-2 bg-gradient-to-br from-purple-900/40 to-neutral-900/40 flex items-center justify-center p-8">
           <div className="flex flex-col items-center text-center">
             <Award className="h-16 w-16 text-purple-300 mb-4" />
             <div className="text-4xl font-bold text-[var(--white)] mb-2">200%</div>
@@ -174,7 +174,7 @@ const SolutionCapabilities: React.FC = () => {
         />
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div className="bg-gradient-to-br from-purple-900/30 to-blue-900/20 rounded-xl border border-purple-500/20 p-8">
+          <div className="bg-gradient-to-br from-purple-900/30 to-neutral-900/20 rounded-xl border border-purple-500/20 p-8">
             <div className="mb-6">
               <div className="h-16 w-16 rounded-lg bg-purple-900/40 flex items-center justify-center mb-4">
                 <Icon className="h-10 w-10 text-purple-300" />
@@ -224,7 +224,7 @@ const SolutionCapabilities: React.FC = () => {
                 Download our comprehensive guide to implementing AI across large organizations, addressing 
                 challenges around security, compliance, and organizational change.
               </p>
-              <a href="#" className="text-blue-400 hover:text-blue-300 flex items-center gap-1.5">
+              <a href="#" className="text-neutral-400 hover:text-neutral-300 flex items-center gap-1.5">
                 Download white paper <ArrowRight size={16} />
               </a>
             </div>
@@ -235,7 +235,7 @@ const SolutionCapabilities: React.FC = () => {
                 Join our expert panel discussing how generative AI is transforming enterprise operations and 
                 creating new business opportunities across industries.
               </p>
-              <a href="#" className="text-green-400 hover:text-green-300 flex items-center gap-1.5">
+              <a href="#" className="text-neutral-400 hover:text-neutral-300 flex items-center gap-1.5">
                 Register now <ArrowRight size={16} />
               </a>
             </div>
@@ -253,7 +253,7 @@ const SolutionCapabilities: React.FC = () => {
       />
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-10">
-        <div className="bg-gradient-to-br from-purple-900/30 to-blue-900/20 p-8 rounded-xl border border-purple-500/20">
+        <div className="bg-gradient-to-br from-purple-900/30 to-neutral-900/20 p-8 rounded-xl border border-purple-500/20">
           <h3 className="text-2xl font-bold mb-4 text-[var(--white)]">Case Studies</h3>
           <p className="text-neutral-300 mb-6">
             See how we've helped organizations like yours achieve their goals through innovative solutions.
@@ -288,7 +288,7 @@ const SolutionCapabilities: React.FC = () => {
           </div>
         </div>
         
-        <div className="bg-gradient-to-br from-blue-900/30 to-indigo-900/20 p-8 rounded-xl border border-blue-500/20">
+        <div className="bg-gradient-to-br from-neutral-900/30 to-indigo-900/20 p-8 rounded-xl border border-neutral-500/20">
           <h3 className="text-2xl font-bold mb-4 text-[var(--white)]">White Papers</h3>
           <p className="text-neutral-300 mb-6">
             Access our thought leadership and research on the latest industry trends and technologies.
@@ -296,28 +296,28 @@ const SolutionCapabilities: React.FC = () => {
           <div className="space-y-4">
             <a href="#" className="flex items-center justify-between p-3 rounded-lg bg-[var(--black)]/40 hover:bg-[var(--black)]/60 transition-colors">
               <div className="flex items-center">
-                <BookOpen className="h-5 w-5 text-blue-400 mr-3" />
+                <BookOpen className="h-5 w-5 text-neutral-400 mr-3" />
                 <span className="text-[var(--white)]">The Future of AI in Enterprise</span>
               </div>
               <ExternalLink className="h-4 w-4 text-neutral-400" />
             </a>
             <a href="#" className="flex items-center justify-between p-3 rounded-lg bg-[var(--black)]/40 hover:bg-[var(--black)]/60 transition-colors">
               <div className="flex items-center">
-                <BookOpen className="h-5 w-5 text-blue-400 mr-3" />
+                <BookOpen className="h-5 w-5 text-neutral-400 mr-3" />
                 <span className="text-[var(--white)]">Cloud Security Best Practices</span>
               </div>
               <ExternalLink className="h-4 w-4 text-neutral-400" />
             </a>
             <a href="#" className="flex items-center justify-between p-3 rounded-lg bg-[var(--black)]/40 hover:bg-[var(--black)]/60 transition-colors">
               <div className="flex items-center">
-                <BookOpen className="h-5 w-5 text-blue-400 mr-3" />
+                <BookOpen className="h-5 w-5 text-neutral-400 mr-3" />
                 <span className="text-[var(--white)]">Digital Transformation Playbook</span>
               </div>
               <ExternalLink className="h-4 w-4 text-neutral-400" />
             </a>
           </div>
           <div className="mt-6 text-center">
-            <Button variant="outline" className="border-blue-500/40 text-blue-400 hover:bg-blue-500/10">
+            <Button variant="outline" className="border-neutral-500/40 text-neutral-400 hover:bg-neutral-500/10">
               View all white papers <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
           </div>
@@ -334,7 +334,7 @@ const SolutionCapabilities: React.FC = () => {
       />
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-        <div className="p-6 bg-gradient-to-br from-purple-900/50 to-blue-900/30 rounded-xl border border-purple-500/20 hover:border-purple-500/40 transition-colors">
+        <div className="p-6 bg-gradient-to-br from-purple-900/50 to-neutral-900/30 rounded-xl border border-purple-500/20 hover:border-purple-500/40 transition-colors">
           <div className="p-3 rounded-lg bg-purple-500/20 self-start inline-block mb-4">
             <Users className="h-6 w-6 text-purple-400" strokeWidth={1.5} />
           </div>
@@ -362,9 +362,9 @@ const SolutionCapabilities: React.FC = () => {
             </a>
           </div>
         </div>
-        <div className="p-6 bg-gradient-to-br from-green-900/50 to-teal-900/30 rounded-xl border border-green-500/20 hover:border-green-500/40 transition-colors">
-          <div className="p-3 rounded-lg bg-green-500/20 self-start inline-block mb-4">
-            <Shield className="h-6 w-6 text-green-400" strokeWidth={1.5} />
+        <div className="p-6 bg-gradient-to-br from-neutral-900/50 to-teal-900/30 rounded-xl border border-neutral-500/20 hover:border-neutral-500/40 transition-colors">
+          <div className="p-3 rounded-lg bg-neutral-500/20 self-start inline-block mb-4">
+            <Shield className="h-6 w-6 text-neutral-400" strokeWidth={1.5} />
           </div>
           <h3 className="text-2xl font-bold text-[var(--white)] mb-3">Sensei Group</h3>
           <p className="text-neutral-300 mb-5">
@@ -376,14 +376,14 @@ const SolutionCapabilities: React.FC = () => {
               href="https://sensei.group" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-5 py-2.5 bg-green-600 hover:bg-green-500 rounded-md text-[var(--white)] transition-colors"
+              className="flex items-center gap-2 px-5 py-2.5 bg-neutral-600 hover:bg-neutral-500 rounded-md text-[var(--white)] transition-colors"
             >
               <span>Visit Sensei Group</span>
               <ExternalLink size={14} />
             </a>
             <a 
               href="tel:+1234567890" 
-              className="flex items-center gap-2 px-5 py-2.5 border border-green-500/40 hover:border-green-500 rounded-md text-green-400 hover:text-green-300 transition-colors"
+              className="flex items-center gap-2 px-5 py-2.5 border border-neutral-500/40 hover:border-neutral-500 rounded-md text-neutral-400 hover:text-neutral-300 transition-colors"
             >
               <span>Schedule a call</span>
               <Phone size={14} />

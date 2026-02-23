@@ -63,13 +63,13 @@ const SolutionIndustries: React.FC = () => {
                   whileHover={{ y: -5 }}
                   className="relative group rounded-xl border border-gray-800 bg-[var(--black)]/50 p-6 backdrop-blur-sm overflow-hidden"
                 >
-                  <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-indigo-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="absolute inset-0 bg-gradient-to-br from-neutral-500/10 to-indigo-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <div className="relative">
                     <div className="flex items-center justify-between mb-4">
-                      <Icon className="h-6 w-6 text-blue-400" strokeWidth={1.5} />
-                      <ChevronRight className="h-5 w-5 text-neutral-500 group-hover:text-blue-400 transition-colors" />
+                      <Icon className="h-6 w-6 text-neutral-400" strokeWidth={1.5} />
+                      <ChevronRight className="h-5 w-5 text-neutral-500 group-hover:text-neutral-400 transition-colors" />
                     </div>
-                    <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-400 transition-colors">
+                    <h3 className="text-xl font-semibold mb-2 group-hover:text-neutral-400 transition-colors">
                       {item}
                     </h3>
                     <p className="text-neutral-400 text-sm mb-4">
@@ -80,14 +80,14 @@ const SolutionIndustries: React.FC = () => {
                     <div className="flex flex-wrap gap-2 mt-4">
                       <button 
                         onClick={() => setActiveIndustry(item)}
-                        className="text-xs flex items-center text-blue-400 hover:text-blue-300"
+                        className="text-xs flex items-center text-neutral-400 hover:text-neutral-300"
                       >
                         <LinkIcon className="h-3 w-3 mr-1" /> Learn more
                       </button>
                       <a href="#" className="text-xs flex items-center text-purple-400 hover:text-purple-300">
                         <FileText className="h-3 w-3 mr-1" /> Case study
                       </a>
-                      <a href="#" className="text-xs flex items-center text-green-400 hover:text-green-300">
+                      <a href="#" className="text-xs flex items-center text-neutral-400 hover:text-neutral-300">
                         <BookOpen className="h-3 w-3 mr-1" /> White paper
                       </a>
                     </div>
@@ -106,7 +106,7 @@ const SolutionIndustries: React.FC = () => {
           >
             <button
               onClick={() => toggleSection("Industries")}
-              className="inline-flex items-center px-6 py-3 rounded-lg border border-blue-500 text-blue-400 hover:bg-blue-500/10 transition-colors"
+              className="inline-flex items-center px-6 py-3 rounded-lg border border-neutral-500 text-neutral-400 hover:bg-neutral-500/10 transition-colors"
             >
               View More Industries
               <ChevronRight className="ml-2 h-5 w-5" />
@@ -131,7 +131,7 @@ const SolutionIndustries: React.FC = () => {
       }
     }> = {
       "Financial Services": {
-        icon: <Building className="h-10 w-10 text-blue-400" />,
+        icon: <Building className="h-10 w-10 text-neutral-400" />,
         color: "blue",
         description: "We help banks, insurance companies, and investment firms transform their digital infrastructure, improve security, and deliver innovative customer experiences.",
         challenges: [
@@ -189,7 +189,7 @@ const SolutionIndustries: React.FC = () => {
         }
       },
       "Retail": {
-        icon: <ShoppingBag className="h-10 w-10 text-green-400" />,
+        icon: <ShoppingBag className="h-10 w-10 text-neutral-400" />,
         color: "green",
         description: "We help retailers create seamless omnichannel experiences, optimize supply chains, and leverage data for personalized customer engagement.",
         challenges: [
@@ -250,9 +250,9 @@ const SolutionIndustries: React.FC = () => {
 
     const industry = industryData[activeIndustry] || industryData["Financial Services"];
     const colorClasses = {
-      blue: "from-blue-900/30 to-blue-900/10 border-blue-500/20",
+      blue: "from-neutral-900/30 to-neutral-900/10 border-neutral-500/20",
       pink: "from-pink-900/30 to-pink-900/10 border-pink-500/20",
-      green: "from-green-900/30 to-green-900/10 border-green-500/20",
+      green: "from-neutral-900/30 to-neutral-900/10 border-neutral-500/20",
       indigo: "from-indigo-900/30 to-indigo-900/10 border-indigo-500/20"
     };
     
@@ -285,7 +285,7 @@ const SolutionIndustries: React.FC = () => {
             <ul className="space-y-4">
               {industry.challenges.map((challenge, idx) => (
                 <li key={idx} className="flex items-start gap-3 bg-[var(--black)]/40 p-4 rounded-lg border border-gray-800">
-                  <CheckCircle className="h-5 w-5 text-blue-400 flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="h-5 w-5 text-neutral-400 flex-shrink-0 mt-0.5" />
                   <span className="text-neutral-300">{challenge}</span>
                 </li>
               ))}
@@ -300,7 +300,7 @@ const SolutionIndustries: React.FC = () => {
             <ul className="space-y-4">
               {industry.solutions.map((solution, idx) => (
                 <li key={idx} className="flex items-start gap-3 bg-[var(--black)]/40 p-4 rounded-lg border border-gray-800">
-                  <ArrowRight className="h-5 w-5 text-green-400 flex-shrink-0 mt-0.5" />
+                  <ArrowRight className="h-5 w-5 text-neutral-400 flex-shrink-0 mt-0.5" />
                   <span className="text-neutral-300">{solution}</span>
                 </li>
               ))}
@@ -318,7 +318,7 @@ const SolutionIndustries: React.FC = () => {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {industry.caseStudy.results.map((result, idx) => (
                   <div key={idx} className="bg-[var(--black)]/40 p-4 rounded-lg border border-gray-800">
-                    <CheckCircle className="h-5 w-5 text-green-400 mb-2" />
+                    <CheckCircle className="h-5 w-5 text-neutral-400 mb-2" />
                     <p className="text-neutral-300">{result}</p>
                   </div>
                 ))}
@@ -326,9 +326,9 @@ const SolutionIndustries: React.FC = () => {
             </div>
             <div className="lg:col-span-2 flex items-center justify-center">
               <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 p-8 rounded-xl border border-gray-700 flex flex-col items-center">
-                <Briefcase className="h-16 w-16 text-blue-400 mb-4" />
+                <Briefcase className="h-16 w-16 text-neutral-400 mb-4" />
                 <span className="text-3xl font-bold text-[var(--white)] mb-2">25+</span>
-                <span className="text-blue-300">{activeIndustry} Clients</span>
+                <span className="text-neutral-300">{activeIndustry} Clients</span>
               </div>
             </div>
           </div>
@@ -337,16 +337,16 @@ const SolutionIndustries: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <a 
             href="#" 
-            className="block p-6 bg-gradient-to-br from-gray-900/70 to-black/90 rounded-xl border border-gray-800 hover:border-blue-500/30 transition-colors"
+            className="block p-6 bg-gradient-to-br from-gray-900/70 to-black/90 rounded-xl border border-gray-800 hover:border-neutral-500/30 transition-colors"
           >
             <div className="flex items-center gap-3 mb-3">
-              <FileText className="h-5 w-5 text-blue-400" />
+              <FileText className="h-5 w-5 text-neutral-400" />
               <h4 className="font-medium">White Paper</h4>
             </div>
             <p className="text-neutral-400">
               Download our industry trends report: The Future of {activeIndustry} Technology
             </p>
-            <div className="mt-4 text-blue-400 flex items-center gap-1.5">
+            <div className="mt-4 text-neutral-400 flex items-center gap-1.5">
               Download Now <ArrowRight size={16} />
             </div>
           </a>
@@ -379,7 +379,7 @@ const SolutionIndustries: React.FC = () => {
       />
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-10">
-        <div className="bg-gradient-to-br from-blue-900/30 to-indigo-900/20 p-8 rounded-xl border border-blue-500/20">
+        <div className="bg-gradient-to-br from-neutral-900/30 to-indigo-900/20 p-8 rounded-xl border border-neutral-500/20">
           <h3 className="text-2xl font-bold mb-4 text-[var(--white)]">Case Studies</h3>
           <p className="text-neutral-300 mb-6">
             See how we've helped organizations like yours achieve their goals through innovative solutions.
@@ -387,28 +387,28 @@ const SolutionIndustries: React.FC = () => {
           <div className="space-y-4">
             <a href="#" className="flex items-center justify-between p-3 rounded-lg bg-[var(--black)]/40 hover:bg-[var(--black)]/60 transition-colors">
               <div className="flex items-center">
-                <FileText className="h-5 w-5 text-blue-400 mr-3" />
+                <FileText className="h-5 w-5 text-neutral-400 mr-3" />
                 <span className="text-[var(--white)]">Financial Services Digital Transformation</span>
               </div>
               <ExternalLink className="h-4 w-4 text-neutral-400" />
             </a>
             <a href="#" className="flex items-center justify-between p-3 rounded-lg bg-[var(--black)]/40 hover:bg-[var(--black)]/60 transition-colors">
               <div className="flex items-center">
-                <FileText className="h-5 w-5 text-blue-400 mr-3" />
+                <FileText className="h-5 w-5 text-neutral-400 mr-3" />
                 <span className="text-[var(--white)]">Healthcare AI Implementation</span>
               </div>
               <ExternalLink className="h-4 w-4 text-neutral-400" />
             </a>
             <a href="#" className="flex items-center justify-between p-3 rounded-lg bg-[var(--black)]/40 hover:bg-[var(--black)]/60 transition-colors">
               <div className="flex items-center">
-                <FileText className="h-5 w-5 text-blue-400 mr-3" />
+                <FileText className="h-5 w-5 text-neutral-400 mr-3" />
                 <span className="text-[var(--white)]">Retail Analytics Platform</span>
               </div>
               <ExternalLink className="h-4 w-4 text-neutral-400" />
             </a>
           </div>
           <div className="mt-6 text-center">
-            <Button variant="outline" className="border-blue-500/40 text-blue-400 hover:bg-blue-500/10">
+            <Button variant="outline" className="border-neutral-500/40 text-neutral-400 hover:bg-neutral-500/10">
               View all case studies <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
           </div>
@@ -460,7 +460,7 @@ const SolutionIndustries: React.FC = () => {
       />
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-        <div className="p-6 bg-gradient-to-br from-purple-900/50 to-blue-900/30 rounded-xl border border-purple-500/20 hover:border-purple-500/40 transition-colors">
+        <div className="p-6 bg-gradient-to-br from-purple-900/50 to-neutral-900/30 rounded-xl border border-purple-500/20 hover:border-purple-500/40 transition-colors">
           <div className="p-3 rounded-lg bg-purple-500/20 self-start inline-block mb-4">
             <Users className="h-6 w-6 text-purple-400" strokeWidth={1.5} />
           </div>
@@ -488,9 +488,9 @@ const SolutionIndustries: React.FC = () => {
             </a>
           </div>
         </div>
-        <div className="p-6 bg-gradient-to-br from-green-900/50 to-teal-900/30 rounded-xl border border-green-500/20 hover:border-green-500/40 transition-colors">
-          <div className="p-3 rounded-lg bg-green-500/20 self-start inline-block mb-4">
-            <Shield className="h-6 w-6 text-green-400" strokeWidth={1.5} />
+        <div className="p-6 bg-gradient-to-br from-neutral-900/50 to-teal-900/30 rounded-xl border border-neutral-500/20 hover:border-neutral-500/40 transition-colors">
+          <div className="p-3 rounded-lg bg-neutral-500/20 self-start inline-block mb-4">
+            <Shield className="h-6 w-6 text-neutral-400" strokeWidth={1.5} />
           </div>
           <h3 className="text-2xl font-bold text-[var(--white)] mb-3">Sensei Group</h3>
           <p className="text-neutral-300 mb-5">
@@ -502,14 +502,14 @@ const SolutionIndustries: React.FC = () => {
               href="https://sensei.group" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-5 py-2.5 bg-green-600 hover:bg-green-500 rounded-md text-[var(--white)] transition-colors"
+              className="flex items-center gap-2 px-5 py-2.5 bg-neutral-600 hover:bg-neutral-500 rounded-md text-[var(--white)] transition-colors"
             >
               <span>Visit Sensei Group</span>
               <ExternalLink size={14} />
             </a>
             <a 
               href="tel:+1234567890" 
-              className="flex items-center gap-2 px-5 py-2.5 border border-green-500/40 hover:border-green-500 rounded-md text-green-400 hover:text-green-300 transition-colors"
+              className="flex items-center gap-2 px-5 py-2.5 border border-neutral-500/40 hover:border-neutral-500 rounded-md text-neutral-400 hover:text-neutral-300 transition-colors"
             >
               <span>Schedule a call</span>
               <Phone size={14} />
@@ -549,7 +549,7 @@ const SolutionIndustries: React.FC = () => {
                   onClick={() => setActiveIndustry(industry)}
                   className={`px-4 py-2 rounded-full whitespace-nowrap transition-colors ${
                     activeIndustry === industry
-                      ? "bg-blue-600 text-[var(--white)]"
+                      ? "bg-neutral-600 text-[var(--white)]"
                       : "bg-gray-900 text-neutral-300 hover:bg-gray-800"
                   }`}
                 >
@@ -587,14 +587,14 @@ const SolutionIndustries: React.FC = () => {
               <div className="flex flex-wrap justify-center gap-4">
                 <a
                   href="/contact"
-                  className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 hover:bg-blue-700 text-[var(--white)] font-medium transition-colors"
+                  className="inline-flex items-center px-6 py-3 rounded-lg bg-neutral-600 hover:bg-neutral-700 text-[var(--white)] font-medium transition-colors"
                 >
                   Get Started
                   <ChevronRight className="ml-2 h-5 w-5" />
                 </a>
                 <a
                   href="mailto:solutions@hanzo.ai"
-                  className="inline-flex items-center px-6 py-3 rounded-lg border border-blue-500 text-blue-400 hover:bg-blue-500/10 transition-colors"
+                  className="inline-flex items-center px-6 py-3 rounded-lg border border-neutral-500 text-neutral-400 hover:bg-neutral-500/10 transition-colors"
                 >
                   Email Us
                   <Mail className="ml-2 h-5 w-5" />

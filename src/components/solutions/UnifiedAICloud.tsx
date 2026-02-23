@@ -37,10 +37,10 @@ const UnifiedAICloud: React.FC = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: 0.1 }}
-          className="bg-gradient-to-br from-blue-900/20 to-blue-900/5 p-6 rounded-xl border border-blue-500/20 hover:border-blue-500/40 transition-all duration-300"
+          className="bg-gradient-to-br from-neutral-900/20 to-neutral-900/5 p-6 rounded-xl border border-neutral-500/20 hover:border-neutral-500/40 transition-all duration-300"
         >
-          <div className="bg-blue-500/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-            <BookOpen className="h-6 w-6 text-blue-400" />
+          <div className="bg-neutral-500/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+            <BookOpen className="h-6 w-6 text-neutral-400" />
           </div>
           <h3 className="text-xl font-bold mb-2 text-[var(--white)]">Developer Experience</h3>
           <p className="text-neutral-300">
@@ -54,10 +54,10 @@ const UnifiedAICloud: React.FC = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4, delay: 0.2 }}
-          className="bg-gradient-to-br from-green-900/20 to-green-900/5 p-6 rounded-xl border border-green-500/20 hover:border-green-500/40 transition-all duration-300"
+          className="bg-gradient-to-br from-neutral-900/20 to-neutral-900/5 p-6 rounded-xl border border-neutral-500/20 hover:border-neutral-500/40 transition-all duration-300"
         >
-          <div className="bg-green-500/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-            <Shield className="h-6 w-6 text-green-400" />
+          <div className="bg-neutral-500/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+            <Shield className="h-6 w-6 text-neutral-400" />
           </div>
           <h3 className="text-xl font-bold mb-2 text-[var(--white)]">Expert Services</h3>
           <p className="text-neutral-300">
@@ -68,7 +68,7 @@ const UnifiedAICloud: React.FC = () => {
       </div>
       
       <div className="text-center">
-        <Button asChild size="lg" className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700">
+        <Button asChild size="lg" className="bg-gradient-to-r from-purple-600 to-neutral-600 hover:from-purple-700 hover:to-neutral-700">
           <Link to="/cloud">
             Explore Our AI Cloud Platform <ChevronRight className="ml-2 h-5 w-5" />
           </Link>

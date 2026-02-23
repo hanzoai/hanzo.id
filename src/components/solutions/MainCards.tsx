@@ -15,9 +15,9 @@ const MainCards: React.FC = () => {
         viewport={{ once: true }}
         whileHover={{ scale: 1.02 }}
         transition={{ duration: 0.3 }}
-        className="bg-gradient-to-br from-purple-900/30 to-blue-900/20 rounded-2xl border border-purple-500/20 overflow-hidden"
+        className="bg-gradient-to-br from-purple-900/30 to-neutral-900/20 rounded-2xl border border-purple-500/20 overflow-hidden"
       >
-        <div className="h-64 bg-gradient-to-r from-purple-800/30 to-blue-800/30 flex items-center justify-center">
+        <div className="h-64 bg-gradient-to-r from-purple-800/30 to-neutral-800/30 flex items-center justify-center">
           <ChromeText as="h2" className="text-3xl font-bold">
             Capabilities
           </ChromeText>
@@ -32,10 +32,10 @@ const MainCards: React.FC = () => {
             <span className="px-3 py-1 bg-purple-900/40 rounded-full text-sm text-purple-300 border border-purple-500/30">
               AI Engineering
             </span>
-            <span className="px-3 py-1 bg-blue-900/40 rounded-full text-sm text-blue-300 border border-blue-500/30">
+            <span className="px-3 py-1 bg-neutral-900/40 rounded-full text-sm text-neutral-300 border border-neutral-500/30">
               Cloud Infrastructure
             </span>
-            <span className="px-3 py-1 bg-green-900/40 rounded-full text-sm text-green-300 border border-green-500/30">
+            <span className="px-3 py-1 bg-neutral-900/40 rounded-full text-sm text-neutral-300 border border-neutral-500/30">
               Data Analytics
             </span>
             <span className="px-3 py-1 bg-pink-900/40 rounded-full text-sm text-pink-300 border border-pink-500/30">
@@ -56,9 +56,9 @@ const MainCards: React.FC = () => {
         viewport={{ once: true }}
         whileHover={{ scale: 1.02 }}
         transition={{ duration: 0.3, delay: 0.1 }}
-        className="bg-gradient-to-br from-blue-900/30 to-indigo-900/20 rounded-2xl border border-blue-500/20 overflow-hidden"
+        className="bg-gradient-to-br from-neutral-900/30 to-indigo-900/20 rounded-2xl border border-neutral-500/20 overflow-hidden"
       >
-        <div className="h-64 bg-gradient-to-r from-blue-800/30 to-indigo-800/30 flex items-center justify-center">
+        <div className="h-64 bg-gradient-to-r from-neutral-800/30 to-indigo-800/30 flex items-center justify-center">
           <ChromeText as="h2" className="text-3xl font-bold">
             Industries
           </ChromeText>
@@ -73,7 +73,7 @@ const MainCards: React.FC = () => {
             <span className="px-3 py-1 bg-indigo-900/40 rounded-full text-sm text-indigo-300 border border-indigo-500/30">
               Financial Services
             </span>
-            <span className="px-3 py-1 bg-green-900/40 rounded-full text-sm text-green-300 border border-green-500/30">
+            <span className="px-3 py-1 bg-neutral-900/40 rounded-full text-sm text-neutral-300 border border-neutral-500/30">
               Healthcare
             </span>
             <span className="px-3 py-1 bg-amber-900/40 rounded-full text-sm text-amber-300 border border-amber-500/30">
@@ -83,7 +83,7 @@ const MainCards: React.FC = () => {
               Technology
             </span>
           </div>
-          <Button asChild className="w-full bg-blue-600 hover:bg-blue-700">
+          <Button asChild className="w-full bg-neutral-600 hover:bg-neutral-700">
             <Link to="/solutions/industries">
               Explore Our Industry Solutions <ChevronRight className="ml-2 h-5 w-5" />
             </Link>

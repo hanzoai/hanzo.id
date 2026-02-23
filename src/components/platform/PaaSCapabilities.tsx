@@ -18,7 +18,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 
-const BRAND_COLOR = "#10b981"; // Green for platform
+const BRAND_COLOR = "#ffffff";
 
 interface Service {
   name: string;
@@ -144,7 +144,7 @@ const PaaSCapabilities = () => {
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.05 }}
                   className={`p-6 rounded-xl bg-neutral-900/50 border border-neutral-800 transition-all ${
-                    service.href ? "hover:border-green-500/30 cursor-pointer" : ""
+                    service.href ? "hover:border-neutral-500/30 cursor-pointer" : ""
                   }`}
                 >
                   <div className="flex items-start gap-4">
@@ -217,16 +217,16 @@ const PaaSCapabilities = () => {
         >
           <div className="flex items-center gap-3 px-4 py-3 border-b border-neutral-800">
             <div className="flex gap-1.5">
-              <div className="w-3 h-3 rounded-full bg-red-500/80" />
+              <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
               <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-              <div className="w-3 h-3 rounded-full bg-green-500/80" />
+              <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
             </div>
             <span className="text-xs text-neutral-500 font-mono">hanzo platform</span>
           </div>
           <div className="p-6 font-mono text-sm">
             <div className="space-y-3">
               <div className="text-neutral-500">
-                <span className="text-green-400">$</span> hanzo init my-app
+                <span className="text-neutral-400">$</span> hanzo init my-app
               </div>
               <div className="text-neutral-400">
                 ✓ Created project configuration
@@ -238,26 +238,26 @@ const PaaSCapabilities = () => {
                 ✓ Generated TypeScript types
               </div>
               <div className="mt-4 text-neutral-500">
-                <span className="text-green-400">$</span> hanzo dev
+                <span className="text-neutral-400">$</span> hanzo dev
               </div>
               <div className="text-neutral-400">
                 Starting local development server...
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 rounded-full bg-green-500" />
-                <span className="text-green-400">
+                <div className="w-2 h-2 rounded-full bg-neutral-500" />
+                <span className="text-neutral-400">
                   Platform running at http://localhost:8000
                 </span>
               </div>
               <div className="mt-4 text-neutral-500">
-                <span className="text-green-400">$</span> hanzo deploy
+                <span className="text-neutral-400">$</span> hanzo deploy
               </div>
               <div className="text-neutral-400">
                 Deploying to production...
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 rounded-full bg-green-500" />
-                <span className="text-green-400">
+                <div className="w-2 h-2 rounded-full bg-neutral-500" />
+                <span className="text-neutral-400">
                   Live at https://my-app.hanzo.app
                 </span>
               </div>
@@ -278,7 +278,7 @@ const PaaSCapabilities = () => {
               target="_blank"
               rel="noreferrer noopener"
               className="inline-flex items-center px-6 py-3 rounded-full font-medium transition-all hover:opacity-90 text-sm"
-              style={{ backgroundColor: BRAND_COLOR, color: "#fff" }}
+              style={{ backgroundColor: BRAND_COLOR, color: "#000" }}
             >
               Get Started
               <ChevronRight className="ml-2 h-4 w-4" />

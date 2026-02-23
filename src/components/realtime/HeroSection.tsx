@@ -29,7 +29,7 @@ const HeroSection = () => {
               className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[var(--white)]"
             >
               Instant data sync <br/>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-blue-400">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-neutral-400">
                 across all clients
               </span>
             </motion.h1>
@@ -76,17 +76,17 @@ const HeroSection = () => {
             >
               <div className="flex justify-between items-center mb-4">
                 <div className="flex items-center">
-                  <div className="h-3 w-3 rounded-full bg-green-500 mr-3 animate-pulse" />
+                  <div className="h-3 w-3 rounded-full bg-neutral-500 mr-3 animate-pulse" />
                   <span className="text-neutral-300 text-sm">Live connection</span>
                 </div>
                 <div className="flex items-center">
-                  <Radio className="h-4 w-4 text-blue-400 mr-2" />
+                  <Radio className="h-4 w-4 text-neutral-400 mr-2" />
                   <span className="text-neutral-300 text-sm">10ms latency</span>
                 </div>
               </div>
               
               <div className="space-y-4">
-                <div className="h-14 bg-gradient-to-r from-purple-900/40 to-blue-900/40 rounded-lg border border-purple-500/30 p-4 flex items-center">
+                <div className="h-14 bg-gradient-to-r from-purple-900/40 to-neutral-900/40 rounded-lg border border-purple-500/30 p-4 flex items-center">
                   <Zap className="h-5 w-5 text-purple-400 mr-3" />
                   <span className="text-neutral-200">Client data synchronized in real-time</span>
                 </div>
@@ -97,7 +97,7 @@ const HeroSection = () => {
                       key={i}
                       className="h-24 rounded-lg border border-gray-800 p-4 flex flex-col justify-center items-center bg-gradient-to-br from-gray-900 to-gray-950"
                     >
-                      <div className="h-2 w-2 rounded-full bg-blue-500 mb-2 animate-pulse" />
+                      <div className="h-2 w-2 rounded-full bg-neutral-500 mb-2 animate-pulse" />
                       <span className="text-xs text-neutral-400 text-center">Client {i}</span>
                       <span className="text-xs text-neutral-500 text-center">Connected</span>
                     </div>
@@ -105,7 +105,7 @@ const HeroSection = () => {
                 </div>
                 
                 <div className="h-36 bg-gray-900 rounded-lg border border-gray-800 p-3 overflow-hidden font-mono text-xs">
-                  <div className="text-green-400">// Subscribe to real-time updates</div>
+                  <div className="text-neutral-400">// Subscribe to real-time updates</div>
                   <div className="text-neutral-300">const channel = await hanzo.realtime.subscribe(</div>
                   <div className="text-neutral-300 pl-4">'room-updates',</div>
                   <div className="text-neutral-300 pl-4">(message) =&gt; {`{`}</div>

@@ -39,11 +39,11 @@ const ServiceCards: React.FC = () => {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="bg-green-900/30 border border-green-800/30 rounded-xl p-8 relative overflow-hidden"
+        className="bg-neutral-900/30 border border-neutral-800/30 rounded-xl p-8 relative overflow-hidden"
       >
         <div className="flex items-center gap-4 mb-4">
-          <div className="p-3 bg-green-800/30 rounded-full">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-green-300">
+          <div className="p-3 bg-neutral-800/30 rounded-full">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-neutral-300">
               <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
               <circle cx="12" cy="7" r="4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
@@ -53,7 +53,7 @@ const ServiceCards: React.FC = () => {
         <p className="text-neutral-300 mb-6">
           Accelerate enterprise transformation with our elite collective of CXOs and technology experts. We guide organizations through digital evolution with strategic implementation.
         </p>
-        <a href="/sensei" className="inline-flex items-center text-green-300 hover:text-green-200 transition-colors group">
+        <a href="/sensei" className="inline-flex items-center text-neutral-300 hover:text-neutral-200 transition-colors group">
           <span className="mr-2">Learn more</span>
           <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
         </a>

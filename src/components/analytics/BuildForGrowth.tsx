@@ -29,13 +29,13 @@ const BuildForGrowth = () => {
               metrics: "+27% average increase in conversions"
             },
             {
-              icon: <Users className="h-8 w-8 text-blue-400" />,
+              icon: <Users className="h-8 w-8 text-neutral-400" />,
               title: "Audience Insights",
               description: "Understand your users better with detailed demographics and behavior analysis.",
               metrics: "15M+ user profiles analyzed daily"
             },
             {
-              icon: <CreditCard className="h-8 w-8 text-green-400" />,
+              icon: <CreditCard className="h-8 w-8 text-neutral-400" />,
               title: "Revenue Impact",
               description: "See the direct financial impact of your optimization efforts in real-time.",
               metrics: "$1.2B+ in tracked revenue"

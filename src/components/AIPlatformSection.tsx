@@ -97,7 +97,7 @@ const AIPlatformSection = () => {
         >
           <Button
             size="lg"
-            className="bg-gradient-to-r from-purple-700 to-blue-700 hover:from-purple-600 hover:to-blue-600 rounded-full"
+            className="bg-gradient-to-r from-purple-700 to-neutral-700 hover:from-purple-600 hover:to-neutral-600 rounded-full"
           >
             <a href="/ai" className="flex items-center">
               Explore the Platform <ArrowRight className="ml-2 h-5 w-5" />

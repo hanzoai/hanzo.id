@@ -43,7 +43,7 @@ const labelMap = {
 const colorMap = {
   discord: "hover:bg-[#5865F2]/20 hover:border-[#5865F2]/50",
   github: "hover:bg-neutral-700",
-  docs: "hover:bg-blue-500/20 hover:border-blue-500/50",
+  docs: "hover:bg-neutral-500/20 hover:border-neutral-500/50",
   discussions: "hover:bg-purple-500/20 hover:border-purple-500/50",
   twitter: "hover:bg-neutral-700",
   slack: "hover:bg-[#4A154B]/20 hover:border-[#4A154B]/50",

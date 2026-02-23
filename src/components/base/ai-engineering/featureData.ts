@@ -38,9 +38,9 @@ export const featureData: AIFeature[] = [
       { text: "Hybrid search combining vector and traditional queries" }
     ],
     delay: 0.2,
-    iconBgClass: "bg-blue-900/30",
-    iconTextClass: "text-blue-400",
-    bulletColor: "text-blue-400"
+    iconBgClass: "bg-neutral-900/30",
+    iconTextClass: "text-neutral-400",
+    bulletColor: "text-neutral-400"
   },
   {
     icon: React.createElement(Database, { className: "h-6 w-6" }),
@@ -52,9 +52,9 @@ export const featureData: AIFeature[] = [
       { text: "Scalable batch and stream processing" }
     ],
     delay: 0.3,
-    iconBgClass: "bg-green-900/30",
-    iconTextClass: "text-green-400",
-    bulletColor: "text-green-400"
+    iconBgClass: "bg-neutral-900/30",
+    iconTextClass: "text-neutral-400",
+    bulletColor: "text-neutral-400"
   },
   {
     icon: React.createElement(Sparkles, { className: "h-6 w-6" }),

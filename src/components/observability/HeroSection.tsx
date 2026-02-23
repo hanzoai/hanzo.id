@@ -9,7 +9,7 @@ const HeroSection = () => {
     <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative overflow-hidden">
       {/* Gradient effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-violet-900/20 via-transparent to-transparent opacity-70"></div>
-      <div className="absolute top-40 left-20 w-96 h-96 bg-blue-500/20 rounded-full blur-[100px]"></div>
+      <div className="absolute top-40 left-20 w-96 h-96 bg-neutral-500/20 rounded-full blur-[100px]"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-purple-500/20 rounded-full blur-[100px]"></div>
       
       <div className="max-w-6xl mx-auto relative z-10">
@@ -20,7 +20,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6 }}
             className="flex justify-center mb-6"
           >
-            <div className="bg-gradient-to-r from-violet-600 to-blue-600 p-3 rounded-lg">
+            <div className="bg-gradient-to-r from-violet-600 to-neutral-600 p-3 rounded-lg">
               <Activity className="h-8 w-8 text-[var(--white)]" />
             </div>
           </motion.div>
@@ -49,7 +49,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button size="lg" className="bg-gradient-to-r from-violet-600 to-blue-600 hover:from-violet-700 hover:to-blue-700 text-[var(--white)] border-none px-8 py-6 rounded-md text-lg">
+            <Button size="lg" className="bg-gradient-to-r from-violet-600 to-neutral-600 hover:from-violet-700 hover:to-neutral-700 text-[var(--white)] border-none px-8 py-6 rounded-md text-lg">
               Get Started
             </Button>
             <Button size="lg" variant="outline" className="border-gray-600 hover:bg-gray-800/50 px-8 py-6 rounded-md text-lg">
@@ -92,7 +92,7 @@ const HeroSection = () => {
                   </div>
                   <div className="absolute top-4 left-4 flex space-x-2">
                     <div className="h-3 w-3 rounded-full bg-violet-500"></div>
-                    <div className="h-3 w-3 rounded-full bg-blue-500"></div>
+                    <div className="h-3 w-3 rounded-full bg-neutral-500"></div>
                   </div>
                 </div>
                 <div className="grid grid-cols-2 gap-4">

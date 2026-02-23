@@ -486,9 +486,9 @@ const Blockchain = () => {
             >
               <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-950">
                 <div className="flex gap-1.5">
-                  <div className="w-3 h-3 rounded-full bg-red-500/80" />
+                  <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
                   <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-                  <div className="w-3 h-3 rounded-full bg-green-500/80" />
+                  <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
                 </div>
                 <span className="ml-2 text-xs text-neutral-500 font-mono">hanzo-agent.ts</span>
               </div>
@@ -557,7 +557,7 @@ await agent.run(\`
                       {item.phase}
                     </div>
                     <h3 className="text-lg font-semibold text-white">{item.title}</h3>
-                    <span className={`text-sm ${item.status === "in-progress" ? "text-green-400" : "text-neutral-500"}`}>
+                    <span className={`text-sm ${item.status === "in-progress" ? "text-neutral-400" : "text-neutral-500"}`}>
                       {item.status === "in-progress" ? "In Progress" : "Planned"}
                     </span>
                   </div>

@@ -75,12 +75,12 @@ const benefits = [
     description: "Work from anywhere in the world with our distributed team."
   },
   {
-    icon: <Clock className="h-6 w-6 text-blue-400" />,
+    icon: <Clock className="h-6 w-6 text-neutral-400" />,
     title: "Flexible Hours",
     description: "Set your own schedule and work when you're most productive."
   },
   {
-    icon: <Users className="h-6 w-6 text-green-400" />,
+    icon: <Users className="h-6 w-6 text-neutral-400" />,
     title: "Collaborative Environment",
     description: "Work with talented individuals from diverse backgrounds."
   },
@@ -102,7 +102,7 @@ const Careers = () => {
       <main>
         <section className="py-32 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative overflow-hidden">
           <div className="absolute top-20 right-20 w-64 h-64 bg-purple-900/5 rounded-full blur-3xl"></div>
-          <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-blue-900/5 rounded-full blur-3xl"></div>
+          <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-neutral-900/5 rounded-full blur-3xl"></div>
           
           <div className="max-w-7xl mx-auto">
             <motion.div

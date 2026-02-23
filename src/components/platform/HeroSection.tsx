@@ -31,9 +31,9 @@ const HeroSection = () => {
       className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden"
     >
       {/* Background elements */}
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/10 to-blue-900/10 opacity-30"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/10 to-neutral-900/10 opacity-30"></div>
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl"></div>
-      <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl"></div>
+      <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-neutral-500/10 rounded-full blur-3xl"></div>
       
       <div className="max-w-5xl mx-auto text-center relative z-10">
         <motion.div
@@ -42,7 +42,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="mb-6"
         >
-          <span className="inline-block px-4 py-1 rounded-full bg-green-900/30 border border-green-500/30 text-green-300 text-sm font-medium">
+          <span className="inline-block px-4 py-1 rounded-full bg-neutral-900/30 border border-neutral-500/30 text-neutral-300 text-sm font-medium">
             Open Source
           </span>
         </motion.div>
@@ -81,7 +81,7 @@ const HeroSection = () => {
         >
           <Button 
             size="lg"
-            className="bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-400 text-[var(--white)] px-8 py-6 rounded-lg text-lg font-medium shadow-lg hover:shadow-xl transition-all flex items-center"
+            className="bg-gradient-to-r from-neutral-600 to-neutral-500 hover:from-neutral-500 hover:to-neutral-400 text-[var(--white)] px-8 py-6 rounded-lg text-lg font-medium shadow-lg hover:shadow-xl transition-all flex items-center"
           >
             <Github className="mr-2 h-5 w-5" />
             <a href="https://github.com/hanzo/platform" className="flex-1">Get on GitHub</a>

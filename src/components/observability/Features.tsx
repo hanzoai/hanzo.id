@@ -19,7 +19,7 @@ const features = [
     description: "End-to-end traces for rapid debugging, detailed logs for every inference request."
   },
   {
-    icon: <BarChart className="h-7 w-7 text-blue-400" />,
+    icon: <BarChart className="h-7 w-7 text-neutral-400" />,
     title: "Real-time Metrics",
     description: "Instant visibility into system health, latency, throughput, and cost efficiency."
   },
@@ -44,7 +44,7 @@ const features = [
     description: "Generate robust datasets from live production data to enhance model training and evaluation."
   },
   {
-    icon: <Users className="h-7 w-7 text-green-400" />,
+    icon: <Users className="h-7 w-7 text-neutral-400" />,
     title: "User Journey Analytics",
     description: "Visualize and optimize user paths, retention rates, and conversion funnels."
   },

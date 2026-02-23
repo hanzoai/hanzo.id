@@ -42,7 +42,7 @@ const GettingStarted = () => {
               <ul className="space-y-3">
                 {prerequisites.map((req, index) => (
                   <li key={index} className="flex items-start">
-                    <CheckCircle className="h-5 w-5 text-green-500 mr-2 mt-0.5" />
+                    <CheckCircle className="h-5 w-5 text-neutral-500 mr-2 mt-0.5" />
                     <span className="text-neutral-300">{req}</span>
                   </li>
                 ))}

@@ -12,7 +12,7 @@ const Hero = () => {
       
       {/* Animated orbs */}
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl"></div>
-      <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl"></div>
+      <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-neutral-500/10 rounded-full blur-3xl"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
@@ -32,7 +32,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Button 
                 size="lg" 
-                className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-[var(--white)] px-8 py-6 text-lg rounded-full"
+                className="bg-gradient-to-r from-purple-600 to-neutral-600 hover:from-purple-700 hover:to-neutral-700 text-[var(--white)] px-8 py-6 text-lg rounded-full"
               >
                 Get Started Free
                 <ArrowRight className="ml-2 h-5 w-5" />

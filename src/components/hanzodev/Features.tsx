@@ -226,7 +226,7 @@ const Features = () => {
                     >
                       <Icon className="w-6 h-6" style={{ color: BRAND_COLOR }} />
                     </div>
-                    <span className="text-xs font-medium px-2 py-1 rounded-full bg-green-500/20 text-green-400">
+                    <span className="text-xs font-medium px-2 py-1 rounded-full bg-neutral-500/20 text-neutral-400">
                       New
                     </span>
                   </div>

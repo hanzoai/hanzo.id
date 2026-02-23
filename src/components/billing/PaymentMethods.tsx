@@ -27,9 +27,9 @@ const PaymentMethods = () => {
   const getCardIcon = (type: string) => {
     switch (type) {
       case 'visa':
-        return <div className="text-blue-500 font-bold text-xs">VISA</div>;
+        return <div className="text-neutral-500 font-bold text-xs">VISA</div>;
       case 'mastercard':
-        return <div className="text-red-500 font-bold text-xs">MC</div>;
+        return <div className="text-neutral-500 font-bold text-xs">MC</div>;
       default:
         return <CreditCard className="h-4 w-4 text-neutral-400" />;
     }
@@ -244,7 +244,7 @@ const PaymentMethods = () => {
               <Button 
                 variant="ghost" 
                 size="sm" 
-                className="text-red-400 hover:text-red-300 hover:bg-red-900/20"
+                className="text-neutral-400 hover:text-neutral-300 hover:bg-neutral-900/20"
                 onClick={() => handleDeleteCard(card.id)}
               >
                 <Trash2 className="h-4 w-4" />

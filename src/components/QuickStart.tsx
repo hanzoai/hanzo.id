@@ -9,13 +9,13 @@ const quickApps = [{
   title: "AI Chat Assistant",
   description: "Launch your own ChatGPT-style AI assistant",
   glowColor: "group-hover:shadow-[0_0_30px_-5px_rgba(96,165,250,0.3)]",
-  borderColor: "group-hover:border-blue-400/30"
+  borderColor: "group-hover:border-neutral-400/30"
 }, {
   icon: <ShoppingCart className="h-6 w-6 text-[var(--white)]" />,
   title: "E-commerce Store",
   description: "Start selling products online in minutes",
   glowColor: "group-hover:shadow-[0_0_30px_-5px_rgba(74,222,128,0.3)]",
-  borderColor: "group-hover:border-green-400/30"
+  borderColor: "group-hover:border-neutral-400/30"
 }, {
   icon: <AppWindow className="h-6 w-6 text-[var(--white)]" />,
   title: "Web3 dApp",

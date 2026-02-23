@@ -91,8 +91,8 @@ const PricingSection = () => {
             >
               {plan.highlight && (
                 <div
-                  className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full text-xs font-medium text-white"
-                  style={{ backgroundColor: BRAND_COLOR }}
+                  className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full text-xs font-medium text-black"
+                  style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
                 >
                   Most Popular
                 </div>
@@ -113,10 +113,10 @@ const PricingSection = () => {
               <Button
                 className={`w-full mb-6 ${
                   plan.highlight
-                    ? "text-white"
+                    ? "text-black"
                     : "bg-white/10 hover:bg-white/20 text-white"
                 }`}
-                style={plan.highlight ? { backgroundColor: BRAND_COLOR } : {}}
+                style={plan.highlight ? { backgroundColor: BRAND_COLOR, color: "#000000" } : {}}
                 asChild
               >
                 <Link to="/signup">
@@ -128,7 +128,7 @@ const PricingSection = () => {
               <ul className="space-y-3">
                 {plan.features.map((feature) => (
                   <li key={feature} className="flex items-start gap-3">
-                    <Check className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
+                    <Check className="w-5 h-5 text-neutral-500 flex-shrink-0 mt-0.5" />
                     <span className="text-sm text-neutral-300">{feature}</span>
                   </li>
                 ))}

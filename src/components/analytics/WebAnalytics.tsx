@@ -137,7 +137,7 @@ const WebAnalytics = () => {
             <div className="bg-gray-900/30 rounded-xl p-6 border border-gray-800">
               <div className="flex justify-between items-center mb-4">
                 <h3 className="text-lg font-medium">Live User Activity</h3>
-                <div className="bg-green-500 animate-pulse h-2 w-2 rounded-full"></div>
+                <div className="bg-neutral-500 animate-pulse h-2 w-2 rounded-full"></div>
               </div>
               
               <div className="h-80 w-full relative">
@@ -217,7 +217,7 @@ const WebAnalytics = () => {
                     <span>Users</span>
                     <span className="font-bold">876</span>
                   </div>
-                  <div className="text-green-400 text-right mt-1">+24.5%</div>
+                  <div className="text-neutral-400 text-right mt-1">+24.5%</div>
                 </motion.div>
               </div>
               

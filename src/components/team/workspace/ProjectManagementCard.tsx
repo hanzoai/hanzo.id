@@ -25,7 +25,7 @@ const ProjectManagementCard = () => {
           <div className="mb-4 flex items-center justify-between">
             <div className="flex items-center">
               <h3 className="font-medium text-[var(--white)]">Website Redesign</h3>
-              <Badge className="ml-2 bg-blue-600/20 text-blue-400 border-blue-500/30">In Progress</Badge>
+              <Badge className="ml-2 bg-neutral-600/20 text-neutral-400 border-neutral-500/30">In Progress</Badge>
             </div>
             <div className="flex space-x-2">
               <div className="w-6 h-6 rounded-full bg-purple-600 flex items-center justify-center text-xs font-bold">AI</div>
@@ -35,14 +35,14 @@ const ProjectManagementCard = () => {
           
           <div className="space-y-3">
             <div className="flex items-center p-2 bg-gray-800/40 rounded-md border border-gray-700/50">
-              <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+              <CheckCircle className="h-4 w-4 text-neutral-500 mr-2" />
               <span className="text-sm">Create wireframes</span>
               <div className="ml-auto flex items-center space-x-1">
                 <div className="w-5 h-5 rounded-full bg-gray-600 flex items-center justify-center text-xs">JD</div>
               </div>
             </div>
             <div className="flex items-center p-2 bg-gray-800/40 rounded-md border border-gray-700/50">
-              <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+              <CheckCircle className="h-4 w-4 text-neutral-500 mr-2" />
               <span className="text-sm">Design homepage</span>
               <div className="ml-auto flex items-center space-x-1">
                 <div className="w-5 h-5 rounded-full bg-purple-600 flex items-center justify-center text-xs">AI</div>

@@ -15,13 +15,13 @@ const Templates = () => {
       title: "Next.js App Router with Authentication",
       description: "Secure, fast Next.js application with built-in authentication",
       icon: Globe,
-      color: "from-blue-500 to-blue-700"
+      color: "from-neutral-500 to-neutral-700"
     },
     {
       title: "AI Chatbot Template",
       description: "Intelligent chatbot with natural language processing capabilities",
       icon: MessageSquare,
-      color: "from-green-500 to-green-700"
+      color: "from-neutral-500 to-neutral-700"
     },
     {
       title: "LangChain and Next.js Starter",

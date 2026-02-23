@@ -18,7 +18,7 @@ const DemoShowcase: React.FC = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <div className="inline-block px-4 py-1 rounded-full bg-blue-900/30 border border-blue-500/30 text-blue-300 text-sm font-medium mb-6">
+            <div className="inline-block px-4 py-1 rounded-full bg-neutral-900/30 border border-neutral-500/30 text-neutral-300 text-sm font-medium mb-6">
               See it in action
             </div>
             
@@ -32,7 +32,7 @@ const DemoShowcase: React.FC = () => {
             </p>
             
             <Button 
-              className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 rounded-full px-6 py-6 text-[var(--white)]"
+              className="bg-gradient-to-r from-purple-600 to-neutral-600 hover:from-purple-700 hover:to-neutral-700 rounded-full px-6 py-6 text-[var(--white)]"
             >
               <Play className="mr-2 h-5 w-5" /> Watch Demo
             </Button>
@@ -48,9 +48,9 @@ const DemoShowcase: React.FC = () => {
             <div className="bg-gray-900 border border-gray-800 rounded-xl overflow-hidden shadow-2xl">
               <div className="bg-gray-950 p-3 flex items-center border-b border-gray-800">
                 <div className="flex space-x-2 mr-4">
-                  <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                  <div className="w-3 h-3 rounded-full bg-neutral-500"></div>
                   <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                  <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                  <div className="w-3 h-3 rounded-full bg-neutral-500"></div>
                 </div>
                 <div className="flex items-center bg-gray-800 px-4 py-1 rounded-md text-neutral-400 text-sm">
                   <Terminal className="h-4 w-4 mr-2" /> hanzo-demo.tsx
@@ -59,15 +59,15 @@ const DemoShowcase: React.FC = () => {
               
               <div className="p-6 font-mono text-sm">
                 <pre className="language-typescript">
-                  <code className="block text-blue-400">import {"{"} <span className="text-green-400">useHanzoAI</span> {"}"} from <span className="text-yellow-300">'@hanzo/ai'</span>;</code>
-                  <code className="block mt-4 text-blue-400">function <span className="text-purple-400">AIAssistant</span><span className="text-[var(--white)]">()</span> <span className="text-[var(--white)]">{"{"}</span></code>
-                  <code className="block ml-4 text-blue-400">const {"{"} <span className="text-green-400">assistant, isLoading, error</span> {"}"} = <span className="text-purple-400">useHanzoAI</span>({"{"}</code>
-                  <code className="block ml-8 text-green-400">model: <span className="text-yellow-300">'gpt-4'</span>,</code>
-                  <code className="block ml-8 text-green-400">temperature: <span className="text-orange-400">0.7</span>,</code>
-                  <code className="block ml-8 text-green-400">systemPrompt: <span className="text-yellow-300">'You are a helpful AI assistant.'</span></code>
+                  <code className="block text-neutral-400">import {"{"} <span className="text-neutral-400">useHanzoAI</span> {"}"} from <span className="text-yellow-300">'@hanzo/ai'</span>;</code>
+                  <code className="block mt-4 text-neutral-400">function <span className="text-purple-400">AIAssistant</span><span className="text-[var(--white)]">()</span> <span className="text-[var(--white)]">{"{"}</span></code>
+                  <code className="block ml-4 text-neutral-400">const {"{"} <span className="text-neutral-400">assistant, isLoading, error</span> {"}"} = <span className="text-purple-400">useHanzoAI</span>({"{"}</code>
+                  <code className="block ml-8 text-neutral-400">model: <span className="text-yellow-300">'gpt-4'</span>,</code>
+                  <code className="block ml-8 text-neutral-400">temperature: <span className="text-orange-400">0.7</span>,</code>
+                  <code className="block ml-8 text-neutral-400">systemPrompt: <span className="text-yellow-300">'You are a helpful AI assistant.'</span></code>
                   <code className="block ml-4 text-[var(--white)]">{"})"}</code>
                   <code className="block mt-4 ml-4 text-purple-400">return <span className="text-[var(--white)]">(</span></code>
-                  <code className="block ml-8 text-[var(--white)]">{"<"}<span className="text-green-400">div</span> <span className="text-blue-400">className</span>=<span className="text-yellow-300">"ai-container"</span>{">"}</code>
+                  <code className="block ml-8 text-[var(--white)]">{"<"}<span className="text-neutral-400">div</span> <span className="text-neutral-400">className</span>=<span className="text-yellow-300">"ai-container"</span>{">"}</code>
                   <code className="block ml-12 text-[var(--white)]">{"{"}<span className="text-purple-400">isLoading</span> ? <span className="text-yellow-300">'Loading...'</span> : <span className="text-purple-400">assistant</span>.response{"}"}</code>
                   <code className="block ml-8 text-[var(--white)]">{"</div>"}</code>
                   <code className="block ml-4 text-[var(--white)]">)</code>

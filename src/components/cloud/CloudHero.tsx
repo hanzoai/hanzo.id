@@ -109,9 +109,9 @@ hanzo access grant user@company.com \\
     <div className="rounded-xl border border-neutral-700 bg-neutral-900/95 backdrop-blur-sm overflow-hidden shadow-2xl">
       <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-950">
         <div className="flex gap-1.5">
-          <div className="w-3 h-3 rounded-full bg-red-500/80" />
+          <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
           <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-          <div className="w-3 h-3 rounded-full bg-green-500/80" />
+          <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
         </div>
         <AnimatePresence mode="wait">
           <motion.span
@@ -211,7 +211,7 @@ const CloudHero = () => {
               <Link
                 to="/signup"
                 className="inline-flex items-center px-6 py-3 rounded-full font-medium transition-all hover:opacity-90 text-sm"
-                style={{ backgroundColor: BRAND_COLOR, color: "#ffffff" }}
+                style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
               >
                 Start free
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -239,7 +239,7 @@ const CloudHero = () => {
                   onClick={handleCopy}
                   className="text-neutral-500 hover:text-white transition-colors"
                 >
-                  {copied ? <Check className="h-3.5 w-3.5 text-green-500" /> : <Copy className="h-3.5 w-3.5" />}
+                  {copied ? <Check className="h-3.5 w-3.5 text-neutral-500" /> : <Copy className="h-3.5 w-3.5" />}
                 </button>
               </div>
             </motion.div>

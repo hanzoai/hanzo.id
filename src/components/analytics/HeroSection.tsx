@@ -81,9 +81,9 @@ const HeroSection = () => {
                 <span className="text-[var(--white)] font-medium">Hanzo Analytics Dashboard</span>
               </div>
               <div className="flex space-x-1">
-                <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                <div className="w-3 h-3 rounded-full bg-neutral-500"></div>
                 <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                <div className="w-3 h-3 rounded-full bg-neutral-500"></div>
               </div>
             </div>
             <div className="grid grid-cols-3 gap-4">
@@ -127,7 +127,7 @@ const HeroSection = () => {
                   >
                     127,543
                   </motion.div>
-                  <div className="text-green-400 text-xs mt-1">+12.4% vs last week</div>
+                  <div className="text-neutral-400 text-xs mt-1">+12.4% vs last week</div>
                 </div>
                 <div className="bg-gray-800/50 rounded-lg p-4 h-[30%]">
                   <div className="text-sm text-neutral-400">Conversion Rate</div>
@@ -139,7 +139,7 @@ const HeroSection = () => {
                   >
                     4.87%
                   </motion.div>
-                  <div className="text-green-400 text-xs mt-1">+0.8% vs last week</div>
+                  <div className="text-neutral-400 text-xs mt-1">+0.8% vs last week</div>
                 </div>
                 <div className="bg-gray-800/50 rounded-lg p-4 h-[30%]">
                   <div className="text-sm text-neutral-400">Revenue</div>
@@ -151,7 +151,7 @@ const HeroSection = () => {
                   >
                     $45,892
                   </motion.div>
-                  <div className="text-green-400 text-xs mt-1">+15.2% vs last week</div>
+                  <div className="text-neutral-400 text-xs mt-1">+15.2% vs last week</div>
                 </div>
               </div>
             </div>

@@ -53,9 +53,9 @@ const Scaling = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-gradient-to-br from-blue-900/20 to-transparent rounded-xl border border-blue-500/20 p-6"
+            className="bg-gradient-to-br from-neutral-900/20 to-transparent rounded-xl border border-neutral-500/20 p-6"
           >
-            <Users className="h-8 w-8 text-blue-400 mb-4" />
+            <Users className="h-8 w-8 text-neutral-400 mb-4" />
             <h3 className="text-xl font-semibold text-[var(--white)] mb-2">Concurrent Connections</h3>
             <p className="text-neutral-300">
               Support millions of simultaneous client connections with automatic
@@ -68,7 +68,7 @@ const Scaling = () => {
                 <span className="text-[var(--white)] font-medium">Millions+</span>
               </div>
               <div className="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
-                <div className="bg-blue-500 h-full rounded-full" style={{ width: "95%" }}></div>
+                <div className="bg-neutral-500 h-full rounded-full" style={{ width: "95%" }}></div>
               </div>
             </div>
           </motion.div>
@@ -115,7 +115,7 @@ const Scaling = () => {
           </div>
           
           <div className="bg-[var(--black)]/40 rounded-lg border border-gray-800 p-4 flex items-center">
-            <Cpu className="h-8 w-8 text-blue-400 mr-4" />
+            <Cpu className="h-8 w-8 text-neutral-400 mr-4" />
             <div>
               <h4 className="text-[var(--white)] font-medium">High Availability</h4>
               <p className="text-neutral-400 text-sm">99.99% uptime SLA guarantee</p>

@@ -22,7 +22,7 @@ const AIFeatureList = () => {
       delay: 0.1
     },
     {
-      icon: <Zap className="h-10 w-10 text-blue-400" />,
+      icon: <Zap className="h-10 w-10 text-neutral-400" />,
       title: "Deep integration with Hanzo Cloud and Base",
       description: "Seamlessly connect your analytics with your entire infrastructure for comprehensive visibility.",
       delay: 0.2

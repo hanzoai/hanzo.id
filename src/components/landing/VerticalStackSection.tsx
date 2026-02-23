@@ -165,7 +165,7 @@ const VerticalStackSection = () => {
           {/* Bottom endpoint */}
           <motion.div
             className="absolute left-1/2 -translate-x-1/2 -bottom-4 w-4 h-4 rounded-full z-20"
-            style={{ backgroundColor: BRAND_COLOR }}
+            style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}
             viewport={{ once: true }}

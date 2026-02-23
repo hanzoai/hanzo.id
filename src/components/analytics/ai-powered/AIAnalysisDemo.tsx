@@ -66,7 +66,7 @@ const AIAnalysisDemo = () => {
                 
                 {/* Anomaly detection popup */}
                 <motion.div
-                  className="absolute top-4 right-8 bg-red-900/80 text-[var(--white)] text-xs rounded px-3 py-2 border border-red-700"
+                  className="absolute top-4 right-8 bg-neutral-900/80 text-[var(--white)] text-xs rounded px-3 py-2 border border-neutral-700"
                   initial={{ opacity: 0, y: -10 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
@@ -91,15 +91,15 @@ const AIAnalysisDemo = () => {
                 className="space-y-3"
               >
                 <div className="text-sm">
-                  <div className="font-medium text-red-400">Traffic Anomaly</div>
+                  <div className="font-medium text-neutral-400">Traffic Anomaly</div>
                   <div className="text-neutral-400">Unusual spike detected at 14:32 UTC</div>
                 </div>
                 <div className="text-sm">
-                  <div className="font-medium text-green-400">Conversion Opportunity</div>
+                  <div className="font-medium text-neutral-400">Conversion Opportunity</div>
                   <div className="text-neutral-400">Checkout abandonment 23% higher on mobile</div>
                 </div>
                 <div className="text-sm">
-                  <div className="font-medium text-blue-400">Performance Alert</div>
+                  <div className="font-medium text-neutral-400">Performance Alert</div>
                   <div className="text-neutral-400">API latency increased by 150ms</div>
                 </div>
               </motion.div>

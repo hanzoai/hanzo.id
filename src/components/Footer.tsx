@@ -229,9 +229,9 @@ const Footer = () => {
                 <button
                   type="submit"
                   className="absolute right-2 top-1/2 -translate-y-1/2 w-6 h-6 rounded flex items-center justify-center transition-colors hover:opacity-80"
-                  style={{ backgroundColor: BRAND_COLOR }}
+                  style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
                 >
-                  <Send className="w-3 h-3 text-white" />
+                  <Send className="w-3 h-3 text-black" />
                 </button>
               </div>
 

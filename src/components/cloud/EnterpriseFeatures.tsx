@@ -8,7 +8,7 @@ const EnterpriseFeatures = () => {
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-grid-white/5 bg-[size:30px_30px]" />
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl" />
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl" />
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-neutral-500/10 rounded-full blur-3xl" />
       </div>
       
       <div className="max-w-7xl mx-auto relative z-10">
@@ -23,22 +23,22 @@ const EnterpriseFeatures = () => {
             <div className="rounded-lg bg-gradient-to-br from-gray-900 to-black border border-gray-800 overflow-hidden shadow-2xl">
               <div className="bg-gray-800 py-2 px-4 flex items-center justify-between">
                 <div className="flex items-center space-x-2">
-                  <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                  <div className="w-3 h-3 rounded-full bg-neutral-500"></div>
                   <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                  <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                  <div className="w-3 h-3 rounded-full bg-neutral-500"></div>
                 </div>
                 <div className="text-neutral-400 text-sm">infrastructure.log</div>
               </div>
               <div className="p-4 font-mono text-sm text-neutral-300 max-h-[400px] overflow-y-auto">
                 <div className="text-neutral-500"># Hanzo Infrastructure Log</div>
-                <div className="text-green-400">[INFO] Sydney region: 12 new CPU machines online</div>
+                <div className="text-neutral-400">[INFO] Sydney region: 12 new CPU machines online</div>
                 <div className="text-purple-400">[SCALING] Tokyo region: GPU cluster expanding</div>
-                <div className="text-blue-400">[NETWORK] Frankfurt: New 100Gbps uplink active</div>
+                <div className="text-neutral-400">[NETWORK] Frankfurt: New 100Gbps uplink active</div>
                 <div className="text-yellow-400">[UPDATE] Global: System update scheduled for May 15</div>
-                <div className="text-green-400">[INFO] Amsterdam: Storage cluster expansion complete</div>
+                <div className="text-neutral-400">[INFO] Amsterdam: Storage cluster expansion complete</div>
                 <div className="text-purple-400">[SCALING] São Paulo: 8 new CPU machines online</div>
-                <div className="text-blue-400">[NETWORK] New York: DDoS protection enhanced</div>
-                <div className="text-green-400">[INFO] Singapore: New edge region now available</div>
+                <div className="text-neutral-400">[NETWORK] New York: DDoS protection enhanced</div>
+                <div className="text-neutral-400">[INFO] Singapore: New edge region now available</div>
                 <div className="text-yellow-400">[UPDATE] Global: Network routes optimized</div>
               </div>
             </div>
@@ -56,7 +56,7 @@ const EnterpriseFeatures = () => {
               initial={{ opacity: 0.9 }}
               whileHover={{ opacity: 1, scale: 1.02 }}
               transition={{ duration: 0.2 }}
-              className="inline-block px-6 py-3 rounded-lg bg-gradient-to-r from-purple-600 to-blue-600 text-[var(--white)] font-medium hover:shadow-lg hover:shadow-purple-500/20 transition-all"
+              className="inline-block px-6 py-3 rounded-lg bg-gradient-to-r from-purple-600 to-neutral-600 text-[var(--white)] font-medium hover:shadow-lg hover:shadow-purple-500/20 transition-all"
             >
               Learn More
             </motion.a>

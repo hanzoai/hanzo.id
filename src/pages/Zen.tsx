@@ -217,9 +217,9 @@ const Zen = () => {
                 <div className="rounded-xl border border-neutral-700 bg-neutral-900/95 backdrop-blur-sm overflow-hidden shadow-2xl">
                   <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-950">
                     <div className="flex gap-1.5">
-                      <div className="w-3 h-3 rounded-full bg-red-500/80" />
+                      <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
                       <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-                      <div className="w-3 h-3 rounded-full bg-green-500/80" />
+                      <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
                     </div>
                     <span className="text-xs text-neutral-500 font-mono ml-2">zen-models</span>
                   </div>

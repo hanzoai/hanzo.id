@@ -11,7 +11,7 @@ export const AgencyCard = ({ onCardClick }: AgencyCardProps) => {
       href="https://hanzo.agency" 
       target="_blank" 
       rel="noopener noreferrer"
-      className="block rounded-xl bg-gradient-to-b from-purple-900/50 to-blue-900/50 border border-purple-500/20 cursor-pointer hover:border-purple-500/40 transition-colors p-4 h-[200px] flex flex-col justify-between"
+      className="block rounded-xl bg-gradient-to-b from-purple-900/50 to-neutral-900/50 border border-purple-500/20 cursor-pointer hover:border-purple-500/40 transition-colors p-4 h-[200px] flex flex-col justify-between"
       onClick={onCardClick}
     >
       <div>

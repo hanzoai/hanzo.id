@@ -94,7 +94,7 @@ const HeroSection = () => {
               <Button
                 type="submit"
                 className="absolute right-2 px-5 py-2 rounded-lg text-sm font-medium flex items-center gap-2"
-                style={{ backgroundColor: BRAND_COLOR }}
+                style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
               >
                 Ask Hanzo
                 <ArrowUp className="w-4 h-4" />
@@ -175,8 +175,8 @@ const HeroSection = () => {
                     <Link to="/dev">
                       <Button
                         size="sm"
-                        className="text-white"
-                        style={{ backgroundColor: BRAND_COLOR }}
+                        className="text-black"
+                        style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
                       >
                         Learn more
                       </Button>

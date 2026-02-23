@@ -15,7 +15,7 @@ import {
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const BRAND_COLOR = "#10b981"; // Green for status page
+const BRAND_COLOR = "#ffffff";
 
 const services = [
   { name: "API Gateway", status: "operational", uptime: "99.99%", latency: "45ms" },
@@ -70,7 +70,7 @@ const StatusPage = () => {
                 transition={{ duration: 0.4 }}
                 className={`inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium mb-6 ${
                   allOperational
-                    ? "bg-green-500/20 text-green-400"
+                    ? "bg-neutral-500/20 text-neutral-400"
                     : "bg-yellow-500/20 text-yellow-400"
                 }`}
               >
@@ -105,7 +105,7 @@ const StatusPage = () => {
                 transition={{ duration: 0.4, delay: 0.15 }}
                 className="flex flex-wrap items-center justify-center gap-4"
               >
-                <button className="inline-flex items-center px-6 py-3 rounded-full font-medium transition-all text-sm bg-green-500/20 text-green-400 border border-green-500/30 hover:bg-green-500/30">
+                <button className="inline-flex items-center px-6 py-3 rounded-full font-medium transition-all text-sm bg-neutral-500/20 text-neutral-400 border border-neutral-500/30 hover:bg-neutral-500/30">
                   <Bell className="w-4 h-4 mr-2" />
                   Subscribe to Updates
                 </button>
@@ -164,8 +164,8 @@ const StatusPage = () => {
                         {service.uptime} uptime
                       </span>
                       <div className="flex items-center gap-2">
-                        <CheckCircle className="h-4 w-4 text-green-500" />
-                        <span className="text-sm text-green-400">Operational</span>
+                        <CheckCircle className="h-4 w-4 text-neutral-500" />
+                        <span className="text-sm text-neutral-400">Operational</span>
                       </div>
                     </div>
                   </motion.div>
@@ -205,8 +205,8 @@ const StatusPage = () => {
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-neutral-500 font-mono">{region.code}</span>
                     <div className="flex items-center gap-2">
-                      <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                      <span className="text-xs text-green-400">Active</span>
+                      <div className="w-2 h-2 rounded-full bg-neutral-500 animate-pulse" />
+                      <span className="text-xs text-neutral-400">Active</span>
                     </div>
                   </div>
                 </motion.div>
@@ -234,7 +234,7 @@ const StatusPage = () => {
               viewport={{ once: true }}
               className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-8 text-center"
             >
-              <Activity className="h-12 w-12 text-green-500 mx-auto mb-4" />
+              <Activity className="h-12 w-12 text-neutral-500 mx-auto mb-4" />
               <h3 className="text-lg font-medium text-white mb-2">No Recent Incidents</h3>
               <p className="text-neutral-400">
                 All systems have been operating normally for the past 90 days.
@@ -245,8 +245,8 @@ const StatusPage = () => {
 
         {/* CTA Section */}
         <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-neutral-900/30 to-black relative overflow-hidden">
-          <div className="absolute -top-40 -right-40 w-80 h-80 bg-green-500/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-green-500/5 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-neutral-500/10 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-neutral-500/5 rounded-full blur-3xl pointer-events-none" />
 
           <div className="max-w-4xl mx-auto text-center relative z-10">
             <motion.h2
@@ -277,7 +277,7 @@ const StatusPage = () => {
             >
               <Link
                 to="/contact"
-                className="inline-flex items-center px-8 py-4 rounded-full font-medium transition-all hover:opacity-90 text-base bg-green-500 text-white"
+                className="inline-flex items-center px-8 py-4 rounded-full font-medium transition-all hover:opacity-90 text-base bg-neutral-500 text-white"
               >
                 Contact Support
                 <ArrowRight className="ml-2 h-5 w-5" />

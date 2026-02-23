@@ -92,7 +92,7 @@ const Contact = () => {
             
             {/* Contact Information */}
             <div className="flex flex-col">
-              <div className="bg-gradient-to-br from-purple-900/30 to-blue-900/30 rounded-xl p-8 border border-purple-500/20 mb-8">
+              <div className="bg-gradient-to-br from-purple-900/30 to-neutral-900/30 rounded-xl p-8 border border-purple-500/20 mb-8">
                 <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
                 <div className="space-y-6">
                   <div className="flex items-start">

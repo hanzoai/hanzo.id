@@ -72,7 +72,7 @@ const NotFound = () => {
               <Link
                 to="/"
                 className="inline-flex items-center px-6 py-3 rounded-full font-medium transition-all hover:opacity-90 text-sm"
-                style={{ backgroundColor: BRAND_COLOR, color: "#ffffff" }}
+                style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
               >
                 <Home className="w-4 h-4 mr-2" />
                 Go to Homepage

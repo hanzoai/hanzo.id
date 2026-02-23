@@ -31,7 +31,7 @@ const PhilosophyItem: React.FC<PhilosophyItemProps> = ({ icon, title, descriptio
 const PhilosophySection: React.FC = () => {
   const items = [
     {
-      icon: <Shield className="h-8 w-8 text-blue-400" />,
+      icon: <Shield className="h-8 w-8 text-neutral-400" />,
       title: "Developer-First",
       description: "Built by developers for developers, with a focus on exceptional DX and intuitive APIs."
     },

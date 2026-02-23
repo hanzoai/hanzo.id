@@ -83,10 +83,10 @@ const RepoCard: React.FC<RepoCardProps> = ({ repo, view }) => {
   const getBadgeVariant = (type: string) => {
     switch (type) {
       case 'featured': return 'bg-[#ffffff]/10 text-[#ffffff] border-[#ffffff]/30';
-      case 'recommended': return 'bg-blue-500/10 text-blue-400 border-blue-500/30';
+      case 'recommended': return 'bg-neutral-500/10 text-neutral-400 border-neutral-500/30';
       case 'experimental': return 'bg-orange-500/10 text-orange-400 border-orange-500/30';
-      case 'stable': return 'bg-green-500/10 text-green-400 border-green-500/30';
-      case 'active': return 'bg-blue-500/10 text-blue-400 border-blue-500/30';
+      case 'stable': return 'bg-neutral-500/10 text-neutral-400 border-neutral-500/30';
+      case 'active': return 'bg-neutral-500/10 text-neutral-400 border-neutral-500/30';
       default: return 'bg-neutral-800 text-neutral-400 border-neutral-700';
     }
   };
@@ -204,7 +204,7 @@ const RepoCard: React.FC<RepoCardProps> = ({ repo, view }) => {
           </Badge>
         ))}
         {repo.signals.deployable && (
-          <Badge variant="outline" className="text-xs bg-green-500/10 text-green-400 border-green-500/30">
+          <Badge variant="outline" className="text-xs bg-neutral-500/10 text-neutral-400 border-neutral-500/30">
             Deployable
           </Badge>
         )}

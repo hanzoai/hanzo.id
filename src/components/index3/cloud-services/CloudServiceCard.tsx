@@ -25,16 +25,16 @@ const getColorClasses = (color: string = "purple", isHovered: boolean) => {
       hoverText: "text-purple-300" 
     },
     blue: { 
-      bg: "bg-blue-900/30", 
-      hoverBg: "bg-blue-600/30", 
-      text: "text-blue-400", 
-      hoverText: "text-blue-300" 
+      bg: "bg-neutral-900/30", 
+      hoverBg: "bg-neutral-600/30", 
+      text: "text-neutral-400", 
+      hoverText: "text-neutral-300" 
     },
     green: { 
-      bg: "bg-green-900/30", 
-      hoverBg: "bg-green-600/30", 
-      text: "text-green-400", 
-      hoverText: "text-green-300" 
+      bg: "bg-neutral-900/30", 
+      hoverBg: "bg-neutral-600/30", 
+      text: "text-neutral-400", 
+      hoverText: "text-neutral-300" 
     },
     teal: { 
       bg: "bg-teal-900/30", 

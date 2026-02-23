@@ -27,7 +27,7 @@ const HanzoDev = () => {
 
   return (
     <section ref={containerRef} className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-purple-900/20 to-blue-900/20 opacity-30"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-purple-900/20 to-neutral-900/20 opacity-30"></div>
       <div className="max-w-5xl mx-auto relative z-10">
         <motion.div 
           className="text-center"

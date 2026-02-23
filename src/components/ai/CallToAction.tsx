@@ -10,7 +10,7 @@ const CallToAction = () => {
       {/* Background elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute top-0 left-0 w-2/3 h-1/2 bg-purple-900/5 rounded-full blur-3xl transform -translate-x-1/4 -translate-y-1/4"></div>
-        <div className="absolute bottom-0 right-0 w-full h-1/2 bg-blue-900/5 rounded-full blur-3xl transform translate-x-1/4 translate-y-1/4"></div>
+        <div className="absolute bottom-0 right-0 w-full h-1/2 bg-neutral-900/5 rounded-full blur-3xl transform translate-x-1/4 translate-y-1/4"></div>
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
@@ -102,7 +102,7 @@ const CallToAction = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-20 border border-gray-800 rounded-xl p-6 bg-gradient-to-r from-purple-900/10 to-blue-900/10"
+          className="mt-20 border border-gray-800 rounded-xl p-6 bg-gradient-to-r from-purple-900/10 to-neutral-900/10"
         >
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="mb-6 md:mb-0">

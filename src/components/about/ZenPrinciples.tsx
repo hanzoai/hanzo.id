@@ -16,12 +16,12 @@ const principles = [
   {
     title: "Data-Driven Everything",
     description: "Let data be your guide. Embrace analytics and AI as the foundation of decision-making.",
-    icon: <Database className="h-10 w-10 text-blue-400" />,
+    icon: <Database className="h-10 w-10 text-neutral-400" />,
   },
   {
     title: "Open Innovation",
     description: "Be open, share often. Openness accelerates growth—both for the company and its community.",
-    icon: <Share2 className="h-10 w-10 text-green-400" />,
+    icon: <Share2 className="h-10 w-10 text-neutral-400" />,
   },
   {
     title: "Adaptability",
@@ -31,7 +31,7 @@ const principles = [
   {
     title: "Customer-Centric Growth",
     description: "Coach clients like a sensei. Treat each client as a long-term partner and guide them to success.",
-    icon: <Heart className="h-10 w-10 text-red-400" />,
+    icon: <Heart className="h-10 w-10 text-neutral-400" />,
   },
   {
     title: "First Principles Thinking",

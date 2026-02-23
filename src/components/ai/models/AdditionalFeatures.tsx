@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const AdditionalFeatures = () => {
   return (
-    <div className="bg-gradient-to-r from-purple-900/20 to-blue-900/20 rounded-2xl p-8 border border-purple-500/30 mt-12">
+    <div className="bg-gradient-to-r from-purple-900/20 to-neutral-900/20 rounded-2xl p-8 border border-purple-500/30 mt-12">
       <h3 className="text-2xl font-bold text-[var(--white)] mb-4">Single API for Everything</h3>
       <p className="text-lg text-neutral-300 mb-8">
         Our unified API provides seamless access to all AI capabilities through a consistent, developer-friendly interface

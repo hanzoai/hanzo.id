@@ -104,7 +104,7 @@ const PurchaseCredits = () => {
                   <Label htmlFor="card">Payment Method</Label>
                   <div className="p-4 border-0 rounded-lg bg-gray-900/20 flex items-center">
                     <div className="h-10 w-14 bg-gray-900/50 rounded flex items-center justify-center mr-4">
-                      <div className="text-blue-500 font-bold text-xs">VISA</div>
+                      <div className="text-neutral-500 font-bold text-xs">VISA</div>
                     </div>
                     <div>
                       <div className="font-medium">

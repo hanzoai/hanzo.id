@@ -114,7 +114,7 @@ const AccountLayout = ({ children }: { children?: React.ReactNode }) => {
                   
                   <Button 
                     variant="ghost" 
-                    className="w-full justify-start text-red-400 hover:text-red-300 hover:bg-red-900/10 mt-6 p-3"
+                    className="w-full justify-start text-neutral-400 hover:text-neutral-300 hover:bg-neutral-900/10 mt-6 p-3"
                   >
                     <LogOut className="w-5 h-5 mr-3" />
                     Sign Out

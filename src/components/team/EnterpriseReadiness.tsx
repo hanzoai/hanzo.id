@@ -16,32 +16,32 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card";
 const EnterpriseReadiness = () => {
   const enterpriseFeatures = [
     {
-      icon: <Building className="h-8 w-8 text-blue-400" />,
+      icon: <Building className="h-8 w-8 text-neutral-400" />,
       title: "Custom Deployment",
       description: "On-premises, private cloud, or hybrid deployment options to meet your specific security and compliance requirements."
     },
     {
-      icon: <Users className="h-8 w-8 text-blue-400" />,
+      icon: <Users className="h-8 w-8 text-neutral-400" />,
       title: "Team Management",
       description: "Comprehensive tools for managing teams, permissions, and access controls across your organization."
     },
     {
-      icon: <ShieldCheck className="h-8 w-8 text-blue-400" />,
+      icon: <ShieldCheck className="h-8 w-8 text-neutral-400" />,
       title: "Data Sovereignty",
       description: "Control where your data is stored and processed to meet regional compliance requirements."
     },
     {
-      icon: <BadgeCheck className="h-8 w-8 text-blue-400" />,
+      icon: <BadgeCheck className="h-8 w-8 text-neutral-400" />,
       title: "Custom AI Training",
       description: "Train AI agents on your proprietary data and workflows for specialized domain expertise."
     },
     {
-      icon: <Clock className="h-8 w-8 text-blue-400" />,
+      icon: <Clock className="h-8 w-8 text-neutral-400" />,
       title: "24/7 Support",
       description: "Round-the-clock dedicated support team and guaranteed response times for critical issues."
     },
     {
-      icon: <Briefcase className="h-8 w-8 text-blue-400" />,
+      icon: <Briefcase className="h-8 w-8 text-neutral-400" />,
       title: "Implementation Services",
       description: "Professional services for seamless integration, migration, and onboarding with your existing systems."
     }
@@ -57,7 +57,7 @@ const EnterpriseReadiness = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <div className="inline-flex p-2 rounded-full bg-blue-900/20 border border-blue-500/20 text-blue-400 mb-4">
+          <div className="inline-flex p-2 rounded-full bg-neutral-900/20 border border-neutral-500/20 text-neutral-400 mb-4">
             <Briefcase className="h-6 w-6" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -78,9 +78,9 @@ const EnterpriseReadiness = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Card className="h-full bg-[var(--black)]/40 border border-blue-500/20 backdrop-blur-sm">
+              <Card className="h-full bg-[var(--black)]/40 border border-neutral-500/20 backdrop-blur-sm">
                 <CardHeader className="pb-2">
-                  <div className="bg-blue-900/20 p-3 rounded-lg inline-flex mb-4">
+                  <div className="bg-neutral-900/20 p-3 rounded-lg inline-flex mb-4">
                     {feature.icon}
                   </div>
                   <h3 className="text-xl font-semibold">{feature.title}</h3>
@@ -98,7 +98,7 @@ const EnterpriseReadiness = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="bg-blue-900/10 border border-blue-500/20 rounded-xl p-8 text-center"
+          className="bg-neutral-900/10 border border-neutral-500/20 rounded-xl p-8 text-center"
         >
           <h3 className="text-2xl font-bold mb-4">Ready to equip your enterprise?</h3>
           <p className="text-neutral-300 max-w-2xl mx-auto mb-8">
@@ -106,7 +106,7 @@ const EnterpriseReadiness = () => {
           </p>
           <Button 
             size="lg"
-            className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700"
+            className="bg-gradient-to-r from-neutral-600 to-indigo-600 hover:from-neutral-700 hover:to-indigo-700"
           >
             Contact Enterprise Sales
             <ArrowRight className="ml-2 h-4 w-4" />

@@ -8,9 +8,9 @@ const HeroSection = () => {
   return (
     <section className="pt-36 pb-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       {/* Background elements */}
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/10 to-blue-900/10 opacity-30"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/10 to-neutral-900/10 opacity-30"></div>
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/5 rounded-full blur-3xl"></div>
-      <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl"></div>
+      <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-neutral-500/5 rounded-full blur-3xl"></div>
       
       <div className="max-w-5xl mx-auto relative z-10">
         <motion.div
@@ -71,7 +71,7 @@ const HeroSection = () => {
         
         <div className="bg-black/30 border border-white/10 rounded-xl p-6 mx-auto max-w-4xl backdrop-blur-sm">
           <code className="text-sm text-neutral-300 block overflow-x-auto">
-            <span className="text-purple-400">npm</span> <span className="text-blue-400">install</span> @shadcn/ui <span className="text-green-400">--force</span>
+            <span className="text-purple-400">npm</span> <span className="text-neutral-400">install</span> @shadcn/ui <span className="text-neutral-400">--force</span>
           </code>
         </div>
       </div>

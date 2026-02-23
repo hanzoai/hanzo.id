@@ -24,7 +24,7 @@ const aiCloudFeatures: Feature[] = [
     title: "Vector Engine",
     description: "High-performance vector database for semantic search, RAG applications, and AI-powered information retrieval.",
     icon: Database,
-    color: "bg-gradient-to-br from-blue-600 to-blue-800",
+    color: "bg-gradient-to-br from-neutral-600 to-neutral-800",
     link: "/vector",
     category: "ai-cloud"
   },
@@ -56,7 +56,7 @@ const aiCloudFeatures: Feature[] = [
     title: "Observability",
     description: "Full visibility into your AI systems with comprehensive logging, monitoring, and analytics tools.",
     icon: Eye,
-    color: "bg-gradient-to-br from-cyan-600 to-blue-700",
+    color: "bg-gradient-to-br from-cyan-600 to-neutral-700",
     link: "/observability",
     category: "ai-cloud"
   }
@@ -68,7 +68,7 @@ const dxPlatformFeatures: Feature[] = [
     title: "Code",
     description: "AI-powered code editor with pair programming capabilities that understands your codebase and helps you write better code.",
     icon: Code2,
-    color: "bg-gradient-to-br from-emerald-600 to-green-700",
+    color: "bg-gradient-to-br from-emerald-600 to-neutral-700",
     link: "/hanzocode",
     category: "dx-platform"
   },
@@ -76,7 +76,7 @@ const dxPlatformFeatures: Feature[] = [
     title: "App",
     description: "Visual AI application builder with drag-and-drop workflows to create sophisticated AI experiences without code.",
     icon: Monitor,
-    color: "bg-gradient-to-br from-blue-600 to-indigo-700",
+    color: "bg-gradient-to-br from-neutral-600 to-indigo-700",
     link: "/app",
     category: "dx-platform"
   },
@@ -100,7 +100,7 @@ const dxPlatformFeatures: Feature[] = [
     title: "Operative",
     description: "Framework for AI to operate computers like humans, enabling automation of complex workflows and tasks.",
     icon: Workflow,
-    color: "bg-gradient-to-br from-rose-600 to-red-700",
+    color: "bg-gradient-to-br from-rose-600 to-neutral-700",
     link: "/operative",
     category: "dx-platform"
   },
@@ -119,7 +119,7 @@ const explorePlatform: Feature = {
   title: "Explore Platform",
   description: "Discover the full potential of the Hanzo AI platform and how it can transform your development workflow.",
   icon: ArrowRight,
-  color: "bg-gradient-to-r from-purple-600 to-blue-600",
+  color: "bg-gradient-to-r from-purple-600 to-neutral-600",
   link: "/platform"
 };
 

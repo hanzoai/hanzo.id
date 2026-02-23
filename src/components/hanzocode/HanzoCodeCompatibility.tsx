@@ -32,35 +32,35 @@ const HanzoCodeCompatibility = () => {
             
             <ul className="space-y-4">
               <li className="flex items-start">
-                <Check className="h-6 w-6 text-green-400 mr-3 mt-1 flex-shrink-0" />
+                <Check className="h-6 w-6 text-neutral-400 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <span className="font-semibold text-[var(--white)]">VS Code:</span>
                   <span className="text-neutral-300 ml-2">Native integration with full feature support</span>
                 </div>
               </li>
               <li className="flex items-start">
-                <Check className="h-6 w-6 text-green-400 mr-3 mt-1 flex-shrink-0" />
+                <Check className="h-6 w-6 text-neutral-400 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <span className="font-semibold text-[var(--white)]">Cursor:</span>
                   <span className="text-neutral-300 ml-2">Augment Cursor's AI capabilities with Hanzo's advanced agentic features</span>
                 </div>
               </li>
               <li className="flex items-start">
-                <Check className="h-6 w-6 text-green-400 mr-3 mt-1 flex-shrink-0" />
+                <Check className="h-6 w-6 text-neutral-400 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <span className="font-semibold text-[var(--white)]">Windsurf:</span>
                   <span className="text-neutral-300 ml-2">Add Hanzo's intelligence layer on top of Windsurf's editor experience</span>
                 </div>
               </li>
               <li className="flex items-start">
-                <Check className="h-6 w-6 text-green-400 mr-3 mt-1 flex-shrink-0" />
+                <Check className="h-6 w-6 text-neutral-400 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <span className="font-semibold text-[var(--white)]">Void:</span>
                   <span className="text-neutral-300 ml-2">Perfect complement to Void's streamlined experience</span>
                 </div>
               </li>
               <li className="flex items-start">
-                <Check className="h-6 w-6 text-green-400 mr-3 mt-1 flex-shrink-0" />
+                <Check className="h-6 w-6 text-neutral-400 mr-3 mt-1 flex-shrink-0" />
                 <div>
                   <span className="font-semibold text-[var(--white)]">Any VS Code-compatible editor:</span>
                   <span className="text-neutral-300 ml-2">If it supports VS Code extensions, it supports Hanzo Code</span>

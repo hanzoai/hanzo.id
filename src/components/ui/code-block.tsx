@@ -18,11 +18,11 @@ const highlightCode = (code: string, language: string): React.ReactNode[] => {
       patterns.push(
         { regex: /^(import|export|from|const|let|var|function|async|await|return|new|if|else|for|while|class|extends|implements|interface|type)\b/, className: 'text-purple-400' },
         { regex: /^(true|false|null|undefined)\b/, className: 'text-orange-400' },
-        { regex: /^"[^"]*"|^'[^']*'|^`[^`]*`/, className: 'text-green-400' },
+        { regex: /^"[^"]*"|^'[^']*'|^`[^`]*`/, className: 'text-neutral-400' },
         { regex: /^\d+\.?\d*/, className: 'text-orange-400' },
         { regex: /^\/\/.*$/, className: 'text-neutral-500 italic' },
         { regex: /^(process|console|window|document)\b/, className: 'text-cyan-400' },
-        { regex: /^\.[a-zA-Z_]\w*/, className: 'text-blue-400' },
+        { regex: /^\.[a-zA-Z_]\w*/, className: 'text-neutral-400' },
         { regex: /^[A-Z][a-zA-Z0-9]*/, className: 'text-yellow-400' },
         { regex: /^(env|HANZO_API_KEY)\b/, className: 'text-cyan-400' },
       );
@@ -30,8 +30,8 @@ const highlightCode = (code: string, language: string): React.ReactNode[] => {
       patterns.push(
         { regex: /^(import|from|as|def|class|return|if|elif|else|for|while|with|async|await|try|except|finally|raise|pass|break|continue|and|or|not|in|is)\b/, className: 'text-purple-400' },
         { regex: /^(True|False|None)\b/, className: 'text-orange-400' },
-        { regex: /^"[^"]*"|^'[^']*'|^"""[\s\S]*?"""|^'''[\s\S]*?'''/, className: 'text-green-400' },
-        { regex: /^f"[^"]*"|^f'[^']*'/, className: 'text-green-400' },
+        { regex: /^"[^"]*"|^'[^']*'|^"""[\s\S]*?"""|^'''[\s\S]*?'''/, className: 'text-neutral-400' },
+        { regex: /^f"[^"]*"|^f'[^']*'/, className: 'text-neutral-400' },
         { regex: /^\d+\.?\d*/, className: 'text-orange-400' },
         { regex: /^#.*$/, className: 'text-neutral-500 italic' },
         { regex: /^(os|sys|print|open|len|range|str|int|float|list|dict|set)\b/, className: 'text-cyan-400' },
@@ -41,7 +41,7 @@ const highlightCode = (code: string, language: string): React.ReactNode[] => {
       patterns.push(
         { regex: /^(package|import|func|return|if|else|for|range|switch|case|default|type|struct|interface|var|const|map|chan|go|defer|select)\b/, className: 'text-purple-400' },
         { regex: /^(true|false|nil)\b/, className: 'text-orange-400' },
-        { regex: /^"[^"]*"|^`[^`]*`/, className: 'text-green-400' },
+        { regex: /^"[^"]*"|^`[^`]*`/, className: 'text-neutral-400' },
         { regex: /^\d+\.?\d*/, className: 'text-orange-400' },
         { regex: /^\/\/.*$/, className: 'text-neutral-500 italic' },
         { regex: /^(fmt|os|context|http|json|string|int|error|bool)\b/, className: 'text-cyan-400' },
@@ -51,16 +51,16 @@ const highlightCode = (code: string, language: string): React.ReactNode[] => {
       patterns.push(
         { regex: /^\$\s*/, className: 'text-neutral-500' },
         { regex: /^(curl|sh|npm|npx|pip|go|cargo|hanzo|dev)\b/, className: 'text-purple-400' },
-        { regex: /^"[^"]*"|^'[^']*'/, className: 'text-green-400' },
+        { regex: /^"[^"]*"|^'[^']*'/, className: 'text-neutral-400' },
         { regex: /^#.*$/, className: 'text-neutral-500 italic' },
         { regex: /^-[a-zA-Z]+/, className: 'text-cyan-400' },
-        { regex: /^https?:\/\/[^\s]+/, className: 'text-blue-400' },
+        { regex: /^https?:\/\/[^\s]+/, className: 'text-neutral-400' },
       );
     } else if (language === 'rust') {
       patterns.push(
         { regex: /^(use|mod|fn|let|mut|const|pub|impl|struct|enum|trait|where|async|await|return|if|else|for|while|loop|match|self|Self|crate|super)\b/, className: 'text-purple-400' },
         { regex: /^(true|false|None|Some|Ok|Err)\b/, className: 'text-orange-400' },
-        { regex: /^"[^"]*"/, className: 'text-green-400' },
+        { regex: /^"[^"]*"/, className: 'text-neutral-400' },
         { regex: /^\d+\.?\d*/, className: 'text-orange-400' },
         { regex: /^\/\/.*$/, className: 'text-neutral-500 italic' },
         { regex: /^(String|Vec|Option|Result|Box|Rc|Arc|i32|i64|u32|u64|f32|f64|bool|str)\b/, className: 'text-cyan-400' },
@@ -147,7 +147,7 @@ export const CodeBlock = ({ code, language, showLineNumbers = false, className }
           title="Copy code"
         >
           {copied ? (
-            <Check className="h-3.5 w-3.5 text-green-500" />
+            <Check className="h-3.5 w-3.5 text-neutral-500" />
           ) : (
             <Copy className="h-3.5 w-3.5 text-neutral-500" />
           )}

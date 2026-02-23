@@ -18,11 +18,11 @@ const UnifiedAISection = () => {
           >
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-full h-full max-w-[400px] max-h-[400px] rounded-2xl border border-purple-500/20 rotate-45 transform-gpu" />
-              <div className="absolute w-[90%] h-[90%] rounded-2xl border border-blue-500/20 rotate-[30deg] transform-gpu" />
+              <div className="absolute w-[90%] h-[90%] rounded-2xl border border-neutral-500/20 rotate-[30deg] transform-gpu" />
               <div className="absolute w-[80%] h-[80%] rounded-2xl border border-cyan-500/20 rotate-[15deg] transform-gpu" />
               
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-2/3 h-2/3 bg-gradient-to-r from-purple-500/10 to-blue-500/10 rounded-xl blur-lg" />
+                <div className="w-2/3 h-2/3 bg-gradient-to-r from-purple-500/10 to-neutral-500/10 rounded-xl blur-lg" />
               </div>
               
               <div className="absolute inset-0 flex flex-col items-center justify-center gap-6 z-10">
@@ -33,8 +33,8 @@ const UnifiedAISection = () => {
                   <span className="text-white">AI Cloud</span>
                 </div>
                 <div className="bg-[#030014]/80 backdrop-blur-sm border border-white/10 rounded-xl p-3 w-full max-w-[300px] flex items-center">
-                  <div className="p-2 rounded-lg bg-blue-500/20 mr-3">
-                    <Code className="h-5 w-5 text-blue-400" />
+                  <div className="p-2 rounded-lg bg-neutral-500/20 mr-3">
+                    <Code className="h-5 w-5 text-neutral-400" />
                   </div>
                   <span className="text-white">Developer Tools</span>
                 </div>
@@ -74,8 +74,8 @@ const UnifiedAISection = () => {
               
               <div>
                 <h3 className="text-xl font-medium text-white mb-2 flex items-center">
-                  <div className="p-1 rounded-lg bg-blue-500/20 mr-2 flex items-center justify-center">
-                    <Layers className="h-4 w-4 text-blue-400" />
+                  <div className="p-1 rounded-lg bg-neutral-500/20 mr-2 flex items-center justify-center">
+                    <Layers className="h-4 w-4 text-neutral-400" />
                   </div>
                   Modular & Open
                 </h3>

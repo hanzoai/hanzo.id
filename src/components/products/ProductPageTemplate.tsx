@@ -141,14 +141,14 @@ const CopyButton = ({ text }: { text: string }) => {
       className="p-2 hover:bg-white/10 rounded transition-colors"
       title="Copy to clipboard"
     >
-      {copied ? <Check className="h-4 w-4 text-green-400" /> : <Copy className="h-4 w-4 text-neutral-400" />}
+      {copied ? <Check className="h-4 w-4 text-neutral-400" /> : <Copy className="h-4 w-4 text-neutral-400" />}
     </button>
   );
 };
 
 const StatusBadge = ({ status }: { status: Product['status'] }) => {
   const variants = {
-    ga: { label: 'GA', className: 'bg-green-500/20 text-green-400 border-green-500/30' },
+    ga: { label: 'GA', className: 'bg-neutral-500/20 text-neutral-400 border-neutral-500/30' },
     beta: { label: 'Beta', className: 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30' },
     alpha: { label: 'Alpha', className: 'bg-orange-500/20 text-orange-400 border-orange-500/30' },
     coming: { label: 'Coming Soon', className: 'bg-neutral-500/20 text-neutral-400 border-neutral-500/30' }
@@ -167,8 +167,8 @@ const PricingBadge = ({ pricing }: { pricing?: Product['pricing'] }) => {
   if (!pricing) return null;
 
   const variants = {
-    free: { label: 'Free', className: 'bg-green-500/20 text-green-400 border-green-500/30' },
-    freemium: { label: 'Free Tier', className: 'bg-blue-500/20 text-blue-400 border-blue-500/30' },
+    free: { label: 'Free', className: 'bg-neutral-500/20 text-neutral-400 border-neutral-500/30' },
+    freemium: { label: 'Free Tier', className: 'bg-neutral-500/20 text-neutral-400 border-neutral-500/30' },
     paid: { label: 'Paid', className: 'bg-purple-500/20 text-purple-400 border-purple-500/30' }
   };
 
@@ -284,7 +284,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
                   </div>
                   <StatusBadge status={product.status} />
                   {product.openSource && (
-                    <Badge variant="outline" className="bg-blue-500/20 text-blue-400 border-blue-500/30">
+                    <Badge variant="outline" className="bg-neutral-500/20 text-neutral-400 border-neutral-500/30">
                       Open Source
                     </Badge>
                   )}
@@ -405,7 +405,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
                       </div>
                       <div className="p-4 font-mono text-sm overflow-x-auto">
                         <span className="text-neutral-500">$</span>{" "}
-                        <span className="text-green-400">{product.install.cli}</span>
+                        <span className="text-neutral-400">{product.install.cli}</span>
                       </div>
                     </div>
                   </TabsContent>
@@ -420,7 +420,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
                       </div>
                       <div className="p-4 font-mono text-sm overflow-x-auto">
                         <span className="text-neutral-500">$</span>{" "}
-                        <span className="text-blue-400">{product.install.docker}</span>
+                        <span className="text-neutral-400">{product.install.docker}</span>
                       </div>
                     </div>
                   </TabsContent>

@@ -30,10 +30,10 @@ const InfrastructureComponents = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="bg-gray-900/60 rounded-xl border border-gray-800 p-6 hover:border-green-500/40 transition-colors"
+            className="bg-gray-900/60 rounded-xl border border-gray-800 p-6 hover:border-neutral-500/40 transition-colors"
           >
             <div className="flex items-center mb-4">
-              <Database className="h-8 w-8 text-green-400 mr-3" />
+              <Database className="h-8 w-8 text-neutral-400 mr-3" />
               <h3 className="text-xl font-semibold text-[var(--white)]">Vector DB</h3>
             </div>
             <p className="text-neutral-300 mb-6">
@@ -55,7 +55,7 @@ const InfrastructureComponents = () => {
             </div>
             <Button 
               size="sm" 
-              className="w-full bg-green-600/70 hover:bg-green-600"
+              className="w-full bg-neutral-600/70 hover:bg-neutral-600"
             >
               <a href="https://github.com/hanzoai/vector-db" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full">
                 <Github className="mr-2 h-4 w-4" /> View Repository
@@ -69,10 +69,10 @@ const InfrastructureComponents = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-gray-900/60 rounded-xl border border-gray-800 p-6 hover:border-green-500/40 transition-colors"
+            className="bg-gray-900/60 rounded-xl border border-gray-800 p-6 hover:border-neutral-500/40 transition-colors"
           >
             <div className="flex items-center mb-4">
-              <Brain className="h-8 w-8 text-green-400 mr-3" />
+              <Brain className="h-8 w-8 text-neutral-400 mr-3" />
               <h3 className="text-xl font-semibold text-[var(--white)]">LLM Runtime</h3>
             </div>
             <p className="text-neutral-300 mb-6">
@@ -94,7 +94,7 @@ const InfrastructureComponents = () => {
             </div>
             <Button 
               size="sm" 
-              className="w-full bg-green-600/70 hover:bg-green-600"
+              className="w-full bg-neutral-600/70 hover:bg-neutral-600"
             >
               <a href="https://github.com/hanzoai/llm-runtime" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full">
                 <Github className="mr-2 h-4 w-4" /> View Repository
@@ -108,10 +108,10 @@ const InfrastructureComponents = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.3 }}
-            className="bg-gray-900/60 rounded-xl border border-gray-800 p-6 hover:border-green-500/40 transition-colors"
+            className="bg-gray-900/60 rounded-xl border border-gray-800 p-6 hover:border-neutral-500/40 transition-colors"
           >
             <div className="flex items-center mb-4">
-              <Zap className="h-8 w-8 text-green-400 mr-3" />
+              <Zap className="h-8 w-8 text-neutral-400 mr-3" />
               <h3 className="text-xl font-semibold text-[var(--white)]">API Gateway</h3>
             </div>
             <p className="text-neutral-300 mb-6">
@@ -133,7 +133,7 @@ const InfrastructureComponents = () => {
             </div>
             <Button 
               size="sm" 
-              className="w-full bg-green-600/70 hover:bg-green-600"
+              className="w-full bg-neutral-600/70 hover:bg-neutral-600"
             >
               <a href="https://github.com/hanzoai/gateway" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full">
                 <Github className="mr-2 h-4 w-4" /> View Repository

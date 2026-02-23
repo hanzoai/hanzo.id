@@ -56,7 +56,7 @@ const Security = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="flex-1"
           >
-            <div className="bg-gradient-to-br from-purple-900/20 to-blue-900/20 rounded-xl p-8 border border-purple-800/30">
+            <div className="bg-gradient-to-br from-purple-900/20 to-neutral-900/20 rounded-xl p-8 border border-purple-800/30">
               <Lock className="w-12 h-12 text-purple-400 mb-6" />
               <h3 className="text-xl font-bold mb-4">Hanzo.io Security</h3>
               <p className="text-neutral-300 mb-8">

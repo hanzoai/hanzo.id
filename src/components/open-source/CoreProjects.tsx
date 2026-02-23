@@ -30,14 +30,14 @@ const CoreProjects = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="bg-gray-900/60 rounded-xl border border-gray-800 p-8 hover:border-green-500/40 transition-colors"
+            className="bg-gray-900/60 rounded-xl border border-gray-800 p-8 hover:border-neutral-500/40 transition-colors"
           >
             <div className="flex items-center mb-4">
-              <Server className="h-12 w-12 text-green-400 mr-4" />
+              <Server className="h-12 w-12 text-neutral-400 mr-4" />
               <div>
                 <h3 className="text-2xl font-semibold text-[var(--white)]">Hanzo Platform</h3>
                 <div className="flex items-center mt-1">
-                  <a href="https://github.com/hanzoai/platform" target="_blank" rel="noopener noreferrer" className="text-sm text-green-400 hover:text-green-300">github.com/hanzoai/platform</a>
+                  <a href="https://github.com/hanzoai/platform" target="_blank" rel="noopener noreferrer" className="text-sm text-neutral-400 hover:text-neutral-300">github.com/hanzoai/platform</a>
                 </div>
               </div>
             </div>
@@ -54,13 +54,13 @@ const CoreProjects = () => {
                 <span className="text-neutral-300">742 forks</span>
               </div>
               <div className="flex items-center">
-                <div className="h-3 w-3 rounded-full bg-green-500 mr-2"></div>
+                <div className="h-3 w-3 rounded-full bg-neutral-500 mr-2"></div>
                 <span className="text-neutral-300">Active</span>
               </div>
             </div>
             <div className="flex space-x-3">
               <Button 
-                className="flex-1 bg-green-600 hover:bg-green-700"
+                className="flex-1 bg-neutral-600 hover:bg-neutral-700"
                 size="sm"
               >
                 <a href="https://github.com/hanzoai/platform" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full">
@@ -85,14 +85,14 @@ const CoreProjects = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-gray-900/60 rounded-xl border border-gray-800 p-8 hover:border-green-500/40 transition-colors"
+            className="bg-gray-900/60 rounded-xl border border-gray-800 p-8 hover:border-neutral-500/40 transition-colors"
           >
             <div className="flex items-center mb-4">
-              <Bot className="h-12 w-12 text-green-400 mr-4" />
+              <Bot className="h-12 w-12 text-neutral-400 mr-4" />
               <div>
                 <h3 className="text-2xl font-semibold text-[var(--white)]">Hanzo Bot</h3>
                 <div className="flex items-center mt-1">
-                  <a href="https://github.com/hanzoai/bot" target="_blank" rel="noopener noreferrer" className="text-sm text-green-400 hover:text-green-300">github.com/hanzoai/bot</a>
+                  <a href="https://github.com/hanzoai/bot" target="_blank" rel="noopener noreferrer" className="text-sm text-neutral-400 hover:text-neutral-300">github.com/hanzoai/bot</a>
                 </div>
               </div>
             </div>
@@ -109,13 +109,13 @@ const CoreProjects = () => {
                 <span className="text-neutral-300">623 forks</span>
               </div>
               <div className="flex items-center">
-                <div className="h-3 w-3 rounded-full bg-green-500 mr-2"></div>
+                <div className="h-3 w-3 rounded-full bg-neutral-500 mr-2"></div>
                 <span className="text-neutral-300">Active</span>
               </div>
             </div>
             <div className="flex space-x-3">
               <Button 
-                className="flex-1 bg-green-600 hover:bg-green-700"
+                className="flex-1 bg-neutral-600 hover:bg-neutral-700"
                 size="sm"
               >
                 <a href="https://github.com/hanzoai/bot" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-full">

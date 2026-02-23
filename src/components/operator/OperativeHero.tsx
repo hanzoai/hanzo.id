@@ -9,7 +9,7 @@ const OperativeHero = () => {
     <section className="py-32 relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-purple-900/20 to-transparent"></div>
-      <div className="absolute top-1/3 -left-1/4 w-1/2 h-1/2 bg-blue-500/10 rounded-full blur-3xl"></div>
+      <div className="absolute top-1/3 -left-1/4 w-1/2 h-1/2 bg-neutral-500/10 rounded-full blur-3xl"></div>
       <div className="absolute bottom-1/4 -right-1/4 w-1/2 h-1/2 bg-purple-500/10 rounded-full blur-3xl"></div>
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

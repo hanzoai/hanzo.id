@@ -268,7 +268,7 @@ const Press = () => {
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <Button className="gap-2" style={{ backgroundColor: BRAND_COLOR }}>
+              <Button className="gap-2" style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}>
                 <Download className="w-4 h-4" />
                 Download Press Kit (ZIP)
               </Button>
@@ -381,7 +381,7 @@ const Press = () => {
                   </Button>
                 </Link>
                 <a href="mailto:press@hanzo.ai">
-                  <Button className="gap-2" style={{ backgroundColor: BRAND_COLOR }}>
+                  <Button className="gap-2" style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}>
                     <Mail className="w-4 h-4" />
                     Request Executive Bios
                   </Button>

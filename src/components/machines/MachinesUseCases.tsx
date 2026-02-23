@@ -4,7 +4,7 @@ import ChromeText from "@/components/ui/chrome-text";
 
 const UseCaseCard = ({ title, description, features }) => {
   return (
-    <div className="bg-green-900/10 border border-green-500/20 rounded-xl p-8">
+    <div className="bg-neutral-900/10 border border-neutral-500/20 rounded-xl p-8">
       <h3 className="text-2xl font-bold mb-4">{title}</h3>
       <p className="text-neutral-300 mb-4">
         {description}
@@ -12,7 +12,7 @@ const UseCaseCard = ({ title, description, features }) => {
       <ul className="space-y-2 text-neutral-300">
         {features.map((feature, index) => (
           <li key={index} className="flex items-start">
-            <span className="text-green-400 mr-2">•</span>
+            <span className="text-neutral-400 mr-2">•</span>
             <span>{feature}</span>
           </li>
         ))}
@@ -62,7 +62,7 @@ const MachinesUseCases = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-black to-green-950/20">
+    <section className="py-20 bg-gradient-to-b from-black to-neutral-950/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <ChromeText as="h2" className="text-3xl font-bold mb-4">

@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-[var(--black)]" />
       
       {/* Enhanced background with subtle animated gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-blue-900/20 to-black opacity-40"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-neutral-900/20 to-black opacity-40"></div>
       <div className="absolute top-0 left-0 w-full h-full bg-[url('/placeholder.svg')] bg-repeat opacity-5"></div>
       
       <div className="relative z-10 max-w-7xl mx-auto">

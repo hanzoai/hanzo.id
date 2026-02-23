@@ -21,15 +21,15 @@ const Notifications: React.FC<NotificationsProps> = ({ notifications, onDismiss 
             exit={{ opacity: 0, x: 20, scale: 0.95 }}
             className={`rounded-md p-3 shadow-lg ${
               notification.type === 'success' ? 'bg-gray-900/90 border border-gray-700' :
-              notification.type === 'error' ? 'bg-red-900/80 border border-red-700' :
-              'bg-blue-900/80 border border-blue-700'
+              notification.type === 'error' ? 'bg-neutral-900/80 border border-neutral-700' :
+              'bg-neutral-900/80 border border-neutral-700'
             }`}
           >
             <div className="flex items-start">
               <div className="flex-shrink-0 mt-0.5">
-                {notification.type === 'success' && <Check className="h-4 w-4 text-green-400" />}
-                {notification.type === 'error' && <X className="h-4 w-4 text-red-400" />}
-                {notification.type === 'info' && <Cloud className="h-4 w-4 text-blue-400" />}
+                {notification.type === 'success' && <Check className="h-4 w-4 text-neutral-400" />}
+                {notification.type === 'error' && <X className="h-4 w-4 text-neutral-400" />}
+                {notification.type === 'info' && <Cloud className="h-4 w-4 text-neutral-400" />}
               </div>
               <div className="ml-2">
                 <p className="text-sm font-medium text-neutral-100">{notification.title}</p>

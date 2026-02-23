@@ -23,15 +23,15 @@ export const features: Feature[] = [
     title: "Cloud Infrastructure",
     description: "Serverless, scalable cloud infrastructure designed for AI workloads with global distribution.",
     icon: ArrowRight,
-    bgColor: "bg-blue-900/20",
-    iconColor: "text-blue-400"
+    bgColor: "bg-neutral-900/20",
+    iconColor: "text-neutral-400"
   },
   {
     title: "Developer Experience",
     description: "Tools and workflows that streamline AI development for individuals and teams.",
     icon: ArrowRight,
-    bgColor: "bg-green-900/20",
-    iconColor: "text-green-400"
+    bgColor: "bg-neutral-900/20",
+    iconColor: "text-neutral-400"
   },
   {
     title: "Production-Ready",

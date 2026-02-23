@@ -14,8 +14,8 @@ const GlobeThreeJs: React.FC<GlobeThreeJsProps> = ({ width, height }) => {
       
       {/* Status indicator */}
       <div className="absolute bottom-3 left-3 flex items-center space-x-2">
-        <div className="h-2 w-2 bg-green-500 rounded-full animate-pulse"></div>
-        <span className="text-xs text-green-500">Live network traffic</span>
+        <div className="h-2 w-2 bg-neutral-500 rounded-full animate-pulse"></div>
+        <span className="text-xs text-neutral-500">Live network traffic</span>
       </div>
     </div>
   );

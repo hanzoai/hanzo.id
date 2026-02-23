@@ -8,22 +8,22 @@ import { Button } from "@/components/ui/button";
 const Enterprise = () => {
   const features = [
     {
-      icon: <Shield className="h-8 w-8 text-blue-400" />,
+      icon: <Shield className="h-8 w-8 text-neutral-400" />,
       title: "Enterprise Security",
       description: "SOC 2, GDPR, CCPA compliance with advanced encryption and audit logging"
     },
     {
-      icon: <Users className="h-8 w-8 text-blue-400" />,
+      icon: <Users className="h-8 w-8 text-neutral-400" />,
       title: "User Management",
       description: "SCIM provisioning, SSO integration, and role-based access control"
     },
     {
-      icon: <Globe className="h-8 w-8 text-blue-400" />,
+      icon: <Globe className="h-8 w-8 text-neutral-400" />,
       title: "Global Infrastructure",
       description: "Multi-region deployment with 99.99% uptime SLA and dedicated support"
     },
     {
-      icon: <Zap className="h-8 w-8 text-blue-400" />,
+      icon: <Zap className="h-8 w-8 text-neutral-400" />,
       title: "Custom AI Resources",
       description: "Tailored AI credits, custom models, and dedicated compute infrastructure"
     }
@@ -43,7 +43,7 @@ const Enterprise = () => {
         <section className="px-4 sm:px-6 lg:px-8 mb-20">
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex justify-center mb-8">
-              <Building2 className="h-16 w-16 text-blue-400" />
+              <Building2 className="h-16 w-16 text-neutral-400" />
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white via-white/90 to-white/50">
@@ -92,7 +92,7 @@ const Enterprise = () => {
             <h2 className="text-3xl font-bold text-center mb-12">Why Choose Hanzo Enterprise?</h2>
             
             <div className="space-y-8">
-              <div className="bg-gradient-to-r from-blue-900/20 to-indigo-900/20 rounded-xl p-8 border border-blue-500/20">
+              <div className="bg-gradient-to-r from-neutral-900/20 to-indigo-900/20 rounded-xl p-8 border border-neutral-500/20">
                 <h3 className="text-2xl font-semibold mb-4">Dedicated Support</h3>
                 <p className="text-neutral-300 text-lg">
                   Get priority support with dedicated account managers, guaranteed response times, 
@@ -100,7 +100,7 @@ const Enterprise = () => {
                 </p>
               </div>
               
-              <div className="bg-gradient-to-r from-green-900/20 to-teal-900/20 rounded-xl p-8 border border-green-500/20">
+              <div className="bg-gradient-to-r from-neutral-900/20 to-teal-900/20 rounded-xl p-8 border border-neutral-500/20">
                 <h3 className="text-2xl font-semibold mb-4">Custom Integrations</h3>
                 <p className="text-neutral-300 text-lg">
                   Seamlessly integrate with your existing infrastructure, identity providers, 

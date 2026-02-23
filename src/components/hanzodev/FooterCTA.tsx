@@ -53,7 +53,7 @@ const FooterCTA = () => {
           <Link
             to="/get-started"
             className="inline-flex items-center px-8 py-4 rounded-full font-medium transition-all hover:opacity-90 text-base"
-            style={{ backgroundColor: BRAND_COLOR, color: "#ffffff" }}
+            style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
           >
             Start free
             <ArrowRight className="ml-2 h-5 w-5" />
@@ -86,7 +86,7 @@ const FooterCTA = () => {
               className="text-neutral-500 hover:text-white transition-colors"
             >
               {copied ? (
-                <Check className="h-4 w-4 text-green-500" />
+                <Check className="h-4 w-4 text-neutral-500" />
               ) : (
                 <Copy className="h-4 w-4" />
               )}

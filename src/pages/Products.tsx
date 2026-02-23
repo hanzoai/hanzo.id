@@ -127,7 +127,7 @@ const CopyButton = ({ text }: { text: string }) => {
       className="p-2 hover:bg-white/10 rounded transition-colors"
       title="Copy to clipboard"
     >
-      {copied ? <Check className="h-4 w-4 text-green-400" /> : <Copy className="h-4 w-4 text-neutral-400" />}
+      {copied ? <Check className="h-4 w-4 text-neutral-400" /> : <Copy className="h-4 w-4 text-neutral-400" />}
     </button>
   );
 };
@@ -166,7 +166,7 @@ export default function Products() {
             <div className="bg-neutral-900/50 rounded-2xl p-6 max-w-2xl mx-auto mb-10 border border-neutral-800">
               <p className="text-sm text-neutral-400 mb-3">Get started in seconds</p>
               <div className="flex items-center justify-between bg-black rounded-xl p-4 font-mono">
-                <code className="text-green-400">curl -fsSL hanzo.sh/install.sh | sh</code>
+                <code className="text-neutral-400">curl -fsSL hanzo.sh/install.sh | sh</code>
                 <CopyButton text="curl -fsSL hanzo.sh/install.sh | sh" />
               </div>
             </div>

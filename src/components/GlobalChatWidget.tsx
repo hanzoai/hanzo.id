@@ -260,7 +260,7 @@ const GlobalChatWidget = () => {
           >
             <img src="/zen-logo.png" alt="Zen AI" className="w-8 h-8" />
             {/* Pulse animation */}
-            <span className="absolute inset-0 rounded-full animate-ping opacity-20" style={{ backgroundColor: BRAND_COLOR }} />
+            <span className="absolute inset-0 rounded-full animate-ping opacity-20" style={{ backgroundColor: BRAND_COLOR, color: "#000000" }} />
           </motion.button>
         )}
       </AnimatePresence>
@@ -330,7 +330,7 @@ const GlobalChatWidget = () => {
                               <div className="text-[10px] text-neutral-500">{model.description}</div>
                             </div>
                             {selectedModel.id === model.id && (
-                              <Check className="w-4 h-4 text-green-500" />
+                              <Check className="w-4 h-4 text-neutral-500" />
                             )}
                           </button>
                         ))}
@@ -440,7 +440,7 @@ const GlobalChatWidget = () => {
                   className="absolute right-1.5 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full flex items-center justify-center transition-all disabled:opacity-50"
                   style={{ backgroundColor: input.trim() ? BRAND_COLOR : "transparent" }}
                 >
-                  <Send className={`w-4 h-4 ${input.trim() ? "text-white" : "text-neutral-500"}`} />
+                  <Send className={`w-4 h-4 ${input.trim() ? "text-black" : "text-neutral-500"}`} />
                 </button>
               </div>
               <div className="mt-2 text-center">

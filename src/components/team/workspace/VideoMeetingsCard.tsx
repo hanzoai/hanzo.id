@@ -24,7 +24,7 @@ const VideoMeetingsCard = () => {
         <div className="bg-[var(--black)]/60 rounded-lg p-4">
           <div className="mb-4 flex items-center justify-between">
             <h3 className="font-medium text-[var(--white)]">Weekly Sprint Planning</h3>
-            <Badge className="bg-green-600/30 text-green-400 border-green-500/30">Live</Badge>
+            <Badge className="bg-neutral-600/30 text-neutral-400 border-neutral-500/30">Live</Badge>
           </div>
           
           <div className="grid grid-cols-2 gap-2 mb-3">

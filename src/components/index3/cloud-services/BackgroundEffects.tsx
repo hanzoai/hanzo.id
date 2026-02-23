@@ -10,7 +10,7 @@ const BackgroundEffects: React.FC<BackgroundEffectsProps> = ({ scanPoints }) => 
   return (
     <>
       {/* Background blur elements - subtle blue/cyan */}
-      <div className="absolute top-40 right-20 w-64 h-64 bg-blue-900/5 rounded-full blur-3xl"></div>
+      <div className="absolute top-40 right-20 w-64 h-64 bg-neutral-900/5 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-cyan-900/5 rounded-full blur-3xl"></div>
       
       {/* Grid pattern - very subtle */}
@@ -23,7 +23,7 @@ const BackgroundEffects: React.FC<BackgroundEffectsProps> = ({ scanPoints }) => 
       {scanPoints.filter((_, idx) => idx % 3 === 0).map((point, idx) => (
         <motion.div
           key={`point-${idx}`}
-          className="absolute h-1.5 w-1.5 rounded-full bg-blue-500/20"
+          className="absolute h-1.5 w-1.5 rounded-full bg-neutral-500/20"
           style={{ 
             left: `${point.x}%`, 
             top: `${point.y}%` 

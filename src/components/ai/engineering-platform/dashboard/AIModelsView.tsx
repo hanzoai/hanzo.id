@@ -44,11 +44,11 @@ const AIModelsView = () => {
               <div className="flex items-center space-x-4">
                 <div className="text-right">
                   <div className="text-xs text-neutral-400">Accuracy</div>
-                  <div className="text-sm font-medium text-green-400">{model.accuracy}%</div>
+                  <div className="text-sm font-medium text-neutral-400">{model.accuracy}%</div>
                 </div>
                 <div className="text-right">
                   <div className="text-xs text-neutral-400">Latency</div>
-                  <div className="text-sm font-medium text-blue-400">{model.latency}ms</div>
+                  <div className="text-sm font-medium text-neutral-400">{model.latency}ms</div>
                 </div>
               </div>
             </div>

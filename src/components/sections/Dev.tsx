@@ -120,16 +120,16 @@ const Dev = () => {
                 Hanzo Dev Documentation
               </h1>
               
-              <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-900/30 rounded-md p-4 mb-8">
+              <div className="bg-neutral-50 dark:bg-neutral-900/20 border border-neutral-100 dark:border-neutral-900/30 rounded-md p-4 mb-8">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <Bot className="h-5 w-5 text-blue-400" />
+                    <Bot className="h-5 w-5 text-neutral-400" />
                   </div>
                   <div className="ml-3">
-                    <h3 className="text-sm font-medium text-blue-800 dark:text-blue-300">
+                    <h3 className="text-sm font-medium text-neutral-800 dark:text-neutral-300">
                       Beta Release
                     </h3>
-                    <div className="mt-2 text-sm text-blue-700 dark:text-blue-400">
+                    <div className="mt-2 text-sm text-neutral-700 dark:text-neutral-400">
                       <p>
                         Hanzo Dev is currently in beta. We're gathering developer feedback to improve the experience.
                         Please report any issues directly through our GitHub repository.
@@ -221,7 +221,7 @@ const Dev = () => {
                   </div>
                   
                   <div className="border border-gray-200 dark:border-gray-800 rounded-md p-4">
-                    <Terminal className="h-5 w-5 text-green-500 mb-2" />
+                    <Terminal className="h-5 w-5 text-neutral-500 mb-2" />
                     <h4 className="font-medium text-neutral-900 dark:text-[var(--white)] mb-2">Execute Commands</h4>
                     <p className="text-sm text-neutral-600 dark:text-neutral-400">
                       Run tests, linting, and other commands with natural language instructions.
@@ -229,7 +229,7 @@ const Dev = () => {
                   </div>
                   
                   <div className="border border-gray-200 dark:border-gray-800 rounded-md p-4">
-                    <FileText className="h-5 w-5 text-blue-500 mb-2" />
+                    <FileText className="h-5 w-5 text-neutral-500 mb-2" />
                     <h4 className="font-medium text-neutral-900 dark:text-[var(--white)] mb-2">Edit Files</h4>
                     <p className="text-sm text-neutral-600 dark:text-neutral-400">
                       Make changes to your code across multiple files with simple natural language requests.

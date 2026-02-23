@@ -13,7 +13,7 @@ const HanzoCodeFrontier = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="bg-gradient-to-br from-purple-900/30 via-blue-900/20 to-indigo-900/30 rounded-xl overflow-hidden border border-purple-500/20"
+            className="bg-gradient-to-br from-purple-900/30 via-neutral-900/20 to-indigo-900/30 rounded-xl overflow-hidden border border-purple-500/20"
           >
             <div className="p-8 flex flex-col items-center justify-center h-full min-h-80">
               <Brain className="h-16 w-16 text-purple-400 mb-6" />

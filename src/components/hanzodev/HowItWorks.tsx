@@ -85,9 +85,9 @@ const HowItWorks = () => {
             <div className="bg-neutral-900/80 border border-neutral-800 rounded-xl p-6">
               <div className="flex items-center gap-3 mb-4">
                 <div className="flex gap-1.5">
-                  <div className="w-3 h-3 rounded-full bg-red-500/80" />
+                  <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
                   <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-                  <div className="w-3 h-3 rounded-full bg-green-500/80" />
+                  <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
                 </div>
                 <span className="text-xs text-neutral-500 font-mono">hanzo dev</span>
               </div>
@@ -96,16 +96,16 @@ const HowItWorks = () => {
                 <div className="text-neutral-400">Reading repository structure...</div>
                 <div className="text-neutral-400">Creating implementation plan...</div>
                 <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 rounded-full bg-green-500" />
-                  <span className="text-green-400">Modified 4 files</span>
+                  <div className="w-2 h-2 rounded-full bg-neutral-500" />
+                  <span className="text-neutral-400">Modified 4 files</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 rounded-full bg-green-500" />
-                  <span className="text-green-400">Tests: 23/23 passing</span>
+                  <div className="w-2 h-2 rounded-full bg-neutral-500" />
+                  <span className="text-neutral-400">Tests: 23/23 passing</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className="w-2 h-2 rounded-full bg-green-500" />
-                  <span className="text-green-400">PR #127 created with evidence</span>
+                  <div className="w-2 h-2 rounded-full bg-neutral-500" />
+                  <span className="text-neutral-400">PR #127 created with evidence</span>
                 </div>
               </div>
             </div>
@@ -206,7 +206,7 @@ const HowItWorks = () => {
                     {i === 0 && (
                       <div
                         className="mt-2 text-xs font-medium px-2 py-1 rounded-full inline-block"
-                        style={{ backgroundColor: BRAND_COLOR, color: "#fff" }}
+                        style={{ backgroundColor: BRAND_COLOR, color: "#000" }}
                       >
                         Best result
                       </div>

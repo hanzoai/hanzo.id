@@ -74,7 +74,7 @@ const InvoicesSummary = () => {
         </div>
         
         <div className="bg-[var(--black)]/30 p-4 rounded-lg flex items-center gap-3 mb-6">
-          <AlertCircle className="h-5 w-5 text-blue-400" />
+          <AlertCircle className="h-5 w-5 text-neutral-400" />
           <p className="text-neutral-300">No upcoming charges. You're on a trial plan.</p>
         </div>
         

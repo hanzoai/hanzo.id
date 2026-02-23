@@ -39,8 +39,8 @@ const CallToAction = () => {
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
             <Button
               size="lg"
-              className="text-white text-lg px-8"
-              style={{ backgroundColor: BRAND_COLOR }}
+              className="text-black text-lg px-8"
+              style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
               asChild
             >
               <Link to="/signup">
@@ -75,8 +75,8 @@ const CallToAction = () => {
                 className="flex-1 px-4 py-3 bg-neutral-900 border border-neutral-800 rounded-lg text-white placeholder:text-neutral-500 focus:outline-none focus:border-[#ffffff]/50"
               />
               <Button
-                className="text-white px-6"
-                style={{ backgroundColor: BRAND_COLOR }}
+                className="text-black px-6"
+                style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
               >
                 <Mail className="w-4 h-4 mr-2" />
                 Subscribe

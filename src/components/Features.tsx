@@ -41,12 +41,12 @@ const allFeatures = [{
 
 const industriesData = [{
   name: "Cloud",
-  icon: <Globe className="h-5 w-5 text-blue-400 mb-2" />,
+  icon: <Globe className="h-5 w-5 text-neutral-400 mb-2" />,
   image: "/lovable-uploads/a6b76d5c-59a9-4ba8-897e-69558005b6ed.png",
   description: "Cloud orchestration with rapid deployment"
 }, {
   name: "Cybersecurity",
-  icon: <Shield className="h-5 w-5 text-red-400 mb-2" />,
+  icon: <Shield className="h-5 w-5 text-neutral-400 mb-2" />,
   image: "/lovable-uploads/97902904-f9ea-475e-9c65-5664eab422e5.png",
   description: "Advanced security solutions for business"
 }, {
@@ -56,7 +56,7 @@ const industriesData = [{
   description: "Cutting-edge AI solutions for business transformation"
 }, {
   name: "Digital Engineering and Manufacturing",
-  icon: <Code className="h-5 w-5 text-green-400 mb-2" />,
+  icon: <Code className="h-5 w-5 text-neutral-400 mb-2" />,
   image: "/lovable-uploads/a1e0f18b-41a7-4f58-ac3b-7272aa8e7a77.png",
   description: "Engineering solutions for manufacturing"
 }, {
@@ -71,7 +71,7 @@ const industriesData = [{
   description: "Collaborative partnership networks"
 }, {
   name: "Finance and Risk Management",
-  icon: <DollarSign className="h-5 w-5 text-green-400 mb-2" />,
+  icon: <DollarSign className="h-5 w-5 text-neutral-400 mb-2" />,
   image: "/lovable-uploads/22f3cbb5-8cd9-48e2-92bc-8b084da1f4ff.png",
   description: "Financial solutions and risk assessment"
 }, {
@@ -81,7 +81,7 @@ const industriesData = [{
   description: "Infrastructure development and capital management"
 }, {
   name: "Learning",
-  icon: <GraduationCap className="h-5 w-5 text-blue-400 mb-2" />,
+  icon: <GraduationCap className="h-5 w-5 text-neutral-400 mb-2" />,
   image: "/lovable-uploads/37d6bc13-a83a-4de2-a8d4-a67f2339598e.png",
   description: "Educational technology and learning solutions"
 }, {
@@ -148,12 +148,12 @@ const Features = () => {
   const hasMoreFeatures = allFeatures.length > 16;
   const industryIcons = {
     "Artificial Intelligence": <Brain className="h-5 w-5 text-purple-400 mb-2" />,
-    "Adtech": <Target className="h-5 w-5 text-blue-400 mb-2" />,
+    "Adtech": <Target className="h-5 w-5 text-neutral-400 mb-2" />,
     "Blockchain": <Blocks className="h-5 w-5 text-orange-400 mb-2" />,
     "Cloud Computing": <Cloud className="h-5 w-5 text-cyan-400 mb-2" />,
-    "GPU": <Cpu className="h-5 w-5 text-red-400 mb-2" />,
+    "GPU": <Cpu className="h-5 w-5 text-neutral-400 mb-2" />,
     "Hardware": <HardDrive className="h-5 w-5 text-neutral-400 mb-2" />,
-    "Machine Learning": <Brain className="h-5 w-5 text-green-400 mb-2" />,
+    "Machine Learning": <Brain className="h-5 w-5 text-neutral-400 mb-2" />,
     "Software": <Code className="h-5 w-5 text-yellow-400 mb-2" />,
     "Cyber Security": <Shield className="h-5 w-5 text-pink-400 mb-2" />,
     "Confidential Computing": <KeyRound className="h-5 w-5 text-indigo-400 mb-2" />

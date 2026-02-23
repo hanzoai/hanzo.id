@@ -115,7 +115,7 @@ export const ProductsMenu = () => {
             <div className="flex items-center gap-3">
               <div className={cn(
                 "rounded-md px-2.5 py-1 font-mono text-[10px]",
-                isDarkMode ? "bg-neutral-900 text-green-400" : "bg-neutral-100 text-green-600"
+                isDarkMode ? "bg-neutral-900 text-neutral-400" : "bg-neutral-100 text-neutral-600"
               )}>
                 curl -fsSL hanzo.sh | sh
               </div>

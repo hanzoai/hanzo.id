@@ -75,7 +75,7 @@ const IDLanding = () => {
       {/* Hero */}
       <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden pt-20">
         {/* Gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-red-950/20 via-black to-black" />
+        <div className="absolute inset-0 bg-gradient-to-br from-neutral-950/20 via-black to-black" />
         <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full blur-3xl" style={{ background: `radial-gradient(circle, ${BRAND}15, transparent 70%)` }} />
 
         <div className="relative z-10 container mx-auto px-6 text-center">
@@ -102,7 +102,7 @@ const IDLanding = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <a href="/login">
-                <Button size="lg" className="text-white font-semibold px-8" style={{ background: BRAND }}>
+                <Button size="lg" className="text-black font-semibold px-8" style={{ background: BRAND }}>
                   Sign In
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </Button>
@@ -204,7 +204,7 @@ const IDLanding = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="/signup">
-                <Button size="lg" className="text-white font-semibold px-8" style={{ background: BRAND }}>
+                <Button size="lg" className="text-black font-semibold px-8" style={{ background: BRAND }}>
                   Create Your Account
                   <ArrowRight className="ml-2 w-4 h-4" />
                 </Button>

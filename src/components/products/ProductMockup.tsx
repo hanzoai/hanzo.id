@@ -14,9 +14,9 @@ const DatabaseMockup: React.FC<{ product: Product }> = ({ product }) => (
     {/* Toolbar */}
     <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-900/50">
       <div className="flex gap-1.5">
-        <div className="w-3 h-3 rounded-full bg-red-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
         <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-        <div className="w-3 h-3 rounded-full bg-green-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
       </div>
       <span className="text-xs text-neutral-500 ml-2 font-mono">{product.shortName} Console</span>
     </div>
@@ -30,7 +30,7 @@ const DatabaseMockup: React.FC<{ product: Product }> = ({ product }) => (
         <span className="text-cyan-400"> users </span>
         <span className="text-purple-400">WHERE</span>
         <span className="text-neutral-300"> status = </span>
-        <span className="text-green-400">'active'</span>
+        <span className="text-neutral-400">'active'</span>
         <span className="text-neutral-500">;</span>
       </div>
     </div>
@@ -53,19 +53,19 @@ const DatabaseMockup: React.FC<{ product: Product }> = ({ product }) => (
               <td className="px-3 py-2 text-cyan-400">1</td>
               <td className="px-3 py-2 text-neutral-300">alice</td>
               <td className="px-3 py-2 text-neutral-300">alice@example.com</td>
-              <td className="px-3 py-2 text-green-400">active</td>
+              <td className="px-3 py-2 text-neutral-400">active</td>
             </tr>
             <tr className="border-t border-neutral-800">
               <td className="px-3 py-2 text-cyan-400">2</td>
               <td className="px-3 py-2 text-neutral-300">bob</td>
               <td className="px-3 py-2 text-neutral-300">bob@example.com</td>
-              <td className="px-3 py-2 text-green-400">active</td>
+              <td className="px-3 py-2 text-neutral-400">active</td>
             </tr>
             <tr className="border-t border-neutral-800">
               <td className="px-3 py-2 text-cyan-400">3</td>
               <td className="px-3 py-2 text-neutral-300">carol</td>
               <td className="px-3 py-2 text-neutral-300">carol@example.com</td>
-              <td className="px-3 py-2 text-green-400">active</td>
+              <td className="px-3 py-2 text-neutral-400">active</td>
             </tr>
           </tbody>
         </table>
@@ -80,9 +80,9 @@ const VectorMockup: React.FC<{ product: Product }> = ({ product }) => (
     {/* Toolbar */}
     <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-900/50">
       <div className="flex gap-1.5">
-        <div className="w-3 h-3 rounded-full bg-red-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
         <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-        <div className="w-3 h-3 rounded-full bg-green-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
       </div>
       <span className="text-xs text-neutral-500 ml-2 font-mono">{product.shortName}</span>
     </div>
@@ -159,7 +159,7 @@ const VectorMockup: React.FC<{ product: Product }> = ({ product }) => (
         ].map((item, i) => (
           <div key={i} className="flex items-center justify-between text-sm">
             <span className="text-neutral-300 truncate">{item.text}</span>
-            <span className="text-green-400 font-mono ml-2">{item.score}</span>
+            <span className="text-neutral-400 font-mono ml-2">{item.score}</span>
           </div>
         ))}
       </div>
@@ -173,9 +173,9 @@ const GatewayMockup: React.FC<{ product: Product }> = ({ product }) => (
     {/* Toolbar */}
     <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-900/50">
       <div className="flex gap-1.5">
-        <div className="w-3 h-3 rounded-full bg-red-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
         <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-        <div className="w-3 h-3 rounded-full bg-green-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
       </div>
       <span className="text-xs text-neutral-500 ml-2 font-mono">{product.shortName} Dashboard</span>
     </div>
@@ -186,7 +186,7 @@ const GatewayMockup: React.FC<{ product: Product }> = ({ product }) => (
       <div className="flex flex-wrap gap-2">
         {['gpt-4o', 'claude-3.5', 'gemini-pro', 'llama-3.1'].map((model) => (
           <div key={model} className="flex items-center gap-2 px-3 py-1.5 bg-neutral-800 rounded-full text-xs">
-            <div className="w-1.5 h-1.5 rounded-full bg-green-400" />
+            <div className="w-1.5 h-1.5 rounded-full bg-neutral-400" />
             <span className="text-neutral-300">{model}</span>
           </div>
         ))}
@@ -196,7 +196,7 @@ const GatewayMockup: React.FC<{ product: Product }> = ({ product }) => (
     {/* API Endpoint */}
     <div className="p-4 border-b border-neutral-800 bg-neutral-900/30">
       <div className="font-mono text-sm">
-        <span className="text-green-400">POST</span>
+        <span className="text-neutral-400">POST</span>
         <span className="text-neutral-400"> /v1/chat/completions</span>
       </div>
     </div>
@@ -216,7 +216,7 @@ const GatewayMockup: React.FC<{ product: Product }> = ({ product }) => (
         </pre>
       </div>
       <div className="p-4">
-        <div className="text-xs text-neutral-500 mb-2">Response <span className="text-green-400">200</span></div>
+        <div className="text-xs text-neutral-500 mb-2">Response <span className="text-neutral-400">200</span></div>
         <pre className="text-xs font-mono text-neutral-400 overflow-hidden">
 {`{
   "choices": [{
@@ -242,7 +242,7 @@ const GatewayMockup: React.FC<{ product: Product }> = ({ product }) => (
       </div>
       <div>
         <div className="text-xs text-neutral-500">Success Rate</div>
-        <div className="text-lg font-semibold text-green-400">99.9%</div>
+        <div className="text-lg font-semibold text-neutral-400">99.9%</div>
       </div>
     </div>
   </div>
@@ -254,9 +254,9 @@ const MLMockup: React.FC<{ product: Product }> = ({ product }) => (
     {/* Toolbar */}
     <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-900/50">
       <div className="flex gap-1.5">
-        <div className="w-3 h-3 rounded-full bg-red-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
         <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-        <div className="w-3 h-3 rounded-full bg-green-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
       </div>
       <span className="text-xs text-neutral-500 ml-2 font-mono">{product.shortName}</span>
     </div>
@@ -265,7 +265,7 @@ const MLMockup: React.FC<{ product: Product }> = ({ product }) => (
     <div className="p-4 border-b border-neutral-800">
       <div className="flex items-center justify-between mb-3">
         <div className="flex items-center gap-2">
-          <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+          <div className="w-2 h-2 rounded-full bg-neutral-400 animate-pulse" />
           <span className="text-sm text-neutral-300">Training in progress</span>
         </div>
         <span className="text-xs text-neutral-500">Epoch 15/50</span>
@@ -336,7 +336,7 @@ const MLMockup: React.FC<{ product: Product }> = ({ product }) => (
       </div>
       <div>
         <div className="text-xs text-neutral-500">Accuracy</div>
-        <div className="text-sm font-semibold text-green-400">94.2%</div>
+        <div className="text-sm font-semibold text-neutral-400">94.2%</div>
       </div>
       <div>
         <div className="text-xs text-neutral-500">LR</div>
@@ -356,13 +356,13 @@ const ChatMockup: React.FC<{ product: Product }> = ({ product }) => (
     {/* Toolbar */}
     <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-900/50">
       <div className="flex gap-1.5">
-        <div className="w-3 h-3 rounded-full bg-red-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
         <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-        <div className="w-3 h-3 rounded-full bg-green-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
       </div>
       <span className="text-xs text-neutral-500 ml-2 font-mono">{product.shortName}</span>
       <div className="ml-auto flex items-center gap-2">
-        <div className="w-2 h-2 rounded-full bg-green-400" />
+        <div className="w-2 h-2 rounded-full bg-neutral-400" />
         <span className="text-xs text-neutral-400">gpt-4o</span>
       </div>
     </div>
@@ -385,7 +385,7 @@ const ChatMockup: React.FC<{ product: Product }> = ({ product }) => (
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
             </svg>
             <span>get_weather</span>
-            <span className="text-green-400">completed</span>
+            <span className="text-neutral-400">completed</span>
           </div>
           <pre className="text-xs font-mono text-neutral-500">{"{ \"city\": \"Tokyo\" }"}</pre>
         </div>
@@ -423,9 +423,9 @@ const AgentMockup: React.FC<{ product: Product }> = ({ product }) => (
     {/* Toolbar */}
     <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-900/50">
       <div className="flex gap-1.5">
-        <div className="w-3 h-3 rounded-full bg-red-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
         <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-        <div className="w-3 h-3 rounded-full bg-green-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
       </div>
       <span className="text-xs text-neutral-500 ml-2 font-mono">{product.shortName} Workflow</span>
     </div>
@@ -496,7 +496,7 @@ const AgentMockup: React.FC<{ product: Product }> = ({ product }) => (
 
         {/* Arrow */}
         <motion.div
-          className="flex-1 h-0.5 bg-gradient-to-r from-purple-400 to-green-400 mx-2"
+          className="flex-1 h-0.5 bg-gradient-to-r from-purple-400 to-neutral-400 mx-2"
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
           transition={{ delay: 0.9 }}
@@ -508,8 +508,8 @@ const AgentMockup: React.FC<{ product: Product }> = ({ product }) => (
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 1 }}
         >
-          <div className="w-14 h-14 rounded-xl bg-green-500/20 border-2 border-green-500 flex items-center justify-center">
-            <svg className="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="w-14 h-14 rounded-xl bg-neutral-500/20 border-2 border-neutral-500 flex items-center justify-center">
+            <svg className="w-6 h-6 text-neutral-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
           </div>
@@ -529,7 +529,7 @@ const AgentMockup: React.FC<{ product: Product }> = ({ product }) => (
         ].map((tool, i) => (
           <div key={i} className="flex items-center justify-between text-xs">
             <div className="flex items-center gap-2">
-              <div className={`w-1.5 h-1.5 rounded-full ${tool.status === 'running' ? 'bg-yellow-400 animate-pulse' : 'bg-green-400'}`} />
+              <div className={`w-1.5 h-1.5 rounded-full ${tool.status === 'running' ? 'bg-yellow-400 animate-pulse' : 'bg-neutral-400'}`} />
               <span className="font-mono text-neutral-300">{tool.name}</span>
             </div>
             <span className={tool.status === 'running' ? 'text-yellow-400' : 'text-neutral-500'}>{tool.time}</span>
@@ -546,9 +546,9 @@ const ObservabilityMockup: React.FC<{ product: Product }> = ({ product }) => (
     {/* Toolbar */}
     <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-900/50">
       <div className="flex gap-1.5">
-        <div className="w-3 h-3 rounded-full bg-red-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
         <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-        <div className="w-3 h-3 rounded-full bg-green-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
       </div>
       <span className="text-xs text-neutral-500 ml-2 font-mono">{product.shortName}</span>
     </div>
@@ -558,7 +558,7 @@ const ObservabilityMockup: React.FC<{ product: Product }> = ({ product }) => (
       <div className="p-4">
         <div className="text-xs text-neutral-500 mb-1">Requests/sec</div>
         <div className="text-2xl font-bold text-white">1,247</div>
-        <div className="text-xs text-green-400">+12.3%</div>
+        <div className="text-xs text-neutral-400">+12.3%</div>
       </div>
       <div className="p-4">
         <div className="text-xs text-neutral-500 mb-1">P99 Latency</div>
@@ -568,7 +568,7 @@ const ObservabilityMockup: React.FC<{ product: Product }> = ({ product }) => (
       <div className="p-4">
         <div className="text-xs text-neutral-500 mb-1">Error Rate</div>
         <div className="text-2xl font-bold text-white">0.02%</div>
-        <div className="text-xs text-green-400">-0.01%</div>
+        <div className="text-xs text-neutral-400">-0.01%</div>
       </div>
     </div>
 
@@ -613,9 +613,9 @@ const PlatformMockup: React.FC<{ product: Product }> = ({ product }) => (
     {/* Toolbar */}
     <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-900/50">
       <div className="flex gap-1.5">
-        <div className="w-3 h-3 rounded-full bg-red-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
         <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-        <div className="w-3 h-3 rounded-full bg-green-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
       </div>
       <span className="text-xs text-neutral-500 ml-2 font-mono">{product.shortName}</span>
     </div>
@@ -624,7 +624,7 @@ const PlatformMockup: React.FC<{ product: Product }> = ({ product }) => (
     <div className="p-4 border-b border-neutral-800">
       <div className="flex items-center justify-between mb-3">
         <div className="flex items-center gap-2">
-          <div className="w-2 h-2 rounded-full bg-green-400" />
+          <div className="w-2 h-2 rounded-full bg-neutral-400" />
           <span className="text-sm text-white font-medium">Production</span>
         </div>
         <span className="text-xs text-neutral-500">v2.4.1</span>
@@ -656,7 +656,7 @@ const PlatformMockup: React.FC<{ product: Product }> = ({ product }) => (
         ].map((svc, i) => (
           <div key={i} className="flex items-center justify-between p-2 bg-neutral-900 rounded-lg">
             <div className="flex items-center gap-2">
-              <div className={`w-1.5 h-1.5 rounded-full ${svc.status === 'scaling' ? 'bg-yellow-400 animate-pulse' : 'bg-green-400'}`} />
+              <div className={`w-1.5 h-1.5 rounded-full ${svc.status === 'scaling' ? 'bg-yellow-400 animate-pulse' : 'bg-neutral-400'}`} />
               <span className="text-sm text-neutral-300">{svc.name}</span>
             </div>
             <span className="text-xs text-neutral-500">{svc.cpu} CPU</span>
@@ -673,9 +673,9 @@ const AsyncMockup: React.FC<{ product: Product }> = ({ product }) => (
     {/* Toolbar */}
     <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-900/50">
       <div className="flex gap-1.5">
-        <div className="w-3 h-3 rounded-full bg-red-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
         <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-        <div className="w-3 h-3 rounded-full bg-green-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
       </div>
       <span className="text-xs text-neutral-500 ml-2 font-mono">{product.shortName}</span>
     </div>
@@ -692,7 +692,7 @@ const AsyncMockup: React.FC<{ product: Product }> = ({ product }) => (
       </div>
       <div className="p-4">
         <div className="text-xs text-neutral-500 mb-1">Completed</div>
-        <div className="text-xl font-bold text-green-400">45.2K</div>
+        <div className="text-xl font-bold text-neutral-400">45.2K</div>
       </div>
     </div>
 
@@ -727,7 +727,7 @@ const AsyncMockup: React.FC<{ product: Product }> = ({ product }) => (
           <div key={i} className="flex items-center justify-between text-xs">
             <div className="flex items-center gap-2">
               <div className={`w-1.5 h-1.5 rounded-full ${
-                job.status === 'completed' ? 'bg-green-400' :
+                job.status === 'completed' ? 'bg-neutral-400' :
                 job.status === 'running' ? 'bg-cyan-400 animate-pulse' : 'bg-neutral-500'
               }`} />
               <span className="font-mono text-neutral-300">{job.id}</span>
@@ -746,9 +746,9 @@ const GenericMockup: React.FC<{ product: Product }> = ({ product }) => (
     {/* Toolbar */}
     <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-900/50">
       <div className="flex gap-1.5">
-        <div className="w-3 h-3 rounded-full bg-red-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
         <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-        <div className="w-3 h-3 rounded-full bg-green-500/80" />
+        <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
       </div>
       <span className="text-xs text-neutral-500 ml-2 font-mono">{product.shortName}</span>
     </div>

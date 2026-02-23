@@ -61,8 +61,8 @@ const FinalCTASection = () => {
           >
             <Link
               to="/get-started"
-              className="w-full sm:w-auto inline-flex justify-center items-center px-8 py-4 rounded-full font-medium text-white text-lg transition-all hover:opacity-90"
-              style={{ backgroundColor: BRAND_COLOR }}
+              className="w-full sm:w-auto inline-flex justify-center items-center px-8 py-4 rounded-full font-medium text-black text-lg transition-all hover:opacity-90"
+              style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
             >
               Start free
               <ArrowRight className="ml-2 h-5 w-5" />

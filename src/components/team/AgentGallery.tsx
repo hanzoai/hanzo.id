@@ -155,7 +155,7 @@ const AgentGallery = () => {
       role: "Software Engineer",
       description: "Your expert AI developer, specializing in full-stack development and system architecture.",
       icon: Code,
-      gradient: "from-blue-600 to-blue-400"
+      gradient: "from-neutral-600 to-neutral-400"
     },
     {
       name: "Des",
@@ -179,14 +179,14 @@ const AgentGallery = () => {
       role: "Database Expert",
       description: "Your expert AI database specialist, managing data infrastructure and optimizing database operations.",
       icon: Database,
-      gradient: "from-emerald-500 to-green-500"
+      gradient: "from-emerald-500 to-neutral-500"
     },
     {
       name: "Sec",
       role: "Security Expert",
       description: "Your expert AI security specialist, protecting digital assets and infrastructure.",
       icon: ShieldCheck,
-      gradient: "from-red-500 to-orange-500"
+      gradient: "from-neutral-500 to-orange-500"
     },
     {
       name: "Core",
@@ -200,7 +200,7 @@ const AgentGallery = () => {
       role: "Algorithm Expert",
       description: "Your expert AI algorithm specialist, optimizing computational solutions.",
       icon: Binary,
-      gradient: "from-cyan-500 to-blue-500"
+      gradient: "from-cyan-500 to-neutral-500"
     }
   ];
   
@@ -210,7 +210,7 @@ const AgentGallery = () => {
       role: "Marketing Director",
       description: "Your AI marketing strategist, crafting compelling campaigns and driving engagement.",
       icon: MessagesSquare,
-      gradient: "from-green-500 to-emerald-500"
+      gradient: "from-neutral-500 to-emerald-500"
     },
     {
       name: "Su",
@@ -224,7 +224,7 @@ const AgentGallery = () => {
       role: "Financial Expert",
       description: "Your expert AI financial analyst, providing financial insights and strategy.",
       icon: DollarSign,
-      gradient: "from-green-500 to-teal-500"
+      gradient: "from-neutral-500 to-teal-500"
     },
     {
       name: "Cal",
@@ -255,14 +255,14 @@ const AgentGallery = () => {
       role: "Data Scientist",
       description: "Your expert AI data scientist, unlocking insights from complex datasets.",
       icon: LineChart,
-      gradient: "from-blue-500 to-indigo-500"
+      gradient: "from-neutral-500 to-indigo-500"
     },
     {
       name: "Chat",
       role: "Conversation Expert",
       description: "Your expert AI conversation specialist, facilitating natural communication.",
       icon: MessageCircle,
-      gradient: "from-blue-500 to-purple-500"
+      gradient: "from-neutral-500 to-purple-500"
     }
   ];
 

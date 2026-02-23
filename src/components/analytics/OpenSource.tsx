@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const statsItems = [
   { 
-    icon: <Download className="h-6 w-6 text-green-400" />,
+    icon: <Download className="h-6 w-6 text-neutral-400" />,
     value: 17,
     suffix: "M+",
     label: "Downloads",
@@ -20,7 +20,7 @@ const statsItems = [
     countUpDuration: 2.2
   },
   { 
-    icon: <Users className="h-6 w-6 text-blue-400" />,
+    icon: <Users className="h-6 w-6 text-neutral-400" />,
     value: 280,
     suffix: "+",
     label: "Contributors",
@@ -115,9 +115,9 @@ const OpenSource = () => {
           >
             <div className="flex items-center p-4 bg-gray-900 border-b border-gray-800">
               <div className="flex space-x-2 mr-4">
-                <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                <div className="w-3 h-3 rounded-full bg-neutral-500"></div>
                 <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                <div className="w-3 h-3 rounded-full bg-neutral-500"></div>
               </div>
               <div className="flex-1 text-center text-neutral-300 text-sm">analytics.js</div>
             </div>
@@ -126,7 +126,7 @@ const OpenSource = () => {
               <div className="flex">
                 <div className="mr-4 text-neutral-600">1</div>
                 <div>
-                  <span className="text-blue-400">import</span> <span className="text-green-400">{'{'}</span> <span className="text-yellow-300">HanzoAnalytics</span> <span className="text-green-400">{'}'}</span> <span className="text-blue-400">from</span> <span className="text-orange-400">'hanzo-analytics'</span>;
+                  <span className="text-neutral-400">import</span> <span className="text-neutral-400">{'{'}</span> <span className="text-yellow-300">HanzoAnalytics</span> <span className="text-neutral-400">{'}'}</span> <span className="text-neutral-400">from</span> <span className="text-orange-400">'hanzo-analytics'</span>;
                 </div>
               </div>
               <div className="flex">
@@ -140,7 +140,7 @@ const OpenSource = () => {
               <div className="flex">
                 <div className="mr-4 text-neutral-600">4</div>
                 <div>
-                  <span className="text-blue-400">const</span> analytics <span className="text-[var(--white)]">=</span> <span className="text-blue-400">new</span> <span className="text-yellow-300">HanzoAnalytics</span><span className="text-[var(--white)]">(</span><span className="text-orange-400">'YOUR_PROJECT_ID'</span><span className="text-[var(--white)]">);</span>
+                  <span className="text-neutral-400">const</span> analytics <span className="text-[var(--white)]">=</span> <span className="text-neutral-400">new</span> <span className="text-yellow-300">HanzoAnalytics</span><span className="text-[var(--white)]">(</span><span className="text-orange-400">'YOUR_PROJECT_ID'</span><span className="text-[var(--white)]">);</span>
                 </div>
               </div>
               <div className="flex">

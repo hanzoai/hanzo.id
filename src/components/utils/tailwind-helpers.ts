@@ -11,9 +11,9 @@ export const getColorClasses = (color: string, type: 'gradient' | 'border' | 'te
       text: 'text-purple-400'
     },
     blue: {
-      gradient: isHovered ? 'from-blue-900/30 to-blue-800/30' : 'from-gray-900/30 to-gray-800/30',
-      border: isHovered ? 'border-blue-500/20' : 'border-gray-700/20',
-      text: 'text-blue-400'
+      gradient: isHovered ? 'from-neutral-900/30 to-neutral-800/30' : 'from-gray-900/30 to-gray-800/30',
+      border: isHovered ? 'border-neutral-500/20' : 'border-gray-700/20',
+      text: 'text-neutral-400'
     },
     indigo: {
       gradient: isHovered ? 'from-indigo-900/30 to-indigo-800/30' : 'from-gray-900/30 to-gray-800/30',

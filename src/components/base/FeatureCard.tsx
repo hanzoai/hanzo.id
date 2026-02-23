@@ -22,9 +22,9 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
 }) => {
   const colorClasses: Record<string, { bg: string, text: string, border: string }> = {
     blue: { 
-      bg: "bg-blue-900/20", 
-      text: "text-blue-400", 
-      border: "border-blue-800/50" 
+      bg: "bg-neutral-900/20", 
+      text: "text-neutral-400", 
+      border: "border-neutral-800/50" 
     },
     purple: { 
       bg: "bg-purple-900/20", 
@@ -32,9 +32,9 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       border: "border-purple-800/50" 
     },
     green: { 
-      bg: "bg-green-900/20", 
-      text: "text-green-400", 
-      border: "border-green-800/50" 
+      bg: "bg-neutral-900/20", 
+      text: "text-neutral-400", 
+      border: "border-neutral-800/50" 
     },
     amber: { 
       bg: "bg-amber-900/20", 

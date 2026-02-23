@@ -21,7 +21,7 @@ const UseCasesSection = () => {
 
   return (
     <section className="py-32 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative">
-      <div className="absolute inset-0 bg-gradient-to-r from-purple-900/10 to-blue-900/10 opacity-30 pointer-events-none"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-purple-900/10 to-neutral-900/10 opacity-30 pointer-events-none"></div>
 
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-16">

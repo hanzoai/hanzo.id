@@ -58,7 +58,7 @@ const TeamVi = () => {
               whileHover={{ y: -5 }}
               className="p-6 rounded-2xl border border-gray-800 bg-[var(--black)]/50"
             >
-              <Bot className="h-8 w-8 text-blue-400 mb-4" />
+              <Bot className="h-8 w-8 text-neutral-400 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Team Leadership</h3>
               <p className="text-neutral-400">
                 Coordinates and guides the AI team to achieve optimal performance
@@ -70,7 +70,7 @@ const TeamVi = () => {
               whileHover={{ y: -5 }}
               className="p-6 rounded-2xl border border-gray-800 bg-[var(--black)]/50"
             >
-              <Lock className="h-8 w-8 text-green-400 mb-4" />
+              <Lock className="h-8 w-8 text-neutral-400 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Innovation Drive</h3>
               <p className="text-neutral-400">
                 Promotes cutting-edge solutions and encourages creative problem-solving
@@ -91,7 +91,7 @@ const TeamVi = () => {
             </p>
             <Button 
               onClick={handleContactSensei}
-              className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600"
+              className="bg-gradient-to-r from-purple-500 to-neutral-500 hover:from-purple-600 hover:to-neutral-600"
             >
               Contact Sensei Group
             </Button>

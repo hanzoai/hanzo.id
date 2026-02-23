@@ -102,7 +102,7 @@ const Privacy = () => {
                     key={badge}
                     className="flex items-center gap-2 px-4 py-2 rounded-lg bg-neutral-900 border border-neutral-800"
                   >
-                    <CheckCircle className="w-4 h-4 text-green-500" />
+                    <CheckCircle className="w-4 h-4 text-neutral-500" />
                     <span className="text-sm font-medium text-white">{badge}</span>
                   </div>
                 ))}
@@ -233,7 +233,7 @@ const Privacy = () => {
               <Link
                 to="/contact"
                 className="inline-flex items-center px-8 py-4 rounded-full font-medium transition-all hover:opacity-90 text-base"
-                style={{ backgroundColor: BRAND_COLOR, color: "#ffffff" }}
+                style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
               >
                 Contact Us
                 <ArrowRight className="ml-2 h-5 w-5" />

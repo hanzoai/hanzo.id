@@ -141,7 +141,7 @@ const ChatWidget = () => {
       <motion.button
         onClick={() => setIsOpen(!isOpen)}
         className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-colors"
-        style={{ backgroundColor: BRAND_COLOR }}
+        style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
       >
@@ -181,8 +181,8 @@ const ChatWidget = () => {
             {/* Header */}
             <div className="flex items-center justify-between px-4 py-3 border-b border-neutral-800 bg-neutral-900">
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ backgroundColor: BRAND_COLOR }}>
-                  <Bot className="w-4 h-4 text-white" />
+                <div className="w-8 h-8 rounded-lg flex items-center justify-center" style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}>
+                  <Bot className="w-4 h-4 text-black" />
                 </div>
                 <div>
                   <div className="text-sm font-medium text-white">Hanzo AI</div>
@@ -269,9 +269,9 @@ const ChatWidget = () => {
                   type="submit"
                   disabled={isLoading || !input.trim()}
                   className="p-2 rounded-lg transition-colors disabled:opacity-50"
-                  style={{ backgroundColor: BRAND_COLOR }}
+                  style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
                 >
-                  <Send className="w-4 h-4 text-white" />
+                  <Send className="w-4 h-4 text-black" />
                 </button>
               </form>
             </div>

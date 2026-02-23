@@ -59,8 +59,8 @@ const CLISection = () => {
           </h2>
           <Button
             size="lg"
-            className="mt-4 text-white"
-            style={{ backgroundColor: BRAND_COLOR }}
+            className="mt-4 text-black"
+            style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
             asChild
           >
             <Link to="/download">

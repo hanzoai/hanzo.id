@@ -19,7 +19,7 @@ const CommerceAnalytics = () => {
       className="py-32 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative overflow-hidden"
     >
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/10 to-blue-900/5 opacity-50"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/10 to-neutral-900/5 opacity-50"></div>
       
       {/* Content */}
       <div className="max-w-7xl mx-auto relative z-10">
@@ -63,7 +63,7 @@ const CommerceAnalytics = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="flex"
               >
-                <div className="mr-4 p-3 rounded-xl bg-gradient-to-br from-purple-500/20 to-blue-500/20 border border-purple-500/20 text-purple-400">
+                <div className="mr-4 p-3 rounded-xl bg-gradient-to-br from-purple-500/20 to-neutral-500/20 border border-purple-500/20 text-purple-400">
                   {feature.icon}
                 </div>
                 <div>
@@ -109,7 +109,7 @@ const CommerceAnalytics = () => {
                 <div className="bg-gray-800/30 p-4 rounded-lg">
                   <div className="text-sm text-neutral-400">Conversion Rate</div>
                   <div className="text-2xl font-bold mt-2">4.78%</div>
-                  <div className="text-green-400 text-sm flex items-center mt-1">
+                  <div className="text-neutral-400 text-sm flex items-center mt-1">
                     <svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
                     </svg>
@@ -119,7 +119,7 @@ const CommerceAnalytics = () => {
                 <div className="bg-gray-800/30 p-4 rounded-lg">
                   <div className="text-sm text-neutral-400">Avg. Order Value</div>
                   <div className="text-2xl font-bold mt-2">$87.32</div>
-                  <div className="text-green-400 text-sm flex items-center mt-1">
+                  <div className="text-neutral-400 text-sm flex items-center mt-1">
                     <svg className="w-3 h-3 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 10l7-7m0 0l7 7m-7-7v18" />
                     </svg>

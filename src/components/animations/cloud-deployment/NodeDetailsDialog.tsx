@@ -29,9 +29,9 @@ const NodeDetailsDialog: React.FC<NodeDetailsDialogProps> = ({ isOpen, onOpenCha
           <div className="grid grid-cols-2 gap-y-2 text-sm">
             <div className="text-neutral-400">Status</div>
             <div className="text-neutral-200">
-              {selectedNode.status === 'deployed' && <span className="text-green-400">Deployed</span>}
-              {selectedNode.status === 'pending' && <span className="text-blue-400">Pending</span>}
-              {selectedNode.status === 'error' && <span className="text-red-400">Failed</span>}
+              {selectedNode.status === 'deployed' && <span className="text-neutral-400">Deployed</span>}
+              {selectedNode.status === 'pending' && <span className="text-neutral-400">Pending</span>}
+              {selectedNode.status === 'error' && <span className="text-neutral-400">Failed</span>}
             </div>
             
             <div className="text-neutral-400">Type</div>

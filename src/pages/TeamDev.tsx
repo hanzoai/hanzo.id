@@ -28,7 +28,7 @@ const TeamDev = () => {
         >
           {/* Hero Section */}
           <div className="text-center mb-16">
-            <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 mb-4">
+            <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-neutral-500 to-cyan-500 mb-4">
               <Code2 className="h-8 w-8 text-[var(--white)]" />
             </div>
             <h1 className="text-4xl sm:text-5xl font-bold mb-6">
@@ -58,7 +58,7 @@ const TeamDev = () => {
               whileHover={{ y: -5 }}
               className="p-6 rounded-2xl border border-gray-800 bg-[var(--black)]/50"
             >
-              <Bot className="h-8 w-8 text-blue-400 mb-4" />
+              <Bot className="h-8 w-8 text-neutral-400 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Hanzo Works</h3>
               <p className="text-neutral-400">
                 Our private AI-powered alternative to Google Apps, ensuring your data
@@ -70,7 +70,7 @@ const TeamDev = () => {
               whileHover={{ y: -5 }}
               className="p-6 rounded-2xl border border-gray-800 bg-[var(--black)]/50"
             >
-              <Lock className="h-8 w-8 text-green-400 mb-4" />
+              <Lock className="h-8 w-8 text-neutral-400 mb-4" />
               <h3 className="text-xl font-semibold mb-2">On-Premise AI</h3>
               <p className="text-neutral-400">
                 Deploy Dev locally in your infrastructure for maximum security and
@@ -91,7 +91,7 @@ const TeamDev = () => {
             </p>
             <Button 
               onClick={handleContactSensei}
-              className="bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600"
+              className="bg-gradient-to-r from-purple-500 to-neutral-500 hover:from-purple-600 hover:to-neutral-600"
             >
               Contact Sensei Group
             </Button>

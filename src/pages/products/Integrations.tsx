@@ -147,7 +147,7 @@ export default function IntegrationsPage() {
           </div>
 
           {/* CTA Section */}
-          <div className="mt-16 text-center p-8 rounded-2xl bg-gradient-to-b from-purple-900/30 to-blue-900/30 border border-purple-500/20">
+          <div className="mt-16 text-center p-8 rounded-2xl bg-gradient-to-b from-purple-900/30 to-neutral-900/30 border border-purple-500/20">
             <h2 className="text-2xl font-bold mb-4">Need a custom integration?</h2>
             <p className="text-neutral-400 mb-6">
               All integrations are built with TypeScript and are open source.

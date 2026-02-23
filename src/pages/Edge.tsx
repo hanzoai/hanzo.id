@@ -20,7 +20,7 @@ const Edge = () => {
             <div className="bg-cyan-500/10 border border-cyan-500/20 rounded-full px-4 py-1 inline-block mb-4">
               <span className="text-cyan-400 text-sm font-medium">Ultra-Low Latency</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-400">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-neutral-400">
               Hanzo Edge
             </h1>
             <p className="text-xl text-neutral-300 mb-8">
@@ -265,7 +265,7 @@ const Edge = () => {
       {/* CTA Section */}
       <section className="py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-r from-cyan-900/20 to-blue-900/20 rounded-2xl p-8 md:p-12 border border-cyan-500/30">
+          <div className="bg-gradient-to-r from-cyan-900/20 to-neutral-900/20 rounded-2xl p-8 md:p-12 border border-cyan-500/30">
             <div className="text-center">
               <h2 className="text-3xl font-bold mb-4">Deploy Globally in Seconds</h2>
               <p className="text-xl text-neutral-300 mb-8 max-w-3xl mx-auto">

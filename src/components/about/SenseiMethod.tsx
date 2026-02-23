@@ -85,7 +85,7 @@ const SenseiMethod = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative"
           >
-            <div className="bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-2xl p-1">
+            <div className="bg-gradient-to-br from-purple-500/20 to-neutral-500/20 rounded-2xl p-1">
               <div className="bg-[var(--black)]/50 backdrop-blur-sm rounded-xl overflow-hidden">
                 <img 
                   src="/placeholder.svg" 
@@ -103,12 +103,12 @@ const SenseiMethod = () => {
                       <span className="text-2xl font-bold text-purple-300">$1B+</span>
                       <p className="text-sm text-neutral-400">Client Revenue</p>
                     </div>
-                    <div className="bg-blue-900/30 px-4 py-2 rounded-lg">
-                      <span className="text-2xl font-bold text-blue-300">100+</span>
+                    <div className="bg-neutral-900/30 px-4 py-2 rounded-lg">
+                      <span className="text-2xl font-bold text-neutral-300">100+</span>
                       <p className="text-sm text-neutral-400">Product Launches</p>
                     </div>
-                    <div className="bg-green-900/30 px-4 py-2 rounded-lg">
-                      <span className="text-2xl font-bold text-green-300">10+</span>
+                    <div className="bg-neutral-900/30 px-4 py-2 rounded-lg">
+                      <span className="text-2xl font-bold text-neutral-300">10+</span>
                       <p className="text-sm text-neutral-400">Years Experience</p>
                     </div>
                   </div>

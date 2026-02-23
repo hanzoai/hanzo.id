@@ -84,7 +84,7 @@ const FeatureShowcase: React.FC = () => {
             </Button>
             <Button
               variant={activeTab === 'ai-cloud' ? 'default' : 'ghost'}
-              className={`rounded-full px-6 ${activeTab === 'ai-cloud' ? 'bg-blue-600 hover:bg-blue-700' : 'text-neutral-300 hover:text-[var(--white)] hover:bg-gray-800/50'}`}
+              className={`rounded-full px-6 ${activeTab === 'ai-cloud' ? 'bg-neutral-600 hover:bg-neutral-700' : 'text-neutral-300 hover:text-[var(--white)] hover:bg-gray-800/50'}`}
               onClick={() => setActiveTab('ai-cloud')}
             >
               AI Cloud

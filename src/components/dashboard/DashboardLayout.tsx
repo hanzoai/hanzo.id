@@ -34,7 +34,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
       <div className="w-56 border-r border-gray-900 flex flex-col">
         {/* User/Team Selector */}
         <div className="p-3 border-b border-gray-900 flex items-center">
-          <div className="w-6 h-6 bg-green-600 rounded-md flex items-center justify-center text-xs font-bold mr-2">H</div>
+          <div className="w-6 h-6 bg-neutral-600 rounded-md flex items-center justify-center text-xs font-bold mr-2">H</div>
           <span className="font-medium">Hanzo AI</span>
           <ChevronDown className="w-4 h-4 ml-auto" />
         </div>
@@ -99,7 +99,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
             <ul className="space-y-1">
               <li>
                 <Button variant="ghost" className="w-full justify-start text-neutral-300 hover:bg-gray-900 hover:text-[var(--white)]">
-                  <div className="w-4 h-4 bg-blue-600 rounded-sm flex items-center justify-center text-[10px] mr-2">G</div>
+                  <div className="w-4 h-4 bg-neutral-600 rounded-sm flex items-center justify-center text-[10px] mr-2">G</div>
                   GPT-4o
                 </Button>
               </li>
@@ -111,7 +111,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
               </li>
               <li>
                 <Button variant="ghost" className="w-full justify-start text-neutral-300 hover:bg-gray-900 hover:text-[var(--white)]">
-                  <div className="w-4 h-4 bg-green-600 rounded-sm flex items-center justify-center text-[10px] mr-2">L</div>
+                  <div className="w-4 h-4 bg-neutral-600 rounded-sm flex items-center justify-center text-[10px] mr-2">L</div>
                   Llama 3
                 </Button>
               </li>
@@ -128,13 +128,13 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
             <ul className="space-y-1">
               <li>
                 <Button variant="ghost" className="w-full justify-start text-neutral-300 hover:bg-gray-900 hover:text-[var(--white)]">
-                  <div className="w-4 h-4 bg-green-600 rounded-sm flex items-center justify-center text-[10px] mr-2">E</div>
+                  <div className="w-4 h-4 bg-neutral-600 rounded-sm flex items-center justify-center text-[10px] mr-2">E</div>
                   Engineering
                 </Button>
               </li>
               <li>
                 <Button variant="ghost" className="w-full justify-start text-neutral-300 hover:bg-gray-900 hover:text-[var(--white)]">
-                  <div className="w-4 h-4 bg-blue-600 rounded-sm flex items-center justify-center text-[10px] mr-2">D</div>
+                  <div className="w-4 h-4 bg-neutral-600 rounded-sm flex items-center justify-center text-[10px] mr-2">D</div>
                   Design
                 </Button>
               </li>

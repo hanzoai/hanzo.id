@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const statsItems = [
   { 
-    icon: <Download className="h-6 w-6 text-green-400" />,
+    icon: <Download className="h-6 w-6 text-neutral-400" />,
     value: 17,
     suffix: "M+",
     label: "Downloads",
@@ -20,7 +20,7 @@ const statsItems = [
     countUpDuration: 2.2
   },
   { 
-    icon: <Users className="h-6 w-6 text-blue-400" />,
+    icon: <Users className="h-6 w-6 text-neutral-400" />,
     value: 280,
     suffix: "+",
     label: "Contributors",

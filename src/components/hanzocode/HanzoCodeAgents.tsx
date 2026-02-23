@@ -68,7 +68,7 @@ const HanzoCodeAgents: React.FC = () => {
           />
         </div>
         
-        <div className="bg-gradient-to-br from-purple-900/20 to-blue-900/20 rounded-2xl p-8 border border-purple-500/20">
+        <div className="bg-gradient-to-br from-purple-900/20 to-neutral-900/20 rounded-2xl p-8 border border-purple-500/20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h3 className="text-2xl font-bold mb-6">Massively Parallel Development</h3>

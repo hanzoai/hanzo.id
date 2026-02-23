@@ -20,7 +20,7 @@ const Leadership = () => {
       <main>
         <section className="py-32 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative overflow-hidden">
           <div className="absolute top-20 right-20 w-64 h-64 bg-purple-900/5 rounded-full blur-3xl"></div>
-          <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-blue-900/5 rounded-full blur-3xl"></div>
+          <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-neutral-900/5 rounded-full blur-3xl"></div>
           
           <div className="max-w-7xl mx-auto">
             <motion.div
@@ -78,11 +78,11 @@ const Leadership = () => {
                     <span>20+ years experience</span>
                   </div>
                   <div className="flex items-center text-sm px-3 py-1 bg-gray-800/50 rounded-full">
-                    <Database className="h-4 w-4 mr-2 text-blue-400" />
+                    <Database className="h-4 w-4 mr-2 text-neutral-400" />
                     <span>AI Infrastructure</span>
                   </div>
                   <div className="flex items-center text-sm px-3 py-1 bg-gray-800/50 rounded-full">
-                    <BookOpen className="h-4 w-4 mr-2 text-green-400" />
+                    <BookOpen className="h-4 w-4 mr-2 text-neutral-400" />
                     <span>3x Startup Founder</span>
                   </div>
                 </div>
@@ -122,11 +122,11 @@ const Leadership = () => {
                     <span>15+ years experience</span>
                   </div>
                   <div className="flex items-center text-sm px-3 py-1 bg-gray-800/50 rounded-full">
-                    <Database className="h-4 w-4 mr-2 text-blue-400" />
+                    <Database className="h-4 w-4 mr-2 text-neutral-400" />
                     <span>ML Systems</span>
                   </div>
                   <div className="flex items-center text-sm px-3 py-1 bg-gray-800/50 rounded-full">
-                    <BookOpen className="h-4 w-4 mr-2 text-green-400" />
+                    <BookOpen className="h-4 w-4 mr-2 text-neutral-400" />
                     <span>Ph.D. in Computer Science</span>
                   </div>
                 </div>

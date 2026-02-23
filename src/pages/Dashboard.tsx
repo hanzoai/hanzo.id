@@ -60,8 +60,8 @@ const Dashboard = () => {
             <div className="h-40 mt-4 flex items-center justify-center">
               <div className="w-40 h-40 relative rounded-full border-4 border-gray-800 flex items-center justify-center">
                 <div className="w-28 h-28 rounded-full bg-gray-800"></div>
-                <div className="absolute top-0 right-0 w-4 h-4 rounded-full bg-green-500"></div>
-                <div className="absolute bottom-4 left-4 w-4 h-4 rounded-full bg-blue-500"></div>
+                <div className="absolute top-0 right-0 w-4 h-4 rounded-full bg-neutral-500"></div>
+                <div className="absolute bottom-4 left-4 w-4 h-4 rounded-full bg-neutral-500"></div>
                 <div className="absolute top-10 left-0 w-3 h-3 rounded-full bg-yellow-500"></div>
               </div>
             </div>
@@ -74,13 +74,13 @@ const Dashboard = () => {
             <div className="h-40 mt-4">
               <div className="h-full flex flex-col justify-between">
                 <div className="w-full bg-gray-900 h-4 rounded-full overflow-hidden">
-                  <div className="bg-blue-600 h-full rounded-full" style={{ width: '65%' }}></div>
+                  <div className="bg-neutral-600 h-full rounded-full" style={{ width: '65%' }}></div>
                 </div>
                 <div className="w-full bg-gray-900 h-4 rounded-full overflow-hidden">
                   <div className="bg-purple-600 h-full rounded-full" style={{ width: '42%' }}></div>
                 </div>
                 <div className="w-full bg-gray-900 h-4 rounded-full overflow-hidden">
-                  <div className="bg-green-600 h-full rounded-full" style={{ width: '28%' }}></div>
+                  <div className="bg-neutral-600 h-full rounded-full" style={{ width: '28%' }}></div>
                 </div>
                 <div className="w-full bg-gray-900 h-4 rounded-full overflow-hidden">
                   <div className="bg-yellow-600 h-full rounded-full" style={{ width: '13%' }}></div>

@@ -15,7 +15,7 @@ const benefits = [
     description: "Identify exactly where and why issues occur in real-time."
   },
   {
-    icon: <Target className="h-6 w-6 text-red-400" />,
+    icon: <Target className="h-6 w-6 text-neutral-400" />,
     title: "Faster Debugging",
     description: "Detailed traces and logs provide the clarity needed for rapid resolution."
   },
@@ -25,7 +25,7 @@ const benefits = [
     description: "Understand user behavior deeply, driving improvements that matter."
   },
   {
-    icon: <BarChart4 className="h-6 w-6 text-green-400" />,
+    icon: <BarChart4 className="h-6 w-6 text-neutral-400" />,
     title: "Informed Decisions",
     description: "Reliable analytics and predictive insights empower smarter product and operational decisions."
   }

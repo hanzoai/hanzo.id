@@ -31,8 +31,8 @@ const AppDemo = ({ activeTab }: { activeTab: string }) => {
       content: (
         <div className="space-y-3">
           <div className="flex items-center gap-2 text-sm">
-            <Check className="w-4 h-4 text-green-500" />
-            <span className="text-green-400">Workspace synced</span>
+            <Check className="w-4 h-4 text-neutral-500" />
+            <span className="text-neutral-400">Workspace synced</span>
           </div>
           <div className="bg-neutral-900/50 rounded-lg p-3">
             <div className="text-xs text-neutral-500 mb-2">Active Projects</div>
@@ -56,8 +56,8 @@ const AppDemo = ({ activeTab }: { activeTab: string }) => {
       content: (
         <div className="space-y-3">
           <div className="flex items-center gap-2 text-sm">
-            <Monitor className="w-4 h-4 text-blue-400" />
-            <span className="text-blue-400">Native performance</span>
+            <Monitor className="w-4 h-4 text-neutral-400" />
+            <span className="text-neutral-400">Native performance</span>
           </div>
           <div className="grid grid-cols-3 gap-2">
             <div className="bg-neutral-900/50 rounded-lg p-2 text-center">
@@ -87,9 +87,9 @@ const AppDemo = ({ activeTab }: { activeTab: string }) => {
           </div>
           <div className="bg-neutral-900/50 rounded-lg p-3 font-mono text-xs">
             <div className="text-neutral-500">$ hanzo local start</div>
-            <div className="text-green-400 mt-1">✓ Qwen3-32B loaded (16GB VRAM)</div>
-            <div className="text-green-400">✓ MCP tools connected</div>
-            <div className="text-green-400">✓ Ready on localhost:8080</div>
+            <div className="text-neutral-400 mt-1">✓ Qwen3-32B loaded (16GB VRAM)</div>
+            <div className="text-neutral-400">✓ MCP tools connected</div>
+            <div className="text-neutral-400">✓ Ready on localhost:8080</div>
           </div>
           <div className="text-xs text-neutral-500">Zero data leaves your machine • Full privacy • GPU accelerated</div>
         </div>
@@ -110,7 +110,7 @@ const AppDemo = ({ activeTab }: { activeTab: string }) => {
             </div>
             <div className="flex justify-between">
               <span className="text-neutral-500">Earnings:</span>
-              <span className="text-green-400">+127.4 LUX/day</span>
+              <span className="text-neutral-400">+127.4 LUX/day</span>
             </div>
             <div className="flex justify-between">
               <span className="text-neutral-500">Uptime:</span>
@@ -129,9 +129,9 @@ const AppDemo = ({ activeTab }: { activeTab: string }) => {
     <div className="rounded-xl border border-neutral-700 bg-neutral-900/95 backdrop-blur-sm overflow-hidden shadow-2xl h-[320px] flex flex-col">
       <div className="flex items-center gap-2 px-4 py-3 border-b border-neutral-800 bg-neutral-950 shrink-0">
         <div className="flex gap-1.5">
-          <div className="w-3 h-3 rounded-full bg-red-500/80" />
+          <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
           <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
-          <div className="w-3 h-3 rounded-full bg-green-500/80" />
+          <div className="w-3 h-3 rounded-full bg-neutral-500/80" />
         </div>
         <AnimatePresence mode="wait">
           <motion.span
@@ -221,7 +221,7 @@ const HeroSection = () => {
                 target="_blank"
                 rel="noreferrer noopener"
                 className="inline-flex items-center px-6 py-3 rounded-full font-medium transition-all hover:opacity-90 text-sm"
-                style={{ backgroundColor: BRAND_COLOR, color: "#ffffff" }}
+                style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
               >
                 Open in browser
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -250,7 +250,7 @@ const HeroSection = () => {
                   onClick={handleCopy}
                   className="text-neutral-500 hover:text-white transition-colors"
                 >
-                  {copied ? <Check className="h-3.5 w-3.5 text-green-500" /> : <Copy className="h-3.5 w-3.5" />}
+                  {copied ? <Check className="h-3.5 w-3.5 text-neutral-500" /> : <Copy className="h-3.5 w-3.5" />}
                 </button>
                 <a
                   href="https://docs.hanzo.ai"

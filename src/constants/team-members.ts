@@ -6,12 +6,12 @@ export const teamMembers = {
     title: "Meet Dev, Your AI Developer",
     role: "AI Developer",
     description: "Your expert AI developer, specializing in full-stack development and system architecture.",
-    gradient: "from-blue-500 to-cyan-500",
+    gradient: "from-neutral-500 to-cyan-500",
     mainIcon: Code2,
     features: [
       {
         icon: Bot,
-        color: "text-blue-400",
+        color: "text-neutral-400",
         title: "System Architecture",
         description: "Designs robust and scalable system architectures for complex applications."
       },
@@ -23,7 +23,7 @@ export const teamMembers = {
       },
       {
         icon: Binary,
-        color: "text-blue-400",
+        color: "text-neutral-400",
         title: "Code Quality",
         description: "Ensures high-quality, maintainable, and well-documented code."
       }
@@ -90,12 +90,12 @@ export const teamMembers = {
     title: "Meet Mark, Your Marketing Expert",
     role: "AI Marketing Director",
     description: "Your AI marketing strategist, crafting compelling campaigns and driving engagement.",
-    gradient: "from-green-500 to-emerald-500",
+    gradient: "from-neutral-500 to-emerald-500",
     mainIcon: MessagesSquare,
     features: [
       {
         icon: Bot,
-        color: "text-green-400",
+        color: "text-neutral-400",
         title: "Campaign Strategy",
         description: "Develops data-driven marketing campaigns that resonate with your target audience."
       },
@@ -107,7 +107,7 @@ export const teamMembers = {
       },
       {
         icon: MessagesSquare,
-        color: "text-green-400",
+        color: "text-neutral-400",
         title: "Analytics",
         description: "Provides deep insights and metrics to optimize marketing performance."
       }
@@ -202,12 +202,12 @@ export const teamMembers = {
     title: "Meet Data, Your AI Data Scientist",
     role: "AI Data Scientist",
     description: "Your expert AI data scientist, unlocking insights from complex datasets.",
-    gradient: "from-blue-500 to-indigo-500",
+    gradient: "from-neutral-500 to-indigo-500",
     mainIcon: ChartBar,
     features: [
       {
         icon: ChartBar,
-        color: "text-blue-400",
+        color: "text-neutral-400",
         title: "Data Analysis",
         description: "Analyzes complex datasets to extract meaningful insights."
       },
@@ -219,7 +219,7 @@ export const teamMembers = {
       },
       {
         icon: Database,
-        color: "text-blue-400",
+        color: "text-neutral-400",
         title: "Data Visualization",
         description: "Creates clear and informative data visualizations."
       }
@@ -258,12 +258,12 @@ export const teamMembers = {
     title: "Meet Fin, Your AI Financial Expert",
     role: "AI Financial Expert",
     description: "Your expert AI financial analyst, providing financial insights and strategy.",
-    gradient: "from-green-500 to-teal-500",
+    gradient: "from-neutral-500 to-teal-500",
     mainIcon: DollarSign,
     features: [
       {
         icon: DollarSign,
-        color: "text-green-400",
+        color: "text-neutral-400",
         title: "Financial Analysis",
         description: "Provides comprehensive financial analysis and reporting."
       },
@@ -275,7 +275,7 @@ export const teamMembers = {
       },
       {
         icon: ChartBar,
-        color: "text-green-400",
+        color: "text-neutral-400",
         title: "Risk Management",
         description: "Assesses and manages financial risks."
       }
@@ -286,12 +286,12 @@ export const teamMembers = {
     title: "Meet Sec, Your AI Security Expert",
     role: "AI Security Expert",
     description: "Your expert AI security specialist, protecting digital assets and infrastructure.",
-    gradient: "from-red-500 to-orange-500",
+    gradient: "from-neutral-500 to-orange-500",
     mainIcon: Scale,
     features: [
       {
         icon: Scale,
-        color: "text-red-400",
+        color: "text-neutral-400",
         title: "Security Analysis",
         description: "Conducts thorough security assessments and audits."
       },
@@ -303,7 +303,7 @@ export const teamMembers = {
       },
       {
         icon: Settings,
-        color: "text-red-400",
+        color: "text-neutral-400",
         title: "Security Operations",
         description: "Manages ongoing security operations and monitoring."
       }
@@ -314,7 +314,7 @@ export const teamMembers = {
     title: "Meet Algo, Your AI Algorithm Expert",
     role: "AI Algorithm Expert",
     description: "Your expert AI algorithm specialist, optimizing computational solutions.",
-    gradient: "from-cyan-500 to-blue-500",
+    gradient: "from-cyan-500 to-neutral-500",
     mainIcon: Binary,
     features: [
       {
@@ -325,7 +325,7 @@ export const teamMembers = {
       },
       {
         icon: Bot,
-        color: "text-blue-400",
+        color: "text-neutral-400",
         title: "Optimization",
         description: "Optimizes computational performance and efficiency."
       },
@@ -342,7 +342,7 @@ export const teamMembers = {
     title: "Meet DB, Your AI Database Expert",
     role: "AI Database Expert",
     description: "Your expert AI database specialist, managing data infrastructure.",
-    gradient: "from-emerald-500 to-green-500",
+    gradient: "from-emerald-500 to-neutral-500",
     mainIcon: Database,
     features: [
       {
@@ -353,7 +353,7 @@ export const teamMembers = {
       },
       {
         icon: Bot,
-        color: "text-green-400",
+        color: "text-neutral-400",
         title: "Data Management",
         description: "Manages and optimizes database operations."
       },
@@ -398,12 +398,12 @@ export const teamMembers = {
     title: "Meet Chat, Your AI Conversation Expert",
     role: "AI Conversation Expert",
     description: "Your expert AI conversation specialist, facilitating natural communication.",
-    gradient: "from-blue-500 to-purple-500",
+    gradient: "from-neutral-500 to-purple-500",
     mainIcon: MessageCircle,
     features: [
       {
         icon: MessageCircle,
-        color: "text-blue-400",
+        color: "text-neutral-400",
         title: "Natural Language",
         description: "Processes and generates natural language responses."
       },
@@ -415,7 +415,7 @@ export const teamMembers = {
       },
       {
         icon: Lightbulb,
-        color: "text-blue-400",
+        color: "text-neutral-400",
         title: "Understanding",
         description: "Comprehends context and user intent."
       }

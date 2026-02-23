@@ -77,7 +77,7 @@ const Features = () => {
           >
             <div className="w-full lg:w-1/2">
               <div className="flex items-center mb-4">
-                <div className="h-12 w-12 rounded-lg flex items-center justify-center bg-green-900/20 text-green-400 mr-4">
+                <div className="h-12 w-12 rounded-lg flex items-center justify-center bg-neutral-900/20 text-neutral-400 mr-4">
                   <feature.icon className="h-6 w-6" />
                 </div>
                 <h2 className="text-3xl font-bold">{feature.title}</h2>
@@ -85,7 +85,7 @@ const Features = () => {
               <p className="text-xl text-neutral-300 mb-4">{feature.description}</p>
               <p className="text-neutral-400 mb-6">{feature.details}</p>
               
-              <a href="#learn-more" className="inline-flex items-center text-green-400 hover:text-green-300 transition-colors">
+              <a href="#learn-more" className="inline-flex items-center text-neutral-400 hover:text-neutral-300 transition-colors">
                 Learn More <ArrowRight className="ml-2 h-4 w-4" />
               </a>
               
@@ -102,8 +102,8 @@ const Features = () => {
             </div>
             
             <div className="w-full lg:w-1/2 bg-gray-900/50 rounded-xl overflow-hidden border border-gray-800">
-              <div className="aspect-video p-8 flex items-center justify-center bg-gradient-to-br from-green-900/10 to-blue-900/10">
-                <feature.icon className="h-24 w-24 text-green-500/70" />
+              <div className="aspect-video p-8 flex items-center justify-center bg-gradient-to-br from-neutral-900/10 to-neutral-900/10">
+                <feature.icon className="h-24 w-24 text-neutral-500/70" />
               </div>
             </div>
           </motion.div>
@@ -118,19 +118,19 @@ const Features = () => {
         >
           <div className="grid md:grid-cols-3 gap-8">
             <div className="space-y-4">
-              <Code2 className="h-10 w-10 text-green-400" />
+              <Code2 className="h-10 w-10 text-neutral-400" />
               <h3 className="text-xl font-bold">MIT Licensed</h3>
               <p className="text-neutral-400">Fork it, modify it, use it commercially. We believe in true open source.</p>
             </div>
             
             <div className="space-y-4">
-              <Lock className="h-10 w-10 text-green-400" />
+              <Lock className="h-10 w-10 text-neutral-400" />
               <h3 className="text-xl font-bold">Data Sovereignty</h3>
               <p className="text-neutral-400">Keep your code, data, and models on your infrastructure. No vendor lock-in.</p>
             </div>
             
             <div className="space-y-4">
-              <Network className="h-10 w-10 text-green-400" />
+              <Network className="h-10 w-10 text-neutral-400" />
               <h3 className="text-xl font-bold">Enterprise Ready</h3>
               <p className="text-neutral-400">Scale from a laptop to a data center with enterprise support available.</p>
             </div>

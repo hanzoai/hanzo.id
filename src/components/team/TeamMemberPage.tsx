@@ -84,7 +84,7 @@ const TeamMemberPage = ({ memberId }: TeamMemberPageProps) => {
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
               {/* Hanzo Agency Card */}
-              <div className="p-6 bg-gradient-to-br from-purple-900/50 to-blue-900/30 rounded-xl border border-purple-500/20 hover:border-purple-500/40 transition-colors">
+              <div className="p-6 bg-gradient-to-br from-purple-900/50 to-neutral-900/30 rounded-xl border border-purple-500/20 hover:border-purple-500/40 transition-colors">
                 <div className="p-3 rounded-lg bg-purple-500/20 self-start inline-block mb-4">
                   <Users className="h-6 w-6 text-purple-400" strokeWidth={1.5} />
                 </div>
@@ -109,9 +109,9 @@ const TeamMemberPage = ({ memberId }: TeamMemberPageProps) => {
               </div>
               
               {/* Sensei Group Card */}
-              <div className="p-6 bg-gradient-to-br from-green-900/50 to-teal-900/30 rounded-xl border border-green-500/20 hover:border-green-500/40 transition-colors">
-                <div className="p-3 rounded-lg bg-green-500/20 self-start inline-block mb-4">
-                  <Shield className="h-6 w-6 text-green-400" strokeWidth={1.5} />
+              <div className="p-6 bg-gradient-to-br from-neutral-900/50 to-teal-900/30 rounded-xl border border-neutral-500/20 hover:border-neutral-500/40 transition-colors">
+                <div className="p-3 rounded-lg bg-neutral-500/20 self-start inline-block mb-4">
+                  <Shield className="h-6 w-6 text-neutral-400" strokeWidth={1.5} />
                 </div>
                 <h3 className="text-2xl font-bold text-[var(--white)] mb-3">Sensei Group</h3>
                 <p className="text-neutral-300 mb-5">
@@ -121,12 +121,12 @@ const TeamMemberPage = ({ memberId }: TeamMemberPageProps) => {
                 <div className="flex flex-wrap gap-4">
                   <Button 
                     onClick={handleContactSensei}
-                    className="bg-green-600 hover:bg-green-500 text-[var(--white)]"
+                    className="bg-neutral-600 hover:bg-neutral-500 text-[var(--white)]"
                   >
                     Contact Sensei Group
                     <ExternalLink className="ml-2 h-4 w-4" />
                   </Button>
-                  <a href="tel:+1234567890" className="flex items-center gap-2 px-5 py-2.5 border border-green-500/40 hover:border-green-500 rounded-md text-green-400 hover:text-green-300 transition-colors">
+                  <a href="tel:+1234567890" className="flex items-center gap-2 px-5 py-2.5 border border-neutral-500/40 hover:border-neutral-500 rounded-md text-neutral-400 hover:text-neutral-300 transition-colors">
                     <span>Schedule a call</span>
                     <Phone size={14} />
                   </a>
@@ -145,14 +145,14 @@ const TeamMemberPage = ({ memberId }: TeamMemberPageProps) => {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <Button 
                 onClick={handleContactAgency}
-                className={`bg-gradient-to-r from-purple-600 to-blue-600 hover:opacity-90 ${getRoundingClass()}`}
+                className={`bg-gradient-to-r from-purple-600 to-neutral-600 hover:opacity-90 ${getRoundingClass()}`}
               >
                 Creative Services
                 <ExternalLink className="ml-2 h-4 w-4" />
               </Button>
               <Button 
                 onClick={handleContactSensei}
-                className={`bg-gradient-to-r from-green-600 to-teal-600 hover:opacity-90 ${getRoundingClass()}`}
+                className={`bg-gradient-to-r from-neutral-600 to-teal-600 hover:opacity-90 ${getRoundingClass()}`}
               >
                 Enterprise Solutions
                 <ExternalLink className="ml-2 h-4 w-4" />

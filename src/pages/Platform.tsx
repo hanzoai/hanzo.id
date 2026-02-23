@@ -80,13 +80,13 @@ const DeploymentOptions = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-6 hover:border-blue-500/30 transition-colors"
+            className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-6 hover:border-neutral-500/30 transition-colors"
           >
             <div
               className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
               style={{ backgroundColor: "#3b82f620" }}
             >
-              <Cloud className="w-6 h-6 text-blue-500" />
+              <Cloud className="w-6 h-6 text-neutral-500" />
             </div>
             <h3 className="text-xl font-bold text-white mb-2">Hanzo Cloud</h3>
             <p className="text-neutral-400 text-sm mb-4">
@@ -94,18 +94,18 @@ const DeploymentOptions = () => {
             </p>
             <ul className="space-y-2 text-sm text-neutral-500">
               <li className="flex items-center gap-2">
-                <span className="text-blue-500">✓</span> 35+ global regions
+                <span className="text-neutral-500">✓</span> 35+ global regions
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-blue-500">✓</span> Zero-config deployments
+                <span className="text-neutral-500">✓</span> Zero-config deployments
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-blue-500">✓</span> 99.99% SLA
+                <span className="text-neutral-500">✓</span> 99.99% SLA
               </li>
             </ul>
             <Link
               to="/cloud"
-              className="inline-flex items-center mt-6 text-sm text-blue-400 hover:text-blue-300"
+              className="inline-flex items-center mt-6 text-sm text-neutral-400 hover:text-neutral-300"
             >
               Explore Cloud
               <ArrowRight className="w-4 h-4 ml-2" />

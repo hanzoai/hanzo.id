@@ -13,7 +13,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-teal-400 mb-6">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-neutral-400 to-teal-400 mb-6">
             Built in the Open, For Everyone
           </h1>
           <p className="text-xl text-neutral-300 max-w-3xl mx-auto mb-10">
@@ -23,7 +23,7 @@ const HeroSection = () => {
           <div className="flex flex-wrap justify-center gap-4">
             <Button 
               size="sm" 
-              className="bg-green-600 hover:bg-green-700"
+              className="bg-neutral-600 hover:bg-neutral-700"
             >
               <Github className="mr-2 h-4 w-4" />
               <a href="https://github.com/hanzoai" target="_blank" rel="noopener noreferrer">View on GitHub</a>
@@ -31,7 +31,7 @@ const HeroSection = () => {
             <Button 
               size="sm" 
               variant="outline" 
-              className="border-green-500/30 text-[var(--white)] hover:bg-green-800/30"
+              className="border-neutral-500/30 text-[var(--white)] hover:bg-neutral-800/30"
             >
               <Star className="mr-2 h-4 w-4" />
               <a href="https://github.com/hanzoai/platform" target="_blank" rel="noopener noreferrer">Star Platform Repo</a>
@@ -39,7 +39,7 @@ const HeroSection = () => {
             <Button 
               size="sm" 
               variant="outline" 
-              className="border-green-500/30 text-[var(--white)] hover:bg-green-800/30"
+              className="border-neutral-500/30 text-[var(--white)] hover:bg-neutral-800/30"
             >
               <GitBranch className="mr-2 h-4 w-4" />
               <a href="https://github.com/hanzoai/platform/fork" target="_blank" rel="noopener noreferrer">Fork & Contribute</a>

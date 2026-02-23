@@ -35,8 +35,8 @@ const FooterCTA = () => {
               href="https://hanzo.app"
               target="_blank"
               rel="noreferrer noopener"
-              className="inline-flex items-center justify-center px-8 py-4 rounded-full font-medium text-white text-lg transition-all hover:opacity-90"
-              style={{ backgroundColor: BRAND_COLOR }}
+              className="inline-flex items-center justify-center px-8 py-4 rounded-full font-medium text-black text-lg transition-all hover:opacity-90"
+              style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
             >
               Open hanzo.app
               <ArrowRight className="ml-2 h-5 w-5" />

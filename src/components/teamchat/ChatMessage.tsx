@@ -26,7 +26,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, formatTimestamp }) =
       <div
         className={`max-w-3xl p-3 rounded-lg ${
           message.sender === "user"
-            ? "bg-blue-600/30 border border-blue-500/30"
+            ? "bg-neutral-600/30 border border-neutral-500/30"
             : "bg-gray-800/60 border border-gray-700/50"
         }`}
       >
@@ -44,7 +44,7 @@ const ChatMessage: React.FC<ChatMessageProps> = ({ message, formatTimestamp }) =
       </div>
       
       {message.sender === "user" && (
-        <div className="bg-blue-600/40 h-8 w-8 rounded-full flex items-center justify-center ml-2 mt-1">
+        <div className="bg-neutral-600/40 h-8 w-8 rounded-full flex items-center justify-center ml-2 mt-1">
           <User className="h-4 w-4 text-[var(--white)]" />
         </div>
       )}

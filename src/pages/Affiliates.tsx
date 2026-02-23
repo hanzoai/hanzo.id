@@ -21,7 +21,7 @@ const Affiliates = () => {
       {/* Background elements */}
       <div className="fixed inset-0 -z-10">
         <GridLines spacing={100} opacity={0.07} />
-        <div className="absolute top-0 left-0 w-1/2 h-1/2 bg-blue-900/10 rounded-full blur-3xl transform -translate-x-1/4 -translate-y-1/4"></div>
+        <div className="absolute top-0 left-0 w-1/2 h-1/2 bg-neutral-900/10 rounded-full blur-3xl transform -translate-x-1/4 -translate-y-1/4"></div>
         <div className="absolute bottom-0 right-0 w-1/2 h-1/2 bg-indigo-900/10 rounded-full blur-3xl transform translate-x-1/4 translate-y-1/4"></div>
       </div>
       
@@ -37,7 +37,7 @@ const Affiliates = () => {
               transition={{ duration: 0.6 }}
               className="text-center mb-16"
             >
-              <div className="inline-block p-3 rounded-full bg-blue-900/30 border border-blue-500/30 text-blue-300 mb-6">
+              <div className="inline-block p-3 rounded-full bg-neutral-900/30 border border-neutral-500/30 text-neutral-300 mb-6">
                 <Briefcase className="h-8 w-8" />
               </div>
               <ChromeText as="h1" className="text-4xl md:text-6xl font-bold mb-6">
@@ -47,7 +47,7 @@ const Affiliates = () => {
                 Earn recurring commissions by promoting Hanzo's AI tools and services to your audience. Join our growing network of influencers, content creators, and AI enthusiasts.
               </p>
               <div className="mt-8">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 px-8">
+                <Button size="lg" className="bg-neutral-600 hover:bg-neutral-700 px-8">
                   Apply Now
                 </Button>
               </div>
@@ -76,17 +76,17 @@ const Affiliates = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
               {[
                 {
-                  icon: <DollarSign className="h-10 w-10 text-blue-400" />,
+                  icon: <DollarSign className="h-10 w-10 text-neutral-400" />,
                   title: "30% First Payment",
                   description: "Earn 30% commission on the first payment made by customers you refer"
                 },
                 {
-                  icon: <BarChart className="h-10 w-10 text-blue-400" />,
+                  icon: <BarChart className="h-10 w-10 text-neutral-400" />,
                   title: "15% Recurring Revenue",
                   description: "Continue earning 15% on recurring payments for the lifetime of the customer"
                 },
                 {
-                  icon: <Target className="h-10 w-10 text-blue-400" />,
+                  icon: <Target className="h-10 w-10 text-neutral-400" />,
                   title: "90-Day Cookie",
                   description: "Our 90-day cookie tracking ensures you get credit for your referrals"
                 }
@@ -99,7 +99,7 @@ const Affiliates = () => {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="bg-gray-900/20 border border-gray-800 rounded-xl p-8 text-center"
                 >
-                  <div className="h-20 w-20 rounded-full bg-blue-900/20 border border-blue-500/20 flex items-center justify-center mx-auto mb-6">
+                  <div className="h-20 w-20 rounded-full bg-neutral-900/20 border border-neutral-500/20 flex items-center justify-center mx-auto mb-6">
                     {item.icon}
                   </div>
                   <h3 className="text-2xl font-bold mb-3">{item.title}</h3>
@@ -113,7 +113,7 @@ const Affiliates = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
-              className="bg-gradient-to-r from-blue-900/20 to-indigo-900/20 rounded-xl border border-blue-500/20 p-8"
+              className="bg-gradient-to-r from-neutral-900/20 to-indigo-900/20 rounded-xl border border-neutral-500/20 p-8"
             >
               <div className="flex flex-col md:flex-row items-center justify-between gap-8">
                 <div>
@@ -122,7 +122,7 @@ const Affiliates = () => {
                     See how much you could earn as a Hanzo affiliate based on your audience size and conversion rates.
                   </p>
                 </div>
-                <Button className="bg-blue-600 hover:bg-blue-700 px-6">
+                <Button className="bg-neutral-600 hover:bg-neutral-700 px-6">
                   Calculate Your Earnings
                 </Button>
               </div>
@@ -151,32 +151,32 @@ const Affiliates = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 {
-                  icon: <Award className="h-8 w-8 text-blue-400" />,
+                  icon: <Award className="h-8 w-8 text-neutral-400" />,
                   title: "Industry-Leading Commissions",
                   description: "Earn some of the highest commission rates in the AI industry with our tiered structure"
                 },
                 {
-                  icon: <BookOpen className="h-8 w-8 text-blue-400" />,
+                  icon: <BookOpen className="h-8 w-8 text-neutral-400" />,
                   title: "Comprehensive Resources",
                   description: "Access marketing materials, banners, product information, and case studies"
                 },
                 {
-                  icon: <DollarSign className="h-8 w-8 text-blue-400" />,
+                  icon: <DollarSign className="h-8 w-8 text-neutral-400" />,
                   title: "Timely Payments",
                   description: "Get paid reliably every month via PayPal, Stripe, or bank transfer"
                 },
                 {
-                  icon: <BarChart className="h-8 w-8 text-blue-400" />,
+                  icon: <BarChart className="h-8 w-8 text-neutral-400" />,
                   title: "Detailed Analytics",
                   description: "Track your performance with real-time reporting and conversion data"
                 },
                 {
-                  icon: <Target className="h-8 w-8 text-blue-400" />,
+                  icon: <Target className="h-8 w-8 text-neutral-400" />,
                   title: "Dedicated Support",
                   description: "Work with our affiliate manager to optimize your campaigns and maximize earnings"
                 },
                 {
-                  icon: <ExternalLink className="h-8 w-8 text-blue-400" />,
+                  icon: <ExternalLink className="h-8 w-8 text-neutral-400" />,
                   title: "High-Converting Landing Pages",
                   description: "Direct your traffic to optimized pages designed to convert visitors into customers"
                 }
@@ -189,7 +189,7 @@ const Affiliates = () => {
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   className="bg-gray-900/20 border border-gray-800 rounded-xl p-6"
                 >
-                  <div className="h-12 w-12 rounded-lg bg-blue-900/20 border border-blue-500/20 flex items-center justify-center mb-4">
+                  <div className="h-12 w-12 rounded-lg bg-neutral-900/20 border border-neutral-500/20 flex items-center justify-center mb-4">
                     {benefit.icon}
                   </div>
                   <h3 className="text-xl font-bold mb-2">{benefit.title}</h3>
@@ -219,7 +219,7 @@ const Affiliates = () => {
             </motion.div>
             
             <div className="relative">
-              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gradient-to-b from-blue-500/50 to-indigo-500/50 hidden md:block"></div>
+              <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-gradient-to-b from-neutral-500/50 to-indigo-500/50 hidden md:block"></div>
               
               <div className="space-y-12 relative">
                 {[
@@ -263,7 +263,7 @@ const Affiliates = () => {
                     className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8`}
                   >
                     <div className="md:w-1/2 flex justify-center">
-                      <div className="h-20 w-20 rounded-full bg-gradient-to-br from-blue-600 to-indigo-600 flex items-center justify-center text-3xl font-bold z-10">
+                      <div className="h-20 w-20 rounded-full bg-gradient-to-br from-neutral-600 to-indigo-600 flex items-center justify-center text-3xl font-bold z-10">
                         {step.number}
                       </div>
                     </div>
@@ -280,7 +280,7 @@ const Affiliates = () => {
         
         {/* CTA Section */}
         <section className="py-16 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-5xl mx-auto bg-gradient-to-r from-blue-900/20 to-indigo-900/20 rounded-xl border border-blue-500/20 p-10 text-center">
+          <div className="max-w-5xl mx-auto bg-gradient-to-r from-neutral-900/20 to-indigo-900/20 rounded-xl border border-neutral-500/20 p-10 text-center">
             <ChromeText as="h2" className="text-3xl font-bold mb-4">
               Ready to Become an Affiliate?
             </ChromeText>
@@ -288,7 +288,7 @@ const Affiliates = () => {
               Join our affiliate program today and start earning commissions by promoting Hanzo's powerful AI tools and services.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 px-8">
+              <Button size="lg" className="bg-neutral-600 hover:bg-neutral-700 px-8">
                 Apply Now
               </Button>
               <Button size="lg" variant="outline" className="border-gray-700 hover:bg-gray-800 px-8">

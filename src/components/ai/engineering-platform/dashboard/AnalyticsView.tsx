@@ -33,7 +33,7 @@ const AnalyticsView = () => {
                   transition={{ duration: 0.8, delay: 0.1 }}
                 />
                 <motion.div 
-                  className="h-full bg-blue-500/70"
+                  className="h-full bg-neutral-500/70"
                   initial={{ width: 0 }}
                   animate={{ width: "28%" }}
                   transition={{ duration: 0.8, delay: 0.3 }}
@@ -59,7 +59,7 @@ const AnalyticsView = () => {
               <span className="text-xs text-neutral-300">GPT-4o (42%)</span>
             </div>
             <div className="flex items-center">
-              <div className="w-2 h-2 rounded-full bg-blue-500 mr-2"></div>
+              <div className="w-2 h-2 rounded-full bg-neutral-500 mr-2"></div>
               <span className="text-xs text-neutral-300">Claude 3 (28%)</span>
             </div>
             <div className="flex items-center">
@@ -109,7 +109,7 @@ const AnalyticsView = () => {
             </div>
             <div className="w-full bg-gray-700/40 rounded-full h-1.5">
               <motion.div 
-                className="bg-green-500 h-1.5 rounded-full" 
+                className="bg-neutral-500 h-1.5 rounded-full" 
                 initial={{ width: 0 }}
                 animate={{ width: "89%" }}
                 transition={{ duration: 0.8 }}
@@ -123,7 +123,7 @@ const AnalyticsView = () => {
             </div>
             <div className="w-full bg-gray-700/40 rounded-full h-1.5">
               <motion.div 
-                className="bg-green-500 h-1.5 rounded-full" 
+                className="bg-neutral-500 h-1.5 rounded-full" 
                 initial={{ width: 0 }}
                 animate={{ width: "94%" }}
                 transition={{ duration: 0.8, delay: 0.2 }}
@@ -137,7 +137,7 @@ const AnalyticsView = () => {
             </div>
             <div className="w-full bg-gray-700/40 rounded-full h-1.5">
               <motion.div 
-                className="bg-green-500 h-1.5 rounded-full" 
+                className="bg-neutral-500 h-1.5 rounded-full" 
                 initial={{ width: 0 }}
                 animate={{ width: "99.8%" }}
                 transition={{ duration: 0.8, delay: 0.4 }}

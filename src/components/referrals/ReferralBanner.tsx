@@ -13,9 +13,9 @@ const ReferralBanner = () => {
 
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-purple-900/5 to-blue-900/5"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-purple-900/5 to-neutral-900/5"></div>
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/5 rounded-full blur-3xl"></div>
-      <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl"></div>
+      <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-neutral-500/5 rounded-full blur-3xl"></div>
       
       <div className="max-w-6xl mx-auto">
         <div className="backdrop-blur-xl bg-[var(--black)]/40 border border-white/5 rounded-xl p-10">

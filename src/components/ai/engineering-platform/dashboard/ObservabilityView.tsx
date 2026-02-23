@@ -24,7 +24,7 @@ const ObservabilityView = () => {
         <div className="bg-gray-800/40 border border-gray-700/40 rounded-lg p-3">
           <div className="text-xs text-neutral-400 mb-1">Requests</div>
           <div className="text-lg font-medium text-[var(--white)]">3,452</div>
-          <div className="mt-1 text-xs text-green-400 flex items-center">
+          <div className="mt-1 text-xs text-neutral-400 flex items-center">
             <ChartLine className="w-3 h-3 mr-1" />
             +18% from yesterday
           </div>
@@ -32,7 +32,7 @@ const ObservabilityView = () => {
         <div className="bg-gray-800/40 border border-gray-700/40 rounded-lg p-3">
           <div className="text-xs text-neutral-400 mb-1">Avg. Latency</div>
           <div className="text-lg font-medium text-[var(--white)]">94ms</div>
-          <div className="mt-1 text-xs text-green-400 flex items-center">
+          <div className="mt-1 text-xs text-neutral-400 flex items-center">
             <ChartLine className="w-3 h-3 mr-1" />
             -12ms from yesterday
           </div>
@@ -40,7 +40,7 @@ const ObservabilityView = () => {
         <div className="bg-gray-800/40 border border-gray-700/40 rounded-lg p-3">
           <div className="text-xs text-neutral-400 mb-1">Error Rate</div>
           <div className="text-lg font-medium text-[var(--white)]">0.4%</div>
-          <div className="mt-1 text-xs text-green-400 flex items-center">
+          <div className="mt-1 text-xs text-neutral-400 flex items-center">
             <ChartLine className="w-3 h-3 mr-1" />
             -0.2% from yesterday
           </div>
@@ -79,12 +79,12 @@ const ObservabilityView = () => {
           ].map((trace) => (
             <div key={trace.id} className="flex items-center justify-between text-xs p-1.5 rounded hover:bg-gray-700/30">
               <div className="flex items-center">
-                <div className={`w-1.5 h-1.5 rounded-full mr-2 ${trace.status === "success" ? "bg-green-500" : "bg-red-500"}`}></div>
+                <div className={`w-1.5 h-1.5 rounded-full mr-2 ${trace.status === "success" ? "bg-neutral-500" : "bg-neutral-500"}`}></div>
                 <span className="text-neutral-300">{trace.model}</span>
               </div>
               <div className="flex items-center space-x-3">
                 <span className="text-neutral-400">{trace.time}</span>
-                <span className={`${trace.status === "success" ? "text-blue-400" : "text-red-400"}`}>{trace.duration}</span>
+                <span className={`${trace.status === "success" ? "text-neutral-400" : "text-neutral-400"}`}>{trace.duration}</span>
               </div>
             </div>
           ))}

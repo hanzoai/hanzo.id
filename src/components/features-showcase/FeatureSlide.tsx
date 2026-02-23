@@ -25,7 +25,7 @@ const FeatureSlide: React.FC<FeatureSlideProps> = ({
     if (!category) return null;
     
     const badgeStyles = {
-      'ai-cloud': 'bg-blue-900/30 border-blue-500/30 text-blue-300',
+      'ai-cloud': 'bg-neutral-900/30 border-neutral-500/30 text-neutral-300',
       'dx-platform': 'bg-emerald-900/30 border-emerald-500/30 text-emerald-300'
     };
     

@@ -95,11 +95,11 @@ const Testimonials = () => {
               </p>
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center bg-gray-800/50 rounded-full px-4 py-2">
-                  <div className="w-2 h-2 rounded-full bg-green-500 mr-2"></div>
+                  <div className="w-2 h-2 rounded-full bg-neutral-500 mr-2"></div>
                   <span className="text-neutral-300 text-sm">4,500+ community members</span>
                 </div>
                 <div className="flex items-center bg-gray-800/50 rounded-full px-4 py-2">
-                  <div className="w-2 h-2 rounded-full bg-blue-500 mr-2"></div>
+                  <div className="w-2 h-2 rounded-full bg-neutral-500 mr-2"></div>
                   <span className="text-neutral-300 text-sm">Weekly office hours</span>
                 </div>
                 <div className="flex items-center bg-gray-800/50 rounded-full px-4 py-2">

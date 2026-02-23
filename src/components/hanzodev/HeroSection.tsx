@@ -74,7 +74,7 @@ const HeroSection = () => {
             <Link
               to="/get-started"
               className="inline-flex items-center px-6 py-3 rounded-full font-medium transition-all hover:opacity-90 text-sm"
-              style={{ backgroundColor: BRAND_COLOR, color: "#ffffff" }}
+              style={{ backgroundColor: BRAND_COLOR, color: "#000000" }}
             >
               Get Started with Hanzo
               <ArrowRight className="ml-2 h-4 w-4" />
@@ -103,7 +103,7 @@ const HeroSection = () => {
                 className="text-neutral-500 hover:text-white transition-colors"
               >
                 {copied ? (
-                  <Check className="h-3.5 w-3.5 text-green-500" />
+                  <Check className="h-3.5 w-3.5 text-neutral-500" />
                 ) : (
                   <Copy className="h-3.5 w-3.5" />
                 )}

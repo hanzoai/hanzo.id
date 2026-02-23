@@ -5,8 +5,8 @@ import ChromeText from "@/components/ui/chrome-text";
 
 const EnterpriseFeature = ({ icon: Icon, title, description }) => {
   return (
-    <div className="bg-green-900/10 border border-green-500/20 rounded-xl p-6 flex flex-col items-center text-center">
-      <Icon className="h-12 w-12 text-green-400 mb-4" />
+    <div className="bg-neutral-900/10 border border-neutral-500/20 rounded-xl p-6 flex flex-col items-center text-center">
+      <Icon className="h-12 w-12 text-neutral-400 mb-4" />
       <h3 className="text-xl font-bold mb-2">{title}</h3>
       <p className="text-neutral-300">
         {description}

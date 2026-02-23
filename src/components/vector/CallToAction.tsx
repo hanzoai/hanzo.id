@@ -8,9 +8,9 @@ import { ArrowRight } from "lucide-react";
 const CallToAction = () => {
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-indigo-900/20 to-blue-900/20 opacity-30"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-indigo-900/20 to-neutral-900/20 opacity-30"></div>
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl"></div>
-      <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl"></div>
+      <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-neutral-500/10 rounded-full blur-3xl"></div>
       
       <div className="max-w-5xl mx-auto relative z-10">
         <motion.div 
@@ -30,7 +30,7 @@ const CallToAction = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg"
-              className="bg-gradient-to-r from-indigo-600 to-blue-500 hover:from-indigo-500 hover:to-blue-400 text-[var(--white)] px-8 py-6 rounded-lg text-lg font-medium shadow-lg hover:shadow-xl transition-all"
+              className="bg-gradient-to-r from-indigo-600 to-neutral-500 hover:from-indigo-500 hover:to-neutral-400 text-[var(--white)] px-8 py-6 rounded-lg text-lg font-medium shadow-lg hover:shadow-xl transition-all"
             >
               Get Started Free
               <ArrowRight className="ml-2 h-5 w-5" />

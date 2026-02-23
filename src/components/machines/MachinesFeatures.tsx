@@ -11,9 +11,9 @@ const FeatureCard = ({ icon: Icon, title, description, delay }) => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay }}
       viewport={{ once: true }}
-      className="bg-green-900/20 border border-green-500/30 rounded-xl p-6"
+      className="bg-neutral-900/20 border border-neutral-500/30 rounded-xl p-6"
     >
-      <Icon className="h-10 w-10 text-green-400 mb-4" />
+      <Icon className="h-10 w-10 text-neutral-400 mb-4" />
       <h3 className="text-xl font-bold mb-2">{title}</h3>
       <p className="text-neutral-300">
         {description}

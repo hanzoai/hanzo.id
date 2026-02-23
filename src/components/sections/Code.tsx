@@ -32,9 +32,9 @@ const Code = () => {
           <div className="rounded-xl overflow-hidden border border-white/10">
             <div className="bg-gray-900 px-4 py-2 flex items-center space-x-2">
               <div className="flex space-x-1">
-                <div className="w-3 h-3 rounded-full bg-red-500/20"></div>
+                <div className="w-3 h-3 rounded-full bg-neutral-500/20"></div>
                 <div className="w-3 h-3 rounded-full bg-yellow-500/20"></div>
-                <div className="w-3 h-3 rounded-full bg-green-500/20"></div>
+                <div className="w-3 h-3 rounded-full bg-neutral-500/20"></div>
               </div>
               <div className="text-sm text-neutral-400">app.tsx</div>
             </div>
@@ -46,21 +46,21 @@ const Code = () => {
                   <span className="text-neutral-400">createAI</span>{" "}
                   <span className="text-neutral-300">{"}"}</span>{" "}
                   <span className="text-neutral-400">from</span>{" "}
-                  <span className="text-green-400">'@hanzo/ai'</span>
+                  <span className="text-neutral-400">'@hanzo/ai'</span>
                   {"\n"}
                   <span className="text-neutral-400">import</span>{" "}
                   <span className="text-neutral-300">{"{"}</span>{" "}
                   <span className="text-neutral-400">Button</span>{" "}
                   <span className="text-neutral-300">{"}"}</span>{" "}
                   <span className="text-neutral-400">from</span>{" "}
-                  <span className="text-green-400">'@hanzo/ui'</span>
+                  <span className="text-neutral-400">'@hanzo/ui'</span>
                   {"\n"}
                   <span className="text-neutral-400">import</span>{" "}
                   <span className="text-neutral-300">{"{"}</span>{" "}
                   <span className="text-neutral-400">createClient</span>{" "}
                   <span className="text-neutral-300">{"}"}</span>{" "}
                   <span className="text-neutral-400">from</span>{" "}
-                  <span className="text-green-400">'@hanzo/base'</span>
+                  <span className="text-neutral-400">'@hanzo/base'</span>
                   {"\n\n"}
                   <span className="text-neutral-400">const</span>{" "}
                   <span className="text-neutral-400">ai</span>{" "}

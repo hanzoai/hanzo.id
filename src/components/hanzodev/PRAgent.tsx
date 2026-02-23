@@ -74,9 +74,9 @@ const PRAgent = () => {
             <div className="bg-gray-800/50 border border-gray-700/50 rounded-lg overflow-hidden">
               <div className="p-4 bg-gray-900/70 border-b border-gray-700/50">
                 <div className="flex space-x-2">
-                  <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                  <div className="w-3 h-3 rounded-full bg-neutral-500"></div>
                   <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-                  <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                  <div className="w-3 h-3 rounded-full bg-neutral-500"></div>
                 </div>
               </div>
               <div className="p-6">
@@ -101,8 +101,8 @@ const PRAgent = () => {
                         <p>I've added comprehensive error handling with try/catch blocks and implemented proper ARIA attributes to improve accessibility. The changes have been committed to the PR.</p>
                       </div>
                       <div className="bg-gray-800/70 rounded mt-3 p-2 text-sm border border-gray-700">
-                        <div className="text-green-400">+ 15 lines added</div>
-                        <div className="text-red-400">- 3 lines removed</div>
+                        <div className="text-neutral-400">+ 15 lines added</div>
+                        <div className="text-neutral-400">- 3 lines removed</div>
                       </div>
                     </div>
                   </div>
@@ -110,8 +110,8 @@ const PRAgent = () => {
 
                 <div className="flex justify-between items-center text-sm">
                   <div className="flex items-center gap-2">
-                    <div className="w-6 h-6 rounded-full bg-green-500 flex items-center justify-center text-black">✓</div>
-                    <span className="text-green-400">Changes approved</span>
+                    <div className="w-6 h-6 rounded-full bg-neutral-500 flex items-center justify-center text-black">✓</div>
+                    <span className="text-neutral-400">Changes approved</span>
                   </div>
                   <div className="text-neutral-400">Ready to merge</div>
                 </div>
@@ -119,7 +119,7 @@ const PRAgent = () => {
             </div>
 
             <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-purple-500/20 rounded-full blur-3xl"></div>
-            <div className="absolute -top-6 -left-6 w-24 h-24 bg-blue-500/20 rounded-full blur-3xl"></div>
+            <div className="absolute -top-6 -left-6 w-24 h-24 bg-neutral-500/20 rounded-full blur-3xl"></div>
           </motion.div>
         </div>
       </div>

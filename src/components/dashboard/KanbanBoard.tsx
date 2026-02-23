@@ -36,7 +36,7 @@ const KanbanBoard = () => {
     {
       id: "done",
       title: "Done",
-      icon: <CheckCircle className="h-4 w-4 text-green-500" />,
+      icon: <CheckCircle className="h-4 w-4 text-neutral-500" />,
       tasks: tasks.filter(task => task.status === "done")
     }
   ];

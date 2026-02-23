@@ -53,11 +53,11 @@ const HanzoCodeBenefits = () => {
                   <p className="text-neutral-300 italic">"I switched to Hanzo Code and my productivity jumped 3x. The agent capabilities are on another level."</p>
                 </div>
                 
-                <div className="border-l-4 border-blue-500 pl-4 py-2">
+                <div className="border-l-4 border-neutral-500 pl-4 py-2">
                   <p className="text-neutral-300 italic">"Using my favorite VS Code setup with Hanzo's AI has transformed how I approach complex programming tasks."</p>
                 </div>
                 
-                <div className="border-l-4 border-green-500 pl-4 py-2">
+                <div className="border-l-4 border-neutral-500 pl-4 py-2">
                   <p className="text-neutral-300 italic">"Running parallel agent instances to solve different parts of the same problem simultaneously is a game-changer."</p>
                 </div>
               </div>

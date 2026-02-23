@@ -94,7 +94,7 @@ export function CodeExamplesSection({
                   >
                     {copiedIndex === example.language ? (
                       <>
-                        <Check className="w-3 h-3 text-green-500" />
+                        <Check className="w-3 h-3 text-neutral-500" />
                         Copied!
                       </>
                     ) : (

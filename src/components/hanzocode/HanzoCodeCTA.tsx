@@ -55,7 +55,7 @@ const HanzoCodeCTA = () => {
             </p>
             <Button 
               size="sm"
-              className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-500 hover:to-blue-500 text-[var(--white)]"
+              className="bg-gradient-to-r from-purple-600 to-neutral-600 hover:from-purple-500 hover:to-neutral-500 text-[var(--white)]"
             >
               One-Click Integration
             </Button>
