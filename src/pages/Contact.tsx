@@ -65,7 +65,7 @@ const Contact = () => {
                   <input
                     type="text"
                     id="subject"
-                    className="w-full px-4 py-2 bg-[var(--black)]/50 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+                    className="w-full px-4 py-2 bg-[var(--black)]/50 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-500"
                     placeholder="What is this regarding?"
                   />
                 </div>
@@ -77,7 +77,7 @@ const Contact = () => {
                   <textarea
                     id="message"
                     rows={6}
-                    className="w-full px-4 py-2 bg-[var(--black)]/50 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 resize-none"
+                    className="w-full px-4 py-2 bg-[var(--black)]/50 border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-500 resize-none"
                     placeholder="Tell us how we can help..."
                   />
                 </div>

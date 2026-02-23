@@ -105,7 +105,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
               </li>
               <li>
                 <Button variant="ghost" className="w-full justify-start text-neutral-300 hover:bg-gray-900 hover:text-[var(--white)]">
-                  <div className="w-4 h-4 bg-purple-600 rounded-sm flex items-center justify-center text-[10px] mr-2">C</div>
+                  <div className="w-4 h-4 bg-neutral-600 rounded-sm flex items-center justify-center text-[10px] mr-2">C</div>
                   Claude 3
                 </Button>
               </li>

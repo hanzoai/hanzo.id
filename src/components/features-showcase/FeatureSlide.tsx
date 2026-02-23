@@ -65,7 +65,7 @@ const FeatureSlide: React.FC<FeatureSlideProps> = ({
       
       <a 
         href={link} 
-        className="inline-flex items-center text-sm text-purple-300 hover:text-purple-100 transition-colors"
+        className="inline-flex items-center text-sm text-neutral-300 hover:text-neutral-100 transition-colors"
       >
         Learn More
         <svg 

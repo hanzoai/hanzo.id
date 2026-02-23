@@ -73,9 +73,9 @@ const DeploymentOptions = () => {
         border: isHovered ? "border-indigo-500/50" : "border-indigo-800/50" 
       },
       purple: { 
-        bg: isHovered ? "bg-purple-900/40" : "bg-purple-900/20", 
-        text: "text-purple-400", 
-        border: isHovered ? "border-purple-500/50" : "border-purple-800/50" 
+        bg: isHovered ? "bg-neutral-900/40" : "bg-neutral-900/20", 
+        text: "text-neutral-400", 
+        border: isHovered ? "border-neutral-500/50" : "border-neutral-800/50" 
       },
       teal: { 
         bg: isHovered ? "bg-teal-900/40" : "bg-teal-900/20", 

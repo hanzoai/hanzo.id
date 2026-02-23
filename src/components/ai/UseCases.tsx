@@ -16,8 +16,8 @@ const UseCases = () => {
       icon: Brain,
       title: 'Generative Content',
       description: 'Create text, images, code, and other content with AI-powered generation and customization.',
-      color: 'bg-purple-500/20',
-      textColor: 'text-purple-400'
+      color: 'bg-neutral-500/20',
+      textColor: 'text-neutral-400'
     },
     {
       icon: Search,
@@ -53,7 +53,7 @@ const UseCases = () => {
     <section className="py-24 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative">
       {/* Background elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 right-0 w-72 h-72 bg-purple-900/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/4 right-0 w-72 h-72 bg-neutral-900/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-neutral-900/10 rounded-full blur-3xl transform -translate-x-1/2 translate-y-1/2"></div>
       </div>
 
@@ -132,7 +132,7 @@ console.log(response);`}
             </div>
             <div className="lg:w-1/2 bg-gray-950 p-8 flex flex-col">
               <h4 className="text-lg font-semibold text-[var(--white)] mb-4 flex items-center">
-                <BookOpen className="h-4 w-4 mr-2 text-purple-400" />
+                <BookOpen className="h-4 w-4 mr-2 text-neutral-400" />
                 Documentation Example
               </h4>
               <div className="flex flex-col h-full space-y-4 overflow-y-auto">

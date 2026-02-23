@@ -47,7 +47,7 @@ const Functions = () => {
                 <br/>
                 <span className="ml-4 text-neutral-400">const</span> <span className="text-[var(--white)]">{'{'} data {'}'} = </span><span className="text-neutral-400">await</span> <span className="text-[var(--white)]">req.json();</span>
                 <br/>
-                <span className="ml-4 text-neutral-400">const</span> <span className="text-[var(--white)]">result = </span><span className="text-neutral-400">await</span> <span className="text-purple-400">processData</span><span className="text-[var(--white)]">(data);</span>
+                <span className="ml-4 text-neutral-400">const</span> <span className="text-[var(--white)]">result = </span><span className="text-neutral-400">await</span> <span className="text-neutral-400">processData</span><span className="text-[var(--white)]">(data);</span>
                 <br/>
                 <br/>
                 <span className="ml-4">// Return JSON response</span>

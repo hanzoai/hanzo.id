@@ -46,7 +46,7 @@ const TeamDev = () => {
               whileHover={{ y: -5 }}
               className="p-6 rounded-2xl border border-gray-800 bg-[var(--black)]/50"
             >
-              <MessagesSquare className="h-8 w-8 text-purple-400 mb-4" />
+              <MessagesSquare className="h-8 w-8 text-neutral-400 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Chat Integration</h3>
               <p className="text-neutral-400">
                 Available on Slack, Mattermost, and Hanzo Chat for seamless collaboration
@@ -91,7 +91,7 @@ const TeamDev = () => {
             </p>
             <Button 
               onClick={handleContactSensei}
-              className="bg-gradient-to-r from-purple-500 to-neutral-500 hover:from-purple-600 hover:to-neutral-600"
+              className="bg-gradient-to-r from-neutral-500 to-neutral-500 hover:from-neutral-600 hover:to-neutral-600"
             >
               Contact Sensei Group
             </Button>

@@ -39,18 +39,18 @@ const Install = () => {
         </p>
       </div>
 
-      <div class="bg-[var(--black)]/50 rounded-lg p-8 mb-12 border border-purple-500/20 backdrop-blur">
+      <div class="bg-[var(--black)]/50 rounded-lg p-8 mb-12 border border-neutral-500/20 backdrop-blur">
         <div class="flex items-center gap-3 mb-4">
-          <Terminal class="text-purple-400" size="20" />
-          <h2 class="text-xl font-semibold text-purple-400">Quick Install</h2>
+          <Terminal class="text-neutral-400" size="20" />
+          <h2 class="text-xl font-semibold text-neutral-400">Quick Install</h2>
         </div>
-        <pre class="bg-[var(--black)] rounded-lg p-4 overflow-x-auto border border-purple-500/10"><code>curl -fsSL hanzo.sh/install.sh | sh</code></pre>
+        <pre class="bg-[var(--black)] rounded-lg p-4 overflow-x-auto border border-neutral-500/10"><code>curl -fsSL hanzo.sh/install.sh | sh</code></pre>
         <p class="mt-4 text-sm text-neutral-400">This command downloads and executes the Hanzo Platform installer.</p>
       </div>
 
       <div class="space-y-8">
         <div class="bg-[var(--black)]/30 rounded-lg p-6">
-          <h2 class="text-2xl font-semibold mb-4 text-purple-400">Requirements</h2>
+          <h2 class="text-2xl font-semibold mb-4 text-neutral-400">Requirements</h2>
           <ul class="list-disc list-inside text-neutral-400 space-y-2">
             <li>Root access (sudo)</li>
             <li>Linux operating system</li>
@@ -60,7 +60,7 @@ const Install = () => {
         </div>
 
         <div class="bg-[var(--black)]/30 rounded-lg p-6">
-          <h2 class="text-2xl font-semibold mb-4 text-purple-400">What's Included</h2>
+          <h2 class="text-2xl font-semibold mb-4 text-neutral-400">What's Included</h2>
           <ul class="list-disc list-inside text-neutral-400 space-y-2">
             <li>Docker Swarm initialization</li>
             <li>Hanzo Platform container</li>

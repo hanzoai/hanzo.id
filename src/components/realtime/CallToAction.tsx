@@ -13,10 +13,10 @@ const CallToAction = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="inline-flex items-center px-3 py-1 rounded-full bg-purple-900/30 border border-purple-500/30 mb-6"
+          className="inline-flex items-center px-3 py-1 rounded-full bg-neutral-900/30 border border-neutral-500/30 mb-6"
         >
-          <Activity className="h-4 w-4 text-purple-400 mr-2" />
-          <span className="text-sm text-purple-300">Get Started Today</span>
+          <Activity className="h-4 w-4 text-neutral-400 mr-2" />
+          <span className="text-sm text-neutral-300">Get Started Today</span>
         </motion.div>
         
         <motion.h2
@@ -49,7 +49,7 @@ const CallToAction = () => {
         >
           <Button 
             size="lg" 
-            className="bg-purple-600 hover:bg-purple-700 text-[var(--white)] px-8 py-6 text-lg w-full sm:w-auto"
+            className="bg-neutral-600 hover:bg-neutral-700 text-[var(--white)] px-8 py-6 text-lg w-full sm:w-auto"
           >
             Start Building <ArrowRight className="ml-2 h-5 w-5" />
           </Button>

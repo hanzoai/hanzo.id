@@ -70,7 +70,7 @@ const jobOpenings = [
 
 const benefits = [
   {
-    icon: <Globe className="h-6 w-6 text-purple-400" />,
+    icon: <Globe className="h-6 w-6 text-neutral-400" />,
     title: "Remote-First Culture",
     description: "Work from anywhere in the world with our distributed team."
   },
@@ -101,7 +101,7 @@ const Careers = () => {
       <Navbar />
       <main>
         <section className="py-32 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative overflow-hidden">
-          <div className="absolute top-20 right-20 w-64 h-64 bg-purple-900/5 rounded-full blur-3xl"></div>
+          <div className="absolute top-20 right-20 w-64 h-64 bg-neutral-900/5 rounded-full blur-3xl"></div>
           <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-neutral-900/5 rounded-full blur-3xl"></div>
           
           <div className="max-w-7xl mx-auto">
@@ -111,7 +111,7 @@ const Careers = () => {
               transition={{ duration: 0.5 }}
               className="text-center mb-16"
             >
-              <div className="inline-block px-4 py-1 rounded-full bg-purple-900/30 border border-purple-500/30 text-purple-300 text-sm font-medium mb-6">
+              <div className="inline-block px-4 py-1 rounded-full bg-neutral-900/30 border border-neutral-500/30 text-neutral-300 text-sm font-medium mb-6">
                 Join Our Team
               </div>
               <ChromeText 
@@ -139,11 +139,11 @@ const Careers = () => {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.3, delay: 0.1 * index }}
-                    className="bg-gray-900/20 border border-gray-800 rounded-xl p-6 hover:border-purple-500/30 transition-colors"
+                    className="bg-gray-900/20 border border-gray-800 rounded-xl p-6 hover:border-neutral-500/30 transition-colors"
                   >
                     <div className="flex items-start gap-4">
-                      <div className="p-3 rounded-lg bg-purple-900/20">
-                        <Briefcase className="h-6 w-6 text-purple-400" />
+                      <div className="p-3 rounded-lg bg-neutral-900/20">
+                        <Briefcase className="h-6 w-6 text-neutral-400" />
                       </div>
                       <div>
                         <h3 className="text-xl font-bold mb-1">{job.title}</h3>
@@ -217,28 +217,28 @@ const Careers = () => {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
                 <div className="p-4">
-                  <div className="w-10 h-10 rounded-full bg-purple-900/30 flex items-center justify-center mb-3 mx-auto">
+                  <div className="w-10 h-10 rounded-full bg-neutral-900/30 flex items-center justify-center mb-3 mx-auto">
                     <span className="text-[var(--white)] font-medium">1</span>
                   </div>
                   <h3 className="font-medium mb-1">Application Review</h3>
                   <p className="text-sm text-neutral-400">We review your resume and application materials</p>
                 </div>
                 <div className="p-4">
-                  <div className="w-10 h-10 rounded-full bg-purple-900/30 flex items-center justify-center mb-3 mx-auto">
+                  <div className="w-10 h-10 rounded-full bg-neutral-900/30 flex items-center justify-center mb-3 mx-auto">
                     <span className="text-[var(--white)] font-medium">2</span>
                   </div>
                   <h3 className="font-medium mb-1">Initial Interview</h3>
                   <p className="text-sm text-neutral-400">Get to know you and your experience</p>
                 </div>
                 <div className="p-4">
-                  <div className="w-10 h-10 rounded-full bg-purple-900/30 flex items-center justify-center mb-3 mx-auto">
+                  <div className="w-10 h-10 rounded-full bg-neutral-900/30 flex items-center justify-center mb-3 mx-auto">
                     <span className="text-[var(--white)] font-medium">3</span>
                   </div>
                   <h3 className="font-medium mb-1">Technical Assessment</h3>
                   <p className="text-sm text-neutral-400">Showcase your skills (no whiteboarding)</p>
                 </div>
                 <div className="p-4">
-                  <div className="w-10 h-10 rounded-full bg-purple-900/30 flex items-center justify-center mb-3 mx-auto">
+                  <div className="w-10 h-10 rounded-full bg-neutral-900/30 flex items-center justify-center mb-3 mx-auto">
                     <span className="text-[var(--white)] font-medium">4</span>
                   </div>
                   <h3 className="font-medium mb-1">Final Interview</h3>
@@ -246,7 +246,7 @@ const Careers = () => {
                 </div>
               </div>
               <Button 
-                className="bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-600 hover:to-purple-400"
+                className="bg-gradient-to-r from-neutral-700 to-neutral-500 hover:from-neutral-600 hover:to-neutral-400"
               >
                 <a href="#open-positions">Browse Open Positions</a>
               </Button>

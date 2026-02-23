@@ -263,7 +263,7 @@ const AgentDetail: React.FC<AgentDetailProps> = ({ agent, onClose, onUpdate }) =
                     >
                       <div className="flex items-center">
                         {source.type === 'database' && <Database className="h-4 w-4 text-neutral-400 mr-2" />}
-                        {source.type === 'vector' && <Activity className="h-4 w-4 text-purple-400 mr-2" />}
+                        {source.type === 'vector' && <Activity className="h-4 w-4 text-neutral-400 mr-2" />}
                         {source.type === 'file' && <FileText className="h-4 w-4 text-yellow-400 mr-2" />}
                         {source.type === 'api' && <Globe className="h-4 w-4 text-neutral-400 mr-2" />}
                         <span className="text-sm truncate">{source.name}</span>
@@ -326,7 +326,7 @@ const AgentDetail: React.FC<AgentDetailProps> = ({ agent, onClose, onUpdate }) =
                             }}
                           >
                             {type === 'database' && <Database className="h-5 w-5 text-neutral-400 mb-1" />}
-                            {type === 'vector' && <Activity className="h-5 w-5 text-purple-400 mb-1" />}
+                            {type === 'vector' && <Activity className="h-5 w-5 text-neutral-400 mb-1" />}
                             {type === 'file' && <FileText className="h-5 w-5 text-yellow-400 mb-1" />}
                             {type === 'api' && <Globe className="h-5 w-5 text-neutral-400 mb-1" />}
                             <span className="text-xs capitalize">{type}</span>

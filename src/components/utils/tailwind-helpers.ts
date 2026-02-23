@@ -6,9 +6,9 @@
 export const getColorClasses = (color: string, type: 'gradient' | 'border' | 'text', isHovered: boolean) => {
   const colorMap = {
     purple: {
-      gradient: isHovered ? 'from-purple-900/30 to-purple-800/30' : 'from-gray-900/30 to-gray-800/30',
-      border: isHovered ? 'border-purple-500/20' : 'border-gray-700/20',
-      text: 'text-purple-400'
+      gradient: isHovered ? 'from-neutral-900/30 to-neutral-800/30' : 'from-gray-900/30 to-gray-800/30',
+      border: isHovered ? 'border-neutral-500/20' : 'border-gray-700/20',
+      text: 'text-neutral-400'
     },
     blue: {
       gradient: isHovered ? 'from-neutral-900/30 to-neutral-800/30' : 'from-gray-900/30 to-gray-800/30',

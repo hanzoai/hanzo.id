@@ -37,7 +37,7 @@ const IndustriesSection: React.FC = () => {
     <div className="mb-16">
       <SectionHeader
         badge="Industry Solutions"
-        badgeColor="bg-purple-900/30 border border-purple-500/30 text-purple-300"
+        badgeColor="bg-neutral-900/30 border border-neutral-500/30 text-neutral-300"
         title="AI-Powered Solutions for Every Industry"
         description="Transform your business operations with tailored AI solutions designed for your industry's unique challenges."
       />

@@ -33,9 +33,9 @@ const Background: React.FC = () => {
         this.speedX = Math.random() * 0.5 - 0.25;
         this.speedY = Math.random() * 0.5 - 0.25;
         
-        // Random purple/indigo hue
-        const hue = Math.random() * 60 + 240; // 240-300 is purple/indigo range
-        const saturation = Math.random() * 30 + 70; // 70-100%
+        // Random neutral hue
+        const hue = Math.random() * 360; // Full range, desaturated
+        const saturation = Math.random() * 5; // 0-5% (nearly grayscale)
         const lightness = Math.random() * 20 + 40; // 40-60%
         this.color = `hsla(${hue}, ${saturation}%, ${lightness}%, 0.3)`;
       }
@@ -120,7 +120,7 @@ const Background: React.FC = () => {
         className="absolute inset-0 w-full h-full"
       />
       
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-950/20 to-black"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-neutral-950/20 to-black"></div>
       
       {/* Animated grid overlay */}
       <motion.div 
@@ -136,7 +136,7 @@ const Background: React.FC = () => {
       
       {/* Animated glow spots */}
       <motion.div
-        className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full blur-[100px] bg-purple-500/10"
+        className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full blur-[100px] bg-neutral-500/10"
         animate={{ 
           scale: [1, 1.2, 1],
           opacity: [0.1, 0.15, 0.1],

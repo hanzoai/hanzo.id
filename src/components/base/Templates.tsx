@@ -9,7 +9,7 @@ const Templates = () => {
       title: "Stripe Subscriptions Starter",
       description: "Complete SaaS subscription management with Stripe integration",
       icon: CreditCard,
-      color: "from-purple-500 to-purple-700"
+      color: "from-neutral-500 to-neutral-700"
     },
     {
       title: "Next.js App Router with Authentication",

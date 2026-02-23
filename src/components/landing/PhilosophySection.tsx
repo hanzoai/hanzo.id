@@ -19,7 +19,7 @@ const PhilosophyItem: React.FC<PhilosophyItemProps> = ({ icon, title, descriptio
       transition={{ duration: 0.5, delay }}
       className="flex flex-col items-center text-center"
     >
-      <div className="w-16 h-16 rounded-full bg-purple-900/30 flex items-center justify-center mb-4">
+      <div className="w-16 h-16 rounded-full bg-neutral-900/30 flex items-center justify-center mb-4">
         {icon}
       </div>
       <h3 className="text-xl font-bold mb-2 text-[var(--white)]">{title}</h3>
@@ -36,7 +36,7 @@ const PhilosophySection: React.FC = () => {
       description: "Built by developers for developers, with a focus on exceptional DX and intuitive APIs."
     },
     {
-      icon: <Zap className="h-8 w-8 text-purple-400" />,
+      icon: <Zap className="h-8 w-8 text-neutral-400" />,
       title: "Open Source",
       description: "Complete transparency with our core tools open source and free forever."
     },
@@ -51,7 +51,7 @@ const PhilosophySection: React.FC = () => {
     <section className="py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <div className="inline-block px-4 py-1 rounded-full bg-purple-900/30 border border-purple-500/30 text-purple-300 text-sm font-medium mb-6">
+          <div className="inline-block px-4 py-1 rounded-full bg-neutral-900/30 border border-neutral-500/30 text-neutral-300 text-sm font-medium mb-6">
             Our Philosophy
           </div>
           <h2 className="text-3xl md:text-4xl font-bold text-[var(--white)] mb-6">

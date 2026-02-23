@@ -16,7 +16,7 @@ const aiCloudFeatures: Feature[] = [
     title: "Inference API",
     description: "High-performance API for frontier AI models, optimized for production workloads with millisecond latency.",
     icon: Brain,
-    color: "bg-gradient-to-br from-purple-600 to-indigo-700",
+    color: "bg-gradient-to-br from-neutral-600 to-indigo-700",
     link: "/ai",
     category: "ai-cloud"
   },
@@ -32,7 +32,7 @@ const aiCloudFeatures: Feature[] = [
     title: "Chat",
     description: "Build custom AI assistants with personalized knowledge and capabilities for your users and teams.",
     icon: MessageSquare,
-    color: "bg-gradient-to-br from-indigo-600 to-purple-700",
+    color: "bg-gradient-to-br from-indigo-600 to-neutral-700",
     link: "/teamchat",
     category: "ai-cloud"
   },
@@ -92,7 +92,7 @@ const dxPlatformFeatures: Feature[] = [
     title: "Bot",
     description: "Build autonomous AI agents that can reason about problems and take actions on your behalf with human-like intelligence.",
     icon: Bot,
-    color: "bg-gradient-to-br from-purple-600 to-pink-700",
+    color: "bg-gradient-to-br from-neutral-600 to-pink-700",
     link: "/bot",
     category: "dx-platform"
   },
@@ -119,7 +119,7 @@ const explorePlatform: Feature = {
   title: "Explore Platform",
   description: "Discover the full potential of the Hanzo AI platform and how it can transform your development workflow.",
   icon: ArrowRight,
-  color: "bg-gradient-to-r from-purple-600 to-neutral-600",
+  color: "bg-gradient-to-r from-neutral-600 to-neutral-600",
   link: "/platform"
 };
 

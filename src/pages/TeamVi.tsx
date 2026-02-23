@@ -28,7 +28,7 @@ const TeamVi = () => {
         >
           {/* Hero Section */}
           <div className="text-center mb-16">
-            <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-500 mb-4">
+            <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-indigo-500 to-neutral-500 mb-4">
               <Lightbulb className="h-8 w-8 text-[var(--white)]" />
             </div>
             <h1 className="text-4xl sm:text-5xl font-bold mb-6">
@@ -46,7 +46,7 @@ const TeamVi = () => {
               whileHover={{ y: -5 }}
               className="p-6 rounded-2xl border border-gray-800 bg-[var(--black)]/50"
             >
-              <MessagesSquare className="h-8 w-8 text-purple-400 mb-4" />
+              <MessagesSquare className="h-8 w-8 text-neutral-400 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Strategic Vision</h3>
               <p className="text-neutral-400">
                 Develops comprehensive strategies and roadmaps for sustainable growth
@@ -91,7 +91,7 @@ const TeamVi = () => {
             </p>
             <Button 
               onClick={handleContactSensei}
-              className="bg-gradient-to-r from-purple-500 to-neutral-500 hover:from-purple-600 hover:to-neutral-600"
+              className="bg-gradient-to-r from-neutral-500 to-neutral-500 hover:from-neutral-600 hover:to-neutral-600"
             >
               Contact Sensei Group
             </Button>

@@ -83,7 +83,7 @@ const VALUE_PROPS = [
   {
     title: "Accelerate AI ROI",
     subtitle: "Enterprise-grade AI management",
-    color: "#8b5cf6",
+    color: "#a3a3a3",
     features: [
       {
         icon: Shield,

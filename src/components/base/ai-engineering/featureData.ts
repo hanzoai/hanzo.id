@@ -24,9 +24,9 @@ export const featureData: AIFeature[] = [
       { text: "Performance optimization for inference workloads" }
     ],
     delay: 0.1,
-    iconBgClass: "bg-purple-900/30",
-    iconTextClass: "text-purple-400",
-    bulletColor: "text-purple-400"
+    iconBgClass: "bg-neutral-900/30",
+    iconTextClass: "text-neutral-400",
+    bulletColor: "text-neutral-400"
   },
   {
     icon: React.createElement(Search, { className: "h-6 w-6" }),

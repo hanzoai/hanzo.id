@@ -11,12 +11,12 @@ const TeamChatCard = () => {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.1 }}
-      className="bg-gray-900/30 border border-purple-900/20 rounded-xl overflow-hidden shadow-xl"
+      className="bg-gray-900/30 border border-neutral-900/20 rounded-xl overflow-hidden shadow-xl"
     >
       <div className="border-b border-gray-800 p-3 flex items-center">
-        <MessageSquare className="h-5 w-5 text-purple-400 mr-2" />
+        <MessageSquare className="h-5 w-5 text-neutral-400 mr-2" />
         <span className="font-medium">Team Chat</span>
-        <Badge variant="outline" className="ml-auto bg-purple-900/30 border-purple-500/30 text-purple-300">
+        <Badge variant="outline" className="ml-auto bg-neutral-900/30 border-neutral-500/30 text-neutral-300">
           Slack-style
         </Badge>
       </div>
@@ -40,7 +40,7 @@ const TeamChatCard = () => {
             </div>
             
             <div className="flex">
-              <div className="w-8 h-8 rounded-full bg-purple-600 flex-shrink-0 flex items-center justify-center text-xs mr-3">AI</div>
+              <div className="w-8 h-8 rounded-full bg-neutral-600 flex-shrink-0 flex items-center justify-center text-xs mr-3">AI</div>
               <div>
                 <div className="flex items-center">
                   <span className="font-medium">DesignBot</span>
@@ -51,7 +51,7 @@ const TeamChatCard = () => {
             </div>
             
             <div className="flex">
-              <div className="w-8 h-8 rounded-full bg-purple-600 flex-shrink-0 flex items-center justify-center text-xs mr-3">AI</div>
+              <div className="w-8 h-8 rounded-full bg-neutral-600 flex-shrink-0 flex items-center justify-center text-xs mr-3">AI</div>
               <div>
                 <div className="flex items-center">
                   <span className="font-medium">DesignBot</span>
@@ -59,7 +59,7 @@ const TeamChatCard = () => {
                 </div>
                 <div className="bg-gray-800/70 p-2 rounded-md text-sm text-neutral-300 border border-gray-700/50">
                   <p>I've created some alternative layouts based on our brand guidelines. You can view them here:</p>
-                  <div className="bg-purple-900/20 text-purple-300 p-1 mt-1 rounded flex items-center text-xs">
+                  <div className="bg-neutral-900/20 text-neutral-300 p-1 mt-1 rounded flex items-center text-xs">
                     <FileText className="h-3 w-3 mr-1" />
                     design-alternatives.figma
                   </div>

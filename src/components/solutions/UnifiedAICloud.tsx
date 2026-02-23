@@ -20,10 +20,10 @@ const UnifiedAICloud: React.FC = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
-          className="bg-gradient-to-br from-purple-900/20 to-purple-900/5 p-6 rounded-xl border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300"
+          className="bg-gradient-to-br from-neutral-900/20 to-neutral-900/5 p-6 rounded-xl border border-neutral-500/20 hover:border-neutral-500/40 transition-all duration-300"
         >
-          <div className="bg-purple-500/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-            <Users className="h-6 w-6 text-purple-400" />
+          <div className="bg-neutral-500/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+            <Users className="h-6 w-6 text-neutral-400" />
           </div>
           <h3 className="text-xl font-bold mb-2 text-[var(--white)]">Enterprise Infrastructure</h3>
           <p className="text-neutral-300">
@@ -68,7 +68,7 @@ const UnifiedAICloud: React.FC = () => {
       </div>
       
       <div className="text-center">
-        <Button asChild size="lg" className="bg-gradient-to-r from-purple-600 to-neutral-600 hover:from-purple-700 hover:to-neutral-700">
+        <Button asChild size="lg" className="bg-gradient-to-r from-neutral-600 to-neutral-600 hover:from-neutral-700 hover:to-neutral-700">
           <Link to="/cloud">
             Explore Our AI Cloud Platform <ChevronRight className="ml-2 h-5 w-5" />
           </Link>

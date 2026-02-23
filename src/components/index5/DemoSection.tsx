@@ -111,7 +111,7 @@ const DemoSection: React.FC = () => {
                     animate={{ opacity: 1 }}
                     className="mt-4 border border-gray-800 rounded-md p-3 bg-gray-900/50"
                   >
-                    <div className="text-purple-300 mb-2">// Execute code</div>
+                    <div className="text-neutral-300 mb-2">// Execute code</div>
                     <div className="text-[var(--white)] whitespace-pre">{demoSteps[demoStep].code}</div>
                   </motion.div>
                 )}
@@ -137,7 +137,7 @@ const DemoSection: React.FC = () => {
           
           {/* Decorative glows */}
           <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full">
-            <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-purple-600/20 rounded-full blur-[100px]"></div>
+            <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-neutral-600/20 rounded-full blur-[100px]"></div>
             <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-neutral-600/20 rounded-full blur-[100px]"></div>
           </div>
         </motion.div>

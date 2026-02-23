@@ -114,12 +114,12 @@ const BillingPlans = () => {
             <Card 
               key={plan.id} 
               className={`bg-gray-900/30 border ${
-                plan.popular ? 'border-purple-500' : 'border-gray-800'
+                plan.popular ? 'border-neutral-500' : 'border-gray-800'
               } relative`}
             >
               {plan.popular && (
                 <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-purple-600 text-[var(--white)] px-3 py-1 rounded-full text-xs font-medium">
+                  <span className="bg-neutral-600 text-[var(--white)] px-3 py-1 rounded-full text-xs font-medium">
                     Most Popular
                   </span>
                 </div>
@@ -148,7 +148,7 @@ const BillingPlans = () => {
               <CardFooter>
                 <Button 
                   className={`w-full ${
-                    plan.popular ? 'bg-purple-600 hover:bg-purple-700' : ''
+                    plan.popular ? 'bg-neutral-600 hover:bg-neutral-700' : ''
                   }`}
                   variant={plan.popular ? 'default' : 'outline'}
                   onClick={() => handleUpgrade(plan.id)}

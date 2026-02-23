@@ -88,7 +88,7 @@ const WebAnalytics = () => {
 
   return (
     <section className="py-32 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative">
-      <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-800 via-transparent to-transparent"></div>
+      <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-neutral-800 via-transparent to-transparent"></div>
       
       <div className="max-w-7xl mx-auto relative z-10">
         <motion.div
@@ -115,7 +115,7 @@ const WebAnalytics = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="flex"
               >
-                <div className="mr-4 mt-1 bg-purple-900/30 p-2 rounded-lg text-purple-400">
+                <div className="mr-4 mt-1 bg-neutral-900/30 p-2 rounded-lg text-neutral-400">
                   {feature.icon}
                 </div>
                 <div>

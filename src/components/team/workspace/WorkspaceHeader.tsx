@@ -12,7 +12,7 @@ const WorkspaceHeader = () => {
       transition={{ duration: 0.5 }}
       className="text-center mb-16"
     >
-      <div className="inline-flex p-2 rounded-full bg-purple-900/20 border border-purple-500/20 text-purple-400 mb-4">
+      <div className="inline-flex p-2 rounded-full bg-neutral-900/20 border border-neutral-500/20 text-neutral-400 mb-4">
         <FolderKanban className="h-6 w-6" />
       </div>
       <h2 className="text-3xl md:text-4xl font-bold mb-6">

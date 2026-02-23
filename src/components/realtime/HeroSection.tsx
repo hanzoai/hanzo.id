@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   return (
     <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/20 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/20 to-transparent" />
       
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
@@ -16,10 +16,10 @@ const HeroSection = () => {
               initial={{ opacity: 0 }} 
               animate={{ opacity: 1 }} 
               transition={{ duration: 0.5 }}
-              className="inline-flex items-center px-3 py-1 rounded-full bg-purple-900/30 border border-purple-500/30 mb-6"
+              className="inline-flex items-center px-3 py-1 rounded-full bg-neutral-900/30 border border-neutral-500/30 mb-6"
             >
-              <Activity className="h-4 w-4 text-purple-400 mr-2" />
-              <span className="text-sm text-purple-300">Real-time Data Synchronization</span>
+              <Activity className="h-4 w-4 text-neutral-400 mr-2" />
+              <span className="text-sm text-neutral-300">Real-time Data Synchronization</span>
             </motion.div>
             
             <motion.h1 
@@ -29,7 +29,7 @@ const HeroSection = () => {
               className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[var(--white)]"
             >
               Instant data sync <br/>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-neutral-400">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-neutral-400 to-neutral-400">
                 across all clients
               </span>
             </motion.h1>
@@ -53,7 +53,7 @@ const HeroSection = () => {
             >
               <Button 
                 size="lg" 
-                className="bg-purple-600 hover:bg-purple-700 text-[var(--white)] px-6"
+                className="bg-neutral-600 hover:bg-neutral-700 text-[var(--white)] px-6"
               >
                 Start Building <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -86,8 +86,8 @@ const HeroSection = () => {
               </div>
               
               <div className="space-y-4">
-                <div className="h-14 bg-gradient-to-r from-purple-900/40 to-neutral-900/40 rounded-lg border border-purple-500/30 p-4 flex items-center">
-                  <Zap className="h-5 w-5 text-purple-400 mr-3" />
+                <div className="h-14 bg-gradient-to-r from-neutral-900/40 to-neutral-900/40 rounded-lg border border-neutral-500/30 p-4 flex items-center">
+                  <Zap className="h-5 w-5 text-neutral-400 mr-3" />
                   <span className="text-neutral-200">Client data synchronized in real-time</span>
                 </div>
                 

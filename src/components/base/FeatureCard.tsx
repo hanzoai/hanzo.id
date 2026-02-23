@@ -27,9 +27,9 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
       border: "border-neutral-800/50" 
     },
     purple: { 
-      bg: "bg-purple-900/20", 
-      text: "text-purple-400", 
-      border: "border-purple-800/50" 
+      bg: "bg-neutral-900/20", 
+      text: "text-neutral-400", 
+      border: "border-neutral-800/50" 
     },
     green: { 
       bg: "bg-neutral-900/20", 

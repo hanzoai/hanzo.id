@@ -15,9 +15,9 @@ const MainCards: React.FC = () => {
         viewport={{ once: true }}
         whileHover={{ scale: 1.02 }}
         transition={{ duration: 0.3 }}
-        className="bg-gradient-to-br from-purple-900/30 to-neutral-900/20 rounded-2xl border border-purple-500/20 overflow-hidden"
+        className="bg-gradient-to-br from-neutral-900/30 to-neutral-900/20 rounded-2xl border border-neutral-500/20 overflow-hidden"
       >
-        <div className="h-64 bg-gradient-to-r from-purple-800/30 to-neutral-800/30 flex items-center justify-center">
+        <div className="h-64 bg-gradient-to-r from-neutral-800/30 to-neutral-800/30 flex items-center justify-center">
           <ChromeText as="h2" className="text-3xl font-bold">
             Capabilities
           </ChromeText>
@@ -29,7 +29,7 @@ const MainCards: React.FC = () => {
             you need to stay ahead.
           </p>
           <div className="flex flex-wrap gap-3 mb-8">
-            <span className="px-3 py-1 bg-purple-900/40 rounded-full text-sm text-purple-300 border border-purple-500/30">
+            <span className="px-3 py-1 bg-neutral-900/40 rounded-full text-sm text-neutral-300 border border-neutral-500/30">
               AI Engineering
             </span>
             <span className="px-3 py-1 bg-neutral-900/40 rounded-full text-sm text-neutral-300 border border-neutral-500/30">
@@ -42,7 +42,7 @@ const MainCards: React.FC = () => {
               Digital Experiences
             </span>
           </div>
-          <Button asChild className="w-full bg-purple-600 hover:bg-purple-700">
+          <Button asChild className="w-full bg-neutral-600 hover:bg-neutral-700">
             <Link to="/solutions/capabilities">
               Explore Our Capabilities <ChevronRight className="ml-2 h-5 w-5" />
             </Link>

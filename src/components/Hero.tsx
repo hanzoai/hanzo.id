@@ -47,7 +47,7 @@ const Hero = () => {
       
       {/* Background subtle gradient effects */}
       <div className="absolute inset-0">
-        <div className="absolute top-1/4 -left-64 w-96 h-96 bg-purple-900/30 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/4 -left-64 w-96 h-96 bg-neutral-900/30 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-neutral-900/30 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
       </div>
 

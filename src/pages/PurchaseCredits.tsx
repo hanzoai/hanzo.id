@@ -91,7 +91,7 @@ const PurchaseCredits = () => {
                       type="button"
                       variant="outline"
                       className={`bg-[var(--black)] border-gray-800/30 hover:bg-gray-900/30 ${
-                        creditAmount === amount ? 'border-purple-500/30 bg-purple-900/10' : ''
+                        creditAmount === amount ? 'border-neutral-500/30 bg-neutral-900/10' : ''
                       }`}
                       onClick={() => setCreditAmount(amount)}
                     >
@@ -109,7 +109,7 @@ const PurchaseCredits = () => {
                     <div>
                       <div className="font-medium">
                         Visa ending in 4242
-                        <span className="ml-2 text-xs bg-purple-900/20 text-purple-300 px-2 py-0.5 rounded-full">
+                        <span className="ml-2 text-xs bg-neutral-900/20 text-neutral-300 px-2 py-0.5 rounded-full">
                           Default
                         </span>
                       </div>

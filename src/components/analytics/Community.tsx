@@ -102,7 +102,7 @@ const Community = () => {
                 className="bg-gray-900/50 rounded-xl p-8 border border-gray-800 text-center"
               >
                 <div className="flex justify-center mb-4">
-                  <div className="p-3 bg-purple-900/30 rounded-full border border-purple-900/30 text-purple-400">
+                  <div className="p-3 bg-neutral-900/30 rounded-full border border-neutral-900/30 text-neutral-400">
                     {item.icon}
                   </div>
                 </div>
@@ -132,7 +132,7 @@ const Community = () => {
               className="bg-gray-900/50 rounded-xl border border-gray-800 p-8"
             >
               <div className="flex items-center mb-6">
-                <Github className="h-6 w-6 text-purple-400 mr-3" />
+                <Github className="h-6 w-6 text-neutral-400 mr-3" />
                 <h3 className="text-2xl font-bold">Open Source</h3>
               </div>
               

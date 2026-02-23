@@ -19,7 +19,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ quote, name, title, delay }) 
       transition={{ duration: 0.5, delay }}
       className="bg-gradient-to-br from-gray-900 to-gray-950 border border-gray-800 rounded-xl p-6 shadow-lg"
     >
-      <Quote className="h-8 w-8 text-purple-400 mb-4" />
+      <Quote className="h-8 w-8 text-neutral-400 mb-4" />
       <p className="text-neutral-300 text-lg mb-6">{quote}</p>
       <div>
         <p className="font-bold text-[var(--white)]">{name}</p>

@@ -34,12 +34,12 @@ export const teamMembers = {
     title: "Meet Des, Your AI Designer",
     role: "AI Designer",
     description: "Your creative AI designer, crafting beautiful and intuitive user experiences.",
-    gradient: "from-purple-500 to-pink-500",
+    gradient: "from-neutral-500 to-pink-500",
     mainIcon: Paintbrush,
     features: [
       {
         icon: Paintbrush,
-        color: "text-purple-400",
+        color: "text-neutral-400",
         title: "UI Design",
         description: "Creates stunning user interfaces with attention to detail and user experience."
       },
@@ -51,7 +51,7 @@ export const teamMembers = {
       },
       {
         icon: Settings,
-        color: "text-purple-400",
+        color: "text-neutral-400",
         title: "Prototyping",
         description: "Builds interactive prototypes to validate design concepts and user flows."
       }
@@ -174,7 +174,7 @@ export const teamMembers = {
     title: "Meet Mu, Your AI Musician",
     role: "AI Musician",
     description: "Your creative AI musician, composing and producing original music.",
-    gradient: "from-pink-500 to-purple-500",
+    gradient: "from-pink-500 to-neutral-500",
     mainIcon: Music,
     features: [
       {
@@ -185,7 +185,7 @@ export const teamMembers = {
       },
       {
         icon: Bot,
-        color: "text-purple-400",
+        color: "text-neutral-400",
         title: "Production",
         description: "Handles music production and sound engineering."
       },
@@ -370,12 +370,12 @@ export const teamMembers = {
     title: "Meet Cal, Your AI Calculator",
     role: "AI Calculator",
     description: "Your expert AI calculator, processing complex computations.",
-    gradient: "from-purple-500 to-violet-500",
+    gradient: "from-neutral-500 to-violet-500",
     mainIcon: Calculator,
     features: [
       {
         icon: Calculator,
-        color: "text-purple-400",
+        color: "text-neutral-400",
         title: "Computation",
         description: "Processes complex mathematical calculations."
       },
@@ -387,7 +387,7 @@ export const teamMembers = {
       },
       {
         icon: ChartBar,
-        color: "text-purple-400",
+        color: "text-neutral-400",
         title: "Modeling",
         description: "Creates mathematical models and simulations."
       }
@@ -398,7 +398,7 @@ export const teamMembers = {
     title: "Meet Chat, Your AI Conversation Expert",
     role: "AI Conversation Expert",
     description: "Your expert AI conversation specialist, facilitating natural communication.",
-    gradient: "from-neutral-500 to-purple-500",
+    gradient: "from-neutral-500 to-neutral-500",
     mainIcon: MessageCircle,
     features: [
       {
@@ -409,7 +409,7 @@ export const teamMembers = {
       },
       {
         icon: Bot,
-        color: "text-purple-400",
+        color: "text-neutral-400",
         title: "Conversation",
         description: "Manages dynamic conversation flows."
       },

@@ -15,7 +15,7 @@ const SenseiMethod = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <span className="inline-block px-4 py-1 rounded-full bg-purple-900/30 border border-purple-500/30 text-purple-300 text-sm font-medium mb-4">
+            <span className="inline-block px-4 py-1 rounded-full bg-neutral-900/30 border border-neutral-500/30 text-neutral-300 text-sm font-medium mb-4">
               Principles in Practice
             </span>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -28,8 +28,8 @@ const SenseiMethod = () => {
             
             <div className="space-y-6 mb-8">
               <div className="flex items-start">
-                <div className="p-2 bg-purple-900/30 rounded-lg mr-4">
-                  <Target className="h-6 w-6 text-purple-400" />
+                <div className="p-2 bg-neutral-900/30 rounded-lg mr-4">
+                  <Target className="h-6 w-6 text-neutral-400" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Identify First-Principle Goals</h3>
@@ -38,8 +38,8 @@ const SenseiMethod = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="p-2 bg-purple-900/30 rounded-lg mr-4">
-                  <Zap className="h-6 w-6 text-purple-400" />
+                <div className="p-2 bg-neutral-900/30 rounded-lg mr-4">
+                  <Zap className="h-6 w-6 text-neutral-400" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Rapid Prototyping</h3>
@@ -48,8 +48,8 @@ const SenseiMethod = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="p-2 bg-purple-900/30 rounded-lg mr-4">
-                  <BarChart3 className="h-6 w-6 text-purple-400" />
+                <div className="p-2 bg-neutral-900/30 rounded-lg mr-4">
+                  <BarChart3 className="h-6 w-6 text-neutral-400" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Data-Driven Decisions</h3>
@@ -58,8 +58,8 @@ const SenseiMethod = () => {
               </div>
               
               <div className="flex items-start">
-                <div className="p-2 bg-purple-900/30 rounded-lg mr-4">
-                  <Users className="h-6 w-6 text-purple-400" />
+                <div className="p-2 bg-neutral-900/30 rounded-lg mr-4">
+                  <Users className="h-6 w-6 text-neutral-400" />
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Sensei Mentorship</h3>
@@ -69,7 +69,7 @@ const SenseiMethod = () => {
             </div>
             
             <Button 
-              className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-500 hover:to-purple-400 text-[var(--white)]"
+              className="bg-gradient-to-r from-neutral-600 to-neutral-500 hover:from-neutral-500 hover:to-neutral-400 text-[var(--white)]"
             >
               <a href="https://sensei.group" target="_blank" rel="noopener noreferrer" className="flex items-center">
                 Visit Sensei Group
@@ -85,7 +85,7 @@ const SenseiMethod = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative"
           >
-            <div className="bg-gradient-to-br from-purple-500/20 to-neutral-500/20 rounded-2xl p-1">
+            <div className="bg-gradient-to-br from-neutral-500/20 to-neutral-500/20 rounded-2xl p-1">
               <div className="bg-[var(--black)]/50 backdrop-blur-sm rounded-xl overflow-hidden">
                 <img 
                   src="/placeholder.svg" 
@@ -99,8 +99,8 @@ const SenseiMethod = () => {
                     launch groundbreaking products, and build scalable businesses.
                   </p>
                   <div className="flex flex-wrap gap-4">
-                    <div className="bg-purple-900/30 px-4 py-2 rounded-lg">
-                      <span className="text-2xl font-bold text-purple-300">$1B+</span>
+                    <div className="bg-neutral-900/30 px-4 py-2 rounded-lg">
+                      <span className="text-2xl font-bold text-neutral-300">$1B+</span>
                       <p className="text-sm text-neutral-400">Client Revenue</p>
                     </div>
                     <div className="bg-neutral-900/30 px-4 py-2 rounded-lg">

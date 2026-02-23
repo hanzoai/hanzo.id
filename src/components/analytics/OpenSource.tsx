@@ -135,7 +135,7 @@ const OpenSource = () => {
               </div>
               <div className="flex">
                 <div className="mr-4 text-neutral-600">3</div>
-                <div><span className="text-purple-400">// Initialize analytics with your project ID</span></div>
+                <div><span className="text-neutral-400">// Initialize analytics with your project ID</span></div>
               </div>
               <div className="flex">
                 <div className="mr-4 text-neutral-600">4</div>
@@ -149,7 +149,7 @@ const OpenSource = () => {
               </div>
               <div className="flex">
                 <div className="mr-4 text-neutral-600">6</div>
-                <div><span className="text-purple-400">// Track page views automatically</span></div>
+                <div><span className="text-neutral-400">// Track page views automatically</span></div>
               </div>
               <div className="flex">
                 <div className="mr-4 text-neutral-600">7</div>
@@ -163,7 +163,7 @@ const OpenSource = () => {
               </div>
               <div className="flex">
                 <div className="mr-4 text-neutral-600">9</div>
-                <div><span className="text-purple-400">// Track custom events</span></div>
+                <div><span className="text-neutral-400">// Track custom events</span></div>
               </div>
               <div className="flex">
                 <div className="mr-4 text-neutral-600">10</div>

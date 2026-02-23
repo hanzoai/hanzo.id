@@ -16,7 +16,7 @@ const highlightCode = (code: string, language: string): React.ReactNode[] => {
 
     if (language === 'typescript' || language === 'javascript') {
       patterns.push(
-        { regex: /^(import|export|from|const|let|var|function|async|await|return|new|if|else|for|while|class|extends|implements|interface|type)\b/, className: 'text-purple-400' },
+        { regex: /^(import|export|from|const|let|var|function|async|await|return|new|if|else|for|while|class|extends|implements|interface|type)\b/, className: 'text-neutral-400' },
         { regex: /^(true|false|null|undefined)\b/, className: 'text-orange-400' },
         { regex: /^"[^"]*"|^'[^']*'|^`[^`]*`/, className: 'text-neutral-400' },
         { regex: /^\d+\.?\d*/, className: 'text-orange-400' },
@@ -28,7 +28,7 @@ const highlightCode = (code: string, language: string): React.ReactNode[] => {
       );
     } else if (language === 'python') {
       patterns.push(
-        { regex: /^(import|from|as|def|class|return|if|elif|else|for|while|with|async|await|try|except|finally|raise|pass|break|continue|and|or|not|in|is)\b/, className: 'text-purple-400' },
+        { regex: /^(import|from|as|def|class|return|if|elif|else|for|while|with|async|await|try|except|finally|raise|pass|break|continue|and|or|not|in|is)\b/, className: 'text-neutral-400' },
         { regex: /^(True|False|None)\b/, className: 'text-orange-400' },
         { regex: /^"[^"]*"|^'[^']*'|^"""[\s\S]*?"""|^'''[\s\S]*?'''/, className: 'text-neutral-400' },
         { regex: /^f"[^"]*"|^f'[^']*'/, className: 'text-neutral-400' },
@@ -39,7 +39,7 @@ const highlightCode = (code: string, language: string): React.ReactNode[] => {
       );
     } else if (language === 'go') {
       patterns.push(
-        { regex: /^(package|import|func|return|if|else|for|range|switch|case|default|type|struct|interface|var|const|map|chan|go|defer|select)\b/, className: 'text-purple-400' },
+        { regex: /^(package|import|func|return|if|else|for|range|switch|case|default|type|struct|interface|var|const|map|chan|go|defer|select)\b/, className: 'text-neutral-400' },
         { regex: /^(true|false|nil)\b/, className: 'text-orange-400' },
         { regex: /^"[^"]*"|^`[^`]*`/, className: 'text-neutral-400' },
         { regex: /^\d+\.?\d*/, className: 'text-orange-400' },
@@ -50,7 +50,7 @@ const highlightCode = (code: string, language: string): React.ReactNode[] => {
     } else if (language === 'bash' || language === 'shell') {
       patterns.push(
         { regex: /^\$\s*/, className: 'text-neutral-500' },
-        { regex: /^(curl|sh|npm|npx|pip|go|cargo|hanzo|dev)\b/, className: 'text-purple-400' },
+        { regex: /^(curl|sh|npm|npx|pip|go|cargo|hanzo|dev)\b/, className: 'text-neutral-400' },
         { regex: /^"[^"]*"|^'[^']*'/, className: 'text-neutral-400' },
         { regex: /^#.*$/, className: 'text-neutral-500 italic' },
         { regex: /^-[a-zA-Z]+/, className: 'text-cyan-400' },
@@ -58,7 +58,7 @@ const highlightCode = (code: string, language: string): React.ReactNode[] => {
       );
     } else if (language === 'rust') {
       patterns.push(
-        { regex: /^(use|mod|fn|let|mut|const|pub|impl|struct|enum|trait|where|async|await|return|if|else|for|while|loop|match|self|Self|crate|super)\b/, className: 'text-purple-400' },
+        { regex: /^(use|mod|fn|let|mut|const|pub|impl|struct|enum|trait|where|async|await|return|if|else|for|while|loop|match|self|Self|crate|super)\b/, className: 'text-neutral-400' },
         { regex: /^(true|false|None|Some|Ok|Err)\b/, className: 'text-orange-400' },
         { regex: /^"[^"]*"/, className: 'text-neutral-400' },
         { regex: /^\d+\.?\d*/, className: 'text-orange-400' },

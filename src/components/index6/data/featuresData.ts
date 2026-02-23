@@ -16,8 +16,8 @@ export const features: Feature[] = [
     title: "AI Engineering",
     description: "Build, deploy, and operate AI applications with developer-first tools that make AI development a breeze.",
     icon: ArrowRight,
-    bgColor: "bg-purple-900/20",
-    iconColor: "text-purple-400"
+    bgColor: "bg-neutral-900/20",
+    iconColor: "text-neutral-400"
   },
   {
     title: "Cloud Infrastructure",

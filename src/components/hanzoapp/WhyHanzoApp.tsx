@@ -55,7 +55,7 @@ const modes = [
       { icon: Cpu, text: "GPU accelerated" },
       { icon: Zap, text: "Zero latency" },
     ],
-    color: "#8b5cf6", // purple
+    color: "#a3a3a3", // neutral
   },
   {
     id: "node",

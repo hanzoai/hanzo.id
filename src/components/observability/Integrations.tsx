@@ -58,13 +58,13 @@ const Integrations = () => {
                 <span className="text-neutral-400">import</span> <span className="text-neutral-400">{'{'}</span> <span className="text-yellow-300">HanzoObservability</span> <span className="text-neutral-400">{'}'}</span> <span className="text-neutral-400">from</span> <span className="text-orange-400">'hanzo-observability'</span>
               </div>
               <div className="mb-4">
-                <span className="text-purple-400">// Initialize with your project token</span>
+                <span className="text-neutral-400">// Initialize with your project token</span>
               </div>
               <div className="mb-4">
                 <span className="text-neutral-400">const</span> observability <span className="text-[var(--white)]">=</span> <span className="text-neutral-400">new</span> <span className="text-yellow-300">HanzoObservability</span><span className="text-[var(--white)]">(</span><span className="text-orange-400">'YOUR_PROJECT_TOKEN'</span><span className="text-[var(--white)]">);</span>
               </div>
               <div className="mb-4">
-                <span className="text-purple-400">// Trace AI model calls</span>
+                <span className="text-neutral-400">// Trace AI model calls</span>
               </div>
               <div>
                 <span className="text-neutral-400">await</span> observability.<span className="text-yellow-300">trace</span><span className="text-[var(--white)]">(</span><span className="text-orange-400">'chatCompletion'</span><span className="text-[var(--white)]">, {'async () => {'}</span>

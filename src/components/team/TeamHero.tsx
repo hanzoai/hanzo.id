@@ -9,8 +9,8 @@ const TeamHero = () => {
     <section className="relative min-h-[85vh] flex items-center pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 bg-[var(--black)] z-0">
-        <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 to-indigo-900/10 opacity-50"></div>
-        <div className="absolute -top-40 -right-40 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-neutral-900/20 to-indigo-900/10 opacity-50"></div>
+        <div className="absolute -top-40 -right-40 w-96 h-96 bg-neutral-500/10 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "1s" }}></div>
         
         {/* Animated grid */}
@@ -36,7 +36,7 @@ const TeamHero = () => {
           >
             <Badge 
               variant="outline" 
-              className="bg-purple-900/30 border-purple-500/30 text-purple-300 self-center mb-6 px-4 py-1.5 text-sm"
+              className="bg-neutral-900/30 border-neutral-500/30 text-neutral-300 self-center mb-6 px-4 py-1.5 text-sm"
             >
               AI + Human Integration
             </Badge>
@@ -48,7 +48,7 @@ const TeamHero = () => {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="text-4xl md:text-6xl font-bold mb-6 tracking-tight"
           >
-            Meet your <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-indigo-400">AI Team</span>
+            Meet your <span className="bg-clip-text text-transparent bg-gradient-to-r from-neutral-400 to-indigo-400">AI Team</span>
           </motion.h1>
           
           <motion.p 
@@ -70,7 +70,7 @@ const TeamHero = () => {
           >
             <Button 
               size="lg" 
-              className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 rounded-xl"
+              className="bg-gradient-to-r from-neutral-600 to-indigo-600 hover:from-neutral-700 hover:to-indigo-700 rounded-xl"
             >
               Get Started
               <ArrowRight className="ml-2 h-4 w-4" />
@@ -95,8 +95,8 @@ const TeamHero = () => {
               whileHover={{ y: -5 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="bg-purple-900/30 p-3 rounded-full mb-3 border border-purple-500/20">
-                <BrainCircuit className="h-6 w-6 text-purple-400" />
+              <div className="bg-neutral-900/30 p-3 rounded-full mb-3 border border-neutral-500/20">
+                <BrainCircuit className="h-6 w-6 text-neutral-400" />
               </div>
               <span className="text-sm text-neutral-300">AI-Powered</span>
             </motion.div>
@@ -106,8 +106,8 @@ const TeamHero = () => {
               whileHover={{ y: -5 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="bg-purple-900/30 p-3 rounded-full mb-3 border border-purple-500/20">
-                <Users className="h-6 w-6 text-purple-400" />
+              <div className="bg-neutral-900/30 p-3 rounded-full mb-3 border border-neutral-500/20">
+                <Users className="h-6 w-6 text-neutral-400" />
               </div>
               <span className="text-sm text-neutral-300">Human Integration</span>
             </motion.div>
@@ -117,8 +117,8 @@ const TeamHero = () => {
               whileHover={{ y: -5 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <div className="bg-purple-900/30 p-3 rounded-full mb-3 border border-purple-500/20">
-                <Zap className="h-6 w-6 text-purple-400" />
+              <div className="bg-neutral-900/30 p-3 rounded-full mb-3 border border-neutral-500/20">
+                <Zap className="h-6 w-6 text-neutral-400" />
               </div>
               <span className="text-sm text-neutral-300">Enterprise Ready</span>
             </motion.div>
@@ -137,7 +137,7 @@ const TeamHero = () => {
             repeat: Infinity,
             repeatType: "loop",
           }}
-          className="w-1 h-8 bg-gradient-to-b from-purple-500 to-indigo-600 rounded-full opacity-70"
+          className="w-1 h-8 bg-gradient-to-b from-neutral-500 to-indigo-600 rounded-full opacity-70"
         />
         <motion.div
           animate={{
@@ -149,7 +149,7 @@ const TeamHero = () => {
             repeat: Infinity,
             repeatType: "loop",
           }}
-          className="w-1 h-6 bg-gradient-to-b from-purple-500 to-indigo-600 rounded-full opacity-40"
+          className="w-1 h-6 bg-gradient-to-b from-neutral-500 to-indigo-600 rounded-full opacity-40"
         />
         <motion.div
           animate={{
@@ -161,7 +161,7 @@ const TeamHero = () => {
             repeat: Infinity,
             repeatType: "loop",
           }}
-          className="w-1 h-4 bg-gradient-to-b from-purple-500 to-indigo-600 rounded-full opacity-20"
+          className="w-1 h-4 bg-gradient-to-b from-neutral-500 to-indigo-600 rounded-full opacity-20"
         />
       </div>
     </section>

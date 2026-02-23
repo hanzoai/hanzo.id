@@ -29,7 +29,7 @@ const features = [
     description: "Collaboratively version, test, and deploy prompts with low-latency retrieval."
   },
   {
-    icon: <Sparkles className="h-7 w-7 text-purple-400" />,
+    icon: <Sparkles className="h-7 w-7 text-neutral-400" />,
     title: "Playground",
     description: "Experiment rapidly with different prompts and models directly in the Hanzo interface."
   },

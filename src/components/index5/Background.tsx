@@ -18,7 +18,7 @@ const Background: React.FC<BackgroundProps> = ({ mousePosition }) => {
         <GridLines spacing={60} opacity={0.1} />
       </div>
       
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/10 to-neutral-900/10 opacity-40"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/10 to-neutral-900/10 opacity-40"></div>
       
       {/* Dynamic blueprint lines */}
       <BlueprintLine orientation="vertical" position="20%" color="rgba(147, 51, 234, 0.1)" />

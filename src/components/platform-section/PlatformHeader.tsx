@@ -15,7 +15,7 @@ const PlatformHeader: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="mb-4"
         >
-          <span className="inline-block px-4 py-1 rounded-full bg-purple-900/30 border border-purple-500/30 text-purple-300 text-sm font-medium">
+          <span className="inline-block px-4 py-1 rounded-full bg-neutral-900/30 border border-neutral-500/30 text-neutral-300 text-sm font-medium">
             AI Engineering Platform
           </span>
         </motion.div>

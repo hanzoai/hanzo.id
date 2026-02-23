@@ -33,7 +33,7 @@ const UnifiedPlatform = () => {
               description: "Capture and analyze every event in your AI system with microsecond precision."
             },
             {
-              icon: <Users className="h-7 w-7 text-purple-400" />,
+              icon: <Users className="h-7 w-7 text-neutral-400" />,
               title: "Cross-team Collaboration",
               description: "Unite your engineering, data science, and product teams with role-based views and controls."
             },

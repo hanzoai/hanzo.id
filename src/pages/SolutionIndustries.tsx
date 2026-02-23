@@ -84,7 +84,7 @@ const SolutionIndustries: React.FC = () => {
                       >
                         <LinkIcon className="h-3 w-3 mr-1" /> Learn more
                       </button>
-                      <a href="#" className="text-xs flex items-center text-purple-400 hover:text-purple-300">
+                      <a href="#" className="text-xs flex items-center text-neutral-400 hover:text-neutral-300">
                         <FileText className="h-3 w-3 mr-1" /> Case study
                       </a>
                       <a href="#" className="text-xs flex items-center text-neutral-400 hover:text-neutral-300">
@@ -353,16 +353,16 @@ const SolutionIndustries: React.FC = () => {
           
           <a 
             href="#" 
-            className="block p-6 bg-gradient-to-br from-gray-900/70 to-black/90 rounded-xl border border-gray-800 hover:border-purple-500/30 transition-colors"
+            className="block p-6 bg-gradient-to-br from-gray-900/70 to-black/90 rounded-xl border border-gray-800 hover:border-neutral-500/30 transition-colors"
           >
             <div className="flex items-center gap-3 mb-3">
-              <BookOpen className="h-5 w-5 text-purple-400" />
+              <BookOpen className="h-5 w-5 text-neutral-400" />
               <h4 className="font-medium">Webinar</h4>
             </div>
             <p className="text-neutral-400">
               Register for our upcoming webinar: Digital Transformation in {activeIndustry}
             </p>
-            <div className="mt-4 text-purple-400 flex items-center gap-1.5">
+            <div className="mt-4 text-neutral-400 flex items-center gap-1.5">
               Register Now <ArrowRight size={16} />
             </div>
           </a>
@@ -414,7 +414,7 @@ const SolutionIndustries: React.FC = () => {
           </div>
         </div>
         
-        <div className="bg-gradient-to-br from-indigo-900/30 to-purple-900/20 p-8 rounded-xl border border-indigo-500/20">
+        <div className="bg-gradient-to-br from-indigo-900/30 to-neutral-900/20 p-8 rounded-xl border border-indigo-500/20">
           <h3 className="text-2xl font-bold mb-4 text-[var(--white)]">White Papers</h3>
           <p className="text-neutral-300 mb-6">
             Access our thought leadership and research on the latest industry trends and technologies.
@@ -460,9 +460,9 @@ const SolutionIndustries: React.FC = () => {
       />
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-        <div className="p-6 bg-gradient-to-br from-purple-900/50 to-neutral-900/30 rounded-xl border border-purple-500/20 hover:border-purple-500/40 transition-colors">
-          <div className="p-3 rounded-lg bg-purple-500/20 self-start inline-block mb-4">
-            <Users className="h-6 w-6 text-purple-400" strokeWidth={1.5} />
+        <div className="p-6 bg-gradient-to-br from-neutral-900/50 to-neutral-900/30 rounded-xl border border-neutral-500/20 hover:border-neutral-500/40 transition-colors">
+          <div className="p-3 rounded-lg bg-neutral-500/20 self-start inline-block mb-4">
+            <Users className="h-6 w-6 text-neutral-400" strokeWidth={1.5} />
           </div>
           <h3 className="text-2xl font-bold text-[var(--white)] mb-3">Hanzo Agency</h3>
           <p className="text-neutral-300 mb-5">
@@ -474,14 +474,14 @@ const SolutionIndustries: React.FC = () => {
               href="https://hanzo.agency" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-5 py-2.5 bg-purple-600 hover:bg-purple-500 rounded-md text-[var(--white)] transition-colors"
+              className="flex items-center gap-2 px-5 py-2.5 bg-neutral-600 hover:bg-neutral-500 rounded-md text-[var(--white)] transition-colors"
             >
               <span>Visit Hanzo Agency</span>
               <ExternalLink size={14} />
             </a>
             <a 
               href="/contact" 
-              className="flex items-center gap-2 px-5 py-2.5 border border-purple-500/40 hover:border-purple-500 rounded-md text-purple-400 hover:text-purple-300 transition-colors"
+              className="flex items-center gap-2 px-5 py-2.5 border border-neutral-500/40 hover:border-neutral-500 rounded-md text-neutral-400 hover:text-neutral-300 transition-colors"
             >
               <span>Contact us</span>
               <Mail size={14} />

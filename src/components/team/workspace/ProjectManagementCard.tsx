@@ -11,12 +11,12 @@ const ProjectManagementCard = () => {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
-      className="bg-gray-900/30 border border-purple-900/20 rounded-xl overflow-hidden shadow-xl"
+      className="bg-gray-900/30 border border-neutral-900/20 rounded-xl overflow-hidden shadow-xl"
     >
       <div className="border-b border-gray-800 p-3 flex items-center">
-        <Kanban className="h-5 w-5 text-purple-400 mr-2" />
+        <Kanban className="h-5 w-5 text-neutral-400 mr-2" />
         <span className="font-medium">Project Management</span>
-        <Badge variant="outline" className="ml-auto bg-purple-900/30 border-purple-500/30 text-purple-300">
+        <Badge variant="outline" className="ml-auto bg-neutral-900/30 border-neutral-500/30 text-neutral-300">
           Linear-style
         </Badge>
       </div>
@@ -28,7 +28,7 @@ const ProjectManagementCard = () => {
               <Badge className="ml-2 bg-neutral-600/20 text-neutral-400 border-neutral-500/30">In Progress</Badge>
             </div>
             <div className="flex space-x-2">
-              <div className="w-6 h-6 rounded-full bg-purple-600 flex items-center justify-center text-xs font-bold">AI</div>
+              <div className="w-6 h-6 rounded-full bg-neutral-600 flex items-center justify-center text-xs font-bold">AI</div>
               <div className="w-6 h-6 rounded-full bg-gray-600 flex items-center justify-center text-xs">JD</div>
             </div>
           </div>
@@ -45,11 +45,11 @@ const ProjectManagementCard = () => {
               <CheckCircle className="h-4 w-4 text-neutral-500 mr-2" />
               <span className="text-sm">Design homepage</span>
               <div className="ml-auto flex items-center space-x-1">
-                <div className="w-5 h-5 rounded-full bg-purple-600 flex items-center justify-center text-xs">AI</div>
+                <div className="w-5 h-5 rounded-full bg-neutral-600 flex items-center justify-center text-xs">AI</div>
               </div>
             </div>
-            <div className="flex items-center p-2 bg-purple-900/20 rounded-md border border-purple-700/50">
-              <Bot className="h-4 w-4 text-purple-400 mr-2" />
+            <div className="flex items-center p-2 bg-neutral-900/20 rounded-md border border-neutral-700/50">
+              <Bot className="h-4 w-4 text-neutral-400 mr-2" />
               <span className="text-sm">AI working: Implementing frontend code</span>
             </div>
           </div>

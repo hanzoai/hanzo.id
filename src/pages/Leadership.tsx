@@ -19,7 +19,7 @@ const Leadership = () => {
       <Navbar />
       <main>
         <section className="py-32 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative overflow-hidden">
-          <div className="absolute top-20 right-20 w-64 h-64 bg-purple-900/5 rounded-full blur-3xl"></div>
+          <div className="absolute top-20 right-20 w-64 h-64 bg-neutral-900/5 rounded-full blur-3xl"></div>
           <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-neutral-900/5 rounded-full blur-3xl"></div>
           
           <div className="max-w-7xl mx-auto">
@@ -29,7 +29,7 @@ const Leadership = () => {
               transition={{ duration: 0.5 }}
               className="text-center mb-16"
             >
-              <div className="inline-block px-4 py-1 rounded-full bg-purple-900/30 border border-purple-500/30 text-purple-300 text-sm font-medium mb-6">
+              <div className="inline-block px-4 py-1 rounded-full bg-neutral-900/30 border border-neutral-500/30 text-neutral-300 text-sm font-medium mb-6">
                 Founded in 2013 • Techstars Company
               </div>
               <ChromeText 
@@ -74,7 +74,7 @@ const Leadership = () => {
                 
                 <div className="flex flex-wrap gap-3 mt-4">
                   <div className="flex items-center text-sm px-3 py-1 bg-gray-800/50 rounded-full">
-                    <Briefcase className="h-4 w-4 mr-2 text-purple-400" />
+                    <Briefcase className="h-4 w-4 mr-2 text-neutral-400" />
                     <span>20+ years experience</span>
                   </div>
                   <div className="flex items-center text-sm px-3 py-1 bg-gray-800/50 rounded-full">
@@ -118,7 +118,7 @@ const Leadership = () => {
                 
                 <div className="flex flex-wrap gap-3 mt-4">
                   <div className="flex items-center text-sm px-3 py-1 bg-gray-800/50 rounded-full">
-                    <Briefcase className="h-4 w-4 mr-2 text-purple-400" />
+                    <Briefcase className="h-4 w-4 mr-2 text-neutral-400" />
                     <span>15+ years experience</span>
                   </div>
                   <div className="flex items-center text-sm px-3 py-1 bg-gray-800/50 rounded-full">
@@ -138,7 +138,7 @@ const Leadership = () => {
               <p className="text-xl text-neutral-300 max-w-3xl mx-auto mb-8">
                 We're always looking for talented individuals who are passionate about AI and building the future of technology.
               </p>
-              <Button size="lg" className="bg-purple-600 hover:bg-purple-700">
+              <Button size="lg" className="bg-neutral-600 hover:bg-neutral-700">
                 View Open Positions
               </Button>
             </div>

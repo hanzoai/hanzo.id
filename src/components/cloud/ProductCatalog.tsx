@@ -89,7 +89,7 @@ const CATEGORIES: Category[] = [
     name: "AI & Agents",
     description: "Build intelligent applications with foundation models and agent frameworks",
     icon: Brain,
-    color: "#8b5cf6",
+    color: "#a3a3a3",
     products: [
       { name: "Hanzo Models", description: "Foundation models API", icon: Brain, href: "/ai" },
       { name: "Zen", description: "Multimodal AI engine", icon: Sparkles, href: "/ai" },

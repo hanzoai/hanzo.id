@@ -64,7 +64,7 @@ const FeatureShowcase: React.FC = () => {
   return (
     <section className="py-24 bg-[var(--black)] relative overflow-hidden" id="features-showcase" ref={scrollRef}>
       <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-900/10 to-black/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/10 to-black/80"></div>
       </div>
       
       <motion.div 
@@ -77,7 +77,7 @@ const FeatureShowcase: React.FC = () => {
           <div className="inline-flex rounded-full bg-gray-900/50 p-1.5 backdrop-blur-sm">
             <Button
               variant={activeTab === 'all' ? 'default' : 'ghost'}
-              className={`rounded-full px-6 ${activeTab === 'all' ? 'bg-purple-600 hover:bg-purple-700' : 'text-neutral-300 hover:text-[var(--white)] hover:bg-gray-800/50'}`}
+              className={`rounded-full px-6 ${activeTab === 'all' ? 'bg-neutral-600 hover:bg-neutral-700' : 'text-neutral-300 hover:text-[var(--white)] hover:bg-gray-800/50'}`}
               onClick={() => setActiveTab('all')}
             >
               All

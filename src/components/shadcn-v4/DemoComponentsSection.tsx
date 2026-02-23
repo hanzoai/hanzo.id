@@ -154,7 +154,7 @@ const DemoComponentsSection = () => {
         <div className="flex justify-center">
           <Button 
             variant="outline" 
-            className="text-white border-purple-500/30 hover:border-purple-500/50"
+            className="text-white border-neutral-500/30 hover:border-neutral-500/50"
             onClick={() => window.open("https://v4.shadcn.com", "_blank")}
           >
             View All Components

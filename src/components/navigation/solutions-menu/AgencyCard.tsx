@@ -11,13 +11,13 @@ export const AgencyCard = ({ onCardClick }: AgencyCardProps) => {
       href="https://hanzo.agency" 
       target="_blank" 
       rel="noopener noreferrer"
-      className="block rounded-xl bg-gradient-to-b from-purple-900/50 to-neutral-900/50 border border-purple-500/20 cursor-pointer hover:border-purple-500/40 transition-colors p-4 h-[200px] flex flex-col justify-between"
+      className="block rounded-xl bg-gradient-to-b from-neutral-900/50 to-neutral-900/50 border border-neutral-500/20 cursor-pointer hover:border-neutral-500/40 transition-colors p-4 h-[200px] flex flex-col justify-between"
       onClick={onCardClick}
     >
       <div>
         <div className="flex items-center gap-2 mb-3">
-          <div className="p-1.5 rounded-lg bg-purple-500/20 flex items-center justify-center w-8 h-8">
-            <Users className="h-4 w-4 text-purple-400" strokeWidth={1.5} />
+          <div className="p-1.5 rounded-lg bg-neutral-500/20 flex items-center justify-center w-8 h-8">
+            <Users className="h-4 w-4 text-neutral-400" strokeWidth={1.5} />
           </div>
           <h3 className="text-sm font-semibold text-[var(--white)]">Hanzo Agency</h3>
         </div>
@@ -25,7 +25,7 @@ export const AgencyCard = ({ onCardClick }: AgencyCardProps) => {
           Elevate your brand with our AI-powered creative agency. We craft cutting-edge digital experiences that captivate audiences and deliver measurable business results.
         </p>
       </div>
-      <div className="flex items-center text-xs text-purple-400 font-medium group">
+      <div className="flex items-center text-xs text-neutral-400 font-medium group">
         <span>Learn more</span>
         <ArrowRight className="ml-1 h-3 w-3 group-hover:translate-x-1 transition-transform" />
       </div>

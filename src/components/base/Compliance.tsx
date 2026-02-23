@@ -50,10 +50,10 @@ const Compliance = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="bg-gradient-to-r from-neutral-900/20 to-purple-900/20 rounded-xl p-6 border border-neutral-800/30"
+            className="bg-gradient-to-r from-neutral-900/20 to-neutral-900/20 rounded-xl p-6 border border-neutral-800/30"
           >
             <div className="flex items-center mb-4">
-              <Server className="h-6 w-6 text-purple-400 mr-3" />
+              <Server className="h-6 w-6 text-neutral-400 mr-3" />
               <h3 className="text-xl font-semibold text-[var(--white)]">Global Data Regions</h3>
             </div>
             

@@ -15,9 +15,9 @@ const ChatFeatures: React.FC = () => {
           <p className="text-neutral-300">Chat with text, images, audio, and video in natural conversations with our AI assistants.</p>
         </div>
         
-        <div className="bg-gradient-to-br from-purple-900/20 to-purple-900/5 p-6 rounded-xl border border-purple-500/20 hover:border-purple-500/40 transition-all duration-300">
-          <div className="bg-purple-500/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
-            <Bot className="h-6 w-6 text-purple-400" />
+        <div className="bg-gradient-to-br from-neutral-900/20 to-neutral-900/5 p-6 rounded-xl border border-neutral-500/20 hover:border-neutral-500/40 transition-all duration-300">
+          <div className="bg-neutral-500/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+            <Bot className="h-6 w-6 text-neutral-400" />
           </div>
           <h3 className="text-xl font-bold mb-2 text-[var(--white)]">Specialized Assistants</h3>
           <p className="text-neutral-300">Access domain-specific experts for coding, design, marketing, legal, and more fields.</p>

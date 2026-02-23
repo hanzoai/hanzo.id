@@ -23,7 +23,7 @@ const BuildForGrowth = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
-              icon: <TrendingUp className="h-8 w-8 text-purple-400" />,
+              icon: <TrendingUp className="h-8 w-8 text-neutral-400" />,
               title: "Conversion Optimization",
               description: "Identify and fix bottlenecks in your user journey to improve conversion rates.",
               metrics: "+27% average increase in conversions"
@@ -52,7 +52,7 @@ const BuildForGrowth = () => {
               <div className="mb-5">{item.icon}</div>
               <h3 className="text-xl font-bold mb-3">{item.title}</h3>
               <p className="text-neutral-400 mb-5">{item.description}</p>
-              <div className="text-sm font-medium px-3 py-1 bg-gray-800 rounded-full inline-block text-purple-300">
+              <div className="text-sm font-medium px-3 py-1 bg-gray-800 rounded-full inline-block text-neutral-300">
                 {item.metrics}
               </div>
             </motion.div>
@@ -66,7 +66,7 @@ const BuildForGrowth = () => {
           transition={{ duration: 0.5, delay: 0.3 }}
           className="mt-16 text-center"
         >
-          <a href="#learn-more" className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors">
+          <a href="#learn-more" className="inline-flex items-center text-neutral-400 hover:text-neutral-300 transition-colors">
             Learn how our customers achieved growth <ArrowRight className="ml-2 h-4 w-4" />
           </a>
         </motion.div>

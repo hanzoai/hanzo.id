@@ -5,7 +5,7 @@ import ChromeText from "@/components/ui/chrome-text";
 import { Button } from "@/components/ui/button";
 const Karma = () => {
   return <section className="py-32 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative overflow-hidden">
-      <div className="absolute top-20 right-20 w-64 h-64 bg-purple-900/5 rounded-full blur-3xl"></div>
+      <div className="absolute top-20 right-20 w-64 h-64 bg-neutral-900/5 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-32 -left-32 w-96 h-96 bg-neutral-900/5 rounded-full blur-3xl"></div>
       
       <div className="max-w-7xl mx-auto">
@@ -22,7 +22,7 @@ const Karma = () => {
           }} transition={{
             duration: 0.5
           }} className="mb-4">
-              <span className="inline-block px-4 py-1 rounded-full bg-purple-900/30 border border-purple-500/30 text-purple-300 text-sm font-medium">
+              <span className="inline-block px-4 py-1 rounded-full bg-neutral-900/30 border border-neutral-500/30 text-neutral-300 text-sm font-medium">
                 AI Engineering Platform
               </span>
             </motion.div>
@@ -102,8 +102,8 @@ const Karma = () => {
               duration: 0.4,
               delay: 0.3
             }} className="flex flex-col items-center text-center p-4 rounded-lg bg-gray-900/20 border border-gray-800">
-                <div className="w-12 h-12 rounded-full bg-purple-900/30 flex items-center justify-center mb-3">
-                  <Recycle className="h-6 w-6 text-purple-400" />
+                <div className="w-12 h-12 rounded-full bg-neutral-900/30 flex items-center justify-center mb-3">
+                  <Recycle className="h-6 w-6 text-neutral-400" />
                 </div>
                 <h3 className="text-lg font-semibold mb-1">Renewable Focus</h3>
                 <p className="text-neutral-400 text-sm">100% renewable data centers</p>

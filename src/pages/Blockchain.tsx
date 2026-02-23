@@ -168,12 +168,12 @@ const PRODUCTS = [
   { id: "nodes", name: "Hanzo Nodes", description: "Managed RPC endpoints for every chain", icon: Server, color: "#3b82f6", href: "/blockchain/nodes" },
   { id: "indexer", name: "Hanzo Indexer", description: "Query blockchain data with GraphQL", icon: Search, color: "#10b981", href: "/blockchain/indexer" },
   { id: "wallet", name: "Hanzo Wallet", description: "Unified wallet infrastructure", icon: Wallet, color: "#f59e0b", href: "/blockchain/wallet" },
-  { id: "safe", name: "Hanzo Safe", description: "Multi-sig & threshold custody", icon: Shield, color: "#8b5cf6", href: "/blockchain/safe" },
+  { id: "safe", name: "Hanzo Safe", description: "Multi-sig & threshold custody", icon: Shield, color: "#a3a3a3", href: "/blockchain/safe" },
   { id: "id", name: "Hanzo ID", description: "Decentralized identity & credentials", icon: Key, color: "#ec4899", href: "/blockchain/id" },
   { id: "pay", name: "Hanzo Pay", description: "Crypto payments gateway", icon: CreditCard, color: "#22c55e", href: "/blockchain/pay" },
   { id: "bridge", name: "Hanzo Bridge", description: "Cross-chain asset transfers", icon: ArrowLeftRight, color: "#06b6d4", href: "/blockchain/bridge" },
   { id: "defi", name: "Hanzo DeFi", description: "Staking, lending & yield modules", icon: Code, color: "#f97316", href: "/blockchain/defi" },
-  { id: "oracle", name: "Hanzo Oracle", description: "Price feeds & VRF", icon: Radio, color: "#a855f7", href: "/blockchain/oracle" },
+  { id: "oracle", name: "Hanzo Oracle", description: "Price feeds & VRF", icon: Radio, color: "#a3a3a3", href: "/blockchain/oracle" },
   { id: "storage", name: "Hanzo Storage", description: "IPFS, Arweave & Filecoin", icon: HardDrive, color: "#14b8a6", href: "/blockchain/storage" },
   { id: "explorer", name: "Hanzo Explorer", description: "Multi-chain block explorer", icon: Search, color: "#6366f1", href: "/blockchain/explorer" },
   { id: "quest", name: "Hanzo Quest", description: "Gamified engagement & loyalty", icon: Blocks, color: "#eab308", href: "/blockchain/quest" },
@@ -204,7 +204,7 @@ const Blockchain = () => {
           <div
             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full opacity-15"
             style={{
-              background: `radial-gradient(circle, #8b5cf6 0%, transparent 70%)`,
+              background: `radial-gradient(circle, #ffffff 0%, transparent 70%)`,
               filter: "blur(100px)",
             }}
           />
@@ -218,9 +218,9 @@ const Blockchain = () => {
             className="text-center mb-16"
           >
             {/* Coming Soon Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-purple-500/30 bg-purple-500/10 mb-6">
-              <Clock className="w-4 h-4 text-purple-400" />
-              <span className="text-sm font-medium text-purple-400">Coming Soon</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-neutral-500/30 bg-neutral-500/10 mb-6">
+              <Clock className="w-4 h-4 text-neutral-400" />
+              <span className="text-sm font-medium text-neutral-400">Coming Soon</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight mb-6">
@@ -255,7 +255,7 @@ const Blockchain = () => {
                 <Button
                   type="submit"
                   className="px-6 py-3 rounded-lg font-medium transition-all"
-                  style={{ backgroundColor: "#8b5cf6" }}
+                  style={{ backgroundColor: "#ffffff", color: "#000000" }}
                 >
                   {submitted ? (
                     <span className="flex items-center gap-2">
@@ -281,7 +281,7 @@ const Blockchain = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="rounded-2xl border border-purple-500/20 bg-gradient-to-br from-purple-900/20 to-transparent p-8 md:p-12"
+            className="rounded-2xl border border-neutral-500/20 bg-gradient-to-br from-neutral-900/20 to-transparent p-8 md:p-12"
           >
             <div className="grid grid-cols-3 md:grid-cols-6 gap-6">
               {[
@@ -301,8 +301,8 @@ const Blockchain = () => {
                     transition={{ duration: 0.4, delay: 0.3 + idx * 0.05 }}
                     className="flex flex-col items-center gap-2"
                   >
-                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center">
-                      <Icon className="w-6 h-6 md:w-8 md:h-8 text-purple-400" />
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-neutral-500/10 border border-neutral-500/30 flex items-center justify-center">
+                      <Icon className="w-6 h-6 md:w-8 md:h-8 text-neutral-400" />
                     </div>
                     <span className="text-xs md:text-sm text-neutral-400">{item.label}</span>
                   </motion.div>
@@ -351,11 +351,11 @@ const Blockchain = () => {
                     >
                       <Icon className="w-5 h-5" style={{ color: product.color }} />
                     </div>
-                    <h3 className="font-semibold text-white mb-1 group-hover:text-purple-400 transition-colors">
+                    <h3 className="font-semibold text-white mb-1 group-hover:text-neutral-400 transition-colors">
                       {product.name}
                     </h3>
                     <p className="text-sm text-neutral-500">{product.description}</p>
-                    <div className="mt-3 flex items-center gap-1 text-xs text-purple-400 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="mt-3 flex items-center gap-1 text-xs text-neutral-400 opacity-0 group-hover:opacity-100 transition-opacity">
                       Apply for beta
                       <ArrowRight className="w-3 h-3" />
                     </div>
@@ -401,8 +401,8 @@ const Blockchain = () => {
                     onClick={() => setExpandedCapability(isExpanded ? null : capability.id)}
                     className="w-full p-5 text-left flex items-start gap-4 hover:bg-neutral-800/50 transition-colors"
                   >
-                    <div className="w-10 h-10 rounded-lg bg-purple-500/10 flex items-center justify-center shrink-0">
-                      <Icon className="w-5 h-5 text-purple-400" />
+                    <div className="w-10 h-10 rounded-lg bg-neutral-500/10 flex items-center justify-center shrink-0">
+                      <Icon className="w-5 h-5 text-neutral-400" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center justify-between gap-2">
@@ -427,7 +427,7 @@ const Blockchain = () => {
                       <ul className="mt-4 space-y-2">
                         {capability.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start gap-2 text-sm text-neutral-300">
-                            <Check className="w-4 h-4 text-purple-400 shrink-0 mt-0.5" />
+                            <Check className="w-4 h-4 text-neutral-400 shrink-0 mt-0.5" />
                             {feature}
                           </li>
                         ))}
@@ -450,9 +450,9 @@ const Blockchain = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-purple-500/30 bg-purple-500/10 mb-6">
-                <Zap className="w-4 h-4 text-purple-400" />
-                <span className="text-sm font-medium text-purple-400">Unified Platform</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-neutral-500/30 bg-neutral-500/10 mb-6">
+                <Zap className="w-4 h-4 text-neutral-400" />
+                <span className="text-sm font-medium text-neutral-400">Unified Platform</span>
               </div>
               <h2 className="text-3xl md:text-4xl font-medium text-white mb-4">
                 AI + Web3.<br />
@@ -469,8 +469,8 @@ const Blockchain = () => {
                   "Cross-chain portfolio management",
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-center gap-3 text-neutral-300">
-                    <div className="w-6 h-6 rounded bg-purple-500/10 flex items-center justify-center">
-                      <Check className="w-3.5 h-3.5 text-purple-400" />
+                    <div className="w-6 h-6 rounded bg-neutral-500/10 flex items-center justify-center">
+                      <Check className="w-3.5 h-3.5 text-neutral-400" />
                     </div>
                     {item}
                   </li>
@@ -549,11 +549,11 @@ await agent.run(\`
                   }`}
                 >
                   {/* Timeline dot */}
-                  <div className="absolute left-4 md:left-1/2 w-3 h-3 rounded-full -translate-x-1/2 bg-purple-500" />
+                  <div className="absolute left-4 md:left-1/2 w-3 h-3 rounded-full -translate-x-1/2 bg-neutral-500" />
 
                   {/* Content */}
                   <div className={`ml-12 md:ml-0 md:w-1/2 ${index % 2 === 0 ? "md:pr-12 md:text-right" : "md:pl-12"}`}>
-                    <div className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-purple-500/10 text-purple-400 border border-purple-500/30 mb-2">
+                    <div className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-neutral-500/10 text-neutral-400 border border-neutral-500/30 mb-2">
                       {item.phase}
                     </div>
                     <h3 className="text-lg font-semibold text-white">{item.title}</h3>
@@ -623,10 +623,10 @@ await agent.run(\`
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="rounded-2xl border border-purple-500/30 bg-gradient-to-br from-purple-900/20 to-transparent p-8 md:p-12 text-center"
+            className="rounded-2xl border border-neutral-500/30 bg-gradient-to-br from-neutral-900/20 to-transparent p-8 md:p-12 text-center"
           >
-            <div className="w-16 h-16 rounded-2xl bg-purple-500/10 flex items-center justify-center mx-auto mb-6">
-              <Blocks className="w-8 h-8 text-purple-400" />
+            <div className="w-16 h-16 rounded-2xl bg-neutral-500/10 flex items-center justify-center mx-auto mb-6">
+              <Blocks className="w-8 h-8 text-neutral-400" />
             </div>
             <h2 className="text-3xl md:text-4xl font-medium text-white mb-4">
               Ready to Build on Web3?
@@ -650,7 +650,7 @@ await agent.run(\`
               <Button
                 type="submit"
                 className="px-6 py-3 rounded-lg font-medium"
-                style={{ backgroundColor: "#8b5cf6" }}
+                style={{ backgroundColor: "#ffffff", color: "#000000" }}
               >
                 {submitted ? "Joined!" : "Join Waitlist"}
               </Button>

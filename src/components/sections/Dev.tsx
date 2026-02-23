@@ -91,13 +91,13 @@ const Dev = () => {
                     className={cn(
                       "flex items-center px-3 py-2 text-sm rounded-md group",
                       item.active 
-                        ? "bg-purple-50 text-purple-700 dark:bg-purple-900/20 dark:text-purple-300" 
+                        ? "bg-neutral-50 text-neutral-700 dark:bg-neutral-900/20 dark:text-neutral-300" 
                         : "text-neutral-700 hover:bg-gray-50 dark:text-neutral-300 dark:hover:bg-gray-800/50"
                     )}
                   >
                     <span className={cn(
                       "mr-3", 
-                      item.active ? "text-purple-500 dark:text-purple-400" : "text-neutral-500 dark:text-neutral-400"
+                      item.active ? "text-neutral-500 dark:text-neutral-400" : "text-neutral-500 dark:text-neutral-400"
                     )}>
                       {item.icon}
                     </span>
@@ -186,7 +186,7 @@ const Dev = () => {
                     <div key={index} className="border border-gray-200 dark:border-gray-800 rounded-md overflow-hidden">
                       <div className="bg-gray-50 dark:bg-gray-900 px-4 py-2 border-b border-gray-200 dark:border-gray-800">
                         <div className="flex items-center">
-                          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-purple-500 text-[var(--white)] flex items-center justify-center text-sm font-medium">
+                          <div className="flex-shrink-0 h-6 w-6 rounded-full bg-neutral-500 text-[var(--white)] flex items-center justify-center text-sm font-medium">
                             {index + 1}
                           </div>
                           <h4 className="ml-3 font-medium text-neutral-900 dark:text-[var(--white)]">{step.title}</h4>
@@ -213,7 +213,7 @@ const Dev = () => {
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="border border-gray-200 dark:border-gray-800 rounded-md p-4">
-                    <Code className="h-5 w-5 text-purple-500 mb-2" />
+                    <Code className="h-5 w-5 text-neutral-500 mb-2" />
                     <h4 className="font-medium text-neutral-900 dark:text-[var(--white)] mb-2">Understand Code</h4>
                     <p className="text-sm text-neutral-600 dark:text-neutral-400">
                       Ask questions about your codebase architecture, logic, and functions to get immediate insights.
@@ -255,16 +255,16 @@ const Dev = () => {
                 <div className="bg-gray-100 dark:bg-gray-800 rounded-md p-4 font-mono text-sm mb-6 overflow-x-auto">
                   <div className="text-neutral-500 dark:text-neutral-400"># Ask about your codebase</div>
                   <div className="text-neutral-900 dark:text-neutral-100">hanzo</div>
-                  <div className="text-purple-600 dark:text-purple-400">&gt; how does our authentication system work?</div>
+                  <div className="text-neutral-600 dark:text-neutral-400">&gt; how does our authentication system work?</div>
                   <div className="mt-2 text-neutral-500 dark:text-neutral-400"># Fix issues across files</div>
-                  <div className="text-purple-600 dark:text-purple-400">&gt; fix the type errors in the auth module</div>
+                  <div className="text-neutral-600 dark:text-neutral-400">&gt; fix the type errors in the auth module</div>
                   <div className="mt-2 text-neutral-500 dark:text-neutral-400"># Create a commit</div>
-                  <div className="text-purple-600 dark:text-purple-400">&gt; commit my changes</div>
+                  <div className="text-neutral-600 dark:text-neutral-400">&gt; commit my changes</div>
                 </div>
               </div>
               
               <div className="flex justify-center mt-12">
-                <Button className="bg-purple-600 hover:bg-purple-700 text-[var(--white)]">
+                <Button className="bg-neutral-600 hover:bg-neutral-700 text-[var(--white)]">
                   <Download className="mr-2 h-4 w-4" />
                   <a href="#download">Install Hanzo Dev</a>
                 </Button>

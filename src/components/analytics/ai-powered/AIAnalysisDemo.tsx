@@ -16,7 +16,7 @@ const AIAnalysisDemo = () => {
       
       <div className="relative z-10">
         <div className="flex items-center mb-6">
-          <LineChart className="h-6 w-6 text-purple-400 mr-3" />
+          <LineChart className="h-6 w-6 text-neutral-400 mr-3" />
           <h3 className="text-2xl font-bold">AI Analysis in Action</h3>
         </div>
         
@@ -110,13 +110,13 @@ const AIAnalysisDemo = () => {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 2.6 }}
-              className="bg-purple-900/20 rounded-lg p-5 border border-purple-900/30"
+              className="bg-neutral-900/20 rounded-lg p-5 border border-neutral-900/30"
             >
               <h4 className="text-lg font-medium mb-2">AI Recommendation</h4>
               <p className="text-sm text-neutral-300">
                 Based on the traffic pattern analysis, we recommend scaling your infrastructure in the US-West region for the next 3 hours.
               </p>
-              <button className="mt-3 text-sm bg-purple-700 hover:bg-purple-600 text-[var(--white)] px-3 py-1 rounded">
+              <button className="mt-3 text-sm bg-neutral-700 hover:bg-neutral-600 text-[var(--white)] px-3 py-1 rounded">
                 Apply Recommendation
               </button>
             </motion.div>

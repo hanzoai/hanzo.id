@@ -14,32 +14,32 @@ import { Card, CardContent } from "@/components/ui/card";
 const HumanAIIntegration = () => {
   const features = [
     {
-      icon: <Video className="h-10 w-10 text-purple-400" />,
+      icon: <Video className="h-10 w-10 text-neutral-400" />,
       title: "Train via Zoom",
       description: "Simply have a Zoom call with your AI agents. They learn by watching and listening, just like a human team member would."
     },
     {
-      icon: <Monitor className="h-10 w-10 text-purple-400" />,
+      icon: <Monitor className="h-10 w-10 text-neutral-400" />,
       title: "Watch Them Work",
       description: "View your AI agents' work in real-time through a virtual desktop. Provide feedback and guidance as needed."
     },
     {
-      icon: <MessageSquare className="h-10 w-10 text-purple-400" />,
+      icon: <MessageSquare className="h-10 w-10 text-neutral-400" />,
       title: "Seamless Communication",
       description: "Chat with your AI team members through your existing communication channels like Slack, Teams, or email."
     },
     {
-      icon: <Lightbulb className="h-10 w-10 text-purple-400" />,
+      icon: <Lightbulb className="h-10 w-10 text-neutral-400" />,
       title: "Proactive Suggestions",
       description: "AI agents will proactively offer insights and suggestions based on their observations of your workflow."
     },
     {
-      icon: <Workflow className="h-10 w-10 text-purple-400" />,
+      icon: <Workflow className="h-10 w-10 text-neutral-400" />,
       title: "Workflow Automation",
       description: "Agents learn your repetitive tasks and offer to automate them, saving you time for more creative work."
     },
     {
-      icon: <Users className="h-10 w-10 text-purple-400" />,
+      icon: <Users className="h-10 w-10 text-neutral-400" />,
       title: "Human Escalation",
       description: "When tasks require human judgment, agents automatically escalate to the appropriate team member."
     }
@@ -55,7 +55,7 @@ const HumanAIIntegration = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <div className="inline-flex p-2 rounded-full bg-purple-900/20 border border-purple-500/20 text-purple-400 mb-4">
+            <div className="inline-flex p-2 rounded-full bg-neutral-900/20 border border-neutral-500/20 text-neutral-400 mb-4">
               <Users className="h-6 w-6" />
             </div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -66,11 +66,11 @@ const HumanAIIntegration = () => {
               creating a seamless integration that enhances productivity and creativity.
             </p>
             
-            <div className="relative aspect-video rounded-xl overflow-hidden border border-purple-500/20 bg-[var(--black)]/50">
+            <div className="relative aspect-video rounded-xl overflow-hidden border border-neutral-500/20 bg-[var(--black)]/50">
               <div className="absolute inset-0 flex items-center justify-center">
                 {/* This would be a real video in production */}
                 <div className="text-center p-8">
-                  <Video className="h-16 w-16 text-purple-400 mx-auto mb-4 opacity-70" />
+                  <Video className="h-16 w-16 text-neutral-400 mx-auto mb-4 opacity-70" />
                   <p className="text-neutral-400">Interactive demo video would be here</p>
                 </div>
               </div>
@@ -87,10 +87,10 @@ const HumanAIIntegration = () => {
               {features.map((feature, index) => (
                 <Card 
                   key={index} 
-                  className="bg-[var(--black)]/40 border border-purple-900/20 backdrop-blur-sm overflow-hidden"
+                  className="bg-[var(--black)]/40 border border-neutral-900/20 backdrop-blur-sm overflow-hidden"
                 >
                   <CardContent className="p-6">
-                    <div className="bg-purple-900/20 p-3 rounded-lg inline-flex mb-4">
+                    <div className="bg-neutral-900/20 p-3 rounded-lg inline-flex mb-4">
                       {feature.icon}
                     </div>
                     <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>

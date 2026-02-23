@@ -20,9 +20,9 @@ const ViewAllButton: React.FC<ViewAllButtonProps> = ({ href, text, hoverColor })
       text: "text-neutral-400 hover:text-neutral-300"
     },
     purple: {
-      bg: "hover:bg-purple-900/20",
-      border: "hover:border-purple-500",
-      text: "text-purple-400 hover:text-purple-300"
+      bg: "hover:bg-neutral-900/20",
+      border: "hover:border-neutral-500",
+      text: "text-neutral-400 hover:text-neutral-300"
     },
     green: {
       bg: "hover:bg-neutral-900/20",

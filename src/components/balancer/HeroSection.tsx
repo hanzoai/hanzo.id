@@ -8,8 +8,8 @@ const HeroSection = () => {
   return (
     <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       {/* Background elements */}
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/10 to-neutral-900/10 opacity-30"></div>
-      <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/10 to-neutral-900/10 opacity-30"></div>
+      <div className="absolute -top-40 -right-40 w-80 h-80 bg-neutral-500/10 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-neutral-500/10 rounded-full blur-3xl"></div>
       
       <div className="max-w-7xl mx-auto relative z-10">
@@ -30,8 +30,8 @@ const HeroSection = () => {
           </div>
 
           <div className="mb-4">
-            <span className="text-purple-400 font-medium leading-relaxed">Hanzo Balancer v3.3 Is Now Available! 
-              <a href="#learn-more" className="ml-2 text-purple-300 underline">Learn More</a>
+            <span className="text-neutral-400 font-medium leading-relaxed">Hanzo Balancer v3.3 Is Now Available! 
+              <a href="#learn-more" className="ml-2 text-neutral-300 underline">Learn More</a>
             </span>
           </div>
           
@@ -42,7 +42,7 @@ const HeroSection = () => {
             className="text-4xl md:text-6xl font-bold mb-6 leading-tight"
           >
             The Cloud Native<br />
-            <span className="text-purple-400">Application Proxy</span>
+            <span className="text-neutral-400">Application Proxy</span>
           </motion.h1>
           
           <motion.p
@@ -62,7 +62,7 @@ const HeroSection = () => {
           >
             <Button 
               size="lg"
-              className="bg-purple-600 hover:bg-purple-700 text-[var(--white)] rounded-full py-6"
+              className="bg-neutral-600 hover:bg-neutral-700 text-[var(--white)] rounded-full py-6"
             >
               <span className="py-1 leading-relaxed">GET STARTED</span>
             </Button>

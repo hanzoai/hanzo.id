@@ -82,8 +82,8 @@ const AppDemo = ({ activeTab }: { activeTab: string }) => {
       content: (
         <div className="space-y-3">
           <div className="flex items-center gap-2 text-sm">
-            <Cpu className="w-4 h-4 text-purple-400" />
-            <span className="text-purple-400">Running locally</span>
+            <Cpu className="w-4 h-4 text-neutral-400" />
+            <span className="text-neutral-400">Running locally</span>
           </div>
           <div className="bg-neutral-900/50 rounded-lg p-3 font-mono text-xs">
             <div className="text-neutral-500">$ hanzo local start</div>

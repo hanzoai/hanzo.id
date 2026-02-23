@@ -37,7 +37,7 @@ const HeroTitle: React.FC<HeroTitleProps> = ({
         </span>
         <br />
         <span 
-          className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-violet-400 to-neutral-400"
+          className="bg-clip-text text-transparent bg-gradient-to-r from-neutral-400 via-violet-400 to-neutral-400"
           style={{
             backgroundPosition: `${(mousePosition.x / (containerRef.current?.offsetWidth || 1)) * 100}% ${(mousePosition.y / (containerRef.current?.offsetHeight || 1)) * 100}%`,
           }}

@@ -200,15 +200,15 @@ const DeveloperExperienceSection = () => {
             <div className="p-4 font-mono text-sm bg-neutral-950">
               <div className="mb-2">
                 <span className="text-neutral-500">$ </span>
-                <span className="text-purple-400">curl</span>
+                <span className="text-neutral-400">curl</span>
                 <span className="text-neutral-300"> -fsSL </span>
                 <span className="text-neutral-400">hanzo.sh/install.sh</span>
                 <span className="text-neutral-300"> | </span>
-                <span className="text-purple-400">sh</span>
+                <span className="text-neutral-400">sh</span>
               </div>
               <div className="mb-4">
                 <span className="text-neutral-500">$ </span>
-                <span className="text-purple-400">hanzo</span>
+                <span className="text-neutral-400">hanzo</span>
                 <span className="text-cyan-400"> dev</span>
                 <span className="text-neutral-400"> "Fix rate limiting. Add metrics. Add tests. Open a PR."</span>
               </div>

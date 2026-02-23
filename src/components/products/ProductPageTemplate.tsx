@@ -169,7 +169,7 @@ const PricingBadge = ({ pricing }: { pricing?: Product['pricing'] }) => {
   const variants = {
     free: { label: 'Free', className: 'bg-neutral-500/20 text-neutral-400 border-neutral-500/30' },
     freemium: { label: 'Free Tier', className: 'bg-neutral-500/20 text-neutral-400 border-neutral-500/30' },
-    paid: { label: 'Paid', className: 'bg-purple-500/20 text-purple-400 border-purple-500/30' }
+    paid: { label: 'Paid', className: 'bg-neutral-500/20 text-neutral-400 border-neutral-500/30' }
   };
 
   const variant = variants[pricing];
@@ -259,7 +259,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
         {/* Gradient accents */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-1/4 -left-64 w-96 h-96 bg-[#ffffff]/20 rounded-full blur-3xl"></div>
-          <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-900/20 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-neutral-900/20 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
         </div>
 
         <div className="max-w-7xl mx-auto relative z-10">

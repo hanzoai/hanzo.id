@@ -22,19 +22,19 @@ const PlatformDashboard = () => {
         </div>
         <div className="flex space-x-3">
           <button 
-            className={`px-3 py-1 rounded-md text-xs ${activeSection === "models" ? "bg-purple-900/60 text-purple-200" : "bg-gray-800 text-neutral-400"}`} 
+            className={`px-3 py-1 rounded-md text-xs ${activeSection === "models" ? "bg-neutral-900/60 text-neutral-200" : "bg-gray-800 text-neutral-400"}`} 
             onClick={() => setActiveSection("models")}
           >
             AI Models
           </button>
           <button 
-            className={`px-3 py-1 rounded-md text-xs ${activeSection === "observability" ? "bg-purple-900/60 text-purple-200" : "bg-gray-800 text-neutral-400"}`} 
+            className={`px-3 py-1 rounded-md text-xs ${activeSection === "observability" ? "bg-neutral-900/60 text-neutral-200" : "bg-gray-800 text-neutral-400"}`} 
             onClick={() => setActiveSection("observability")}
           >
             Observability
           </button>
           <button 
-            className={`px-3 py-1 rounded-md text-xs ${activeSection === "analytics" ? "bg-purple-900/60 text-purple-200" : "bg-gray-800 text-neutral-400"}`} 
+            className={`px-3 py-1 rounded-md text-xs ${activeSection === "analytics" ? "bg-neutral-900/60 text-neutral-200" : "bg-gray-800 text-neutral-400"}`} 
             onClick={() => setActiveSection("analytics")}
           >
             Analytics

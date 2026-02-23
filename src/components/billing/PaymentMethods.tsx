@@ -205,7 +205,7 @@ const PaymentMethods = () => {
             key={card.id} 
             className={`flex items-center justify-between p-4 rounded-lg border ${
               card.isDefault 
-                ? 'border-purple-500 bg-purple-900/10' 
+                ? 'border-neutral-500 bg-neutral-900/10' 
                 : 'border-gray-800 bg-gray-900/30'
             }`}
           >
@@ -217,7 +217,7 @@ const PaymentMethods = () => {
                 <div className="font-medium">
                   {card.type.charAt(0).toUpperCase() + card.type.slice(1)} ending in {card.last4}
                   {card.isDefault && (
-                    <span className="ml-2 text-xs bg-purple-900/50 text-purple-300 px-2 py-0.5 rounded-full">
+                    <span className="ml-2 text-xs bg-neutral-900/50 text-neutral-300 px-2 py-0.5 rounded-full">
                       Default
                     </span>
                   )}

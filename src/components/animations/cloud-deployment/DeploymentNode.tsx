@@ -14,7 +14,7 @@ interface DeploymentNodeProps {
 const DeploymentNode: React.FC<DeploymentNodeProps> = ({ node, onClick }) => {
   const getNodeBackgroundClass = () => {
     switch(node.type) {
-      case 'app': return 'bg-purple-500/20 border border-purple-500/30';
+      case 'app': return 'bg-neutral-500/20 border border-neutral-500/30';
       case 'redis': return 'bg-neutral-500/20 border border-neutral-500/30';
       case 'postgres': return 'bg-neutral-500/20 border border-neutral-500/30';
       case 'github': return 'bg-gray-500/20 border border-gray-500/30';
@@ -23,7 +23,7 @@ const DeploymentNode: React.FC<DeploymentNodeProps> = ({ node, onClick }) => {
         return node.id === 'network-public' 
           ? 'bg-yellow-500/20 border-2 border-yellow-500/50' // Highlighted yellow for public network
           : 'bg-neutral-500/20 border-2 border-yellow-400/40'; // Yellow outline for private network
-      default: return 'bg-purple-500/20 border border-purple-500/30';
+      default: return 'bg-neutral-500/20 border border-neutral-500/30';
     }
   };
 

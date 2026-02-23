@@ -13,7 +13,7 @@ const PricingTier = ({ title, price, description, features, highlight = false, c
       transition={{ duration: 0.5 }}
       className={`border rounded-xl p-8 h-full ${
         highlight 
-          ? "border-purple-500 bg-gradient-to-b from-purple-900/20 to-black" 
+          ? "border-neutral-500 bg-gradient-to-b from-neutral-900/20 to-black" 
           : "border-gray-800 bg-gray-900/20"
       }`}
     >
@@ -35,7 +35,7 @@ const PricingTier = ({ title, price, description, features, highlight = false, c
       <Button
         className={`w-full ${
           highlight
-            ? "bg-purple-600 hover:bg-purple-700 text-[var(--white)]"
+            ? "bg-neutral-600 hover:bg-neutral-700 text-[var(--white)]"
             : "bg-gray-800 text-[var(--white)] hover:bg-gray-700"
         }`}
       >

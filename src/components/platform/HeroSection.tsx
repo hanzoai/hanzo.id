@@ -31,8 +31,8 @@ const HeroSection = () => {
       className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden"
     >
       {/* Background elements */}
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/10 to-neutral-900/10 opacity-30"></div>
-      <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/10 to-neutral-900/10 opacity-30"></div>
+      <div className="absolute -top-40 -right-40 w-80 h-80 bg-neutral-500/10 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-neutral-500/10 rounded-full blur-3xl"></div>
       
       <div className="max-w-5xl mx-auto text-center relative z-10">

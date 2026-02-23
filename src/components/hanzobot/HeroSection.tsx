@@ -10,7 +10,7 @@ const HeroSection = () => {
     <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-[var(--black)] relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-indigo-900/10 to-black"></div>
       <div className="absolute top-20 right-10 w-72 h-72 bg-indigo-500/10 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-20 left-10 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-20 left-10 w-72 h-72 bg-neutral-500/10 rounded-full blur-3xl"></div>
       
       <div className="max-w-7xl mx-auto relative z-10">
         <motion.div
@@ -19,7 +19,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <div className="inline-block px-4 py-1 mb-6 rounded-full bg-purple-900/30 border border-purple-500/50 text-purple-300 text-sm font-medium">
+          <div className="inline-block px-4 py-1 mb-6 rounded-full bg-neutral-900/30 border border-neutral-500/50 text-neutral-300 text-sm font-medium">
             Multi-Agent Simulation Framework
           </div>
           
@@ -36,7 +36,7 @@ const HeroSection = () => {
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <Button 
               size="lg"
-              className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-[var(--white)] rounded-lg"
+              className="bg-gradient-to-r from-neutral-600 to-indigo-600 hover:from-neutral-500 hover:to-indigo-500 text-[var(--white)] rounded-lg"
             >
               Get Started
               <ArrowRight className="ml-2 h-5 w-5" />

@@ -31,7 +31,7 @@ const Architecture = () => {
             className="bg-gray-900/20 border border-gray-800 rounded-xl p-8"
           >
             <div className="relative overflow-hidden rounded-lg bg-[var(--black)]/50 p-6 h-64 flex items-center justify-center">
-              <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-indigo-500/10"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-neutral-500/10 to-indigo-500/10"></div>
               <div className="relative z-10 text-center">
                 <div className="text-2xl font-bold text-[var(--white)] mb-4">Modular Architecture</div>
                 <p className="text-neutral-400">Visualization of the Hanzo Bot architecture would appear here</p>

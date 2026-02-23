@@ -118,13 +118,13 @@ const DeploymentOptions = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3 }}
-            className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-6 hover:border-purple-500/30 transition-colors"
+            className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-6 hover:border-neutral-500/30 transition-colors"
           >
             <div
               className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
-              style={{ backgroundColor: "#8b5cf620" }}
+              style={{ backgroundColor: "rgba(255,255,255,0.08)" }}
             >
-              <Network className="w-6 h-6 text-purple-500" />
+              <Network className="w-6 h-6 text-neutral-500" />
             </div>
             <h3 className="text-xl font-bold text-white mb-2">Hybrid</h3>
             <p className="text-neutral-400 text-sm mb-4">
@@ -132,18 +132,18 @@ const DeploymentOptions = () => {
             </p>
             <ul className="space-y-2 text-sm text-neutral-500">
               <li className="flex items-center gap-2">
-                <span className="text-purple-500">✓</span> Data residency compliance
+                <span className="text-neutral-500">✓</span> Data residency compliance
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-purple-500">✓</span> Edge + origin architecture
+                <span className="text-neutral-500">✓</span> Edge + origin architecture
               </li>
               <li className="flex items-center gap-2">
-                <span className="text-purple-500">✓</span> Unified management
+                <span className="text-neutral-500">✓</span> Unified management
               </li>
             </ul>
             <Link
               to="/enterprise"
-              className="inline-flex items-center mt-6 text-sm text-purple-400 hover:text-purple-300"
+              className="inline-flex items-center mt-6 text-sm text-neutral-400 hover:text-neutral-300"
             >
               Contact Sales
               <ArrowRight className="w-4 h-4 ml-2" />

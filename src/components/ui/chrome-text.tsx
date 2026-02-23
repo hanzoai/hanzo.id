@@ -44,7 +44,7 @@ const ChromeText = ({
     <div className={cn("flex flex-col", preHeading ? "items-center" : "items-start")}>
       {preHeading && (
         <div className={cn(
-          "inline-block px-4 py-1 rounded-full bg-purple-900/30 border border-purple-500/50 text-purple-300 text-sm font-medium mb-4 pre-heading-glow", 
+          "inline-block px-4 py-1 rounded-full bg-neutral-900/30 border border-neutral-500/50 text-neutral-300 text-sm font-medium mb-4 pre-heading-glow", 
           preHeadingClassName
         )}>
           {preHeading}

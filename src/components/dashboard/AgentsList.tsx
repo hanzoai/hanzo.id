@@ -136,7 +136,7 @@ const AgentsList = ({ viewMode = "grid" }: AgentsListProps) => {
                   <td className="px-4 py-3">
                     <div className="flex items-center">
                       {agent.type === "Research" && <Database className="h-4 w-4 mr-1 text-neutral-400" />}
-                      {agent.type === "Coding" && <Brain className="h-4 w-4 mr-1 text-purple-400" />}
+                      {agent.type === "Coding" && <Brain className="h-4 w-4 mr-1 text-neutral-400" />}
                       {agent.type === "Assistant" && <Activity className="h-4 w-4 mr-1 text-neutral-400" />}
                       {agent.type}
                     </div>
@@ -209,7 +209,7 @@ const AgentsList = ({ viewMode = "grid" }: AgentsListProps) => {
                   <span className="text-neutral-400">Type:</span>
                   <span className="flex items-center">
                     {agent.type === "Research" && <Database className="h-3 w-3 mr-1 text-neutral-400" />}
-                    {agent.type === "Coding" && <Brain className="h-3 w-3 mr-1 text-purple-400" />}
+                    {agent.type === "Coding" && <Brain className="h-3 w-3 mr-1 text-neutral-400" />}
                     {agent.type === "Assistant" && <Activity className="h-3 w-3 mr-1 text-neutral-400" />}
                     {agent.type}
                   </span>

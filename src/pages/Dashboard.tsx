@@ -77,7 +77,7 @@ const Dashboard = () => {
                   <div className="bg-neutral-600 h-full rounded-full" style={{ width: '65%' }}></div>
                 </div>
                 <div className="w-full bg-gray-900 h-4 rounded-full overflow-hidden">
-                  <div className="bg-purple-600 h-full rounded-full" style={{ width: '42%' }}></div>
+                  <div className="bg-neutral-600 h-full rounded-full" style={{ width: '42%' }}></div>
                 </div>
                 <div className="w-full bg-gray-900 h-4 rounded-full overflow-hidden">
                   <div className="bg-neutral-600 h-full rounded-full" style={{ width: '28%' }}></div>

@@ -9,8 +9,8 @@ const HanzoExtensionHero = () => {
   return (
     <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       {/* Background elements */}
-      <div className="absolute inset-0 bg-gradient-to-b from-purple-900/10 to-neutral-900/10 opacity-30"></div>
-      <div className="absolute -top-40 -right-40 w-80 h-80 bg-purple-500/10 rounded-full blur-3xl"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-neutral-900/10 to-neutral-900/10 opacity-30"></div>
+      <div className="absolute -top-40 -right-40 w-80 h-80 bg-neutral-500/10 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-neutral-500/10 rounded-full blur-3xl"></div>
       
       <div className="max-w-5xl mx-auto relative z-10">
@@ -21,7 +21,7 @@ const HanzoExtensionHero = () => {
           className="text-center"
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Hanzo <span className="text-purple-400">Extension</span>
+            Hanzo <span className="text-neutral-400">Extension</span>
           </h1>
           <p className="text-xl md:text-2xl text-neutral-300 max-w-3xl mx-auto mb-12">
             Access Hanzo AI directly in your browser
@@ -31,7 +31,7 @@ const HanzoExtensionHero = () => {
           <div className="flex flex-wrap justify-center gap-4 mb-12">
             <Button 
               size="lg"
-              className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-500 hover:to-purple-400 text-[var(--white)] px-8 py-6 rounded-lg text-lg font-medium"
+              className="bg-gradient-to-r from-neutral-600 to-neutral-500 hover:from-neutral-500 hover:to-neutral-400 text-[var(--white)] px-8 py-6 rounded-lg text-lg font-medium"
             >
               <a href="#browsers" className="flex items-center">
                 <Chrome className="mr-2 h-5 w-5" />
@@ -43,7 +43,7 @@ const HanzoExtensionHero = () => {
             <Button 
               size="lg"
               variant="outline"
-              className="border-purple-600 text-[var(--white)] hover:bg-purple-600/10 px-8 py-6 rounded-lg text-lg font-medium"
+              className="border-neutral-600 text-[var(--white)] hover:bg-neutral-600/10 px-8 py-6 rounded-lg text-lg font-medium"
             >
               <a href="#browsers" className="flex items-center">
                 <Globe className="mr-2 h-5 w-5" />

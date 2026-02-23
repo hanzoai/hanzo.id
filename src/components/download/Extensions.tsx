@@ -32,7 +32,7 @@ const Extensions = () => {
             transition={{ duration: 0.6 }}
           >
             <div className="flex items-center mb-6">
-              <Chrome className="h-10 w-10 text-purple-500 mr-4" />
+              <Chrome className="h-10 w-10 text-neutral-500 mr-4" />
               <h3 className="text-2xl font-bold text-[var(--white)]">Browser Extensions</h3>
             </div>
             
@@ -64,7 +64,7 @@ const Extensions = () => {
             transition={{ duration: 0.6 }}
           >
             <div className="flex items-center mb-6">
-              <Code className="h-10 w-10 text-purple-500 mr-4" />
+              <Code className="h-10 w-10 text-neutral-500 mr-4" />
               <h3 className="text-2xl font-bold text-[var(--white)]">VS Code Extension</h3>
             </div>
             
@@ -73,7 +73,7 @@ const Extensions = () => {
             </p>
             
             <div className="flex flex-wrap gap-3">
-              <Button className="bg-purple-600 hover:bg-purple-500 text-[var(--white)]">
+              <Button className="bg-neutral-600 hover:bg-neutral-500 text-[var(--white)]">
                 <Code className="mr-2 h-4 w-4" />
                 Install for VS Code
               </Button>

@@ -24,7 +24,7 @@ const DXPlatformGrid: React.FC<DXPlatformGridProps> = ({ isHovered, setIsHovered
         className="mb-12"
       >
         <div className="relative h-80 w-full bg-gray-900/30 rounded-xl overflow-hidden border border-gray-800">
-          <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/10 to-purple-900/10"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/10 to-neutral-900/10"></div>
           
           {/* Background grid pattern with enhanced visibility */}
           <div className="absolute inset-0 grid grid-cols-16 grid-rows-8 gap-4 p-4 opacity-30">
@@ -35,7 +35,7 @@ const DXPlatformGrid: React.FC<DXPlatformGridProps> = ({ isHovered, setIsHovered
           
           {/* Central platform hub */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <div className="w-28 h-28 rounded-full bg-gradient-to-br from-indigo-600/30 to-purple-600/30 border border-indigo-500/40 flex items-center justify-center">
+            <div className="w-28 h-28 rounded-full bg-gradient-to-br from-indigo-600/30 to-neutral-600/30 border border-indigo-500/40 flex items-center justify-center">
               <span className="text-xl font-bold text-[var(--white)]">Hanzo DX</span>
             </div>
             
@@ -50,7 +50,7 @@ const DXPlatformGrid: React.FC<DXPlatformGridProps> = ({ isHovered, setIsHovered
                 return (
                   <React.Fragment key={platform.id}>
                     <div 
-                      className="absolute w-0.5 bg-gradient-to-b from-indigo-500/20 to-purple-500/40"
+                      className="absolute w-0.5 bg-gradient-to-b from-indigo-500/20 to-neutral-500/40"
                       style={{
                         height: distance,
                         transform: `rotate(${angle + Math.PI/2}rad)`,
@@ -60,7 +60,7 @@ const DXPlatformGrid: React.FC<DXPlatformGridProps> = ({ isHovered, setIsHovered
                       }}
                     />
                     <div 
-                      className="absolute p-2 rounded-lg bg-gradient-to-br from-indigo-900/40 to-purple-900/40 border border-indigo-500/30 flex items-center justify-center"
+                      className="absolute p-2 rounded-lg bg-gradient-to-br from-indigo-900/40 to-neutral-900/40 border border-indigo-500/30 flex items-center justify-center"
                       style={{
                         width: '80px',
                         height: '40px',
@@ -121,7 +121,7 @@ const DXPlatformGrid: React.FC<DXPlatformGridProps> = ({ isHovered, setIsHovered
             </p>
             <div className="mt-auto">
               <Button 
-                className="bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-[var(--white)] w-full"
+                className="bg-gradient-to-r from-indigo-600 to-neutral-600 hover:from-indigo-500 hover:to-neutral-500 text-[var(--white)] w-full"
                 radius="full"
               >
                 View All Tools
@@ -137,7 +137,7 @@ const DXPlatformGrid: React.FC<DXPlatformGridProps> = ({ isHovered, setIsHovered
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5 }}
-        className="mt-16 p-8 bg-gradient-to-r from-indigo-900/20 to-purple-900/20 rounded-xl border border-indigo-500/20"
+        className="mt-16 p-8 bg-gradient-to-r from-indigo-900/20 to-neutral-900/20 rounded-xl border border-indigo-500/20"
       >
         <div className="max-w-4xl mx-auto text-center">
           <ChromeText as="h2" className="text-2xl md:text-3xl font-bold mb-4">
@@ -149,7 +149,7 @@ const DXPlatformGrid: React.FC<DXPlatformGridProps> = ({ isHovered, setIsHovered
           <Button 
             asChild
             size="lg"
-            className="px-8 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-[var(--white)] font-medium shadow-lg transition-all duration-300"
+            className="px-8 py-3 bg-gradient-to-r from-indigo-600 to-neutral-600 hover:from-indigo-500 hover:to-neutral-500 text-[var(--white)] font-medium shadow-lg transition-all duration-300"
             radius="full"
           >
             <Link to="/signup">Get Started Free</Link>

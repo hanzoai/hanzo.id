@@ -9,7 +9,7 @@ const AnalyticsView = () => {
       <div className="flex items-center justify-between mb-4">
         <h3 className="text-sm font-medium text-[var(--white)]">AI Analytics</h3>
         <div className="flex space-x-2">
-          <button className="px-2 py-1 bg-purple-600/40 rounded-md text-xs text-purple-200 flex items-center">
+          <button className="px-2 py-1 bg-neutral-600/40 rounded-md text-xs text-neutral-200 flex items-center">
             <BarChart className="w-3 h-3 mr-1" />
             Reports
           </button>
@@ -27,7 +27,7 @@ const AnalyticsView = () => {
             <div className="absolute inset-0">
               <div className="h-full w-full flex">
                 <motion.div 
-                  className="h-full bg-purple-600/70 rounded-l"
+                  className="h-full bg-neutral-600/70 rounded-l"
                   initial={{ width: 0 }}
                   animate={{ width: "42%" }}
                   transition={{ duration: 0.8, delay: 0.1 }}
@@ -55,7 +55,7 @@ const AnalyticsView = () => {
           </div>
           <div className="grid grid-cols-2 gap-2 mt-3">
             <div className="flex items-center">
-              <div className="w-2 h-2 rounded-full bg-purple-600 mr-2"></div>
+              <div className="w-2 h-2 rounded-full bg-neutral-600 mr-2"></div>
               <span className="text-xs text-neutral-300">GPT-4o (42%)</span>
             </div>
             <div className="flex items-center">
@@ -79,7 +79,7 @@ const AnalyticsView = () => {
               {[35, 42, 38, 52, 45, 55, 47, 62, 48, 60, 53, 58].map((value, index) => (
                 <motion.div
                   key={index}
-                  className="bg-gradient-to-t from-purple-600/90 to-purple-400/50 rounded-t w-full"
+                  className="bg-gradient-to-t from-neutral-600/90 to-neutral-400/50 rounded-t w-full"
                   style={{ height: `${value}%` }}
                   initial={{ height: 0 }}
                   animate={{ height: `${value}%` }}
@@ -94,7 +94,7 @@ const AnalyticsView = () => {
             <span>Dec</span>
           </div>
           <div className="mt-1 text-xs text-neutral-300">
-            $1,245 spent this month - <span className="text-purple-400">14% under budget</span>
+            $1,245 spent this month - <span className="text-neutral-400">14% under budget</span>
           </div>
         </div>
       </div>

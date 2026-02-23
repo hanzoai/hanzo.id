@@ -21,7 +21,7 @@ const quickApps = [{
   title: "Web3 dApp",
   description: "Build a decentralized application",
   glowColor: "group-hover:shadow-[0_0_30px_-5px_rgba(167,139,250,0.3)]",
-  borderColor: "group-hover:border-purple-400/30"
+  borderColor: "group-hover:border-neutral-400/30"
 }, {
   icon: <Rocket className="h-6 w-6 text-[var(--white)]" />,
   title: "Custom App",

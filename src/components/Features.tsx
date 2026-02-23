@@ -51,7 +51,7 @@ const industriesData = [{
   description: "Advanced security solutions for business"
 }, {
   name: "Data and Artificial Intelligence",
-  icon: <Brain className="h-5 w-5 text-purple-400 mb-2" />,
+  icon: <Brain className="h-5 w-5 text-neutral-400 mb-2" />,
   image: "/lovable-uploads/a31568fe-aa1f-4933-add1-b981564f25b9.png",
   description: "Cutting-edge AI solutions for business transformation"
 }, {
@@ -147,7 +147,7 @@ const Features = () => {
   const displayedFeatures = allFeatures.slice(0, 16);
   const hasMoreFeatures = allFeatures.length > 16;
   const industryIcons = {
-    "Artificial Intelligence": <Brain className="h-5 w-5 text-purple-400 mb-2" />,
+    "Artificial Intelligence": <Brain className="h-5 w-5 text-neutral-400 mb-2" />,
     "Adtech": <Target className="h-5 w-5 text-neutral-400 mb-2" />,
     "Blockchain": <Blocks className="h-5 w-5 text-orange-400 mb-2" />,
     "Cloud Computing": <Cloud className="h-5 w-5 text-cyan-400 mb-2" />,
@@ -319,7 +319,7 @@ const Features = () => {
           }} transition={{
             duration: 0.5
           }} className="mt-12 text-center">
-            <Button variant="ghost" onClick={() => window.location.href = '/solutions'} className="text-[var(--white)] hover:text-purple-400 transition-colors">
+            <Button variant="ghost" onClick={() => window.location.href = '/solutions'} className="text-[var(--white)] hover:text-neutral-400 transition-colors">
               View All Solutions
             </Button>
           </motion.div>}
@@ -337,7 +337,7 @@ const Features = () => {
           }} transition={{
             duration: 0.5
           }} className="text-center mb-12">
-            <h2 className="font-display text-[var(--white)] bg-gradient-to-r from-orange-400 via-purple-400 to-pink-400 bg-clip-text text-transparent text-4xl">
+            <h2 className="font-display text-[var(--white)] bg-gradient-to-r from-orange-400 via-neutral-400 to-pink-400 bg-clip-text text-transparent text-4xl">
               Hanzo has an impressive track record...
             </h2>
           </motion.div>

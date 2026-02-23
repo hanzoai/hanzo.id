@@ -44,13 +44,13 @@ const AgentCodeDemo = () => {
         <div className="col-span-5 border-r border-neutral-800 p-4 font-mono text-xs">
           <div className="text-neutral-500 mb-2">package service.limits;</div>
           <div className="space-y-1">
-            <div><span className="text-purple-400">import</span> java.time.Instant;</div>
-            <div><span className="text-purple-400">import</span> java.util.concurrent.*;</div>
-            <div className="mt-3"><span className="text-purple-400">public class</span> <span className="text-yellow-400">RateLimitMetrics</span> {"{"}</div>
+            <div><span className="text-neutral-400">import</span> java.time.Instant;</div>
+            <div><span className="text-neutral-400">import</span> java.util.concurrent.*;</div>
+            <div className="mt-3"><span className="text-neutral-400">public class</span> <span className="text-yellow-400">RateLimitMetrics</span> {"{"}</div>
             <div className="ml-4 text-neutral-400">// allowedCount, blockedCount, resetCount</div>
-            <div className="ml-4"><span className="text-purple-400">private final</span> AtomicLong allowed = <span className="text-purple-400">new</span> AtomicLong();</div>
-            <div className="ml-4"><span className="text-purple-400">private final</span> AtomicLong blocked = <span className="text-purple-400">new</span> AtomicLong();</div>
-            <div className="mt-3 ml-4"><span className="text-purple-400">public void</span> <span className="text-neutral-400">markAllowed</span>() {"{"}</div>
+            <div className="ml-4"><span className="text-neutral-400">private final</span> AtomicLong allowed = <span className="text-neutral-400">new</span> AtomicLong();</div>
+            <div className="ml-4"><span className="text-neutral-400">private final</span> AtomicLong blocked = <span className="text-neutral-400">new</span> AtomicLong();</div>
+            <div className="mt-3 ml-4"><span className="text-neutral-400">public void</span> <span className="text-neutral-400">markAllowed</span>() {"{"}</div>
             <div className="ml-8">allowed.incrementAndGet();</div>
             <div className="ml-8">lastAllowed.set(Instant.now());</div>
             <div className="ml-4">{"}"}</div>

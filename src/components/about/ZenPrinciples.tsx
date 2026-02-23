@@ -11,7 +11,7 @@ const principles = [
   {
     title: "Empower the Underdog",
     description: "Enable others to win. Democratize technology so small businesses and startups can compete with industry giants.",
-    icon: <Users className="h-10 w-10 text-purple-400" />,
+    icon: <Users className="h-10 w-10 text-neutral-400" />,
   },
   {
     title: "Data-Driven Everything",
@@ -42,7 +42,7 @@ const principles = [
 
 const ZenPrinciples = () => {
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-black to-purple-950/20">
+    <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-black to-neutral-950/20">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
@@ -52,7 +52,7 @@ const ZenPrinciples = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">The Zen of Hanzo</h2>
-          <div className="h-1 w-20 bg-purple-500 mx-auto mb-6"></div>
+          <div className="h-1 w-20 bg-neutral-500 mx-auto mb-6"></div>
           <p className="text-xl text-neutral-300 max-w-3xl mx-auto">
             Our guiding philosophy - a set of first principles and laws that act as our north star.
           </p>
@@ -66,7 +66,7 @@ const ZenPrinciples = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-[var(--black)]/30 backdrop-blur-sm border border-purple-500/20 rounded-lg p-8 h-full"
+              className="bg-[var(--black)]/30 backdrop-blur-sm border border-neutral-500/20 rounded-lg p-8 h-full"
             >
               <div className="mb-6">{principle.icon}</div>
               <h3 className="text-2xl font-bold mb-4">{principle.title}</h3>
@@ -84,7 +84,7 @@ const ZenPrinciples = () => {
         >
           <Button 
             size="lg"
-            className="bg-gradient-to-r from-purple-600 to-purple-500 hover:from-purple-500 hover:to-purple-400 text-[var(--white)] px-8 py-6 rounded-lg text-lg font-medium"
+            className="bg-gradient-to-r from-neutral-600 to-neutral-500 hover:from-neutral-500 hover:to-neutral-400 text-[var(--white)] px-8 py-6 rounded-lg text-lg font-medium"
           >
             <Link to="/philosophy" className="flex items-center">
               Explore The Full Zen Manifesto

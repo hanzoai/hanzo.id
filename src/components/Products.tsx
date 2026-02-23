@@ -303,7 +303,7 @@ const Products = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: products.length * 0.1 }}
-          className="mt-20 p-8 bg-gradient-to-r from-neutral-900/40 via-purple-900/40 to-neutral-900/40 rounded-xl ring-1 ring-white/10 hover:ring-white/30 transition-all duration-300"
+          className="mt-20 p-8 bg-gradient-to-r from-neutral-900/40 via-neutral-900/40 to-neutral-900/40 rounded-xl ring-1 ring-white/10 hover:ring-white/30 transition-all duration-300"
         >
           <div className="max-w-3xl mx-auto text-center">
             <h3 className="text-2xl font-semibold text-[var(--white)] mb-4">Ready to Start Building?</h3>

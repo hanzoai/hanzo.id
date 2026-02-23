@@ -19,10 +19,10 @@ interface CloudServiceCardProps {
 const getColorClasses = (color: string = "purple", isHovered: boolean) => {
   const colorMap: Record<string, { bg: string, hoverBg: string, text: string, hoverText: string }> = {
     purple: { 
-      bg: "bg-purple-900/30", 
-      hoverBg: "bg-purple-600/30", 
-      text: "text-purple-400", 
-      hoverText: "text-purple-300" 
+      bg: "bg-neutral-900/30", 
+      hoverBg: "bg-neutral-600/30", 
+      text: "text-neutral-400", 
+      hoverText: "text-neutral-300" 
     },
     blue: { 
       bg: "bg-neutral-900/30", 

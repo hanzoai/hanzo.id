@@ -10,7 +10,7 @@ const AIFeatureList = () => {
   
   const features = [
     {
-      icon: <Eye className="h-10 w-10 text-purple-400" />,
+      icon: <Eye className="h-10 w-10 text-neutral-400" />,
       title: "Real-time anomaly detection",
       description: "Automatically identify unusual patterns and potential issues before they impact your business.",
       delay: 0

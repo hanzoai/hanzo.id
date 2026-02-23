@@ -11,12 +11,12 @@ const KnowledgeBaseCard = () => {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.3 }}
-      className="bg-gray-900/30 border border-purple-900/20 rounded-xl overflow-hidden shadow-xl"
+      className="bg-gray-900/30 border border-neutral-900/20 rounded-xl overflow-hidden shadow-xl"
     >
       <div className="border-b border-gray-800 p-3 flex items-center">
-        <FileText className="h-5 w-5 text-purple-400 mr-2" />
+        <FileText className="h-5 w-5 text-neutral-400 mr-2" />
         <span className="font-medium">Knowledge Base</span>
-        <Badge variant="outline" className="ml-auto bg-purple-900/30 border-purple-500/30 text-purple-300">
+        <Badge variant="outline" className="ml-auto bg-neutral-900/30 border-neutral-500/30 text-neutral-300">
           Notion-style
         </Badge>
       </div>
@@ -26,7 +26,7 @@ const KnowledgeBaseCard = () => {
             <h3 className="font-medium text-[var(--white)]">Company Wiki</h3>
             <div className="flex items-center space-x-2">
               <div className="text-xs text-neutral-400 flex items-center">
-                <div className="w-5 h-5 rounded-full bg-purple-600 flex items-center justify-center text-xs mr-1">AI</div>
+                <div className="w-5 h-5 rounded-full bg-neutral-600 flex items-center justify-center text-xs mr-1">AI</div>
                 <span>Updating</span>
               </div>
             </div>
@@ -35,7 +35,7 @@ const KnowledgeBaseCard = () => {
           <div className="space-y-3">
             <div className="p-2 bg-gray-800/40 rounded-md border border-gray-700/50">
               <div className="flex items-center mb-1">
-                <Calendar className="h-4 w-4 text-purple-400 mr-2" />
+                <Calendar className="h-4 w-4 text-neutral-400 mr-2" />
                 <span className="font-medium">Onboarding Process</span>
               </div>
               <p className="text-xs text-neutral-400">
@@ -45,7 +45,7 @@ const KnowledgeBaseCard = () => {
             
             <div className="p-2 bg-gray-800/40 rounded-md border border-gray-700/50">
               <div className="flex items-center mb-1">
-                <FileText className="h-4 w-4 text-purple-400 mr-2" />
+                <FileText className="h-4 w-4 text-neutral-400 mr-2" />
                 <span className="font-medium">Technical Documentation</span>
               </div>
               <p className="text-xs text-neutral-400">
@@ -53,12 +53,12 @@ const KnowledgeBaseCard = () => {
               </p>
             </div>
             
-            <div className="p-2 bg-purple-900/20 rounded-md border border-purple-700/50">
+            <div className="p-2 bg-neutral-900/20 rounded-md border border-neutral-700/50">
               <div className="flex items-center mb-1">
-                <Bot className="h-4 w-4 text-purple-400 mr-2" />
+                <Bot className="h-4 w-4 text-neutral-400 mr-2" />
                 <span className="font-medium">AI Activity: Adding Marketing Guidelines</span>
               </div>
-              <div className="flex items-center text-xs text-purple-300">
+              <div className="flex items-center text-xs text-neutral-300">
                 <span>ContentBot is updating brand guidelines based on latest team meeting</span>
               </div>
             </div>

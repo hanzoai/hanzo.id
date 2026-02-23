@@ -10,7 +10,7 @@ const HeroSection = () => {
       {/* Gradient effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-violet-900/20 via-transparent to-transparent opacity-70"></div>
       <div className="absolute top-40 left-20 w-96 h-96 bg-neutral-500/20 rounded-full blur-[100px]"></div>
-      <div className="absolute bottom-0 right-0 w-72 h-72 bg-purple-500/20 rounded-full blur-[100px]"></div>
+      <div className="absolute bottom-0 right-0 w-72 h-72 bg-neutral-500/20 rounded-full blur-[100px]"></div>
       
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="max-w-4xl mx-auto text-center">

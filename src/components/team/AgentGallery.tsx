@@ -90,15 +90,15 @@ const AgentDetailModal: React.FC<AgentDetailModalProps> = ({ agent, isOpen, onCl
                 <h4 className="text-lg font-medium text-white mb-2">Expertise</h4>
                 <ul className="space-y-2">
                   <li className="flex items-center text-neutral-300">
-                    <span className="mr-2 text-purple-400">•</span>
+                    <span className="mr-2 text-neutral-400">•</span>
                     Machine learning & data processing
                   </li>
                   <li className="flex items-center text-neutral-300">
-                    <span className="mr-2 text-purple-400">•</span>
+                    <span className="mr-2 text-neutral-400">•</span>
                     Neural network optimization
                   </li>
                   <li className="flex items-center text-neutral-300">
-                    <span className="mr-2 text-purple-400">•</span>
+                    <span className="mr-2 text-neutral-400">•</span>
                     Natural language processing
                   </li>
                 </ul>
@@ -116,7 +116,7 @@ const AgentDetailModal: React.FC<AgentDetailModalProps> = ({ agent, isOpen, onCl
             <div className="flex justify-center">
               <Link 
                 to={`/team/${agent.name.toLowerCase()}`}
-                className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl text-white"
+                className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-neutral-600 to-indigo-600 rounded-xl text-white"
               >
                 View Full Profile
                 <ArrowRight className="ml-2 h-4 w-4" />
@@ -148,7 +148,7 @@ const AgentGallery = () => {
       role: "Visionary Leader",
       description: "Your innovative AI visionary leader, guiding the team towards excellence with strategic insights.",
       icon: Lightbulb,
-      gradient: "from-indigo-500 to-purple-500"
+      gradient: "from-indigo-500 to-neutral-500"
     },
     {
       name: "Dev",
@@ -162,7 +162,7 @@ const AgentGallery = () => {
       role: "Designer",
       description: "Your creative AI designer, crafting beautiful and intuitive user experiences.",
       icon: Palette,
-      gradient: "from-purple-600 to-pink-400"
+      gradient: "from-neutral-600 to-pink-400"
     },
     {
       name: "Opera",
@@ -231,7 +231,7 @@ const AgentGallery = () => {
       role: "Calculator",
       description: "Your expert AI calculator, processing complex computations with precision.",
       icon: Calculator,
-      gradient: "from-purple-500 to-violet-500"
+      gradient: "from-neutral-500 to-violet-500"
     }
   ];
 
@@ -248,7 +248,7 @@ const AgentGallery = () => {
       role: "Musician",
       description: "Your creative AI musician, composing and producing original music.",
       icon: Music,
-      gradient: "from-pink-500 to-purple-500"
+      gradient: "from-pink-500 to-neutral-500"
     },
     {
       name: "Data",
@@ -262,7 +262,7 @@ const AgentGallery = () => {
       role: "Conversation Expert",
       description: "Your expert AI conversation specialist, facilitating natural communication.",
       icon: MessageCircle,
-      gradient: "from-neutral-500 to-purple-500"
+      gradient: "from-neutral-500 to-neutral-500"
     }
   ];
 
@@ -276,7 +276,7 @@ const AgentGallery = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <div className="inline-flex p-2 rounded-full bg-purple-900/20 border border-purple-500/20 text-purple-400 mb-4">
+          <div className="inline-flex p-2 rounded-full bg-neutral-900/20 border border-neutral-500/20 text-neutral-400 mb-4">
             <Bot className="h-6 w-6" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">

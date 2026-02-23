@@ -117,7 +117,7 @@
 
 .progress-bar {
   height: 4px;
-  background: linear-gradient(to right, #8b5cf6, #3b82f6);
+  background: linear-gradient(to right, #a3a3a3, #d4d4d4);
   transition: width 0.3s ease-in-out;
   border-radius: 2px;
 }
@@ -132,7 +132,7 @@
 }
 
 .tab-button.active {
-  background-color: rgba(124, 58, 237, 0.9);
+  background-color: rgba(255, 255, 255, 0.15);
   color: white;
 }
 
@@ -161,7 +161,7 @@
   left: -1px;
   right: -1px;
   bottom: -1px;
-  background: linear-gradient(45deg, #8b5cf6, #3b82f6, #8b5cf6);
+  background: linear-gradient(45deg, #a3a3a3, #d4d4d4, #a3a3a3);
   z-index: -1;
   border-radius: 0.85rem;
   opacity: 0.5;

@@ -39,7 +39,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
       <div className="absolute inset-0 bg-gradient-to-br from-gray-900/80 via-gray-900/90 to-gray-900/70 opacity-50 z-0"></div>
       
       {/* Hover background effect */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/10 to-neutral-900/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-neutral-900/10 to-neutral-900/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0"></div>
       
       <div className="relative z-10">
         {/* Icon container with dynamic color and hover effect - now with bigger icons */}

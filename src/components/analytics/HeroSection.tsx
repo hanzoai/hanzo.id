@@ -15,7 +15,7 @@ const HeroSection = () => {
         {Array(20).fill(0).map((_, i) => (
           <motion.div
             key={i}
-            className="absolute h-1 w-1 rounded-full bg-purple-500"
+            className="absolute h-1 w-1 rounded-full bg-neutral-500"
             style={{
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
@@ -40,7 +40,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6 }}
           className="mb-8 text-center"
         >
-          <div className="inline-block px-4 py-1 rounded-full bg-purple-900/30 border border-purple-500/30 text-purple-300 text-sm font-medium mb-6">
+          <div className="inline-block px-4 py-1 rounded-full bg-neutral-900/30 border border-neutral-500/30 text-neutral-300 text-sm font-medium mb-6">
             AI-Powered Analytics for Next-Generation Growth
           </div>
           <ChromeText as="h1" className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
@@ -58,7 +58,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
           className="flex flex-col sm:flex-row gap-4 justify-center mt-10"
         >
-          <Button size="lg" className="text-lg px-8 bg-gradient-to-r from-purple-700 to-purple-500 hover:from-purple-600 hover:to-purple-400 border-none">
+          <Button size="lg" className="text-lg px-8 bg-gradient-to-r from-neutral-700 to-neutral-500 hover:from-neutral-600 hover:to-neutral-400 border-none">
             <a href="#start-free-trial">Start Free Trial</a>
           </Button>
           <Button size="lg" variant="outline" className="text-lg px-8">
@@ -77,7 +77,7 @@ const HeroSection = () => {
           <div className="bg-gradient-to-br from-gray-900 to-black p-4 rounded-xl border border-gray-800 shadow-2xl overflow-hidden">
             <div className="flex items-center justify-between mb-4 border-b border-gray-800 pb-2">
               <div className="flex items-center">
-                <LineChart className="h-5 w-5 text-purple-400 mr-2" />
+                <LineChart className="h-5 w-5 text-neutral-400 mr-2" />
                 <span className="text-[var(--white)] font-medium">Hanzo Analytics Dashboard</span>
               </div>
               <div className="flex space-x-1">
