@@ -192,17 +192,17 @@ const RelatedProductCard: React.FC<{ product: Product; index: number }> = ({ pro
       transition={{ duration: 0.3, delay: index * 0.1 }}
     >
       <Link to={product.href}>
-        <Card className="bg-neutral-900/50 border-neutral-800 hover:border-[#fd4444]/50 transition-all duration-300 h-full group cursor-pointer hover:bg-neutral-900/80">
+        <Card className="bg-neutral-900/50 border-neutral-800 hover:border-[#ffffff]/50 transition-all duration-300 h-full group cursor-pointer hover:bg-neutral-900/80">
           <CardHeader className="pb-3">
             <div className="flex items-start justify-between">
-              <div className="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-[#fd4444]/30 transition-colors">
+              <div className="p-2 rounded-lg bg-white/5 border border-white/10 group-hover:border-[#ffffff]/30 transition-colors">
                 <IconComponent className="h-5 w-5 text-white" />
               </div>
               <StatusBadge status={product.status} />
             </div>
             <CardTitle className="text-lg mt-3 group-hover:text-white transition-colors flex items-center gap-2">
               {product.shortName}
-              <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity text-[#fd4444]" />
+              <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity text-[#ffffff]" />
             </CardTitle>
             <CardDescription className="text-neutral-400">
               {product.tagline}
@@ -258,7 +258,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
 
         {/* Gradient accents */}
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-1/4 -left-64 w-96 h-96 bg-[#fd4444]/20 rounded-full blur-3xl"></div>
+          <div className="absolute top-1/4 -left-64 w-96 h-96 bg-[#ffffff]/20 rounded-full blur-3xl"></div>
           <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-900/20 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
         </div>
 
@@ -268,7 +268,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
             showCorners={true}
             showGrid={false}
             cornerSize={50}
-            cornerColor="rgba(253, 68, 68, 0.15)"
+            cornerColor="rgba(255, 255, 255, 0.15)"
           >
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Left: Product Info */}
@@ -297,7 +297,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
                 </h1>
 
                 {/* Tagline */}
-                <p className="text-xl md:text-2xl text-[#fd4444] mb-4 font-medium">
+                <p className="text-xl md:text-2xl text-[#ffffff] mb-4 font-medium">
                   {product.tagline}
                 </p>
 
@@ -311,7 +311,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
                   {product.docs && (
                     <Button
                       size="lg"
-                      className="bg-[#fd4444] text-white hover:bg-[#fd4444]/90 border-0"
+                      className="bg-[#ffffff] text-white hover:bg-[#ffffff]/90 border-0"
                       asChild
                     >
                       <a href={product.docs} target="_blank" rel="noopener noreferrer">
@@ -374,23 +374,23 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
               <Tabs defaultValue={installMethods[0]} className="w-full">
                 <TabsList className={`grid w-full grid-cols-${Math.min(installMethods.length, 4)} bg-neutral-900/50 border border-neutral-800 p-1 rounded-xl`}>
                   {product.install.cli && (
-                    <TabsTrigger value="cli" className="data-[state=active]:bg-[#fd4444] data-[state=active]:text-white rounded-lg">
+                    <TabsTrigger value="cli" className="data-[state=active]:bg-[#ffffff] data-[state=active]:text-white rounded-lg">
                       <Terminal className="h-4 w-4 mr-2" />
                       CLI
                     </TabsTrigger>
                   )}
                   {product.install.docker && (
-                    <TabsTrigger value="docker" className="data-[state=active]:bg-[#fd4444] data-[state=active]:text-white rounded-lg">
+                    <TabsTrigger value="docker" className="data-[state=active]:bg-[#ffffff] data-[state=active]:text-white rounded-lg">
                       Docker
                     </TabsTrigger>
                   )}
                   {product.install.npm && (
-                    <TabsTrigger value="npm" className="data-[state=active]:bg-[#fd4444] data-[state=active]:text-white rounded-lg">
+                    <TabsTrigger value="npm" className="data-[state=active]:bg-[#ffffff] data-[state=active]:text-white rounded-lg">
                       npm
                     </TabsTrigger>
                   )}
                   {product.install.pip && (
-                    <TabsTrigger value="pip" className="data-[state=active]:bg-[#fd4444] data-[state=active]:text-white rounded-lg">
+                    <TabsTrigger value="pip" className="data-[state=active]:bg-[#ffffff] data-[state=active]:text-white rounded-lg">
                       pip
                     </TabsTrigger>
                   )}
@@ -435,7 +435,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
                       </div>
                       <div className="p-4 font-mono text-sm overflow-x-auto">
                         <span className="text-neutral-500">$</span>{" "}
-                        <span className="text-[#fd4444]">{product.install.npm}</span>
+                        <span className="text-[#ffffff]">{product.install.npm}</span>
                       </div>
                     </div>
                   </TabsContent>
@@ -499,10 +499,10 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
                   viewport={{ once: true }}
                   transition={{ duration: 0.3, delay: index * 0.05 }}
                 >
-                  <div className="bg-neutral-900/30 border border-neutral-800 rounded-xl p-4 hover:border-[#fd4444]/30 transition-colors group">
+                  <div className="bg-neutral-900/30 border border-neutral-800 rounded-xl p-4 hover:border-[#ffffff]/30 transition-colors group">
                     <div className="flex items-start gap-3">
                       <div className="mt-0.5">
-                        <CheckCircle className="h-5 w-5 text-[#fd4444] group-hover:text-[#fd4444] transition-colors" />
+                        <CheckCircle className="h-5 w-5 text-[#ffffff] group-hover:text-[#ffffff] transition-colors" />
                       </div>
                       <span className="text-neutral-300 group-hover:text-white transition-colors">{feature}</span>
                     </div>
@@ -545,12 +545,12 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
                 rel="noopener noreferrer"
                 className="group"
               >
-                <Card className="bg-neutral-900/50 border-neutral-800 hover:border-[#fd4444]/50 transition-all duration-300 h-full">
+                <Card className="bg-neutral-900/50 border-neutral-800 hover:border-[#ffffff]/50 transition-all duration-300 h-full">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2 text-lg">
                       <Github className="h-5 w-5" />
                       GitHub
-                      <ExternalLink className="h-4 w-4 ml-auto opacity-0 group-hover:opacity-100 transition-opacity text-[#fd4444]" />
+                      <ExternalLink className="h-4 w-4 ml-auto opacity-0 group-hover:opacity-100 transition-opacity text-[#ffffff]" />
                     </CardTitle>
                     <CardDescription>
                       Source code, issues, and contributions
@@ -566,12 +566,12 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
                   rel="noopener noreferrer"
                   className="group"
                 >
-                  <Card className="bg-neutral-900/50 border-neutral-800 hover:border-[#fd4444]/50 transition-all duration-300 h-full">
+                  <Card className="bg-neutral-900/50 border-neutral-800 hover:border-[#ffffff]/50 transition-all duration-300 h-full">
                     <CardHeader>
                       <CardTitle className="flex items-center gap-2 text-lg">
                         <BookOpen className="h-5 w-5" />
                         Documentation
-                        <ExternalLink className="h-4 w-4 ml-auto opacity-0 group-hover:opacity-100 transition-opacity text-[#fd4444]" />
+                        <ExternalLink className="h-4 w-4 ml-auto opacity-0 group-hover:opacity-100 transition-opacity text-[#ffffff]" />
                       </CardTitle>
                       <CardDescription>
                         Guides, API reference, and examples
@@ -582,12 +582,12 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
               )}
 
               <Link to="/pricing" className="group">
-                <Card className="bg-neutral-900/50 border-neutral-800 hover:border-[#fd4444]/50 transition-all duration-300 h-full">
+                <Card className="bg-neutral-900/50 border-neutral-800 hover:border-[#ffffff]/50 transition-all duration-300 h-full">
                   <CardHeader>
                     <CardTitle className="flex items-center gap-2 text-lg">
                       <Sparkles className="h-5 w-5" />
                       Pricing
-                      <ArrowRight className="h-4 w-4 ml-auto opacity-0 group-hover:opacity-100 transition-opacity text-[#fd4444]" />
+                      <ArrowRight className="h-4 w-4 ml-auto opacity-0 group-hover:opacity-100 transition-opacity text-[#ffffff]" />
                     </CardTitle>
                     <CardDescription>
                       {product.pricing === 'free' ? 'Completely free to use' : 'Free tier available, scale as you grow'}
@@ -617,7 +617,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
                 </div>
                 <Link
                   to={`/products/${product.category}`}
-                  className="text-[#fd4444] hover:text-[#fd4444]/80 text-sm font-medium flex items-center gap-1 group"
+                  className="text-[#ffffff] hover:text-[#ffffff]/80 text-sm font-medium flex items-center gap-1 group"
                 >
                   View all
                   <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
@@ -645,7 +645,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
       {/* CTA Section */}
       <section className="py-24 px-4 border-t border-white/10 relative overflow-hidden">
         {/* Background gradient */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#fd4444]/5 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#ffffff]/5 to-transparent" />
 
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <motion.div
@@ -656,7 +656,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
           >
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Ready to get started with{" "}
-              <span className="text-[#fd4444]">{product.shortName}</span>?
+              <span className="text-[#ffffff]">{product.shortName}</span>?
             </h2>
             <p className="text-lg text-neutral-400 mb-10 max-w-2xl mx-auto">
               Deploy in minutes with Hanzo Cloud or self-host with our open-source release.
@@ -665,7 +665,7 @@ export const ProductPageTemplate: React.FC<ProductPageTemplateProps> = ({ produc
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
-                className="bg-[#fd4444] text-white hover:bg-[#fd4444]/90 border-0 text-lg px-8"
+                className="bg-[#ffffff] text-white hover:bg-[#ffffff]/90 border-0 text-lg px-8"
                 asChild
               >
                 <Link to="/pricing">

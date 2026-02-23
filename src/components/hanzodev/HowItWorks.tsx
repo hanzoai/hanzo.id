@@ -13,7 +13,7 @@ import {
   Laptop,
 } from "lucide-react";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 const AUTONOMY_LEVELS = [
   {
@@ -194,7 +194,7 @@ const HowItWorks = () => {
                     key={agent}
                     className={`p-4 rounded-lg border ${
                       i === 0
-                        ? "border-[#fd4444]/50 bg-[#fd4444]/10"
+                        ? "border-[#ffffff]/50 bg-[#ffffff]/10"
                         : "border-neutral-800 bg-neutral-950/50"
                     }`}
                   >

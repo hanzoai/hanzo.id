@@ -25,7 +25,7 @@ import {
   Bug,
 } from "lucide-react";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 const COMPLIANCE_BADGES = [
   { name: "SOC 2 Type II", description: "Annual audit completed" },
@@ -336,7 +336,7 @@ const Security = () => {
                 transition={{ duration: 0.5, delay: 0.2 }}
                 className="order-2 lg:order-1"
               >
-                <div className="bg-gradient-to-br from-[#fd4444]/10 to-transparent rounded-xl p-8 border border-[#fd4444]/20">
+                <div className="bg-gradient-to-br from-[#ffffff]/10 to-transparent rounded-xl p-8 border border-[#ffffff]/20">
                   <Shield className="w-10 h-10 mb-6" style={{ color: BRAND_COLOR }} />
                   <h3 className="text-xl font-bold text-white mb-4">
                     Enterprise Security Program
@@ -433,8 +433,8 @@ const Security = () => {
 
         {/* CTA Section */}
         <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-neutral-900/30 to-black relative overflow-hidden">
-          <div className="absolute -top-40 -right-40 w-80 h-80 bg-[#fd4444]/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-[#fd4444]/5 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-[#ffffff]/10 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-[#ffffff]/5 rounded-full blur-3xl pointer-events-none" />
 
           <div className="max-w-4xl mx-auto text-center relative z-10">
             <motion.h2

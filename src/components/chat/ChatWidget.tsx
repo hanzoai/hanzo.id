@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { MessageSquare, X, Send, ExternalLink, Bot } from "lucide-react";
 
-const BRAND_COLOR = "#e11633";
+const BRAND_COLOR = "#ffffff";
 
 // Quick action buttons
 const quickActions = [
@@ -210,7 +210,7 @@ const ChatWidget = () => {
                   <div
                     className={`max-w-[85%] rounded-xl px-3 py-2 text-sm ${
                       message.role === "user"
-                        ? "bg-[#fd4444] text-white"
+                        ? "bg-[#ffffff] text-white"
                         : "bg-neutral-900 text-neutral-300 border border-neutral-800"
                     }`}
                   >

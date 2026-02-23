@@ -13,7 +13,7 @@ import {
   Copy,
 } from "lucide-react";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 const FEATURES = [
   { id: "self-host", label: "Self-Host", icon: Server },
@@ -261,7 +261,7 @@ const PlatformHero = () => {
                     onClick={() => setActiveFeature(feature.id)}
                     className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all ${
                       isActive
-                        ? "bg-[#fd4444] text-white"
+                        ? "bg-[#ffffff] text-white"
                         : "bg-neutral-900 border border-neutral-800 text-neutral-400 hover:text-white hover:border-neutral-700"
                     }`}
                   >

@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, MessageSquare } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 const faqs = [
   {
@@ -39,7 +39,7 @@ const FAQItem = ({ faq, isOpen, onClick }: { faq: typeof faqs[0]; isOpen: boolea
         onClick={onClick}
         className="w-full py-6 flex items-center justify-between text-left group"
       >
-        <span className="text-lg text-white group-hover:text-[#fd4444] transition-colors pr-4">
+        <span className="text-lg text-white group-hover:text-[#ffffff] transition-colors pr-4">
           {faq.question}
         </span>
         <ChevronDown

@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const BRAND = "#fd4444";
+const BRAND = "#ffffff";
 
 const features = [
   {
@@ -151,7 +151,7 @@ const IDLanding = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="p-6 rounded-2xl bg-neutral-900/50 border border-neutral-800 hover:border-[#fd4444]/40 transition-colors"
+                className="p-6 rounded-2xl bg-neutral-900/50 border border-neutral-800 hover:border-[#ffffff]/40 transition-colors"
               >
                 <feature.icon className="w-10 h-10 mb-4" style={{ color: BRAND }} />
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
@@ -183,9 +183,9 @@ const IDLanding = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="group p-6 rounded-2xl bg-neutral-900/50 border border-neutral-800 hover:border-[#fd4444]/40 transition-all hover:-translate-y-1"
+                className="group p-6 rounded-2xl bg-neutral-900/50 border border-neutral-800 hover:border-[#ffffff]/40 transition-all hover:-translate-y-1"
               >
-                <product.icon className="w-8 h-8 mb-3 text-neutral-400 group-hover:text-[#fd4444] transition-colors" />
+                <product.icon className="w-8 h-8 mb-3 text-neutral-400 group-hover:text-[#ffffff] transition-colors" />
                 <h3 className="text-lg font-semibold mb-1">{product.title}</h3>
                 <p className="text-sm text-neutral-400">{product.description}</p>
               </motion.a>

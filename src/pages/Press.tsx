@@ -21,7 +21,7 @@ import {
   Phone,
 } from "lucide-react";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 // Company facts
 const companyFacts = [

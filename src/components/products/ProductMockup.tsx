@@ -93,7 +93,7 @@ const VectorMockup: React.FC<{ product: Product }> = ({ product }) => (
         <div className="flex-1 bg-neutral-900 rounded-lg px-4 py-2 border border-neutral-700">
           <span className="text-neutral-400 text-sm">Find similar: "machine learning tutorials"</span>
         </div>
-        <button className="px-4 py-2 bg-[#fd4444] text-white text-sm rounded-lg hover:bg-[#fd4444]/90">
+        <button className="px-4 py-2 bg-[#ffffff] text-white text-sm rounded-lg hover:bg-[#ffffff]/90">
           Search
         </button>
       </div>
@@ -114,7 +114,7 @@ const VectorMockup: React.FC<{ product: Product }> = ({ product }) => (
 
         {/* Vector points */}
         <motion.div
-          className="absolute w-4 h-4 rounded-full bg-[#fd4444] shadow-lg shadow-[#fd4444]/50"
+          className="absolute w-4 h-4 rounded-full bg-[#ffffff] shadow-lg shadow-[#ffffff]/50"
           style={{ left: '45%', top: '40%' }}
           animate={{ scale: [1, 1.2, 1] }}
           transition={{ duration: 2, repeat: Infinity }}
@@ -138,7 +138,7 @@ const VectorMockup: React.FC<{ product: Product }> = ({ product }) => (
       {/* Legend */}
       <div className="absolute bottom-4 right-4 flex items-center gap-4 text-xs">
         <div className="flex items-center gap-1.5">
-          <div className="w-2 h-2 rounded-full bg-[#fd4444]" />
+          <div className="w-2 h-2 rounded-full bg-[#ffffff]" />
           <span className="text-neutral-400">Query</span>
         </div>
         <div className="flex items-center gap-1.5">
@@ -272,7 +272,7 @@ const MLMockup: React.FC<{ product: Product }> = ({ product }) => (
       </div>
       <div className="h-2 bg-neutral-800 rounded-full overflow-hidden">
         <motion.div
-          className="h-full bg-gradient-to-r from-[#fd4444] to-orange-500"
+          className="h-full bg-gradient-to-r from-[#ffffff] to-orange-500"
           initial={{ width: 0 }}
           animate={{ width: '30%' }}
           transition={{ duration: 1 }}
@@ -293,7 +293,7 @@ const MLMockup: React.FC<{ product: Product }> = ({ product }) => (
           {/* Loss curve */}
           <motion.path
             d="M 0 80 Q 20 70 40 50 T 80 35 T 120 28 T 160 24 T 200 22"
-            stroke="#fd4444"
+            stroke="#ffffff"
             strokeWidth="2"
             fill="none"
             initial={{ pathLength: 0 }}
@@ -317,7 +317,7 @@ const MLMockup: React.FC<{ product: Product }> = ({ product }) => (
         {/* Legend */}
         <div className="absolute top-0 right-0 flex items-center gap-4 text-xs">
           <div className="flex items-center gap-1.5">
-            <div className="w-3 h-0.5 bg-[#fd4444]" />
+            <div className="w-3 h-0.5 bg-[#ffffff]" />
             <span className="text-neutral-400">Train</span>
           </div>
           <div className="flex items-center gap-1.5">
@@ -371,7 +371,7 @@ const ChatMockup: React.FC<{ product: Product }> = ({ product }) => (
     <div className="p-4 space-y-4 max-h-64 overflow-y-auto">
       {/* User message */}
       <div className="flex justify-end">
-        <div className="bg-[#fd4444]/20 border border-[#fd4444]/30 rounded-2xl rounded-br-md px-4 py-2 max-w-[80%]">
+        <div className="bg-[#ffffff]/20 border border-[#ffffff]/30 rounded-2xl rounded-br-md px-4 py-2 max-w-[80%]">
           <p className="text-sm text-white">What's the weather in Tokyo?</p>
         </div>
       </div>
@@ -407,7 +407,7 @@ const ChatMockup: React.FC<{ product: Product }> = ({ product }) => (
           placeholder="Type a message..."
           className="flex-1 bg-neutral-900 border border-neutral-700 rounded-lg px-4 py-2 text-sm text-white placeholder-neutral-500 focus:outline-none focus:border-neutral-600"
         />
-        <button className="p-2 bg-[#fd4444] text-white rounded-lg hover:bg-[#fd4444]/90">
+        <button className="p-2 bg-[#ffffff] text-white rounded-lg hover:bg-[#ffffff]/90">
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
@@ -440,8 +440,8 @@ const AgentMockup: React.FC<{ product: Product }> = ({ product }) => (
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: 0 }}
         >
-          <div className="w-14 h-14 rounded-xl bg-[#fd4444]/20 border-2 border-[#fd4444] flex items-center justify-center">
-            <svg className="w-6 h-6 text-[#fd4444]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="w-14 h-14 rounded-xl bg-[#ffffff]/20 border-2 border-[#ffffff] flex items-center justify-center">
+            <svg className="w-6 h-6 text-[#ffffff]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
             </svg>
@@ -451,7 +451,7 @@ const AgentMockup: React.FC<{ product: Product }> = ({ product }) => (
 
         {/* Arrow */}
         <motion.div
-          className="flex-1 h-0.5 bg-gradient-to-r from-[#fd4444] to-cyan-400 mx-2"
+          className="flex-1 h-0.5 bg-gradient-to-r from-[#ffffff] to-cyan-400 mx-2"
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
           transition={{ delay: 0.3 }}
@@ -578,7 +578,7 @@ const ObservabilityMockup: React.FC<{ product: Product }> = ({ product }) => (
         {[65, 72, 68, 85, 92, 78, 88, 95, 82, 90, 87, 93].map((h, i) => (
           <motion.div
             key={i}
-            className="flex-1 bg-gradient-to-t from-[#fd4444] to-[#fd4444]/50 rounded-t"
+            className="flex-1 bg-gradient-to-t from-[#ffffff] to-[#ffffff]/50 rounded-t"
             initial={{ height: 0 }}
             animate={{ height: `${h}%` }}
             transition={{ delay: i * 0.05 }}
@@ -702,7 +702,7 @@ const AsyncMockup: React.FC<{ product: Product }> = ({ product }) => (
         {[...Array(12)].map((_, i) => (
           <motion.div
             key={i}
-            className={`flex-1 h-8 rounded ${i < 8 ? 'bg-[#fd4444]/60' : 'bg-neutral-800'}`}
+            className={`flex-1 h-8 rounded ${i < 8 ? 'bg-[#ffffff]/60' : 'bg-neutral-800'}`}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: i * 0.05 }}
@@ -755,9 +755,9 @@ const GenericMockup: React.FC<{ product: Product }> = ({ product }) => (
 
     <div className="p-8 flex items-center justify-center">
       <div className="text-center">
-        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#fd4444]/20 to-purple-500/20 border border-[#fd4444]/30 flex items-center justify-center mx-auto mb-4">
+        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#ffffff]/20 to-purple-500/20 border border-[#ffffff]/30 flex items-center justify-center mx-auto mb-4">
           <motion.div
-            className="w-8 h-8 rounded-lg bg-[#fd4444]/40"
+            className="w-8 h-8 rounded-lg bg-[#ffffff]/40"
             animate={{
               scale: [1, 1.1, 1],
               opacity: [0.5, 1, 0.5]

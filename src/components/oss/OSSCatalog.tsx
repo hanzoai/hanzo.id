@@ -52,7 +52,7 @@ import {
   type FeaturedCollection,
 } from '@/data/oss-catalog';
 
-const BRAND_COLOR = '#fd4444';
+const BRAND_COLOR = '#ffffff';
 
 // =============================================================================
 // QUICK FILTER CHIPS
@@ -82,7 +82,7 @@ const RepoCard: React.FC<RepoCardProps> = ({ repo, view }) => {
 
   const getBadgeVariant = (type: string) => {
     switch (type) {
-      case 'featured': return 'bg-[#fd4444]/10 text-[#fd4444] border-[#fd4444]/30';
+      case 'featured': return 'bg-[#ffffff]/10 text-[#ffffff] border-[#ffffff]/30';
       case 'recommended': return 'bg-blue-500/10 text-blue-400 border-blue-500/30';
       case 'experimental': return 'bg-orange-500/10 text-orange-400 border-orange-500/30';
       case 'stable': return 'bg-green-500/10 text-green-400 border-green-500/30';
@@ -139,7 +139,7 @@ const RepoCard: React.FC<RepoCardProps> = ({ repo, view }) => {
         {/* Actions */}
         <div className="flex items-center gap-2">
           {primaryAction && (
-            <Button size="sm" className="bg-[#fd4444] hover:bg-[#fd4444]/90 text-white" asChild>
+            <Button size="sm" className="bg-[#ffffff] hover:bg-[#ffffff]/90 text-white" asChild>
               <a href={primaryAction.url} target="_blank" rel="noopener noreferrer">
                 {primaryAction.label}
               </a>
@@ -165,7 +165,7 @@ const RepoCard: React.FC<RepoCardProps> = ({ repo, view }) => {
       <div className="p-5 pb-3">
         <div className="flex items-start justify-between mb-3">
           <div className="w-10 h-10 rounded-lg bg-neutral-800 flex items-center justify-center">
-            {Icon && <Icon className="w-5 h-5 text-neutral-400 group-hover:text-[#fd4444] transition-colors" />}
+            {Icon && <Icon className="w-5 h-5 text-neutral-400 group-hover:text-[#ffffff] transition-colors" />}
           </div>
           <div className="flex gap-1.5">
             {repo.signals.featured && (
@@ -184,7 +184,7 @@ const RepoCard: React.FC<RepoCardProps> = ({ repo, view }) => {
           </div>
         </div>
 
-        <h3 className="font-semibold text-white mb-1 group-hover:text-[#fd4444] transition-colors">
+        <h3 className="font-semibold text-white mb-1 group-hover:text-[#ffffff] transition-colors">
           {repo.name}
         </h3>
         <p className="text-xs text-neutral-500 font-mono mb-2">{repo.slug}</p>
@@ -227,7 +227,7 @@ const RepoCard: React.FC<RepoCardProps> = ({ repo, view }) => {
       {/* Actions */}
       <div className="mt-auto p-4 pt-3 border-t border-neutral-800 flex items-center gap-2">
         {primaryAction ? (
-          <Button size="sm" className="flex-1 bg-[#fd4444] hover:bg-[#fd4444]/90 text-white" asChild>
+          <Button size="sm" className="flex-1 bg-[#ffffff] hover:bg-[#ffffff]/90 text-white" asChild>
             <a href={primaryAction.url} target="_blank" rel="noopener noreferrer">
               <primaryAction.icon className="w-3.5 h-3.5 mr-1.5" />
               {primaryAction.label}
@@ -285,13 +285,13 @@ const CollectionCard: React.FC<CollectionCardProps> = ({ collection, onSelect })
   return (
     <button
       onClick={() => onSelect(collection.repos)}
-      className="flex items-center gap-3 p-4 rounded-xl border border-neutral-800 bg-neutral-900/30 hover:border-[#fd4444]/30 hover:bg-neutral-900/50 transition-all text-left group"
+      className="flex items-center gap-3 p-4 rounded-xl border border-neutral-800 bg-neutral-900/30 hover:border-[#ffffff]/30 hover:bg-neutral-900/50 transition-all text-left group"
     >
-      <div className="w-10 h-10 rounded-lg bg-neutral-800 flex items-center justify-center group-hover:bg-[#fd4444]/10 transition-colors">
-        <Icon className="w-5 h-5 text-neutral-400 group-hover:text-[#fd4444] transition-colors" />
+      <div className="w-10 h-10 rounded-lg bg-neutral-800 flex items-center justify-center group-hover:bg-[#ffffff]/10 transition-colors">
+        <Icon className="w-5 h-5 text-neutral-400 group-hover:text-[#ffffff] transition-colors" />
       </div>
       <div>
-        <h4 className="font-medium text-white text-sm group-hover:text-[#fd4444] transition-colors">
+        <h4 className="font-medium text-white text-sm group-hover:text-[#ffffff] transition-colors">
           {collection.title}
         </h4>
         <p className="text-xs text-neutral-500">{collection.description}</p>
@@ -358,7 +358,7 @@ const FacetSection: React.FC<FacetSectionProps> = ({
                 className={cn(
                   'flex items-center gap-2 w-full px-2 py-1.5 rounded text-sm transition-colors',
                   selected.includes(option.value)
-                    ? 'bg-[#fd4444]/10 text-[#fd4444]'
+                    ? 'bg-[#ffffff]/10 text-[#ffffff]'
                     : 'text-neutral-400 hover:bg-neutral-800 hover:text-white'
                 )}
               >
@@ -366,7 +366,7 @@ const FacetSection: React.FC<FacetSectionProps> = ({
                   className={cn(
                     'w-4 h-4 rounded border flex items-center justify-center',
                     selected.includes(option.value)
-                      ? 'border-[#fd4444] bg-[#fd4444]'
+                      ? 'border-[#ffffff] bg-[#ffffff]'
                       : 'border-neutral-600'
                   )}
                 >
@@ -574,7 +574,7 @@ const OSSCatalog: React.FC = () => {
               placeholder="Search repos, templates, tools..."
               value={searchQuery}
               onChange={e => setSearchQuery(e.target.value)}
-              className="pl-10 bg-neutral-900 border-neutral-800 focus:border-[#fd4444]/50"
+              className="pl-10 bg-neutral-900 border-neutral-800 focus:border-[#ffffff]/50"
             />
           </div>
 
@@ -592,7 +592,7 @@ const OSSCatalog: React.FC = () => {
                 className={cn(
                   'whitespace-nowrap',
                   quickFilter === filter.value
-                    ? 'bg-[#fd4444] text-white hover:bg-[#fd4444]/90'
+                    ? 'bg-[#ffffff] text-white hover:bg-[#ffffff]/90'
                     : 'border-neutral-700 hover:bg-neutral-800'
                 )}
               >
@@ -617,7 +617,7 @@ const OSSCatalog: React.FC = () => {
                     onClick={() => setSortBy(option.value)}
                     className={cn(
                       'cursor-pointer',
-                      sortBy === option.value && 'text-[#fd4444]'
+                      sortBy === option.value && 'text-[#ffffff]'
                     )}
                   >
                     {option.label}
@@ -652,7 +652,7 @@ const OSSCatalog: React.FC = () => {
                   <Filter className="w-4 h-4 mr-2" />
                   Filters
                   {hasActiveFilters && (
-                    <span className="ml-2 w-5 h-5 rounded-full bg-[#fd4444] text-white text-xs flex items-center justify-center">
+                    <span className="ml-2 w-5 h-5 rounded-full bg-[#ffffff] text-white text-xs flex items-center justify-center">
                       {selectedTypes.length + selectedCategories.length + selectedLanguages.length}
                     </span>
                   )}
@@ -675,7 +675,7 @@ const OSSCatalog: React.FC = () => {
           <div className="flex flex-wrap items-center gap-2 mb-6">
             <span className="text-sm text-neutral-500">Active filters:</span>
             {selectedCollection && (
-              <Badge variant="outline" className="bg-[#fd4444]/10 text-[#fd4444] border-[#fd4444]/30">
+              <Badge variant="outline" className="bg-[#ffffff]/10 text-[#ffffff] border-[#ffffff]/30">
                 Collection
                 <button onClick={() => setSelectedCollection(null)} className="ml-1">
                   <X className="w-3 h-3" />
@@ -718,7 +718,7 @@ const OSSCatalog: React.FC = () => {
                 {hasActiveFilters && (
                   <button
                     onClick={clearAllFilters}
-                    className="text-xs text-neutral-500 hover:text-[#fd4444]"
+                    className="text-xs text-neutral-500 hover:text-[#ffffff]"
                   >
                     Clear all
                   </button>
@@ -741,7 +741,7 @@ const OSSCatalog: React.FC = () => {
             {featuredRepos.length > 0 && (
               <div className="mb-8">
                 <h2 className="text-sm font-medium text-neutral-400 uppercase tracking-wider mb-4 flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-[#fd4444]" />
+                  <span className="w-2 h-2 rounded-full bg-[#ffffff]" />
                   Hanzo Picks
                 </h2>
                 <div

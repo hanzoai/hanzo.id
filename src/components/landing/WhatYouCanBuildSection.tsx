@@ -75,9 +75,9 @@ const WhatYouCanBuildSection: React.FC = () => {
                   {/* Icon */}
                   <div
                     className="w-12 h-12 rounded-xl flex items-center justify-center mb-6"
-                    style={{ backgroundColor: "rgba(253, 68, 68, 0.1)" }}
+                    style={{ backgroundColor: "rgba(255, 255, 255, 0.1)" }}
                   >
-                    <Icon className="w-6 h-6" style={{ color: "#fd4444" }} />
+                    <Icon className="w-6 h-6" style={{ color: "#ffffff" }} />
                   </div>
 
                   {/* Title */}
@@ -96,7 +96,7 @@ const WhatYouCanBuildSection: React.FC = () => {
                       <li key={bullet} className="flex items-center gap-3 text-sm">
                         <div
                           className="w-1.5 h-1.5 rounded-full flex-shrink-0"
-                          style={{ backgroundColor: "#fd4444" }}
+                          style={{ backgroundColor: "#ffffff" }}
                         />
                         <span className="text-neutral-300">{bullet}</span>
                       </li>
@@ -107,7 +107,7 @@ const WhatYouCanBuildSection: React.FC = () => {
                   <a
                     href={card.linkHref}
                     className="inline-flex items-center gap-2 text-sm font-medium transition-colors hover:opacity-80"
-                    style={{ color: "#fd4444" }}
+                    style={{ color: "#ffffff" }}
                   >
                     {card.linkText}
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

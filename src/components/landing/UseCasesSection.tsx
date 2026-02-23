@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Check, X, Minus } from "lucide-react";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 const features = [
   { name: "Multi-agent parallelism + consensus", hanzo: "full", others: "none", desc: "Best patch wins" },

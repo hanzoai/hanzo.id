@@ -51,8 +51,8 @@ export function CodeExamplesSection({
     >
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center gap-2 mb-2">
-          <Terminal className="w-5 h-5 text-[#fd4444]" />
-          <span className="text-sm font-medium text-[#fd4444] uppercase tracking-wider">
+          <Terminal className="w-5 h-5 text-[#ffffff]" />
+          <span className="text-sm font-medium text-[#ffffff] uppercase tracking-wider">
             Code Examples
           </span>
         </div>

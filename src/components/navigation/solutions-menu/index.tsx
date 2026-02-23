@@ -21,7 +21,7 @@ export const SolutionsMenu = () => {
             isDarkMode ? "border-neutral-800" : "border-neutral-200"
           )}>
             <div className="flex items-center gap-2 mb-2">
-              <Sparkles className="h-3.5 w-3.5 text-[#fd4444]" />
+              <Sparkles className="h-3.5 w-3.5 text-[#ffffff]" />
               <span className={cn(
                 "text-xs font-medium uppercase tracking-wider",
                 isDarkMode ? "text-neutral-400" : "text-neutral-500"
@@ -34,16 +34,16 @@ export const SolutionsMenu = () => {
                 className={cn(
                   "flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all group",
                   isDarkMode
-                    ? "bg-neutral-900/50 border-neutral-800 hover:border-[#fd4444]/50 hover:bg-neutral-800/50"
-                    : "bg-neutral-100 border-neutral-200 hover:border-[#fd4444]/50 hover:bg-neutral-50"
+                    ? "bg-neutral-900/50 border-neutral-800 hover:border-[#ffffff]/50 hover:bg-neutral-800/50"
+                    : "bg-neutral-100 border-neutral-200 hover:border-[#ffffff]/50 hover:bg-neutral-50"
                 )}
               >
                 <Shield className={cn(
-                  "h-3.5 w-3.5 group-hover:text-[#fd4444]",
+                  "h-3.5 w-3.5 group-hover:text-[#ffffff]",
                   isDarkMode ? "text-neutral-400" : "text-neutral-500"
                 )} />
                 <span className={cn(
-                  "text-sm font-medium group-hover:text-[#fd4444]",
+                  "text-sm font-medium group-hover:text-[#ffffff]",
                   isDarkMode ? "text-neutral-300" : "text-neutral-700"
                 )}>Hanzo Agency</span>
               </Link>
@@ -53,16 +53,16 @@ export const SolutionsMenu = () => {
                 className={cn(
                   "flex items-center gap-2 px-3 py-1.5 rounded-lg border transition-all group",
                   isDarkMode
-                    ? "bg-neutral-900/50 border-neutral-800 hover:border-[#fd4444]/50 hover:bg-neutral-800/50"
-                    : "bg-neutral-100 border-neutral-200 hover:border-[#fd4444]/50 hover:bg-neutral-50"
+                    ? "bg-neutral-900/50 border-neutral-800 hover:border-[#ffffff]/50 hover:bg-neutral-800/50"
+                    : "bg-neutral-100 border-neutral-200 hover:border-[#ffffff]/50 hover:bg-neutral-50"
                 )}
               >
                 <Building2 className={cn(
-                  "h-3.5 w-3.5 group-hover:text-[#fd4444]",
+                  "h-3.5 w-3.5 group-hover:text-[#ffffff]",
                   isDarkMode ? "text-neutral-400" : "text-neutral-500"
                 )} />
                 <span className={cn(
-                  "text-sm font-medium group-hover:text-[#fd4444]",
+                  "text-sm font-medium group-hover:text-[#ffffff]",
                   isDarkMode ? "text-neutral-300" : "text-neutral-700"
                 )}>Enterprise</span>
               </Link>
@@ -90,11 +90,11 @@ export const SolutionsMenu = () => {
                       className="flex items-center gap-1.5 py-0.5 group"
                     >
                       {Icon && <Icon className={cn(
-                        "h-3 w-3 group-hover:text-[#fd4444]",
+                        "h-3 w-3 group-hover:text-[#ffffff]",
                         isDarkMode ? "text-neutral-500" : "text-neutral-400"
                       )} />}
                       <span className={cn(
-                        "text-xs transition-colors group-hover:text-[#fd4444]",
+                        "text-xs transition-colors group-hover:text-[#ffffff]",
                         isDarkMode ? "text-neutral-400" : "text-neutral-600"
                       )}>
                         {item.title}
@@ -107,7 +107,7 @@ export const SolutionsMenu = () => {
                     to="/solutions"
                     onClick={closeMenu}
                     className={cn(
-                      "flex items-center gap-1 py-0.5 text-[10px] transition-colors hover:text-[#fd4444]",
+                      "flex items-center gap-1 py-0.5 text-[10px] transition-colors hover:text-[#ffffff]",
                       isDarkMode ? "text-neutral-600" : "text-neutral-500"
                     )}
                   >
@@ -137,11 +137,11 @@ export const SolutionsMenu = () => {
                       className="flex items-center gap-1.5 py-0.5 group"
                     >
                       {Icon && <Icon className={cn(
-                        "h-3 w-3 group-hover:text-[#fd4444]",
+                        "h-3 w-3 group-hover:text-[#ffffff]",
                         isDarkMode ? "text-neutral-500" : "text-neutral-400"
                       )} />}
                       <span className={cn(
-                        "text-xs transition-colors group-hover:text-[#fd4444]",
+                        "text-xs transition-colors group-hover:text-[#ffffff]",
                         isDarkMode ? "text-neutral-400" : "text-neutral-600"
                       )}>
                         {item.title}
@@ -154,7 +154,7 @@ export const SolutionsMenu = () => {
                     to="/industries"
                     onClick={closeMenu}
                     className={cn(
-                      "flex items-center gap-1 py-0.5 text-[10px] transition-colors hover:text-[#fd4444]",
+                      "flex items-center gap-1 py-0.5 text-[10px] transition-colors hover:text-[#ffffff]",
                       isDarkMode ? "text-neutral-600" : "text-neutral-500"
                     )}
                   >
@@ -184,11 +184,11 @@ export const SolutionsMenu = () => {
                       className="flex items-center gap-1.5 py-0.5 group"
                     >
                       {Icon && <Icon className={cn(
-                        "h-3 w-3 group-hover:text-[#fd4444]",
+                        "h-3 w-3 group-hover:text-[#ffffff]",
                         isDarkMode ? "text-neutral-500" : "text-neutral-400"
                       )} />}
                       <span className={cn(
-                        "text-xs transition-colors group-hover:text-[#fd4444]",
+                        "text-xs transition-colors group-hover:text-[#ffffff]",
                         isDarkMode ? "text-neutral-400" : "text-neutral-600"
                       )}>
                         {item.title}
@@ -214,7 +214,7 @@ export const SolutionsMenu = () => {
                   className="flex items-center gap-1.5 py-0.5 group"
                 >
                   <span className={cn(
-                    "text-xs transition-colors group-hover:text-[#fd4444]",
+                    "text-xs transition-colors group-hover:text-[#ffffff]",
                     isDarkMode ? "text-neutral-400" : "text-neutral-600"
                   )}>
                     Automation
@@ -226,7 +226,7 @@ export const SolutionsMenu = () => {
                   className="flex items-center gap-1.5 py-0.5 group"
                 >
                   <span className={cn(
-                    "text-xs transition-colors group-hover:text-[#fd4444]",
+                    "text-xs transition-colors group-hover:text-[#ffffff]",
                     isDarkMode ? "text-neutral-400" : "text-neutral-600"
                   )}>
                     Analytics
@@ -238,7 +238,7 @@ export const SolutionsMenu = () => {
                   className="flex items-center gap-1.5 py-0.5 group"
                 >
                   <span className={cn(
-                    "text-xs transition-colors group-hover:text-[#fd4444]",
+                    "text-xs transition-colors group-hover:text-[#ffffff]",
                     isDarkMode ? "text-neutral-400" : "text-neutral-600"
                   )}>
                     Content Generation
@@ -250,7 +250,7 @@ export const SolutionsMenu = () => {
                   className="flex items-center gap-1.5 py-0.5 group"
                 >
                   <span className={cn(
-                    "text-xs transition-colors group-hover:text-[#fd4444]",
+                    "text-xs transition-colors group-hover:text-[#ffffff]",
                     isDarkMode ? "text-neutral-400" : "text-neutral-600"
                   )}>
                     Customer Support
@@ -289,7 +289,7 @@ export const SolutionsMenu = () => {
               </Button>
               <Button
                 size="sm"
-                className="bg-[#fd4444] text-white hover:bg-[#fd4444]/90 h-7 text-xs px-3"
+                className="bg-[#ffffff] text-white hover:bg-[#ffffff]/90 h-7 text-xs px-3"
                 asChild
               >
                 <Link to="/solutions" onClick={closeMenu}>

@@ -27,7 +27,7 @@ import {
   ExternalLink,
 } from "lucide-react";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 // Integration categories
 const categories = [
@@ -206,7 +206,7 @@ const Automations = () => {
                   placeholder="Search integrations..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-12 pr-4 py-3 rounded-full bg-neutral-900 border border-neutral-800 text-white placeholder-neutral-500 focus:outline-none focus:border-[#fd4444]/50 transition-colors"
+                  className="w-full pl-12 pr-4 py-3 rounded-full bg-neutral-900 border border-neutral-800 text-white placeholder-neutral-500 focus:outline-none focus:border-[#ffffff]/50 transition-colors"
                 />
               </div>
             </motion.div>
@@ -251,7 +251,7 @@ const Automations = () => {
                     onClick={() => setActiveCategory(category.id)}
                     className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
                       isActive
-                        ? "bg-[#fd4444] text-white"
+                        ? "bg-[#ffffff] text-white"
                         : "bg-neutral-900 text-neutral-400 hover:text-white hover:bg-neutral-800"
                     }`}
                   >
@@ -293,11 +293,11 @@ const Automations = () => {
                   >
                     {integration.icon}
                   </div>
-                  <h3 className="text-sm font-medium text-white group-hover:text-[#fd4444] transition-colors">
+                  <h3 className="text-sm font-medium text-white group-hover:text-[#ffffff] transition-colors">
                     {integration.name}
                   </h3>
                   {integration.popular && (
-                    <span className="text-[10px] text-[#fd4444] font-medium">Popular</span>
+                    <span className="text-[10px] text-[#ffffff] font-medium">Popular</span>
                   )}
                 </motion.div>
               ))}

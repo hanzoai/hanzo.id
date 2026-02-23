@@ -23,7 +23,7 @@ import {
   Command,
 } from "lucide-react";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 interface CommandItem {
   id: string;
@@ -237,12 +237,12 @@ const CommandPalette: React.FC<CommandPaletteProps> = ({ isOpen, onClose }) => {
                           >
                             <div
                               className={`w-8 h-8 rounded-lg flex items-center justify-center ${
-                                isSelected ? "bg-[#fd4444]/20" : "bg-neutral-800"
+                                isSelected ? "bg-[#ffffff]/20" : "bg-neutral-800"
                               }`}
                             >
                               <Icon
                                 className={`w-4 h-4 ${
-                                  isSelected ? "text-[#fd4444]" : "text-neutral-500"
+                                  isSelected ? "text-[#ffffff]" : "text-neutral-500"
                                 }`}
                               />
                             </div>

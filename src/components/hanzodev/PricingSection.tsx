@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Check, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 const plans = [
   {
@@ -84,7 +84,7 @@ const PricingSection = () => {
               transition={{ delay: index * 0.1 }}
               className={`relative rounded-2xl p-8 ${
                 plan.highlight
-                  ? "bg-gradient-to-b from-[#fd4444]/20 to-transparent border-2"
+                  ? "bg-gradient-to-b from-[#ffffff]/20 to-transparent border-2"
                   : "bg-neutral-900/50 border"
               } border-neutral-800`}
               style={plan.highlight ? { borderColor: BRAND_COLOR } : {}}

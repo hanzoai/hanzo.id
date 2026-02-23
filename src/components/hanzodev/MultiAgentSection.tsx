@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight, Users, Crown, Clock, Monitor, Laptop, Gauge, Shield, Play, TestTube, Globe } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 const AgentCodeDemo = () => {
   return (
@@ -195,7 +195,7 @@ const MultiAgentSection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-6 hover:border-[#fd4444]/30 transition-colors"
+                className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-6 hover:border-[#ffffff]/30 transition-colors"
               >
                 <div
                   className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
@@ -247,7 +247,7 @@ const MultiAgentSection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-6 hover:border-[#fd4444]/30 transition-colors"
+                className="bg-neutral-900/50 border border-neutral-800 rounded-xl p-6 hover:border-[#ffffff]/30 transition-colors"
               >
                 <div
                   className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"

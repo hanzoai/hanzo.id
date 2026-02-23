@@ -62,8 +62,8 @@ export function SDKSection({ productName, sdks }: SDKSectionProps) {
     >
       <div className="max-w-4xl mx-auto">
         <div className="flex items-center gap-2 mb-2">
-          <Package className="w-5 h-5 text-[#fd4444]" />
-          <span className="text-sm font-medium text-[#fd4444] uppercase tracking-wider">
+          <Package className="w-5 h-5 text-[#ffffff]" />
+          <span className="text-sm font-medium text-[#ffffff] uppercase tracking-wider">
             SDKs & Libraries
           </span>
         </div>
@@ -108,7 +108,7 @@ export function SDKSection({ productName, sdks }: SDKSectionProps) {
                   href={sdk.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-sm text-[#fd4444] hover:text-[#fd4444]/80 transition-colors"
+                  className="inline-flex items-center gap-1.5 text-sm text-[#ffffff] hover:text-[#ffffff]/80 transition-colors"
                 >
                   <Package className="w-3.5 h-3.5" />
                   {sdk.package}

@@ -41,7 +41,7 @@ const CuratedEntryPointsSection = () => {
       <div
         className="absolute inset-0 opacity-[0.02]"
         style={{
-          backgroundImage: `radial-gradient(circle at center, #fd4444 1px, transparent 1px)`,
+          backgroundImage: `radial-gradient(circle at center, #ffffff 1px, transparent 1px)`,
           backgroundSize: "40px 40px",
         }}
       />
@@ -76,26 +76,26 @@ const CuratedEntryPointsSection = () => {
               >
                 <Link to={entry.link} className="block h-full group">
                   <motion.div
-                    className="h-full p-6 rounded-xl border border-neutral-800 bg-neutral-900/50 hover:border-[#fd4444]/50 transition-all duration-300 relative overflow-hidden"
+                    className="h-full p-6 rounded-xl border border-neutral-800 bg-neutral-900/50 hover:border-[#ffffff]/50 transition-all duration-300 relative overflow-hidden"
                     whileHover={{
                       y: -4,
-                      boxShadow: "0 0 40px -10px rgba(253, 68, 68, 0.3)",
+                      boxShadow: "0 0 40px -10px rgba(255, 255, 255, 0.3)",
                     }}
                     transition={{ duration: 0.2 }}
                   >
                     {/* Icon */}
                     <div
                       className="w-12 h-12 rounded-lg flex items-center justify-center mb-4"
-                      style={{ backgroundColor: "rgba(253, 68, 68, 0.1)" }}
+                      style={{ backgroundColor: "rgba(255, 255, 255, 0.1)" }}
                     >
                       <Icon
                         className="w-6 h-6"
-                        style={{ color: "#fd4444" }}
+                        style={{ color: "#ffffff" }}
                       />
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-[#fd4444] transition-colors">
+                    <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-[#ffffff] transition-colors">
                       {entry.title}
                     </h3>
 
@@ -112,7 +112,7 @@ const CuratedEntryPointsSection = () => {
                     {/* Hover accent line */}
                     <motion.div
                       className="absolute bottom-0 left-0 h-[2px] rounded-full"
-                      style={{ backgroundColor: "#fd4444" }}
+                      style={{ backgroundColor: "#ffffff" }}
                       initial={{ width: 0 }}
                       whileHover={{ width: "100%" }}
                       transition={{ duration: 0.3 }}
@@ -134,7 +134,7 @@ const CuratedEntryPointsSection = () => {
         >
           <Link
             to="/products"
-            className="inline-flex items-center gap-2 text-sm font-medium text-neutral-400 hover:text-[#fd4444] transition-colors"
+            className="inline-flex items-center gap-2 text-sm font-medium text-neutral-400 hover:text-[#ffffff] transition-colors"
           >
             View all products
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

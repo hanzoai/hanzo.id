@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 import { CodeTabs } from "@/components/ui/code-block";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 // Multi-language code examples for the API section
 const API_CODE_EXAMPLES = [
@@ -135,7 +135,7 @@ const DeveloperExperienceSection = () => {
             </p>
             <Link
               to="/extensions"
-              className="inline-flex items-center px-5 py-2.5 rounded-full text-sm font-medium transition-colors bg-[#fd4444] text-white hover:opacity-90"
+              className="inline-flex items-center px-5 py-2.5 rounded-full text-sm font-medium transition-colors bg-[#ffffff] text-white hover:opacity-90"
             >
               Install the IDE extension
               <ArrowRight className="ml-2 h-4 w-4" />
@@ -154,7 +154,7 @@ const DeveloperExperienceSection = () => {
             </div>
             <div className="p-4 space-y-3 bg-neutral-950">
               <div className="flex items-center gap-2 px-3 py-2 rounded-lg bg-neutral-900 border border-neutral-800">
-                <MonitorUp className="w-4 h-4 text-[#fd4444]" />
+                <MonitorUp className="w-4 h-4 text-[#ffffff]" />
                 <span className="text-sm text-neutral-300">Reading repo structure...</span>
               </div>
               <div className="flex items-center gap-2 px-3 py-2 rounded-lg bg-neutral-900 border border-neutral-800">
@@ -221,7 +221,7 @@ const DeveloperExperienceSection = () => {
               <div className="text-green-400 mb-1">
                 <span className="text-green-500">✓ </span>Tests passing (12/12)
               </div>
-              <div className="text-[#fd4444]">
+              <div className="text-[#ffffff]">
                 <span className="text-green-500">✓ </span>PR opened: #247
               </div>
             </div>
@@ -333,7 +333,7 @@ const DeveloperExperienceSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="rounded-2xl border border-[#fd4444]/30 bg-gradient-to-br from-[#fd4444]/10 to-transparent p-8 md:p-12"
+          className="rounded-2xl border border-[#ffffff]/30 bg-gradient-to-br from-[#ffffff]/10 to-transparent p-8 md:p-12"
         >
           <div className="grid lg:grid-cols-2 gap-8 items-start">
             <div>

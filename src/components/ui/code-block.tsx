@@ -201,7 +201,7 @@ export const CodeTabs = ({ tabs, className }: CodeTabsProps) => {
             className={cn(
               "px-4 py-2.5 text-xs font-medium transition-colors whitespace-nowrap",
               activeTab === idx
-                ? "text-white bg-neutral-800 border-b-2 border-[#fd4444]"
+                ? "text-white bg-neutral-800 border-b-2 border-[#ffffff]"
                 : "text-neutral-500 hover:text-neutral-300"
             )}
           >

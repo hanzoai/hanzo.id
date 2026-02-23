@@ -64,7 +64,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 interface Product {
   name: string;

@@ -15,7 +15,7 @@ import {
   Check,
 } from "lucide-react";
 
-const BRAND_COLOR = "#e11633";
+const BRAND_COLOR = "#ffffff";
 
 // Available Zen models for the dropdown
 const zenModels = [
@@ -379,7 +379,7 @@ const GlobalChatWidget = () => {
                   <div
                     className={`max-w-[85%] px-3 py-2 rounded-2xl text-sm ${
                       message.role === "user"
-                        ? "bg-[#fd4444] text-white rounded-br-md"
+                        ? "bg-[#ffffff] text-white rounded-br-md"
                         : "bg-neutral-800 text-neutral-200 rounded-bl-md"
                     }`}
                   >

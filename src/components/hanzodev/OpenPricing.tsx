@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Check, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 const GATEWAY_FEATURES = [
   "Choose from more than 60 providers",
@@ -68,7 +68,7 @@ const OpenPricing = () => {
             <ul className="space-y-3 mb-8">
               {GATEWAY_FEATURES.map((feature, index) => (
                 <li key={index} className="flex items-start gap-3">
-                  <Check className="w-5 h-5 text-[#fd4444] shrink-0 mt-0.5" />
+                  <Check className="w-5 h-5 text-[#ffffff] shrink-0 mt-0.5" />
                   <span className="text-sm text-neutral-300">{feature}</span>
                 </li>
               ))}

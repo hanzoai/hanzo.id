@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 
 // Brand color
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 // Proof chips data - communicates the vertical stack
 const PROOF_CHIPS = [
@@ -116,7 +116,7 @@ const HeroSection = () => {
         {/* Left nav */}
         <div className="w-[140px] lg:w-[160px] border-r border-neutral-800 bg-neutral-950 p-2 hidden sm:block">
           <div className="flex items-center gap-2 px-2 py-2 mb-3">
-            <div className="w-6 h-6 rounded-md bg-gradient-to-br from-[#fd4444] to-[#fd4444]/60 flex items-center justify-center">
+            <div className="w-6 h-6 rounded-md bg-gradient-to-br from-[#ffffff] to-[#ffffff]/60 flex items-center justify-center">
               <span className="text-white text-[10px] font-bold">H</span>
             </div>
             <span className="text-white text-xs font-medium">Hanzo</span>
@@ -127,7 +127,7 @@ const HeroSection = () => {
                 key={item.label}
                 className={`flex items-center gap-2 px-2 py-1.5 rounded-md text-[11px] cursor-pointer transition-colors ${
                   item.active
-                    ? "bg-[#fd4444]/20 text-[#fd4444]"
+                    ? "bg-[#ffffff]/20 text-[#ffffff]"
                     : "text-neutral-400 hover:bg-neutral-800 hover:text-neutral-300"
                 }`}
               >
@@ -253,7 +253,7 @@ const HeroSection = () => {
             {line.type === "prompt" && (
               <span className="text-yellow-500">? </span>
             )}
-            <span className={line.highlight ? "text-[#fd4444]" : ""}>
+            <span className={line.highlight ? "text-[#ffffff]" : ""}>
               {line.text.replace(/^[✓?]\s*/, "")}
             </span>
           </motion.div>
@@ -286,7 +286,7 @@ const HeroSection = () => {
       <div className="bg-neutral-950 p-2.5 flex-1 overflow-hidden flex flex-col">
         <div className="flex items-center justify-between mb-2 shrink-0">
           <div className="flex items-center gap-1.5">
-            <div className="w-5 h-5 rounded-md bg-[#fd4444] flex items-center justify-center">
+            <div className="w-5 h-5 rounded-md bg-[#ffffff] flex items-center justify-center">
               <span className="text-white text-[7px] font-bold">H</span>
             </div>
             <span className="text-white text-[10px] font-medium">Hanzo</span>
@@ -339,7 +339,7 @@ const HeroSection = () => {
           onClick={() => setMobileTab(tab)}
           className={`flex-1 px-3 py-2 text-xs font-medium rounded-md transition-colors capitalize ${
             mobileTab === tab
-              ? "bg-[#fd4444] text-white"
+              ? "bg-[#ffffff] text-white"
               : "text-neutral-400 hover:text-white"
           }`}
         >

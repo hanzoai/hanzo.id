@@ -265,11 +265,11 @@ robotics systems, and building the future...
 
 %c– Hanzo AI (Techstars '17)
 `,
-  'font-size: 24px; font-weight: bold; color: #e11633;',
+  'font-size: 24px; font-weight: bold; color: #ffffff;',
   'font-size: 14px; color: #888;',
   'font-size: 14px; color: #fff;',
-  'font-size: 14px; color: #e11633; text-decoration: underline;',
-  'font-size: 14px; color: #e11633;',
+  'font-size: 14px; color: #ffffff; text-decoration: underline;',
+  'font-size: 14px; color: #ffffff;',
   'font-size: 12px; color: #666; font-style: italic;'
 );
 

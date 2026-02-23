@@ -25,7 +25,7 @@ const PricingPreviewSection = () => {
         >
           <p
             className="inline-flex text-xs font-medium rounded-full px-4 py-2 border mb-6"
-            style={{ color: "#fd4444", borderColor: "rgba(253, 68, 68, 0.3)" }}
+            style={{ color: "#ffffff", borderColor: "rgba(255, 255, 255, 0.3)" }}
           >
             Pricing
           </p>
@@ -48,7 +48,7 @@ const PricingPreviewSection = () => {
           {/* Glow effect */}
           <div
             className="absolute inset-0 rounded-2xl blur-xl opacity-20"
-            style={{ background: "linear-gradient(135deg, #fd4444, #8b5cf6)" }}
+            style={{ background: "linear-gradient(135deg, #ffffff, #8b5cf6)" }}
           />
 
           <div className="relative p-8 md:p-12 rounded-2xl border border-neutral-800 bg-neutral-900/80 backdrop-blur-sm">
@@ -56,8 +56,8 @@ const PricingPreviewSection = () => {
               {/* Left: Free tier info */}
               <div>
                 <div className="flex items-center gap-2 mb-4">
-                  <Sparkles className="w-5 h-5 text-[#fd4444]" />
-                  <span className="text-sm font-medium text-[#fd4444]">Free Forever</span>
+                  <Sparkles className="w-5 h-5 text-[#ffffff]" />
+                  <span className="text-sm font-medium text-[#ffffff]">Free Forever</span>
                 </div>
                 <h3 className="text-3xl md:text-4xl font-bold text-white mb-2">
                   $0<span className="text-lg font-normal text-neutral-500">/month</span>
@@ -69,8 +69,8 @@ const PricingPreviewSection = () => {
                 <ul className="space-y-3">
                   {freeFeatures.map((feature) => (
                     <li key={feature} className="flex items-center gap-3">
-                      <div className="w-5 h-5 rounded-full bg-[#fd4444]/20 flex items-center justify-center flex-shrink-0">
-                        <Check className="w-3 h-3 text-[#fd4444]" />
+                      <div className="w-5 h-5 rounded-full bg-[#ffffff]/20 flex items-center justify-center flex-shrink-0">
+                        <Check className="w-3 h-3 text-[#ffffff]" />
                       </div>
                       <span className="text-neutral-300 text-sm">{feature}</span>
                     </li>
@@ -83,7 +83,7 @@ const PricingPreviewSection = () => {
                 <a
                   href="https://iam.hanzo.ai/sign-up"
                   className="w-full md:w-auto inline-flex justify-center items-center px-8 py-4 rounded-full font-medium text-white transition-all hover:opacity-90"
-                  style={{ backgroundColor: "#fd4444" }}
+                  style={{ backgroundColor: "#ffffff" }}
                 >
                   Start Building Free
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -119,7 +119,7 @@ const PricingPreviewSection = () => {
             Need custom limits, SLAs, or dedicated support?{" "}
             <Link
               to="/enterprise"
-              className="text-[#fd4444] hover:underline"
+              className="text-[#ffffff] hover:underline"
             >
               Talk to sales
             </Link>

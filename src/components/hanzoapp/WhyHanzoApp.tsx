@@ -15,7 +15,7 @@ import {
   RefreshCw,
 } from "lucide-react";
 
-const BRAND_COLOR = "#fd4444";
+const BRAND_COLOR = "#ffffff";
 
 const modes = [
   {
