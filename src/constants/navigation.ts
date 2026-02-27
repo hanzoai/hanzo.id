@@ -257,10 +257,6 @@ export const mainNav = [
     href: "https://docs.hanzo.ai",
     external: true
   },
-  {
-    name: "Pricing",
-    href: "/pricing"
-  }
 ];
 
 // Footer navigation

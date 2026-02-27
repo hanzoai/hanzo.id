@@ -25,7 +25,7 @@ const contextMenuItems = [
   { label: "Hanzo Cloud", href: "/cloud" },
   { divider: true },
   { label: "Documentation", href: "https://docs.hanzo.ai", external: true },
-  { label: "Pricing", href: "/pricing" },
+  { label: "Identity & Auth", href: "/identity" },
   { label: "Contact Sales", href: "/contact" },
   { label: "Status", href: "/status" },
 ];

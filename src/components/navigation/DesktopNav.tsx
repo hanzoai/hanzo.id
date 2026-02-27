@@ -141,14 +141,6 @@ const DesktopNav = () => {
       {/* Solutions dropdown */}
       <SolutionsMenu />
 
-      {/* Pricing direct link */}
-      <Link
-        to="/pricing"
-        className="text-neutral-400 hover:text-white transition-colors text-sm font-medium"
-      >
-        Pricing
-      </Link>
-
       {/* Learn dropdown */}
       <NavMenu label="Learn">
         {(closeMenu) => <LearnContent closeMenu={closeMenu} />}

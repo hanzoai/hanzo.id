@@ -274,7 +274,6 @@ export const mainNav: MainNavItem[] = [
   { title: "Products", sections: productsNav },
   { title: "Solutions", sections: [...capabilitiesNav, ...industriesNav] },
   { title: "Resources", sections: resourcesNav },
-  { title: "Pricing", href: "/pricing" }
 ];
 
 export const footerNav = [

@@ -28,7 +28,6 @@ const mobileNav = [
         title: "Resources",
         items: [
           { title: "Documentation", href: "https://docs.hanzo.ai", external: true },
-          { title: "Pricing", href: "/pricing" },
           { title: "Contact Sales", href: "/contact" },
           { title: "Status", href: "/status" },
         ]
@@ -110,10 +109,6 @@ const mobileNav = [
         ]
       }
     ]
-  },
-  {
-    title: "Pricing",
-    href: "/pricing"
   },
   {
     title: "Learn",
