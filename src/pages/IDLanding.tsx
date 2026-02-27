@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Shield, Key, Fingerprint, Lock, UserCheck, Globe, Smartphone, Mail, Bot, Code, Layers, Zap } from "lucide-react";
+import { ArrowRight, Shield, Key, Fingerprint, Lock, UserCheck, Globe, Smartphone, Mail, Bot, Code, Layers, Zap, MessageSquare, Monitor, Settings, KeyRound } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -42,28 +42,46 @@ const features = [
 
 const ecosystem = [
   {
+    icon: Layers,
+    title: "Hanzo App",
+    description: "Your AI workspace — agents, tools, and workflows in one place.",
+    href: "https://hanzo.app",
+  },
+  {
     icon: Bot,
     title: "Hanzo Bot",
     description: "Deploy autonomous AI teams across every channel.",
     href: "https://hanzo.bot",
   },
   {
-    icon: Code,
-    title: "Hanzo Dev",
-    description: "AI-powered development environment and code generation.",
-    href: "https://hanzo.ai/dev",
-  },
-  {
-    icon: Layers,
-    title: "Hanzo Cloud",
-    description: "Full-stack AI cloud platform with built-in IAM.",
-    href: "https://cloud.hanzo.ai",
-  },
-  {
-    icon: Zap,
+    icon: MessageSquare,
     title: "Hanzo Chat",
     description: "Conversational AI with frontier models and tool use.",
     href: "https://hanzo.chat",
+  },
+  {
+    icon: Monitor,
+    title: "Hanzo Console",
+    description: "Manage your cloud resources, APIs, and billing.",
+    href: "https://console.hanzo.ai",
+  },
+  {
+    icon: Code,
+    title: "Hanzo Platform",
+    description: "Deploy and scale applications with zero-config PaaS.",
+    href: "https://platform.hanzo.ai",
+  },
+  {
+    icon: UserCheck,
+    title: "Hanzo IAM",
+    description: "Identity and access management across all services.",
+    href: "https://hanzo.id",
+  },
+  {
+    icon: KeyRound,
+    title: "Hanzo KMS",
+    description: "Secrets, keys, and certificate management.",
+    href: "https://kms.hanzo.ai",
   },
 ];
 
@@ -172,7 +190,7 @@ const IDLanding = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {ecosystem.map((product, index) => (
               <motion.a
                 key={product.title}

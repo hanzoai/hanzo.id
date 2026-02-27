@@ -48,16 +48,18 @@ const zenModels = [
 
 // Quick access items
 const quickAccess = [
-  { label: "Hanzo Dev", href: "/dev", external: false },
-  { label: "Hanzo Cloud", href: "https://cloud.hanzo.ai", external: true },
+  { label: "Hanzo App", href: "https://hanzo.app", external: true },
+  { label: "Hanzo Bot", href: "https://hanzo.bot", external: true },
+  { label: "Hanzo Chat", href: "https://hanzo.chat", external: true },
   { label: "All Zen Models", href: "/zen", external: false },
-  { label: "Pricing", href: "/pricing", external: false },
 ];
 
 // Login items
 const loginItems = [
-  { label: "hanzo.chat", href: "https://hanzo.chat", external: true },
-  { label: "Console login", href: "https://cloud.hanzo.ai", external: true },
+  { label: "Console", href: "https://console.hanzo.ai", external: true },
+  { label: "Platform", href: "https://platform.hanzo.ai", external: true },
+  { label: "IAM", href: "https://hanzo.id", external: true },
+  { label: "KMS", href: "https://kms.hanzo.ai", external: true },
 ];
 
 const AuthButtons = ({ user, onOpenCommandPalette }: AuthButtonsProps) => {
