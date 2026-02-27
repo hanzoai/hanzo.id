@@ -142,11 +142,11 @@ export const dataProducts: Product[] = [
     category: 'data',
     icon: 'Database',
     href: '/products/data/sql',
-    github: 'https://github.com/hanzoai/postgres',
+    github: 'https://github.com/hanzoai/sql',
     docs: 'https://docs.hanzo.ai/sql',
     install: {
-      cli: 'hanzo db create --type postgres',
-      docker: 'docker run -d hanzo/postgres'
+      cli: 'hanzo db create --type sql',
+      docker: 'docker run -d ghcr.io/hanzoai/sql'
     },
     features: ['Automatic backups', 'Point-in-time recovery', 'Read replicas', 'Connection pooling', 'Extensions support'],
     status: 'ga',
