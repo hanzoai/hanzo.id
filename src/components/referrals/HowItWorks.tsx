@@ -1,47 +1,38 @@
-
 import React from 'react';
+
+const steps = [
+  {
+    n: '1',
+    title: 'Share Your Link',
+    body: 'Send your unique referral link to friends and colleagues via email, social, or direct message.',
+  },
+  {
+    n: '2',
+    title: 'Friends Sign Up',
+    body: 'They use your link to create an account and subscribe to any Hanzo paid plan.',
+  },
+  {
+    n: '3',
+    title: 'Earn Credits',
+    body: 'You get $5 in account credits for each successful referral, automatically applied to your balance.',
+  },
+];
 
 const HowItWorks = () => {
   return (
-    <div className="bg-gray-900/30 border border-gray-800 rounded-lg p-6">
-      <h2 className="text-xl font-medium mb-4">How It Works</h2>
-      
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="p-4 bg-gray-900/50 rounded-lg">
-          <div className="flex items-center mb-3">
-            <div className="h-8 w-8 rounded-full bg-neutral-900/30 text-neutral-300 flex items-center justify-center mr-3">
-              1
+    <div className="bg-neutral-950 border border-neutral-800 rounded-xl p-6">
+      <h2 className="text-base font-medium mb-5">How It Works</h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {steps.map(({ n, title, body }) => (
+          <div key={n} className="bg-neutral-900 rounded-lg p-5 border border-neutral-800">
+            <div className="h-8 w-8 rounded-lg bg-neutral-800 flex items-center justify-center text-sm font-semibold text-neutral-300 mb-4">
+              {n}
             </div>
-            <h3 className="font-medium">Share Your Link</h3>
+            <h3 className="font-medium text-white mb-2">{title}</h3>
+            <p className="text-sm text-neutral-500 leading-relaxed">{body}</p>
           </div>
-          <p className="text-sm text-neutral-400">
-            Share your unique referral link with friends and colleagues via email or social media
-          </p>
-        </div>
-        
-        <div className="p-4 bg-gray-900/50 rounded-lg">
-          <div className="flex items-center mb-3">
-            <div className="h-8 w-8 rounded-full bg-neutral-900/30 text-neutral-300 flex items-center justify-center mr-3">
-              2
-            </div>
-            <h3 className="font-medium">Friends Sign Up</h3>
-          </div>
-          <p className="text-sm text-neutral-400">
-            When your friends use your link to sign up and subscribe to any paid plan
-          </p>
-        </div>
-        
-        <div className="p-4 bg-gray-900/50 rounded-lg">
-          <div className="flex items-center mb-3">
-            <div className="h-8 w-8 rounded-full bg-neutral-900/30 text-neutral-300 flex items-center justify-center mr-3">
-              3
-            </div>
-            <h3 className="font-medium">Earn Credits</h3>
-          </div>
-          <p className="text-sm text-neutral-400">
-            You receive $5 in credits for each successful referral that can be used toward your subscription
-          </p>
-        </div>
+        ))}
       </div>
     </div>
   );
