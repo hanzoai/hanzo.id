@@ -39,50 +39,50 @@ interface AccountContextType {
 
 const AccountContext = createContext<AccountContextType | undefined>(undefined);
 
-// Mock data for demonstration
+// Default user — populated from IAM session token in production
 const MOCK_USER: User = {
-  id: 'user-1',
-  name: 'Alex Johnson',
-  email: 'alex@hanzo.ai',
-  avatar: '/placeholder.svg',
-  bio: 'Senior Developer specializing in AI and cloud infrastructure',
+  id: 'user-z',
+  name: 'z',
+  email: 'z@hanzo.ai',
+  avatar: '',
+  bio: 'Founder — Hanzo AI (Techstars \'17)',
   location: 'San Francisco, CA',
-  joinedDate: 'January 2022',
-  website: 'https://alexjohnson.dev',
-  phone: '+1 (555) 123-4567'
+  joinedDate: 'January 2016',
+  website: 'https://hanzo.ai',
+  phone: ''
 };
 
 const MOCK_ORGANIZATIONS: Organization[] = [
-  { 
-    id: 'org-1', 
-    name: 'Personal Account', 
+  {
+    id: 'org-personal',
+    name: 'Personal Account',
     role: 'owner',
-    plan: 'Pro',
+    plan: 'Enterprise',
     memberCount: 1,
     description: 'Your personal workspace',
     website: 'https://hanzo.ai',
     location: 'San Francisco, CA'
   },
-  { 
-    id: 'org-2', 
-    name: 'Hanzo Industries', 
-    role: 'admin',
+  {
+    id: 'org-hanzo',
+    name: 'Hanzo AI',
+    role: 'owner',
     plan: 'Enterprise',
     memberCount: 26,
-    description: 'Leading AI and development solutions provider',
+    description: 'AI infrastructure for the next generation of intelligent applications',
+    website: 'https://hanzo.ai',
+    location: 'San Francisco, CA'
+  },
+  {
+    id: 'org-hanzo-industries',
+    name: 'Hanzo Industries',
+    role: 'owner',
+    plan: 'Enterprise',
+    memberCount: 26,
+    description: 'The holding company behind Hanzo AI, Lux, and Zoo Labs',
     website: 'https://hanzo.industries',
     location: 'San Francisco, CA'
   },
-  { 
-    id: 'org-3', 
-    name: 'Quantum Innovations', 
-    role: 'member',
-    plan: 'Team',
-    memberCount: 12,
-    description: 'Next-generation quantum computing solutions',
-    website: 'https://quantum-innovations.co',
-    location: 'Austin, TX'
-  }
 ];
 
 export const AccountProvider: React.FC<{ children: ReactNode }> = ({ children }) => {

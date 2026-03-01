@@ -58,9 +58,11 @@ const Account = () => {
         </AnimatedHeading>
 
         <div className="flex flex-col md:flex-row md:items-center gap-8">
-          <Avatar className="h-24 w-24">
-            <AvatarImage src={user.avatar} />
-            <AvatarFallback className="text-2xl bg-neutral-900">{user.name.charAt(0)}</AvatarFallback>
+          <Avatar className="h-24 w-24 ring-1 ring-neutral-800">
+            {user.avatar ? <AvatarImage src={user.avatar} /> : null}
+            <AvatarFallback className="text-2xl font-semibold bg-neutral-900 text-white select-none">
+              {user.name.charAt(0).toUpperCase()}
+            </AvatarFallback>
           </Avatar>
           
           <div>

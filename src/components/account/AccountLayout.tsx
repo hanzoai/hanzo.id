@@ -72,27 +72,8 @@ const AccountLayout = ({ children }: { children?: React.ReactNode }) => {
             <span className="text-sm text-neutral-400">Account</span>
           </div>
 
-          {/* Cross-nav links */}
-          <div className="hidden md:flex items-center gap-1">
-            <Link
-              to="/account"
-              className="rounded-lg px-3 py-1.5 text-sm font-medium text-white bg-neutral-800/50"
-            >
-              Account
-            </Link>
-            <a
-              href="https://billing.hanzo.ai"
-              className="rounded-lg px-3 py-1.5 text-sm font-medium text-neutral-400 hover:text-white hover:bg-neutral-800/50 transition-colors"
-            >
-              Billing
-            </a>
-            <a
-              href="https://hanzo.app"
-              className="rounded-lg px-3 py-1.5 text-sm font-medium text-neutral-400 hover:text-white hover:bg-neutral-800/50 transition-colors"
-            >
-              App
-            </a>
-          </div>
+          {/* intentionally empty — no cross-nav tabs */}
+          <div />
 
           <div className="flex items-center gap-3">
             {user && (
