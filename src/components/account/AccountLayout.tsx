@@ -17,7 +17,7 @@ import {
 import { Button } from '@/components/ui/button';
 
 const AccountLayout = ({ children }: { children?: React.ReactNode }) => {
-  const { user, organizations, currentOrganization, switchOrganization, isLoading } = useAccount();
+  const { user, organizations, currentOrganization, switchOrganization, isLoading, logout } = useAccount();
   const location = useLocation();
 
   const accountNavItems = [
@@ -88,6 +88,7 @@ const AccountLayout = ({ children }: { children?: React.ReactNode }) => {
               Home
             </a>
             <button
+              onClick={logout}
               className="rounded-lg border border-neutral-800 px-3 py-1.5 text-xs font-medium text-neutral-400 transition hover:bg-neutral-900 hover:text-white"
             >
               Sign out
@@ -182,6 +183,7 @@ const AccountLayout = ({ children }: { children?: React.ReactNode }) => {
                 <div className="border-t border-neutral-800 my-3" />
                 <Button
                   variant="ghost"
+                  onClick={logout}
                   className="w-full justify-start text-neutral-400 hover:text-white hover:bg-neutral-800/30 p-3"
                 >
                   <LogOut className="w-5 h-5 mr-3" />
