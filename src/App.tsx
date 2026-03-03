@@ -12,6 +12,7 @@ import Organization from "./pages/Organization";
 import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import { AccountProvider } from "./contexts/AccountContext";
+import { AuthProvider } from "./contexts/AuthContext";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import ScrollToTop from "./components/ScrollToTop";
 import UserProfile from "./pages/UserProfile";
@@ -73,6 +74,7 @@ import Automations from "./pages/Automations";
 import NotFound from "./pages/NotFound";
 import Leadership from "./pages/Leadership";
 import Team from "./pages/Team";
+import CallbackPage from "./pages/CallbackPage";
 
 // New product taxonomy pages
 import Products from "./pages/Products";
@@ -138,6 +140,7 @@ const MarketingRoutes = () => {
       <Route path="/pricing" element={<Pricing />} />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignUpPage />} />
+      <Route path="/callback" element={<CallbackPage />} />
       <Route path="/status" element={<StatusPage />} />
       <Route path="/leadership" element={<Leadership />} />
       <Route path="/referrals" element={<Referrals />} />
@@ -233,6 +236,7 @@ const isAccountRoute = (pathname: string) => {
 const App = () => {
   return (
     <BrowserRouter>
+      <AuthProvider>
       <ThemeProvider>
         <ScrollToTop />
         <PageTransition>
@@ -247,6 +251,7 @@ const App = () => {
         {/* Easter egg - Konami code for secret menu */}
         <KonamiCode />
       </ThemeProvider>
+      </AuthProvider>
     </BrowserRouter>
   );
 };

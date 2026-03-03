@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": [
+    "/assets/*",
+    "/logos/*",
+    "/lovable-uploads/*",
+    "/favicon.ico",
+    "/og-image.png",
+    "/placeholder.svg",
+    "/zen-logo.png",
+    "/install.sh",
+    "/llms.txt",
+    "/CNAME"
+  ]
+}
