@@ -74,7 +74,7 @@ const paymentIntent = await hanzo.paymentIntents.create({
 });
 
 // Handle the payment
-const { paymentIntent, error } = await stripe.confirmCardPayment(
+const { paymentIntent: confirmed, error } = await hanzo.confirmPayment(
   clientSecret,
   {
     payment_method: {

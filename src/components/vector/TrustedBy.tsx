@@ -14,7 +14,7 @@ const companyItemVariant = createAnimationVariant("fadeInBlur", {
 const TrustedBy = () => {
   const companies = [
     "OpenAI", "Anthropic", "HuggingFace", "LangChain", "LlamaIndex", 
-    "Replit", "Vercel", "GitHub", "Stripe", "Shopify", 
+    "Replit", "Vercel", "GitHub", "Square", "Shopify", 
     "Microsoft", "Snap", "Bloomberg", "Twilio", "Intel"
   ];
 

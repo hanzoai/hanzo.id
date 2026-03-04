@@ -163,7 +163,7 @@ const Affiliates = () => {
                 {
                   icon: <DollarSign className="h-8 w-8 text-neutral-400" />,
                   title: "Timely Payments",
-                  description: "Get paid reliably every month via PayPal, Stripe, or bank transfer"
+                  description: "Get paid reliably every month via PayPal, Square, or bank transfer"
                 },
                 {
                   icon: <BarChart className="h-8 w-8 text-neutral-400" />,

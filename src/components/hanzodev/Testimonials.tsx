@@ -32,7 +32,7 @@ const testimonials = [
 ];
 
 const companyLogos = [
-  "Ramp", "Intercom", "Notion", "Stripe", "Shopify", "Vercel",
+  "Ramp", "Intercom", "Notion", "Square", "Shopify", "Vercel",
   "Linear", "Figma", "Pitch", "Loom", "Discord", "Slack",
 ];
 

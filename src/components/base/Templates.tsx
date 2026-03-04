@@ -6,8 +6,8 @@ import { CreditCard, MessageSquare, Globe, Phone, RefreshCw, Code } from "lucide
 const Templates = () => {
   const templates = [
     {
-      title: "Stripe Subscriptions Starter",
-      description: "Complete SaaS subscription management with Stripe integration",
+      title: "Billing Subscriptions Starter",
+      description: "Complete SaaS subscription management with billing integration",
       icon: CreditCard,
       color: "from-neutral-500 to-neutral-700"
     },

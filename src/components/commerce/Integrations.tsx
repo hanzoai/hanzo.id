@@ -22,7 +22,7 @@ const Integrations = () => {
   const integrationCategories = [
     {
       title: "Payment Gateways",
-      items: ["Stripe", "PayPal", "Adyen", "Square", "Braintree", "Klarna", "Affirm", "Apple Pay"]
+      items: ["Square", "PayPal", "Adyen", "Square", "Braintree", "Klarna", "Affirm", "Apple Pay"]
     },
     {
       title: "Marketing & CRM",

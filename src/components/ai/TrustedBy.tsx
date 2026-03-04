@@ -8,7 +8,7 @@ const TrustedBy = () => {
     { name: 'Microsoft', class: 'h-7' },
     { name: 'Airbnb', class: 'h-6' },
     { name: 'Netflix', class: 'h-6' },
-    { name: 'Stripe', class: 'h-8' },
+    { name: 'Square', class: 'h-8' },
     { name: 'Shopify', class: 'h-6' },
     { name: 'Spotify', class: 'h-7' },
     { name: 'Slack', class: 'h-7' },

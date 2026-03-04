@@ -1,36 +1,14 @@
+import React from "react";
 
-import React, { useEffect } from "react";
-
-const StripePricingTable = () => {
-  useEffect(() => {
-    // Load Stripe pricing table script
-    const script = document.createElement('script');
-    script.src = "https://js.stripe.com/v3/pricing-table.js";
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
+const PricingTable = () => {
   return (
-    <div className="max-w-6xl mx-auto mb-16">
-      <div className="stripe-pricing-table">
-        <div
-          dangerouslySetInnerHTML={{
-            __html: `
-              <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-              <stripe-pricing-table
-                pricing-table-id="prctbl_1OuWBqCXWvTtjTI7GiQiLlhq"
-                publishable-key="pk_live_51OIbM0CXWvTtjTI7mbcOsQiQxciFdRhW4lOmW7rIIxZRQn5hNUlSJLNHes0nWTmwkR2bYlQ6SNeTiYxOAd7JOgbJ00bF3H5rCM"
-              ></stripe-pricing-table>
-            `
-          }}
-        />
-      </div>
+    <div className="text-center py-8">
+      <p className="text-muted-foreground mb-4">Manage your subscription and billing</p>
+      <a href="https://billing.hanzo.ai" className="text-primary underline">
+        Go to Billing Portal
+      </a>
     </div>
   );
 };
 
-export default StripePricingTable;
+export default PricingTable;

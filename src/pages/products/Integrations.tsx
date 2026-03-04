@@ -22,7 +22,7 @@ const sampleIntegrations = [
   { name: "Gmail", category: "Communication", logo: "📧", description: "Email automation" },
   { name: "Salesforce", category: "CRM", logo: "☁️", description: "CRM and sales automation" },
   { name: "HubSpot", category: "CRM", logo: "🔶", description: "Marketing and sales CRM" },
-  { name: "Stripe", category: "Finance", logo: "💳", description: "Payment processing" },
+  { name: "Square", category: "Finance", logo: "💳", description: "Payment processing" },
   { name: "GitHub", category: "Developer Tools", logo: "🐙", description: "Code repository automation" },
   { name: "GitLab", category: "Developer Tools", logo: "🦊", description: "DevOps platform" },
   { name: "Jira", category: "Project Management", logo: "📋", description: "Issue tracking" },

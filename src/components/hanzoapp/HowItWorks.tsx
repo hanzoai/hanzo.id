@@ -24,7 +24,7 @@ const steps = [
     icon: Rocket,
     title: "Start building",
     description: "Create, code, and ship with AI assistance. Your work syncs across all devices.",
-    code: "hanzo dev \"Build a payment API with Stripe\"",
+    code: "hanzo dev \"Build a payment API with Square\"",
   },
 ];
 
