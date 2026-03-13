@@ -79,11 +79,11 @@ export const upstreamProjects: Record<string, UpstreamProject> = {
     license: 'GPL-3.0',
     stars: '60k+'
   },
-  langfuse: {
-    name: 'Langfuse',
+  console: {
+    name: 'Hanzo Console',
     description: 'Open source LLM engineering platform. Traces, evals, prompt management, and metrics.',
-    url: 'https://langfuse.com',
-    github: 'https://github.com/langfuse/langfuse',
+    url: 'https://console.hanzo.ai',
+    github: 'https://github.com/hanzoai/console',
     license: 'MIT',
     stars: '8k+'
   },
@@ -123,11 +123,11 @@ export const upstreamProjects: Record<string, UpstreamProject> = {
   },
 
   // Analytics & Growth
-  posthog: {
-    name: 'PostHog',
+  insights: {
+    name: 'Hanzo Insights',
     description: 'Product analytics, session recordings, feature flags, A/B testing, and more.',
-    url: 'https://posthog.com',
-    github: 'https://github.com/PostHog/posthog',
+    url: 'https://insights.hanzo.ai',
+    github: 'https://github.com/hanzoai/insights',
     license: 'MIT',
     stars: '22k+'
   },
@@ -219,10 +219,10 @@ export const productUpstreamMap: Record<string, string> = {
   // Core AI products
   'gateway': 'litellm',
   'chat': 'librechat',
-  'flow': 'langfuse',
+  'flow': 'console',
   'auto': 'activepieces',
   'studio': 'comfyui',
-  'console': 'langfuse',
+  'console': 'console',
   'operative': 'anthropic_computer_use',
 
   // Async & messaging
@@ -230,7 +230,7 @@ export const productUpstreamMap: Record<string, string> = {
   'tasks': 'temporal',
 
   // Growth & analytics
-  'insights': 'posthog',
+  'insights': 'insights',
   'web-analytics': 'umami',
   'experiments': 'growthbook',
   'engage': 'dittofeed',
