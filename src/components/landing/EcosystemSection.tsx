@@ -7,7 +7,7 @@ interface CompatibilityItem {
 }
 
 const ecosystemItems: CompatibilityItem[] = [
-  { name: "Analytics", compatible: "PostHog" },
+  { name: "Analytics", compatible: "Insights" },
   { name: "Web Analytics", compatible: "Umami" },
   { name: "Experiments", compatible: "GrowthBook" },
   { name: "Engage", compatible: "Dittofeed" },

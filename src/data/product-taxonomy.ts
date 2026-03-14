@@ -1208,7 +1208,7 @@ export const growthProducts: Product[] = [
     name: 'Hanzo Insights',
     shortName: 'Insights',
     tagline: 'Product analytics platform',
-    description: 'Understand user behavior with product analytics. Event tracking, funnels, cohorts, session replay, and feature flags. PostHog-compatible.',
+    description: 'Understand user behavior with product analytics. Event tracking, funnels, cohorts, session replay, and feature flags. analytics-compatible.',
     category: 'growth',
     icon: 'PieChart',
     href: '/products/growth/insights',
