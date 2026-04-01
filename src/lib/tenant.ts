@@ -31,7 +31,7 @@ const TENANTS: Record<string, TenantConfig> = {
     accentColor: '#fd4444',
     logoUrl: 'https://cdn.hanzo.ai/img/logo-white.svg',
     iamOrigin: 'https://iam.hanzo.ai',
-    defaultClientId: 'app-hanzo',
+    defaultClientId: 'hanzo-id',
     termsUrl: 'https://hanzo.ai/terms',
     privacyUrl: 'https://hanzo.ai/privacy',
   },

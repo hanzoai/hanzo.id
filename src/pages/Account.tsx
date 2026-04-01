@@ -63,7 +63,7 @@ const Account = () => {
       formData.append('fileName', file.name);
       formData.append('createdTime', new Date().toISOString());
       formData.append('provider', 'local');
-      formData.append('application', 'app-hanzo');
+      formData.append('application', 'hanzo-id');
 
       const res = await fetch(`${IAM_ENDPOINT}/api/upload-resource`, {
         method: 'POST',
